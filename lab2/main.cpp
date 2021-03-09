@@ -48,7 +48,6 @@ void DodajAbonenta(Abonent * tab[], int count){
         for(auto ch : numer){
             if ('0' > ch || '9' < ch ){
                 throw bz;
-                break;
             }
         }
         cout << "\n cena abonamentu: ";
@@ -79,7 +78,7 @@ int main(){
     Abonent adam, ewa, marcin;
     Abonent * klienci[3] = {&adam, &ewa, &marcin};
    int error=0;
-   while(!error){
+   do{
        try{
             DodajAbonenta(klienci, 3);
        }
@@ -95,6 +94,6 @@ int main(){
            cout << "Nieznany błąd!\n";
            error=1;
        }
-   }
+   } while(error);
    return 0; 
 }
