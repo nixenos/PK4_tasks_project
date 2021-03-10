@@ -1,1 +1,3 @@
-Tutaj umieszczać zajęcia laboratoryjne nr 3
+# Szablony
+## Prosta lista jednokierunkowa
+## Szablon rodziny funkcji dodającej dwie zmienne
