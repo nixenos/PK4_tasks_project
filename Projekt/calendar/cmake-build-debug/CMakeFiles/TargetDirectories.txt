@@ -1,0 +1,4 @@
+/home/nixen/Projects/C++/PK4/Projekt/calendar/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/nixen/Projects/C++/PK4/Projekt/calendar/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/nixen/Projects/C++/PK4/Projekt/calendar/cmake-build-debug/CMakeFiles/calendar.dir
+/home/nixen/Projects/C++/PK4/Projekt/calendar/cmake-build-debug/CMakeFiles/calendar_autogen.dir

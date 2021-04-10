@@ -2,7 +2,7 @@
 
 #include <string>
 
-namespace todo{
+namespace calendar{
     /**
      * @brief klasa przechowująca elementy listy zadań do zrobienia
      *
