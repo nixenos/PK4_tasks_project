@@ -6,6 +6,8 @@
 
 namespace calendar{
 
+#define MAX_YEAR_CAP 5000
+
 	/**
 	 * @brief typ wyliczeniowy obsługujący dzień tygodnia
 	 *
@@ -97,7 +99,7 @@ namespace calendar{
 		 *
 		 * @param newYear nowy rok
 		 */
-		void setYear(unsigned long int &newYear);
+		void setYear(const unsigned long int &newYear);
 
 		/**
 		 * @brief ustawia bieżącą datę

@@ -5,9 +5,12 @@ calendar::date::date(){
 }
 
 calendar::date::date(const unsigned short& day, const calendar::monthModel& month, const unsigned long& year){
-	/**
-	 * @TODO
-	 */
+	this->day = 1;
+	this->month = Jan;
+	this->year = 2012;
+	this->setYear(year);
+	this->setMonth(month);
+	this->setDay(day);
 }
 
 calendar::weekDayModel calendar::date::calculateWeekDay(const unsigned short& qDay, const calendar::monthModel& qMonth, const unsigned long& qYear) const {
@@ -29,7 +32,7 @@ void calendar::date::setCurrentDate(){
 	std::string tempDateContainer(buffer);
 
 	unsigned long int newYear = atoi(tempDateContainer.substr(0, 3).c_str());
-	unsigned short int newMonth = atoi(tempDateContainer.substr(4,5).c_str());
+	unsigned short int newMonth = atoi(tempDateContainer.substr(4,5).c_str()) - 1;
 	unsigned short int newDay = atoi(tempDateContainer.substr(6,7).c_str());
 
 	this->year = newYear;
@@ -40,13 +43,13 @@ void calendar::date::setCurrentDate(){
 
 void calendar::date::setDay(const unsigned short& newDay){
 	if (newDay > 0 && newDay <= 31){
-		if (this->month < 8 && this->month%2){
+		if (this->month < 7 && this->month%2){
 			this->day = newDay;
 		}
-		else if (this->month > 7 && !this->month%2){
+		else if (this->month > 6 && !this->month%2){
 			this->day = newDay;
 		}
-		else if (this->month == 2 && newDay <= 29){
+		else if (this->month == 1 && newDay <= 29){
 			if (!this->year%4){
 				this->day = newDay;
 			}
@@ -69,6 +72,32 @@ void calendar::date::setDay(const unsigned short& newDay){
 	else{
 		// error
 	}
+	this->weekDay = this->calculateWeekDay(this->day, this->month, this->year);
+}
+
+void calendar::date::setMonth(const calendar::monthModel& newMonth){
+	if (newMonth >= 0 && newMonth < 12){
+		this->month = newMonth;
+		this->weekDay = this->calculateWeekDay(this->day, this->month, this->year);
+	}
+}
+
+void calendar::date::setYear(const long unsigned int& newYear){
+	if (newYear < MAX_YEAR_CAP){
+		this->year = newYear;
+		this->weekDay = this->calculateWeekDay(this->day, this->month, this->year);
+	}
 }
 
 
+const calendar::monthModel calendar::date::getMonth() const{
+	return this->month;
+}
+
+const calendar::weekDayModel calendar::date::getWeekDay() const{
+	return this->weekDay;
+}
+
+const unsigned long int calendar::date::getYear() const{
+	return this->year;
+}
