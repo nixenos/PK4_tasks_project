@@ -271,6 +271,18 @@ CMakeFiles/calendar.dir/mainwindow.cpp.o: \
  /usr/include/qt/QtWidgets/QMainWindow /usr/include/qt/QtWidgets/QMenu \
  /usr/include/qt/QtWidgets/qmenu.h /usr/include/qt/QtWidgets/QMenuBar \
  /usr/include/qt/QtWidgets/qmenubar.h /usr/include/qt/QtWidgets/qmenu.h \
+ /usr/include/qt/QtWidgets/QPlainTextEdit \
+ /usr/include/qt/QtWidgets/qplaintextedit.h \
+ /usr/include/qt/QtWidgets/qtextedit.h \
+ /usr/include/qt/QtGui/qtextdocument.h /usr/include/qt/QtCore/qurl.h \
+ /usr/include/qt/QtGui/qtextoption.h /usr/include/qt/QtGui/qtextcursor.h \
+ /usr/include/qt/QtGui/qtextformat.h /usr/include/qt/QtGui/qpen.h \
+ /usr/include/qt/QtGui/qabstracttextdocumentlayout.h \
+ /usr/include/qt/QtGui/qtextlayout.h /usr/include/qt/QtGui/qevent.h \
+ /usr/include/qt/QtCore/qfile.h /usr/include/qt/QtCore/qfiledevice.h \
+ /usr/include/qt/QtGui/qvector2d.h /usr/include/qt/QtGui/qtouchdevice.h \
+ /usr/include/qt/QtGui/qglyphrun.h /usr/include/qt/QtGui/qrawfont.h \
+ /usr/include/qt/QtGui/qfontdatabase.h \
  /usr/include/qt/QtWidgets/QPushButton \
  /usr/include/qt/QtWidgets/qpushbutton.h \
  /usr/include/qt/QtWidgets/qabstractbutton.h \
@@ -278,10 +290,17 @@ CMakeFiles/calendar.dir/mainwindow.cpp.o: \
  /usr/include/qt/QtWidgets/qstatusbar.h \
  /usr/include/qt/QtWidgets/QTableView \
  /usr/include/qt/QtWidgets/qtableview.h \
- /usr/include/qt/QtWidgets/QTextEdit \
- /usr/include/qt/QtWidgets/qtextedit.h \
- /usr/include/qt/QtGui/qtextdocument.h /usr/include/qt/QtCore/qurl.h \
- /usr/include/qt/QtGui/qtextoption.h /usr/include/qt/QtGui/qtextcursor.h \
- /usr/include/qt/QtGui/qtextformat.h /usr/include/qt/QtGui/qpen.h \
  /usr/include/qt/QtWidgets/QVBoxLayout /usr/include/qt/QtWidgets/QWidget \
- /usr/include/qt/QtWidgets/qwidget.h
+ /usr/include/qt/QtWidgets/qwidget.h \
+ /home/nixen/Projects/C++/PK4/Projekt/calendar/includes/todoElement.h \
+ /usr/include/c++/10.2.0/iostream /usr/include/c++/10.2.0/ostream \
+ /usr/include/c++/10.2.0/ios /usr/include/c++/10.2.0/bits/basic_ios.h \
+ /usr/include/c++/10.2.0/bits/locale_facets.h \
+ /usr/include/c++/10.2.0/cwctype /usr/include/wctype.h \
+ /usr/include/bits/wctype-wchar.h \
+ /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/ctype_base.h \
+ /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+ /usr/include/c++/10.2.0/bits/locale_facets.tcc \
+ /usr/include/c++/10.2.0/bits/basic_ios.tcc \
+ /usr/include/c++/10.2.0/bits/ostream.tcc /usr/include/c++/10.2.0/istream \
+ /usr/include/c++/10.2.0/bits/istream.tcc
