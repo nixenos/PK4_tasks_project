@@ -13,7 +13,7 @@ typedef enum repeatCycle {Daily, Weekly, Monthly, Annually, None} repeatCycle;
 		repeatCycle evRepeat;
 		std::string evDescription;
 
-	protected:
+	public:
 
 		/**
 		 * @brief konstruktor bezargumentowy, tworzy obiekt z datą 1.01.2012, nazwą NULL i bez powtarzania
