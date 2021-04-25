@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/nixen/Projects/C++/PK4/Projekt/calendar/build/calendar_autogen/mocs_compilation.cpp" "CMakeFiles/calendar.dir/calendar_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/calendar.dir/calendar_autogen/mocs_compilation.cpp.o.d"
   "/home/nixen/Projects/C++/PK4/Projekt/calendar/main.cpp" "CMakeFiles/calendar.dir/main.cpp.o" "gcc" "CMakeFiles/calendar.dir/main.cpp.o.d"
   "/home/nixen/Projects/C++/PK4/Projekt/calendar/mainwindow.cpp" "CMakeFiles/calendar.dir/mainwindow.cpp.o" "gcc" "CMakeFiles/calendar.dir/mainwindow.cpp.o.d"
+  "/home/nixen/Projects/C++/PK4/Projekt/calendar/res/todoElement.cpp" "CMakeFiles/calendar.dir/res/todoElement.cpp.o" "gcc" "CMakeFiles/calendar.dir/res/todoElement.cpp.o.d"
   )
 
 # Targets to which this target links.

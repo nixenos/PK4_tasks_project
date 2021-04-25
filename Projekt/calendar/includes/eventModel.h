@@ -27,7 +27,7 @@ typedef enum repeatCycle {Daily, Weekly, Monthly, Annually, None} repeatCycle;
 		 * @param newName nazwa wydarzenia
 		 * @param newRepeat powtarzanie wydarzenia
 		 */
-		event(const date &newDate, const std::string &newName, const repeatCycle &newRepeat);
+		event(const date &newDate, const std::string &newName, const std::string &newEvDescription, const repeatCycle &newRepeat);
 
 		/**
 		 * @brief pobiera datę wydarzenia

@@ -155,6 +155,11 @@
 			"/home/nixen/Projects/C++/PK4/Projekt/calendar/mainwindow.cpp",
 			"MU",
 			null
+		],
+		[
+			"/home/nixen/Projects/C++/PK4/Projekt/calendar/res/todoElement.cpp",
+			"MU",
+			null
 		]
 	],
 	"UIC_OPTIONS" : [],

@@ -27,14 +27,14 @@ namespace calendar{
 		 *
 		 * @return para imię, nazwisko osoby
 		 */
-		std::pair<std::string, std::string> getPersonData() const noexcept;
+		std::pair<std::string, std::string> getPersonalData() const noexcept;
 
 		/**
 		 * @brief ustawia dane osoby mającej urodziny
 		 *
 		 * @param newPersonalData nowe dane osoby
 		 */
-		void setPersonData(const std::pair<std::string, std::string> &newPersonalData);
+		void setPersonalData(const std::pair<std::string, std::string> &newPersonalData);
 
 		/**
 		 * @brief pobiera dzień urodzin osoby
@@ -49,5 +49,10 @@ namespace calendar{
 		 * @param newBirthDate nowa data narodzin osoby
 		 */
 		void setBirthDate(const date &newBirthDate);
+
+		/**
+		 * @brief redeclaration of setEvRepeat function
+		 */
+		void setEvRepeat(const calendar::repeatCycle &newEvRepeat);
 	};
 }
