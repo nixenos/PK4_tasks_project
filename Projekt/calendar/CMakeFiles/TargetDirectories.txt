@@ -1,0 +1,4 @@
+/home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/CMakeFiles/rebuild_cache.dir
+/home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/CMakeFiles/edit_cache.dir
+/home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/CMakeFiles/calendar.dir
+/home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/CMakeFiles/calendar_autogen.dir

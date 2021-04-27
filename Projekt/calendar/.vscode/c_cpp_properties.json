@@ -3,7 +3,11 @@
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "/usr/include/qt/QtWidgets",
+                "/usr/include/qt",
+                "/usr/include/qt/QtGui",
+                "/usr/include/qt/*"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/clang",

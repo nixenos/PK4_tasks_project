@@ -33,6 +33,9 @@ set(PROJECT_SOURCES
         mainwindow.h
         mainwindow.ui
         res/todoElement.cpp
+        res/eventModel.cpp
+        res/eventBirthdayModel.cpp
+        res/date.cpp
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

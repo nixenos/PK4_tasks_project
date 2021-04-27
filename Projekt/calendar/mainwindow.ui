@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Kalendarz</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QWidget" name="layoutWidget">
@@ -113,7 +113,7 @@
       <x>890</x>
       <y>520</y>
       <width>381</width>
-      <height>104</height>
+      <height>128</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout">
@@ -156,6 +156,32 @@
      </item>
     </layout>
    </widget>
+   <widget class="QPushButton" name="prevMonth">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>630</y>
+      <width>101</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Pop. miesiąc</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="nextMonth">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>630</y>
+      <width>101</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Nast. miesiąc</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -163,7 +189,7 @@
      <x>0</x>
      <y>0</y>
      <width>1307</width>
-     <height>23</height>
+     <height>29</height>
     </rect>
    </property>
    <widget class="QMenu" name="menutest">
