@@ -36,6 +36,8 @@ set(PROJECT_SOURCES
         res/eventModel.cpp
         res/eventBirthdayModel.cpp
         res/date.cpp
+        res/calendarView.cpp
+        res/dayModel.cpp
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

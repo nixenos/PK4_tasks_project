@@ -191,11 +191,19 @@
 		},
 		{
 			"isExternal" : true,
+			"path" : "/usr/lib64/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
 			"path" : "/usr/lib64/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake"
 		},
 		{
 			"isExternal" : true,
 			"path" : "/usr/lib64/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib64/cmake/Qt5Gui/Qt5Gui_QJp2Plugin.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -219,6 +227,10 @@
 		},
 		{
 			"isExternal" : true,
+			"path" : "/usr/lib64/cmake/Qt5Gui/Qt5Gui_QMngPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
 			"path" : "/usr/lib64/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake"
 		},
 		{
@@ -235,11 +247,23 @@
 		},
 		{
 			"isExternal" : true,
+			"path" : "/usr/lib64/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib64/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
 			"path" : "/usr/lib64/cmake/Qt5Gui/Qt5Gui_QTsLibPlugin.cmake"
 		},
 		{
 			"isExternal" : true,
 			"path" : "/usr/lib64/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib64/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -260,6 +284,18 @@
 		{
 			"isExternal" : true,
 			"path" : "/usr/lib64/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeGlxPlatformIntegrationPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib64/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib64/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib64/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake"
 		},
 		{
 			"isExternal" : true,

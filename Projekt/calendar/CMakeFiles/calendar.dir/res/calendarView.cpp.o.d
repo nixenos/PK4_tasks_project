@@ -1,12 +1,11 @@
-CMakeFiles/calendar.dir/mainwindow.cpp.o: \
- /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/mainwindow.cpp \
+CMakeFiles/calendar.dir/res/calendarView.cpp.o: \
+ /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/res/calendarView.cpp \
  /usr/include/stdc-predef.h \
- /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/mainwindow.h \
- /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/includes/calendarView.h \
- /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/includes/dayModel.h \
- /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/includes/eventBirthdayModel.h \
- /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/includes/eventModel.h \
- /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/includes/date.h \
+ /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/res/../includes/calendarView.h \
+ /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/res/../includes/dayModel.h \
+ /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/res/../includes/eventBirthdayModel.h \
+ /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/res/../includes/eventModel.h \
+ /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/res/../includes/date.h \
  /usr/include/c++/10.2.0/map /usr/include/c++/10.2.0/bits/stl_tree.h \
  /usr/include/c++/10.2.0/bits/stl_algobase.h \
  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -124,8 +123,8 @@ CMakeFiles/calendar.dir/mainwindow.cpp.o: \
  /usr/include/c++/10.2.0/bits/charconv.h \
  /usr/include/c++/10.2.0/bits/functional_hash.h \
  /usr/include/c++/10.2.0/bits/basic_string.tcc \
- /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/includes/eventHolidayModel.h \
- /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/includes/eventReminderModel.h \
+ /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/res/../includes/eventHolidayModel.h \
+ /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/res/../includes/eventReminderModel.h \
  /usr/include/event.h /usr/include/event2/event-config.h \
  /usr/include/sys/time.h /usr/include/evutil.h /usr/include/event2/util.h \
  /usr/include/event2/visibility.h /usr/include/netdb.h \
@@ -259,71 +258,8 @@ CMakeFiles/calendar.dir/mainwindow.cpp.o: \
  /usr/include/qt/QtGui/qstandarditemmodel.h \
  /usr/include/qt/QtCore/qabstractitemmodel.h \
  /usr/include/qt/QtCore/qvariant.h /usr/include/qt/QtCore/qmap.h \
- /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/includes/todoElement.h \
- /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/calendar_autogen/include/./ui_mainwindow.h \
- /usr/include/qt/QtCore/QVariant /usr/include/qt/QtCore/qvariant.h \
- /usr/include/qt/QtWidgets/QAction /usr/include/qt/QtWidgets/qaction.h \
- /usr/include/qt/QtWidgets/qactiongroup.h \
- /usr/include/qt/QtWidgets/qaction.h \
- /usr/include/qt/QtWidgets/QApplication \
- /usr/include/qt/QtWidgets/qapplication.h \
- /usr/include/qt/QtCore/qcoreapplication.h \
- /usr/include/qt/QtCore/qcoreevent.h /usr/include/qt/QtCore/qeventloop.h \
- /usr/include/qt/QtGui/qguiapplication.h \
- /usr/include/qt/QtGui/qinputmethod.h /usr/include/qt/QtCore/qlocale.h \
- /usr/include/qt/QtWidgets/QDateEdit \
- /usr/include/qt/QtWidgets/qdatetimeedit.h \
- /usr/include/qt/QtCore/qdatetime.h /usr/include/qt/QtCore/qcalendar.h \
- /usr/include/qt/QtWidgets/qabstractspinbox.h \
- /usr/include/qt/QtGui/qvalidator.h \
- /usr/include/qt/QtCore/qregularexpression.h \
- /usr/include/qt/QtWidgets/QHBoxLayout \
- /usr/include/qt/QtWidgets/qboxlayout.h \
- /usr/include/qt/QtWidgets/qlayout.h \
- /usr/include/qt/QtWidgets/qlayoutitem.h \
- /usr/include/qt/QtWidgets/qboxlayout.h \
- /usr/include/qt/QtWidgets/qgridlayout.h \
- /usr/include/qt/QtWidgets/QHeaderView \
- /usr/include/qt/QtWidgets/qheaderview.h \
- /usr/include/qt/QtWidgets/qabstractitemview.h \
- /usr/include/qt/QtWidgets/qabstractscrollarea.h \
- /usr/include/qt/QtWidgets/qframe.h \
- /usr/include/qt/QtCore/qitemselectionmodel.h \
- /usr/include/qt/QtCore/qset.h \
- /usr/include/qt/QtWidgets/qabstractitemdelegate.h \
- /usr/include/qt/QtWidgets/qstyleoption.h \
- /usr/include/qt/QtWidgets/qslider.h \
- /usr/include/qt/QtWidgets/qabstractslider.h \
- /usr/include/qt/QtWidgets/qstyle.h /usr/include/qt/QtWidgets/qtabbar.h \
- /usr/include/qt/QtWidgets/qrubberband.h /usr/include/qt/QtWidgets/QLabel \
- /usr/include/qt/QtWidgets/qlabel.h /usr/include/qt/QtWidgets/QListView \
- /usr/include/qt/QtWidgets/qlistview.h \
- /usr/include/qt/QtWidgets/QMainWindow /usr/include/qt/QtWidgets/QMenu \
- /usr/include/qt/QtWidgets/qmenu.h /usr/include/qt/QtWidgets/QMenuBar \
- /usr/include/qt/QtWidgets/qmenubar.h /usr/include/qt/QtWidgets/qmenu.h \
- /usr/include/qt/QtWidgets/QPlainTextEdit \
- /usr/include/qt/QtWidgets/qplaintextedit.h \
- /usr/include/qt/QtWidgets/qtextedit.h \
- /usr/include/qt/QtGui/qtextdocument.h /usr/include/qt/QtCore/qurl.h \
- /usr/include/qt/QtGui/qtextoption.h /usr/include/qt/QtGui/qtextcursor.h \
- /usr/include/qt/QtGui/qtextformat.h /usr/include/qt/QtGui/qpen.h \
- /usr/include/qt/QtGui/qabstracttextdocumentlayout.h \
- /usr/include/qt/QtGui/qtextlayout.h /usr/include/qt/QtGui/qevent.h \
- /usr/include/qt/QtCore/qfile.h /usr/include/qt/QtCore/qfiledevice.h \
- /usr/include/qt/QtGui/qvector2d.h /usr/include/qt/QtGui/qtouchdevice.h \
- /usr/include/qt/QtGui/qglyphrun.h /usr/include/qt/QtGui/qrawfont.h \
- /usr/include/qt/QtGui/qfontdatabase.h \
- /usr/include/qt/QtWidgets/QPushButton \
- /usr/include/qt/QtWidgets/qpushbutton.h \
- /usr/include/qt/QtWidgets/qabstractbutton.h \
- /usr/include/qt/QtWidgets/QStatusBar \
- /usr/include/qt/QtWidgets/qstatusbar.h \
- /usr/include/qt/QtWidgets/QTableView \
- /usr/include/qt/QtWidgets/qtableview.h \
- /usr/include/qt/QtWidgets/QVBoxLayout /usr/include/qt/QtWidgets/QWidget \
- /usr/include/qt/QtWidgets/qwidget.h /usr/include/c++/10.2.0/iostream \
- /usr/include/c++/10.2.0/ostream /usr/include/c++/10.2.0/ios \
- /usr/include/c++/10.2.0/bits/basic_ios.h \
+ /usr/include/c++/10.2.0/iostream /usr/include/c++/10.2.0/ostream \
+ /usr/include/c++/10.2.0/ios /usr/include/c++/10.2.0/bits/basic_ios.h \
  /usr/include/c++/10.2.0/bits/locale_facets.h \
  /usr/include/c++/10.2.0/cwctype /usr/include/wctype.h \
  /usr/include/bits/wctype-wchar.h \
@@ -332,4 +268,28 @@ CMakeFiles/calendar.dir/mainwindow.cpp.o: \
  /usr/include/c++/10.2.0/bits/locale_facets.tcc \
  /usr/include/c++/10.2.0/bits/basic_ios.tcc \
  /usr/include/c++/10.2.0/bits/ostream.tcc /usr/include/c++/10.2.0/istream \
- /usr/include/c++/10.2.0/bits/istream.tcc
+ /usr/include/c++/10.2.0/bits/istream.tcc /usr/include/c++/10.2.0/regex \
+ /usr/include/c++/10.2.0/bitset /usr/include/c++/10.2.0/locale \
+ /usr/include/c++/10.2.0/bits/locale_facets_nonio.h \
+ /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/time_members.h \
+ /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/messages_members.h \
+ /usr/include/libintl.h /usr/include/c++/10.2.0/bits/codecvt.h \
+ /usr/include/c++/10.2.0/bits/locale_facets_nonio.tcc \
+ /usr/include/c++/10.2.0/bits/locale_conv.h \
+ /usr/include/c++/10.2.0/sstream /usr/include/c++/10.2.0/bits/sstream.tcc \
+ /usr/include/c++/10.2.0/stack /usr/include/c++/10.2.0/deque \
+ /usr/include/c++/10.2.0/bits/stl_deque.h \
+ /usr/include/c++/10.2.0/bits/deque.tcc \
+ /usr/include/c++/10.2.0/bits/stl_stack.h /usr/include/c++/10.2.0/cstring \
+ /usr/include/c++/10.2.0/bits/regex_constants.h \
+ /usr/include/c++/10.2.0/bits/regex_error.h \
+ /usr/include/c++/10.2.0/bits/regex_automaton.h \
+ /usr/include/c++/10.2.0/bits/regex_automaton.tcc \
+ /usr/include/c++/10.2.0/bits/regex_scanner.h \
+ /usr/include/c++/10.2.0/bits/regex_scanner.tcc \
+ /usr/include/c++/10.2.0/bits/regex_compiler.h \
+ /usr/include/c++/10.2.0/bits/regex_compiler.tcc \
+ /usr/include/c++/10.2.0/bits/regex.h \
+ /usr/include/c++/10.2.0/bits/regex.tcc \
+ /usr/include/c++/10.2.0/bits/regex_executor.h \
+ /usr/include/c++/10.2.0/bits/regex_executor.tcc

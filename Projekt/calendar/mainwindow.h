@@ -1,6 +1,8 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
+#include "includes/calendarView.h"
+#include "includes/date.h"
 #include "includes/todoElement.h"
 #include <QMainWindow>
 #include <QStandardItemModel>
@@ -28,6 +30,10 @@ class MainWindow : public QMainWindow {
 
     void on_addTodoItemButton_clicked();
 
+    void on_nextMonth_clicked();
+
+    void on_prevMonth_clicked();
+
   private:
     Ui::MainWindow *ui;
 
@@ -36,5 +42,11 @@ class MainWindow : public QMainWindow {
     QStandardItemModel *todoElementInterface;
 
     QStandardItemModel *dayElementInterface;
+
+    calendar::calendarView newCalendarView;
+
+    calendar::date datePlaceholder;
+
+    QStringList labelsList;
 };
 #endif // MAINWINDOW_H

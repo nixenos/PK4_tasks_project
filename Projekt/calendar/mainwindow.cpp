@@ -13,7 +13,6 @@ MainWindow::MainWindow(QWidget *parent)
     todoElementInterface = new QStandardItemModel(nullptr);
     ui->listView->setModel(todoElementInterface);
     dayElementInterface = new QStandardItemModel(0, 0, nullptr);
-    QStringList labelsList;
     labelsList << "Poniedziałek"
                << "Wtorek"
                << "Środa"
@@ -24,10 +23,21 @@ MainWindow::MainWindow(QWidget *parent)
     dayElementInterface->setHorizontalHeaderLabels(labelsList);
     ui->monthTableView->setModel(dayElementInterface);
     // temp @TODO
-    QStandardItem *tempItem = new QStandardItem("1");
-    tempItem->setTextAlignment(Qt::AlignCenter);
-    tempItem->setEditable(0);
-    dayElementInterface->setItem(0, 0, tempItem);
+    // QStandardItem *tempItem = new QStandardItem("1");
+    // tempItem->setTextAlignment(Qt::AlignCenter);
+    // tempItem->setEditable(0);
+    // dayElementInterface->setItem(0, 0, tempItem);
+    calendar::date tempToday;
+    tempToday.setCurrentDate();
+    newCalendarView.setTodayDate();
+    std::cout << "DEBUG: " << (int)tempToday.getMonth() << std::endl;
+    newCalendarView.calculateCurrentMonth(
+        dayElementInterface, tempToday.getMonth(), tempToday.getYear());
+    datePlaceholder.setDay(tempToday.getDay());
+    datePlaceholder.setMonth(tempToday.getMonth());
+    datePlaceholder.setYear(tempToday.getYear());
+    ui->yearLabel->setText("2021");
+    ui->monthLabel->setText("Kwiecień");
 }
 
 MainWindow::~MainWindow() { delete ui; }
@@ -58,4 +68,26 @@ void MainWindow::on_addTodoItemButton_clicked() {
         this->todoElementInterface->appendRow(tempNewItem);
         ui->todoItemTextInput->clear();
     }
+}
+
+void MainWindow::on_nextMonth_clicked() {
+    datePlaceholder.incrementMonth();
+    // dayElementInterface->clear();
+    // dayElementInterface->setHorizontalHeaderLabels(labelsList);
+    newCalendarView.calculateCurrentMonth(dayElementInterface,
+                                          datePlaceholder.getMonth(),
+                                          datePlaceholder.getYear());
+    ui->yearLabel->setText(std::to_string(datePlaceholder.getYear()).c_str());
+    ui->monthLabel->setText(std::to_string(datePlaceholder.getMonth()).c_str());
+}
+
+void MainWindow::on_prevMonth_clicked() {
+    datePlaceholder.decrementMonth();
+    // dayElementInterface->clear();
+    // dayElementInterface->setHorizontalHeaderLabels(labelsList);
+    newCalendarView.calculateCurrentMonth(dayElementInterface,
+                                          datePlaceholder.getMonth(),
+                                          datePlaceholder.getYear());
+    ui->yearLabel->setText(std::to_string(datePlaceholder.getYear()).c_str());
+    ui->monthLabel->setText(std::to_string(datePlaceholder.getMonth()).c_str());
 }

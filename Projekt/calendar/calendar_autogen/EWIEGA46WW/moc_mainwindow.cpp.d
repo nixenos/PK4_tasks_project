@@ -1,19 +1,49 @@
 /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/calendar_autogen/EWIEGA46WW/moc_mainwindow.cpp: /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/mainwindow.h \
   /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/calendar_autogen/moc_predefs.h \
+  /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/includes/calendarView.h \
+  /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/includes/date.h \
+  /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/includes/dayModel.h \
+  /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/includes/eventBirthdayModel.h \
+  /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/includes/eventHolidayModel.h \
+  /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/includes/eventModel.h \
+  /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/includes/eventReminderModel.h \
   /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/includes/todoElement.h \
+  /usr/include/asm-generic/bitsperlong.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/posix_types.h \
+  /usr/include/asm-generic/socket.h \
+  /usr/include/asm-generic/sockios.h \
+  /usr/include/asm/bitsperlong.h \
+  /usr/include/asm/errno.h \
+  /usr/include/asm/posix_types.h \
+  /usr/include/asm/posix_types_64.h \
+  /usr/include/asm/socket.h \
+  /usr/include/asm/sockios.h \
   /usr/include/assert.h \
+  /usr/include/bits/byteswap.h \
   /usr/include/bits/cpu-set.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
+  /usr/include/bits/errno.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
+  /usr/include/bits/in.h \
   /usr/include/bits/libc-header-start.h \
   /usr/include/bits/locale.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/netdb.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
   /usr/include/bits/sched.h \
+  /usr/include/bits/select.h \
   /usr/include/bits/setjmp.h \
+  /usr/include/bits/sockaddr.h \
+  /usr/include/bits/socket.h \
+  /usr/include/bits/socket_type.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/bits/stdio_lim.h \
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
   /usr/include/bits/thread-shared-types.h \
@@ -24,15 +54,25 @@
   /usr/include/bits/types.h \
   /usr/include/bits/types/FILE.h \
   /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/__fpos_t.h \
   /usr/include/bits/types/__locale_t.h \
   /usr/include/bits/types/__mbstate_t.h \
   /usr/include/bits/types/__sigset_t.h \
+  /usr/include/bits/types/__sigval_t.h \
   /usr/include/bits/types/clock_t.h \
   /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/types/error_t.h \
   /usr/include/bits/types/locale_t.h \
   /usr/include/bits/types/mbstate_t.h \
+  /usr/include/bits/types/sigevent_t.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/struct_FILE.h \
   /usr/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/bits/types/struct_iovec.h \
   /usr/include/bits/types/struct_itimerspec.h \
+  /usr/include/bits/types/struct_osockaddr.h \
   /usr/include/bits/types/struct_sched_param.h \
   /usr/include/bits/types/struct_timespec.h \
   /usr/include/bits/types/struct_timeval.h \
@@ -41,6 +81,9 @@
   /usr/include/bits/types/timer_t.h \
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/typesizes.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/uio-ext.h \
+  /usr/include/bits/uio_lim.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
@@ -194,10 +237,33 @@
   /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/gthr.h \
   /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/os_defines.h \
   /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/errno.h \
+  /usr/include/event.h \
+  /usr/include/event2/buffer.h \
+  /usr/include/event2/buffer_compat.h \
+  /usr/include/event2/bufferevent.h \
+  /usr/include/event2/bufferevent_compat.h \
+  /usr/include/event2/bufferevent_struct.h \
+  /usr/include/event2/event-config.h \
+  /usr/include/event2/event.h \
+  /usr/include/event2/event_compat.h \
+  /usr/include/event2/event_struct.h \
+  /usr/include/event2/keyvalq_struct.h \
+  /usr/include/event2/tag.h \
+  /usr/include/event2/tag_compat.h \
+  /usr/include/event2/util.h \
+  /usr/include/event2/visibility.h \
+  /usr/include/evutil.h \
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/linux/errno.h \
+  /usr/include/linux/posix_types.h \
+  /usr/include/linux/stddef.h \
   /usr/include/locale.h \
+  /usr/include/netdb.h \
+  /usr/include/netinet/in.h \
   /usr/include/pthread.h \
   /usr/include/qt/QtCore/qabstractitemmodel.h \
   /usr/include/qt/QtCore/qalgorithms.h \
@@ -289,11 +355,18 @@
   /usr/include/qt/QtWidgets/qtwidgets-config.h \
   /usr/include/qt/QtWidgets/qtwidgetsglobal.h \
   /usr/include/qt/QtWidgets/qwidget.h \
+  /usr/include/rpc/netdb.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
+  /usr/include/stdio.h \
   /usr/include/string.h \
   /usr/include/strings.h \
   /usr/include/sys/cdefs.h \
+  /usr/include/sys/select.h \
+  /usr/include/sys/socket.h \
+  /usr/include/sys/time.h \
+  /usr/include/sys/types.h \
+  /usr/include/sys/uio.h \
   /usr/include/time.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \

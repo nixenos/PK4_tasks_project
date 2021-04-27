@@ -6,6 +6,7 @@ namespace calendar {
 class calendarView {
   private:
     date today;
+    std::vector<day> days;
 
   public:
     /**
@@ -22,6 +23,6 @@ class calendarView {
     date getTodayDate() const noexcept;
 
     void calculateCurrentMonth(QStandardItemModel *dayModelInterface,
-                               const monthModel &month);
+                               const monthModel &month, const int &year);
 };
 } // namespace calendar

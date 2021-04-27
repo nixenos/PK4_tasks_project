@@ -104,8 +104,19 @@ CMakeFiles/calendar.dir/calendar_autogen/mocs_compilation.cpp.o: \
  /usr/include/c++/10.2.0/backward/auto_ptr.h \
  /usr/include/c++/10.2.0/cstdint \
  /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/calendar_autogen/EWIEGA46WW/../../mainwindow.h \
- /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/calendar_autogen/EWIEGA46WW/../../includes/todoElement.h \
- /usr/include/c++/10.2.0/string \
+ /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/calendar_autogen/EWIEGA46WW/../../includes/calendarView.h \
+ /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/calendar_autogen/EWIEGA46WW/../../includes/dayModel.h \
+ /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/calendar_autogen/EWIEGA46WW/../../includes/eventBirthdayModel.h \
+ /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/calendar_autogen/EWIEGA46WW/../../includes/eventModel.h \
+ /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/calendar_autogen/EWIEGA46WW/../../includes/date.h \
+ /usr/include/c++/10.2.0/map /usr/include/c++/10.2.0/bits/stl_tree.h \
+ /usr/include/c++/10.2.0/bits/stl_map.h \
+ /usr/include/c++/10.2.0/bits/stl_multimap.h \
+ /usr/include/c++/10.2.0/bits/erase_if.h /usr/include/stdio.h \
+ /usr/include/bits/types/__fpos_t.h /usr/include/bits/types/__fpos64_t.h \
+ /usr/include/bits/types/struct_FILE.h \
+ /usr/include/bits/types/cookie_io_functions_t.h \
+ /usr/include/bits/stdio_lim.h /usr/include/c++/10.2.0/string \
  /usr/include/c++/10.2.0/bits/char_traits.h \
  /usr/include/c++/10.2.0/bits/localefwd.h \
  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/c++locale.h \
@@ -122,17 +133,41 @@ CMakeFiles/calendar.dir/calendar_autogen/mocs_compilation.cpp.o: \
  /usr/include/sys/select.h /usr/include/bits/select.h \
  /usr/include/bits/types/sigset_t.h /usr/include/alloca.h \
  /usr/include/bits/stdlib-float.h /usr/include/c++/10.2.0/bits/std_abs.h \
- /usr/include/c++/10.2.0/cstdio /usr/include/stdio.h \
- /usr/include/bits/types/__fpos_t.h /usr/include/bits/types/__fpos64_t.h \
- /usr/include/bits/types/struct_FILE.h \
- /usr/include/bits/types/cookie_io_functions_t.h \
- /usr/include/bits/stdio_lim.h /usr/include/c++/10.2.0/cerrno \
+ /usr/include/c++/10.2.0/cstdio /usr/include/c++/10.2.0/cerrno \
  /usr/include/errno.h /usr/include/bits/errno.h \
  /usr/include/linux/errno.h /usr/include/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  /usr/include/bits/types/error_t.h \
  /usr/include/c++/10.2.0/bits/charconv.h \
  /usr/include/c++/10.2.0/bits/basic_string.tcc \
+ /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/calendar_autogen/EWIEGA46WW/../../includes/eventHolidayModel.h \
+ /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/calendar_autogen/EWIEGA46WW/../../includes/eventReminderModel.h \
+ /usr/include/event.h /usr/include/event2/event-config.h \
+ /usr/include/sys/time.h /usr/include/evutil.h /usr/include/event2/util.h \
+ /usr/include/event2/visibility.h /usr/include/netdb.h \
+ /usr/include/netinet/in.h /usr/include/sys/socket.h \
+ /usr/include/bits/types/struct_iovec.h /usr/include/bits/socket.h \
+ /usr/include/bits/socket_type.h /usr/include/bits/sockaddr.h \
+ /usr/include/asm/socket.h /usr/include/asm-generic/socket.h \
+ /usr/include/linux/posix_types.h /usr/include/linux/stddef.h \
+ /usr/include/asm/posix_types.h /usr/include/asm/posix_types_64.h \
+ /usr/include/asm-generic/posix_types.h /usr/include/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h /usr/include/asm/sockios.h \
+ /usr/include/asm-generic/sockios.h \
+ /usr/include/bits/types/struct_osockaddr.h /usr/include/bits/in.h \
+ /usr/include/rpc/netdb.h /usr/include/bits/types/sigevent_t.h \
+ /usr/include/bits/types/__sigval_t.h /usr/include/bits/netdb.h \
+ /usr/include/event2/event_struct.h /usr/include/event2/keyvalq_struct.h \
+ /usr/include/event2/event.h /usr/include/event2/event_compat.h \
+ /usr/include/event2/buffer.h /usr/include/sys/uio.h \
+ /usr/include/bits/uio_lim.h /usr/include/bits/uio-ext.h \
+ /usr/include/event2/buffer_compat.h /usr/include/event2/bufferevent.h \
+ /usr/include/event2/bufferevent_struct.h \
+ /usr/include/event2/bufferevent_compat.h /usr/include/event2/tag.h \
+ /usr/include/event2/tag_compat.h /usr/include/c++/10.2.0/vector \
+ /usr/include/c++/10.2.0/bits/stl_vector.h \
+ /usr/include/c++/10.2.0/bits/stl_bvector.h \
+ /usr/include/c++/10.2.0/bits/vector.tcc \
  /usr/include/qt/QtWidgets/QMainWindow \
  /usr/include/qt/QtWidgets/qmainwindow.h \
  /usr/include/qt/QtWidgets/qtwidgetsglobal.h \
@@ -186,27 +221,20 @@ CMakeFiles/calendar.dir/calendar_autogen/mocs_compilation.cpp.o: \
  /usr/include/c++/10.2.0/bits/std_function.h \
  /usr/include/qt/QtCore/qvector.h \
  /usr/include/qt/QtCore/qcontainertools_impl.h \
- /usr/include/c++/10.2.0/vector /usr/include/c++/10.2.0/bits/stl_vector.h \
- /usr/include/c++/10.2.0/bits/stl_bvector.h \
- /usr/include/c++/10.2.0/bits/vector.tcc /usr/include/c++/10.2.0/list \
- /usr/include/c++/10.2.0/bits/stl_list.h \
+ /usr/include/c++/10.2.0/list /usr/include/c++/10.2.0/bits/stl_list.h \
  /usr/include/c++/10.2.0/bits/list.tcc \
  /usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed/limits.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed/syslimits.h \
  /usr/include/limits.h /usr/include/bits/posix1_lim.h \
  /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
  /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
- /usr/include/bits/uio_lim.h /usr/include/qt/QtCore/qbytearraylist.h \
+ /usr/include/qt/QtCore/qbytearraylist.h \
  /usr/include/qt/QtCore/qstringlist.h /usr/include/qt/QtCore/qregexp.h \
  /usr/include/qt/QtCore/qstringmatcher.h \
  /usr/include/qt/QtCore/qscopedpointer.h \
  /usr/include/qt/QtCore/qmetatype.h \
  /usr/include/qt/QtCore/qvarlengtharray.h \
- /usr/include/qt/QtCore/qcontainerfwd.h /usr/include/c++/10.2.0/map \
- /usr/include/c++/10.2.0/bits/stl_tree.h \
- /usr/include/c++/10.2.0/bits/stl_map.h \
- /usr/include/c++/10.2.0/bits/stl_multimap.h \
- /usr/include/c++/10.2.0/bits/erase_if.h \
+ /usr/include/qt/QtCore/qcontainerfwd.h \
  /usr/include/qt/QtCore/qobject_impl.h /usr/include/c++/10.2.0/chrono \
  /usr/include/c++/10.2.0/ratio /usr/include/c++/10.2.0/ctime \
  /usr/include/c++/10.2.0/bits/parse_numbers.h \
@@ -231,4 +259,5 @@ CMakeFiles/calendar.dir/calendar_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt/QtGui/QStandardItemModel \
  /usr/include/qt/QtGui/qstandarditemmodel.h \
  /usr/include/qt/QtCore/qabstractitemmodel.h \
- /usr/include/qt/QtCore/qvariant.h /usr/include/qt/QtCore/qmap.h
+ /usr/include/qt/QtCore/qvariant.h /usr/include/qt/QtCore/qmap.h \
+ /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/calendar_autogen/EWIEGA46WW/../../includes/todoElement.h

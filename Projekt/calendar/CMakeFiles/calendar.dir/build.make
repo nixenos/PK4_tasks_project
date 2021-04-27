@@ -167,6 +167,34 @@ CMakeFiles/calendar.dir/res/date.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calendar.dir/res/date.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/res/date.cpp -o CMakeFiles/calendar.dir/res/date.cpp.s
 
+CMakeFiles/calendar.dir/res/calendarView.cpp.o: CMakeFiles/calendar.dir/flags.make
+CMakeFiles/calendar.dir/res/calendarView.cpp.o: res/calendarView.cpp
+CMakeFiles/calendar.dir/res/calendarView.cpp.o: CMakeFiles/calendar.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/calendar.dir/res/calendarView.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calendar.dir/res/calendarView.cpp.o -MF CMakeFiles/calendar.dir/res/calendarView.cpp.o.d -o CMakeFiles/calendar.dir/res/calendarView.cpp.o -c /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/res/calendarView.cpp
+
+CMakeFiles/calendar.dir/res/calendarView.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calendar.dir/res/calendarView.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/res/calendarView.cpp > CMakeFiles/calendar.dir/res/calendarView.cpp.i
+
+CMakeFiles/calendar.dir/res/calendarView.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calendar.dir/res/calendarView.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/res/calendarView.cpp -o CMakeFiles/calendar.dir/res/calendarView.cpp.s
+
+CMakeFiles/calendar.dir/res/dayModel.cpp.o: CMakeFiles/calendar.dir/flags.make
+CMakeFiles/calendar.dir/res/dayModel.cpp.o: res/dayModel.cpp
+CMakeFiles/calendar.dir/res/dayModel.cpp.o: CMakeFiles/calendar.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/calendar.dir/res/dayModel.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calendar.dir/res/dayModel.cpp.o -MF CMakeFiles/calendar.dir/res/dayModel.cpp.o.d -o CMakeFiles/calendar.dir/res/dayModel.cpp.o -c /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/res/dayModel.cpp
+
+CMakeFiles/calendar.dir/res/dayModel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calendar.dir/res/dayModel.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/res/dayModel.cpp > CMakeFiles/calendar.dir/res/dayModel.cpp.i
+
+CMakeFiles/calendar.dir/res/dayModel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calendar.dir/res/dayModel.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/res/dayModel.cpp -o CMakeFiles/calendar.dir/res/dayModel.cpp.s
+
 # Object files for target calendar
 calendar_OBJECTS = \
 "CMakeFiles/calendar.dir/calendar_autogen/mocs_compilation.cpp.o" \
@@ -175,7 +203,9 @@ calendar_OBJECTS = \
 "CMakeFiles/calendar.dir/res/todoElement.cpp.o" \
 "CMakeFiles/calendar.dir/res/eventModel.cpp.o" \
 "CMakeFiles/calendar.dir/res/eventBirthdayModel.cpp.o" \
-"CMakeFiles/calendar.dir/res/date.cpp.o"
+"CMakeFiles/calendar.dir/res/date.cpp.o" \
+"CMakeFiles/calendar.dir/res/calendarView.cpp.o" \
+"CMakeFiles/calendar.dir/res/dayModel.cpp.o"
 
 # External object files for target calendar
 calendar_EXTERNAL_OBJECTS =
@@ -187,12 +217,14 @@ calendar: CMakeFiles/calendar.dir/res/todoElement.cpp.o
 calendar: CMakeFiles/calendar.dir/res/eventModel.cpp.o
 calendar: CMakeFiles/calendar.dir/res/eventBirthdayModel.cpp.o
 calendar: CMakeFiles/calendar.dir/res/date.cpp.o
+calendar: CMakeFiles/calendar.dir/res/calendarView.cpp.o
+calendar: CMakeFiles/calendar.dir/res/dayModel.cpp.o
 calendar: CMakeFiles/calendar.dir/build.make
 calendar: /usr/lib/libQt5Widgets.so.5.15.2
 calendar: /usr/lib/libQt5Gui.so.5.15.2
 calendar: /usr/lib/libQt5Core.so.5.15.2
 calendar: CMakeFiles/calendar.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable calendar"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable calendar"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/calendar.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
