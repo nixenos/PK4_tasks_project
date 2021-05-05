@@ -70,8 +70,8 @@ CMakeFiles/calendar.dir/mainwindow.cpp.o: \
  /usr/include/bits/types/FILE.h /usr/include/bits/types/struct_FILE.h \
  /usr/include/bits/types/cookie_io_functions_t.h \
  /usr/include/bits/stdio_lim.h /usr/include/bits/floatn.h \
- /usr/include/bits/floatn-common.h /usr/include/c++/10.2.0/string \
- /usr/include/c++/10.2.0/bits/stringfwd.h \
+ /usr/include/bits/floatn-common.h /usr/include/bits/stdio.h \
+ /usr/include/c++/10.2.0/string /usr/include/c++/10.2.0/bits/stringfwd.h \
  /usr/include/c++/10.2.0/bits/char_traits.h \
  /usr/include/c++/10.2.0/bits/postypes.h /usr/include/c++/10.2.0/cwchar \
  /usr/include/wchar.h /usr/include/bits/wchar.h \
@@ -115,19 +115,24 @@ CMakeFiles/calendar.dir/mainwindow.cpp.o: \
  /usr/include/bits/byteswap.h /usr/include/bits/uintn-identity.h \
  /usr/include/sys/select.h /usr/include/bits/select.h \
  /usr/include/bits/types/sigset_t.h /usr/include/alloca.h \
- /usr/include/bits/stdlib-float.h /usr/include/c++/10.2.0/bits/std_abs.h \
- /usr/include/c++/10.2.0/cstdio /usr/include/c++/10.2.0/cerrno \
- /usr/include/errno.h /usr/include/bits/errno.h \
- /usr/include/linux/errno.h /usr/include/asm/errno.h \
- /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
- /usr/include/bits/types/error_t.h \
+ /usr/include/bits/stdlib-bsearch.h /usr/include/bits/stdlib-float.h \
+ /usr/include/c++/10.2.0/bits/std_abs.h /usr/include/c++/10.2.0/cstdio \
+ /usr/include/c++/10.2.0/cerrno /usr/include/errno.h \
+ /usr/include/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h /usr/include/bits/types/error_t.h \
  /usr/include/c++/10.2.0/bits/charconv.h \
  /usr/include/c++/10.2.0/bits/functional_hash.h \
  /usr/include/c++/10.2.0/bits/basic_string.tcc \
  /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/includes/eventHolidayModel.h \
  /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/includes/eventReminderModel.h \
- /usr/include/event.h /usr/include/event2/event-config.h \
- /usr/include/sys/time.h /usr/include/evutil.h /usr/include/event2/util.h \
+ /usr/include/c++/10.2.0/vector \
+ /usr/include/c++/10.2.0/bits/stl_uninitialized.h \
+ /usr/include/c++/10.2.0/bits/stl_vector.h \
+ /usr/include/c++/10.2.0/bits/stl_bvector.h \
+ /usr/include/c++/10.2.0/bits/vector.tcc /usr/include/event.h \
+ /usr/include/event2/event-config.h /usr/include/sys/time.h \
+ /usr/include/evutil.h /usr/include/event2/util.h \
  /usr/include/event2/visibility.h /usr/include/netdb.h \
  /usr/include/netinet/in.h /usr/include/sys/socket.h \
  /usr/include/bits/types/struct_iovec.h /usr/include/bits/socket.h \
@@ -148,12 +153,7 @@ CMakeFiles/calendar.dir/mainwindow.cpp.o: \
  /usr/include/event2/buffer_compat.h /usr/include/event2/bufferevent.h \
  /usr/include/event2/bufferevent_struct.h \
  /usr/include/event2/bufferevent_compat.h /usr/include/event2/tag.h \
- /usr/include/event2/tag_compat.h /usr/include/c++/10.2.0/vector \
- /usr/include/c++/10.2.0/bits/stl_uninitialized.h \
- /usr/include/c++/10.2.0/bits/stl_vector.h \
- /usr/include/c++/10.2.0/bits/stl_bvector.h \
- /usr/include/c++/10.2.0/bits/vector.tcc \
- /usr/include/qt/QtWidgets/QMainWindow \
+ /usr/include/event2/tag_compat.h /usr/include/qt/QtWidgets/QMainWindow \
  /usr/include/qt/QtWidgets/qmainwindow.h \
  /usr/include/qt/QtWidgets/qtwidgetsglobal.h \
  /usr/include/qt/QtGui/qtguiglobal.h /usr/include/qt/QtCore/qglobal.h \
@@ -259,7 +259,45 @@ CMakeFiles/calendar.dir/mainwindow.cpp.o: \
  /usr/include/qt/QtGui/qstandarditemmodel.h \
  /usr/include/qt/QtCore/qabstractitemmodel.h \
  /usr/include/qt/QtCore/qvariant.h /usr/include/qt/QtCore/qmap.h \
+ /usr/include/qt/QtWidgets/QTableView \
+ /usr/include/qt/QtWidgets/qtableview.h \
+ /usr/include/qt/QtWidgets/qabstractitemview.h \
+ /usr/include/qt/QtWidgets/qabstractscrollarea.h \
+ /usr/include/qt/QtWidgets/qframe.h \
+ /usr/include/qt/QtCore/qitemselectionmodel.h \
+ /usr/include/qt/QtCore/qset.h \
+ /usr/include/qt/QtWidgets/qabstractitemdelegate.h \
+ /usr/include/qt/QtWidgets/qstyleoption.h \
+ /usr/include/qt/QtCore/qlocale.h \
+ /usr/include/qt/QtWidgets/qabstractspinbox.h \
+ /usr/include/qt/QtGui/qvalidator.h \
+ /usr/include/qt/QtCore/qregularexpression.h \
+ /usr/include/qt/QtWidgets/qslider.h \
+ /usr/include/qt/QtWidgets/qabstractslider.h \
+ /usr/include/qt/QtWidgets/qstyle.h /usr/include/qt/QtWidgets/qtabbar.h \
+ /usr/include/qt/QtWidgets/qrubberband.h \
+ /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/includes/inputDialog.h \
+ /usr/include/qt/QtWidgets/QDialog /usr/include/qt/QtWidgets/qdialog.h \
  /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/includes/todoElement.h \
+ /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/includes/todoView.h \
+ /usr/include/qt/QtWidgets/QListView \
+ /usr/include/qt/QtWidgets/qlistview.h \
+ /usr/include/qt/QtGui/QStandardItem \
+ /usr/include/qt/QtWidgets/QDialogButtonBox \
+ /usr/include/qt/QtWidgets/qdialogbuttonbox.h \
+ /usr/include/qt/QtWidgets/QFormLayout \
+ /usr/include/qt/QtWidgets/qformlayout.h \
+ /usr/include/qt/QtWidgets/QLayout /usr/include/qt/QtWidgets/qlayout.h \
+ /usr/include/qt/QtWidgets/qlayoutitem.h \
+ /usr/include/qt/QtWidgets/qboxlayout.h \
+ /usr/include/qt/QtWidgets/qlayout.h \
+ /usr/include/qt/QtWidgets/qgridlayout.h \
+ /usr/include/qt/QtWidgets/QInputDialog \
+ /usr/include/qt/QtWidgets/qinputdialog.h \
+ /usr/include/qt/QtWidgets/qlineedit.h \
+ /usr/include/qt/QtGui/qtextcursor.h /usr/include/qt/QtGui/qtextformat.h \
+ /usr/include/qt/QtGui/qpen.h /usr/include/qt/QtGui/qtextoption.h \
+ /usr/include/qt/QtWidgets/qdialog.h \
  /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/calendar_autogen/include/./ui_mainwindow.h \
  /usr/include/qt/QtCore/QVariant /usr/include/qt/QtCore/qvariant.h \
  /usr/include/qt/QtWidgets/QAction /usr/include/qt/QtWidgets/qaction.h \
@@ -270,34 +308,12 @@ CMakeFiles/calendar.dir/mainwindow.cpp.o: \
  /usr/include/qt/QtCore/qcoreapplication.h \
  /usr/include/qt/QtCore/qcoreevent.h /usr/include/qt/QtCore/qeventloop.h \
  /usr/include/qt/QtGui/qguiapplication.h \
- /usr/include/qt/QtGui/qinputmethod.h /usr/include/qt/QtCore/qlocale.h \
- /usr/include/qt/QtWidgets/QDateEdit \
- /usr/include/qt/QtWidgets/qdatetimeedit.h \
- /usr/include/qt/QtCore/qdatetime.h /usr/include/qt/QtCore/qcalendar.h \
- /usr/include/qt/QtWidgets/qabstractspinbox.h \
- /usr/include/qt/QtGui/qvalidator.h \
- /usr/include/qt/QtCore/qregularexpression.h \
+ /usr/include/qt/QtGui/qinputmethod.h \
  /usr/include/qt/QtWidgets/QHBoxLayout \
  /usr/include/qt/QtWidgets/qboxlayout.h \
- /usr/include/qt/QtWidgets/qlayout.h \
- /usr/include/qt/QtWidgets/qlayoutitem.h \
- /usr/include/qt/QtWidgets/qboxlayout.h \
- /usr/include/qt/QtWidgets/qgridlayout.h \
  /usr/include/qt/QtWidgets/QHeaderView \
- /usr/include/qt/QtWidgets/qheaderview.h \
- /usr/include/qt/QtWidgets/qabstractitemview.h \
- /usr/include/qt/QtWidgets/qabstractscrollarea.h \
- /usr/include/qt/QtWidgets/qframe.h \
- /usr/include/qt/QtCore/qitemselectionmodel.h \
- /usr/include/qt/QtCore/qset.h \
- /usr/include/qt/QtWidgets/qabstractitemdelegate.h \
- /usr/include/qt/QtWidgets/qstyleoption.h \
- /usr/include/qt/QtWidgets/qslider.h \
- /usr/include/qt/QtWidgets/qabstractslider.h \
- /usr/include/qt/QtWidgets/qstyle.h /usr/include/qt/QtWidgets/qtabbar.h \
- /usr/include/qt/QtWidgets/qrubberband.h /usr/include/qt/QtWidgets/QLabel \
+ /usr/include/qt/QtWidgets/qheaderview.h /usr/include/qt/QtWidgets/QLabel \
  /usr/include/qt/QtWidgets/qlabel.h /usr/include/qt/QtWidgets/QListView \
- /usr/include/qt/QtWidgets/qlistview.h \
  /usr/include/qt/QtWidgets/QMainWindow /usr/include/qt/QtWidgets/QMenu \
  /usr/include/qt/QtWidgets/qmenu.h /usr/include/qt/QtWidgets/QMenuBar \
  /usr/include/qt/QtWidgets/qmenubar.h /usr/include/qt/QtWidgets/qmenu.h \
@@ -305,8 +321,6 @@ CMakeFiles/calendar.dir/mainwindow.cpp.o: \
  /usr/include/qt/QtWidgets/qplaintextedit.h \
  /usr/include/qt/QtWidgets/qtextedit.h \
  /usr/include/qt/QtGui/qtextdocument.h /usr/include/qt/QtCore/qurl.h \
- /usr/include/qt/QtGui/qtextoption.h /usr/include/qt/QtGui/qtextcursor.h \
- /usr/include/qt/QtGui/qtextformat.h /usr/include/qt/QtGui/qpen.h \
  /usr/include/qt/QtGui/qabstracttextdocumentlayout.h \
  /usr/include/qt/QtGui/qtextlayout.h /usr/include/qt/QtGui/qevent.h \
  /usr/include/qt/QtCore/qfile.h /usr/include/qt/QtCore/qfiledevice.h \
@@ -319,7 +333,6 @@ CMakeFiles/calendar.dir/mainwindow.cpp.o: \
  /usr/include/qt/QtWidgets/QStatusBar \
  /usr/include/qt/QtWidgets/qstatusbar.h \
  /usr/include/qt/QtWidgets/QTableView \
- /usr/include/qt/QtWidgets/qtableview.h \
  /usr/include/qt/QtWidgets/QVBoxLayout /usr/include/qt/QtWidgets/QWidget \
  /usr/include/qt/QtWidgets/qwidget.h /usr/include/c++/10.2.0/iostream \
  /usr/include/c++/10.2.0/ostream /usr/include/c++/10.2.0/ios \

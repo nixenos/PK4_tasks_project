@@ -16,4 +16,7 @@ void day::setDate(const date &newDate) { this->dayDate = newDate; }
 
 date day::getDate() const noexcept { return this->dayDate; }
 
+void day::addEvent(event *newEvent) { this->events.push_back(newEvent); }
+
+std::vector<event *> day::getEvents() const noexcept { return this->events; }
 } // namespace calendar

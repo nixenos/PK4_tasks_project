@@ -19,7 +19,7 @@ namespace calendar {
 class day {
   private:
     date dayDate;
-    std::vector<event> events;
+    std::vector<event *> events;
 
   public:
     /**
@@ -53,7 +53,7 @@ class day {
      *
      * @param newEvent nowe wydarzenie
      */
-    void addEvent(const event &newEvent);
+    void addEvent(event *newEvent);
 
     /**
      * @brief usuwa podane wydarzenie z listy
@@ -67,6 +67,6 @@ class day {
      *
      * @return std::vector<date> wydarzenia
      */
-    std::vector<date> getEvents() const noexcept;
+    std::vector<event *> getEvents() const noexcept;
 };
 } // namespace calendar

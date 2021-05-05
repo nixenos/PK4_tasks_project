@@ -85,5 +85,13 @@ class event {
      * @param newEvDesription nowy opis wydarzenia
      */
     void setEvDescription(const std::string &newEvDesription);
+
+    /**
+     * @brief pobiera odpowiednie dane dla każdego z elementów i przetwarza je w
+     * std::string wyświetlany w GUI aplikacji
+     *
+     * @return opis wydarzenia
+     */
+    virtual std::string stringifyEvent() const noexcept;
 };
 } // namespace calendar

@@ -20,7 +20,7 @@
       <x>20</x>
       <y>30</y>
       <width>851</width>
-      <height>581</height>
+      <height>631</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout_2">
@@ -71,39 +71,27 @@
       </layout>
      </item>
      <item>
-      <widget class="QTableView" name="monthTableView"/>
+      <widget class="QTableView" name="monthTableView">
+       <property name="editTriggers">
+        <set>QAbstractItemView::NoEditTriggers</set>
+       </property>
+       <property name="alternatingRowColors">
+        <bool>true</bool>
+       </property>
+       <property name="selectionMode">
+        <enum>QAbstractItemView::SingleSelection</enum>
+       </property>
+      </widget>
      </item>
      <item>
-      <layout class="QHBoxLayout" name="horizontalLayout">
-       <item>
-        <widget class="QLabel" name="changeDateLabel">
-         <property name="font">
-          <font>
-           <pointsize>12</pointsize>
-          </font>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::NoFrame</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Raised</enum>
-         </property>
-         <property name="text">
-          <string>Skocz do dnia:</string>
-         </property>
-         <property name="scaledContents">
-          <bool>false</bool>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QDateEdit" name="changeDateItem">
-         <property name="calendarPopup">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-      </layout>
+      <widget class="QListView" name="eventsListView">
+       <property name="cursor" stdset="0">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout"/>
      </item>
     </layout>
    </widget>
@@ -160,7 +148,7 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>630</y>
+      <y>670</y>
       <width>101</width>
       <height>33</height>
      </rect>
@@ -173,7 +161,7 @@
     <property name="geometry">
      <rect>
       <x>770</x>
-      <y>630</y>
+      <y>670</y>
       <width>101</width>
       <height>33</height>
      </rect>

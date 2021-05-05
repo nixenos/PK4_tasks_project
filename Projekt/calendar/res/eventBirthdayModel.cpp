@@ -33,6 +33,8 @@ void calendar::eventBirthday::setEvRepeat(
     if (newEvRepeat == Annually) {
         event::setEvRepeat(newEvRepeat);
     } else {
-        event::setEvRepeat(None);
+        event::setEvRepeat(Annually);
     }
 }
+
+std::string calendar::eventBirthday::stringifyEvent() const noexcept {}

@@ -116,7 +116,8 @@ CMakeFiles/calendar.dir/calendar_autogen/mocs_compilation.cpp.o: \
  /usr/include/bits/types/__fpos_t.h /usr/include/bits/types/__fpos64_t.h \
  /usr/include/bits/types/struct_FILE.h \
  /usr/include/bits/types/cookie_io_functions_t.h \
- /usr/include/bits/stdio_lim.h /usr/include/c++/10.2.0/string \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/stdio.h \
+ /usr/include/c++/10.2.0/string \
  /usr/include/c++/10.2.0/bits/char_traits.h \
  /usr/include/c++/10.2.0/bits/localefwd.h \
  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/c++locale.h \
@@ -132,18 +133,21 @@ CMakeFiles/calendar.dir/calendar_autogen/mocs_compilation.cpp.o: \
  /usr/include/bits/byteswap.h /usr/include/bits/uintn-identity.h \
  /usr/include/sys/select.h /usr/include/bits/select.h \
  /usr/include/bits/types/sigset_t.h /usr/include/alloca.h \
- /usr/include/bits/stdlib-float.h /usr/include/c++/10.2.0/bits/std_abs.h \
- /usr/include/c++/10.2.0/cstdio /usr/include/c++/10.2.0/cerrno \
- /usr/include/errno.h /usr/include/bits/errno.h \
- /usr/include/linux/errno.h /usr/include/asm/errno.h \
- /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
- /usr/include/bits/types/error_t.h \
+ /usr/include/bits/stdlib-bsearch.h /usr/include/bits/stdlib-float.h \
+ /usr/include/c++/10.2.0/bits/std_abs.h /usr/include/c++/10.2.0/cstdio \
+ /usr/include/c++/10.2.0/cerrno /usr/include/errno.h \
+ /usr/include/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h /usr/include/bits/types/error_t.h \
  /usr/include/c++/10.2.0/bits/charconv.h \
  /usr/include/c++/10.2.0/bits/basic_string.tcc \
  /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/calendar_autogen/EWIEGA46WW/../../includes/eventHolidayModel.h \
  /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/calendar_autogen/EWIEGA46WW/../../includes/eventReminderModel.h \
- /usr/include/event.h /usr/include/event2/event-config.h \
- /usr/include/sys/time.h /usr/include/evutil.h /usr/include/event2/util.h \
+ /usr/include/c++/10.2.0/vector /usr/include/c++/10.2.0/bits/stl_vector.h \
+ /usr/include/c++/10.2.0/bits/stl_bvector.h \
+ /usr/include/c++/10.2.0/bits/vector.tcc /usr/include/event.h \
+ /usr/include/event2/event-config.h /usr/include/sys/time.h \
+ /usr/include/evutil.h /usr/include/event2/util.h \
  /usr/include/event2/visibility.h /usr/include/netdb.h \
  /usr/include/netinet/in.h /usr/include/sys/socket.h \
  /usr/include/bits/types/struct_iovec.h /usr/include/bits/socket.h \
@@ -164,11 +168,7 @@ CMakeFiles/calendar.dir/calendar_autogen/mocs_compilation.cpp.o: \
  /usr/include/event2/buffer_compat.h /usr/include/event2/bufferevent.h \
  /usr/include/event2/bufferevent_struct.h \
  /usr/include/event2/bufferevent_compat.h /usr/include/event2/tag.h \
- /usr/include/event2/tag_compat.h /usr/include/c++/10.2.0/vector \
- /usr/include/c++/10.2.0/bits/stl_vector.h \
- /usr/include/c++/10.2.0/bits/stl_bvector.h \
- /usr/include/c++/10.2.0/bits/vector.tcc \
- /usr/include/qt/QtWidgets/QMainWindow \
+ /usr/include/event2/tag_compat.h /usr/include/qt/QtWidgets/QMainWindow \
  /usr/include/qt/QtWidgets/qmainwindow.h \
  /usr/include/qt/QtWidgets/qtwidgetsglobal.h \
  /usr/include/qt/QtGui/qtguiglobal.h /usr/include/qt/QtCore/qglobal.h \
@@ -260,4 +260,42 @@ CMakeFiles/calendar.dir/calendar_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt/QtGui/qstandarditemmodel.h \
  /usr/include/qt/QtCore/qabstractitemmodel.h \
  /usr/include/qt/QtCore/qvariant.h /usr/include/qt/QtCore/qmap.h \
- /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/calendar_autogen/EWIEGA46WW/../../includes/todoElement.h
+ /usr/include/qt/QtWidgets/QTableView \
+ /usr/include/qt/QtWidgets/qtableview.h \
+ /usr/include/qt/QtWidgets/qabstractitemview.h \
+ /usr/include/qt/QtWidgets/qabstractscrollarea.h \
+ /usr/include/qt/QtWidgets/qframe.h \
+ /usr/include/qt/QtCore/qitemselectionmodel.h \
+ /usr/include/qt/QtCore/qset.h \
+ /usr/include/qt/QtWidgets/qabstractitemdelegate.h \
+ /usr/include/qt/QtWidgets/qstyleoption.h \
+ /usr/include/qt/QtCore/qlocale.h \
+ /usr/include/qt/QtWidgets/qabstractspinbox.h \
+ /usr/include/qt/QtGui/qvalidator.h \
+ /usr/include/qt/QtCore/qregularexpression.h \
+ /usr/include/qt/QtWidgets/qslider.h \
+ /usr/include/qt/QtWidgets/qabstractslider.h \
+ /usr/include/qt/QtWidgets/qstyle.h /usr/include/qt/QtWidgets/qtabbar.h \
+ /usr/include/qt/QtWidgets/qrubberband.h \
+ /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/calendar_autogen/EWIEGA46WW/../../includes/inputDialog.h \
+ /usr/include/qt/QtWidgets/QDialog /usr/include/qt/QtWidgets/qdialog.h \
+ /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/calendar_autogen/EWIEGA46WW/../../includes/todoElement.h \
+ /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/calendar_autogen/EWIEGA46WW/../../includes/todoView.h \
+ /usr/include/qt/QtWidgets/QListView \
+ /usr/include/qt/QtWidgets/qlistview.h \
+ /usr/include/qt/QtGui/QStandardItem \
+ /usr/include/qt/QtWidgets/QDialogButtonBox \
+ /usr/include/qt/QtWidgets/qdialogbuttonbox.h \
+ /usr/include/qt/QtWidgets/QFormLayout \
+ /usr/include/qt/QtWidgets/qformlayout.h \
+ /usr/include/qt/QtWidgets/QLayout /usr/include/qt/QtWidgets/qlayout.h \
+ /usr/include/qt/QtWidgets/qlayoutitem.h \
+ /usr/include/qt/QtWidgets/qboxlayout.h \
+ /usr/include/qt/QtWidgets/qlayout.h \
+ /usr/include/qt/QtWidgets/qgridlayout.h \
+ /usr/include/qt/QtWidgets/QInputDialog \
+ /usr/include/qt/QtWidgets/qinputdialog.h \
+ /usr/include/qt/QtWidgets/qlineedit.h \
+ /usr/include/qt/QtGui/qtextcursor.h /usr/include/qt/QtGui/qtextformat.h \
+ /usr/include/qt/QtGui/qpen.h /usr/include/qt/QtGui/qtextoption.h \
+ /usr/include/qt/QtWidgets/qdialog.h

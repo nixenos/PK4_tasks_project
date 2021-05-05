@@ -19,11 +19,14 @@ calendar::date::calculateWeekDay(const unsigned short &qDay,
                                  const calendar::monthModel &qMonth,
                                  const unsigned long &qYear) const {
     int calcWeekDay = 0;
-    unsigned int D = qYear % 10000 + qYear % 1000;
-    unsigned int C = qYear % 100 + qYear % 10;
-    calcWeekDay =
-        qDay + ((13 * (qMonth + 2) % 12) / 5) + D + (D / 4) + (C / 4) - (2 * C);
-    calcWeekDay = (calcWeekDay + 1) % 7;
+    int Y, C, M, N, D;
+    M = 1 + (9 + qMonth + 1) % 12;
+    Y = qYear - (M > 10);
+    C = Y / 100;
+    D = Y % 100;
+    N = ((13 * M - 1) / 5 + D + D / 4 + C / 4 + 5 * C + qDay) % 7;
+    N = (6 + N) % 7;
+    calcWeekDay = N;
     calendar::weekDayModel result =
         static_cast<calendar::weekDayModel>(calcWeekDay);
     return result;
@@ -54,7 +57,7 @@ void calendar::date::setCurrentDate() {
 }
 
 void calendar::date::setDay(const unsigned short &newDay) {
-    if (newDay > 0 && newDay <= 31) {
+    /*if (newDay > 0 && newDay <= 31) {
         if (this->month < 7 && !this->month % 2) {
             this->day = newDay;
         } else if (this->month > 6 && this->month % 2) {
@@ -76,6 +79,34 @@ void calendar::date::setDay(const unsigned short &newDay) {
         }
     } else {
         this->day = 0;
+    } */
+    if ((this->month < 7 && this->month % 2 == 0) ||
+        (this->month >= 7 && this->month % 2 == 1)) {
+        if (newDay <= 31 && newDay > 0) {
+            this->day = newDay;
+        } else {
+            this->day = 0;
+        }
+    } else if (this->month == 1) {
+        if (this->year % 4 == 0) {
+            if (newDay > 0 && newDay <= 29) {
+                this->day = newDay;
+            } else {
+                this->day = 0;
+            }
+        } else {
+            if (newDay > 0 && newDay < 29) {
+                this->day = newDay;
+            } else {
+                this->day = 0;
+            }
+        }
+    } else {
+        if (newDay > 0 && newDay < 31) {
+            this->day = newDay;
+        } else {
+            this->day = 0;
+        }
     }
     this->weekDay = this->calculateWeekDay(this->day, this->month, this->year);
 }
@@ -114,6 +145,7 @@ void calendar::date::incrementMonth() {
         this->year++;
     }
     temp = (temp + 1) % 12;
+    std::cout << temp << std::endl;
     monthModel newMonth = static_cast<calendar::monthModel>(temp);
     this->setMonth(newMonth);
 }

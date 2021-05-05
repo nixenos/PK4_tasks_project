@@ -7,9 +7,9 @@
 	"CMAKE_LIST_FILES" : 
 	[
 		"/home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/CMakeLists.txt",
-		"/home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/CMakeFiles/3.20.1/CMakeSystem.cmake",
+		"/home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/CMakeFiles/3.20.2/CMakeSystem.cmake",
 		"/usr/share/cmake-3.20/Modules/CMakeSystemSpecificInitialize.cmake",
-		"/home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/CMakeFiles/3.20.1/CMakeCXXCompiler.cmake",
+		"/home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake",
 		"/usr/share/cmake-3.20/Modules/CMakeSystemSpecificInformation.cmake",
 		"/usr/share/cmake-3.20/Modules/CMakeGenericSystem.cmake",
 		"/usr/share/cmake-3.20/Modules/CMakeInitializeConfigs.cmake",
@@ -185,7 +185,17 @@
 			null
 		],
 		[
+			"/home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/res/eventReminderModel.cpp",
+			"MU",
+			null
+		],
+		[
 			"/home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/res/todoElement.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/res/todoView.cpp",
 			"MU",
 			null
 		]

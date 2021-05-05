@@ -3,7 +3,14 @@
 
 #include "includes/calendarView.h"
 #include "includes/date.h"
+#include "includes/eventModel.h"
+#include "includes/inputDialog.h"
 #include "includes/todoElement.h"
+#include "includes/todoView.h"
+#include <QDialog>
+#include <QDialogButtonBox>
+#include <QFormLayout>
+#include <QInputDialog>
 #include <QMainWindow>
 #include <QStandardItemModel>
 #include <vector>
@@ -34,6 +41,16 @@ class MainWindow : public QMainWindow {
 
     void on_prevMonth_clicked();
 
+    void showContextMenu(const QPoint &pos);
+
+    void deleteTodoItem();
+
+    void showContextMenuDayElement(const QPoint &pos);
+
+    void getEventsForDay(const QModelIndex &index);
+
+    void createNewReminderEvent();
+
   private:
     Ui::MainWindow *ui;
 
@@ -48,5 +65,11 @@ class MainWindow : public QMainWindow {
     calendar::date datePlaceholder;
 
     QStringList labelsList;
+
+    calendar::todoView newTodoView;
+
+    QStandardItemModel *monthlyEventsInterface;
+
+    std::vector<std::vector<std::vector<calendar::day>>> dayList;
 };
 #endif // MAINWINDOW_H

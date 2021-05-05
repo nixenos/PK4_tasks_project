@@ -68,7 +68,7 @@ include CMakeFiles/calendar_autogen.dir/progress.make
 
 CMakeFiles/calendar_autogen:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target calendar"
-	/usr/bin/cmake -E cmake_autogen /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/CMakeFiles/calendar_autogen.dir/AutogenInfo.json ""
+	/usr/bin/cmake -E cmake_autogen /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/CMakeFiles/calendar_autogen.dir/AutogenInfo.json RelWithDebInfo
 
 calendar_autogen: CMakeFiles/calendar_autogen
 calendar_autogen: CMakeFiles/calendar_autogen.dir/build.make

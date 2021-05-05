@@ -1,20 +1,19 @@
-CMakeFiles/calendar.dir/main.cpp.o: \
- /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/main.cpp \
+CMakeFiles/calendar.dir/res/todoView.cpp.o: \
+ /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/res/todoView.cpp \
  /usr/include/stdc-predef.h \
- /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/mainwindow.h \
- /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/includes/calendarView.h \
- /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/includes/dayModel.h \
- /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/includes/eventBirthdayModel.h \
- /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/includes/eventModel.h \
- /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/includes/date.h \
- /usr/include/c++/10.2.0/map /usr/include/c++/10.2.0/bits/stl_tree.h \
- /usr/include/c++/10.2.0/bits/stl_algobase.h \
+ /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/res/../includes/todoView.h \
+ /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/res/../includes/todoElement.h \
+ /usr/include/c++/10.2.0/string \
  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/os_defines.h \
  /usr/include/features.h /usr/include/sys/cdefs.h \
  /usr/include/bits/wordsize.h /usr/include/bits/long-double.h \
  /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+ /usr/include/c++/10.2.0/bits/stringfwd.h \
+ /usr/include/c++/10.2.0/bits/memoryfwd.h \
+ /usr/include/c++/10.2.0/bits/char_traits.h \
+ /usr/include/c++/10.2.0/bits/stl_algobase.h \
  /usr/include/c++/10.2.0/bits/functexcept.h \
  /usr/include/c++/10.2.0/bits/exception_defines.h \
  /usr/include/c++/10.2.0/bits/cpp_type_traits.h \
@@ -30,6 +29,21 @@ CMakeFiles/calendar.dir/main.cpp.o: \
  /usr/include/c++/10.2.0/bits/ptr_traits.h \
  /usr/include/c++/10.2.0/debug/debug.h \
  /usr/include/c++/10.2.0/bits/predefined_ops.h \
+ /usr/include/c++/10.2.0/bits/postypes.h /usr/include/c++/10.2.0/cwchar \
+ /usr/include/wchar.h /usr/include/bits/libc-header-start.h \
+ /usr/include/bits/floatn.h /usr/include/bits/floatn-common.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include/stddef.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include/stdarg.h \
+ /usr/include/bits/wchar.h /usr/include/bits/types/wint_t.h \
+ /usr/include/bits/types/mbstate_t.h \
+ /usr/include/bits/types/__mbstate_t.h /usr/include/bits/types/__FILE.h \
+ /usr/include/bits/types/FILE.h /usr/include/bits/types/locale_t.h \
+ /usr/include/bits/types/__locale_t.h /usr/include/c++/10.2.0/cstdint \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/types.h \
+ /usr/include/bits/timesize.h /usr/include/bits/typesizes.h \
+ /usr/include/bits/time64.h /usr/include/bits/stdint-intn.h \
+ /usr/include/bits/stdint-uintn.h \
  /usr/include/c++/10.2.0/bits/allocator.h \
  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/c++allocator.h \
  /usr/include/c++/10.2.0/ext/new_allocator.h /usr/include/c++/10.2.0/new \
@@ -37,50 +51,9 @@ CMakeFiles/calendar.dir/main.cpp.o: \
  /usr/include/c++/10.2.0/bits/exception.h \
  /usr/include/c++/10.2.0/bits/exception_ptr.h \
  /usr/include/c++/10.2.0/bits/cxxabi_init_exception.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include/stddef.h \
  /usr/include/c++/10.2.0/typeinfo \
  /usr/include/c++/10.2.0/bits/hash_bytes.h \
  /usr/include/c++/10.2.0/bits/nested_exception.h \
- /usr/include/c++/10.2.0/bits/memoryfwd.h \
- /usr/include/c++/10.2.0/bits/stl_function.h \
- /usr/include/c++/10.2.0/backward/binders.h \
- /usr/include/c++/10.2.0/ext/alloc_traits.h \
- /usr/include/c++/10.2.0/bits/alloc_traits.h \
- /usr/include/c++/10.2.0/bits/stl_construct.h \
- /usr/include/c++/10.2.0/ext/aligned_buffer.h \
- /usr/include/c++/10.2.0/bits/stl_map.h \
- /usr/include/c++/10.2.0/initializer_list /usr/include/c++/10.2.0/tuple \
- /usr/include/c++/10.2.0/utility \
- /usr/include/c++/10.2.0/bits/stl_relops.h /usr/include/c++/10.2.0/array \
- /usr/include/c++/10.2.0/bits/range_access.h \
- /usr/include/c++/10.2.0/bits/iterator_concepts.h \
- /usr/include/c++/10.2.0/concepts \
- /usr/include/c++/10.2.0/bits/range_cmp.h \
- /usr/include/c++/10.2.0/bits/int_limits.h \
- /usr/include/c++/10.2.0/bits/uses_allocator.h \
- /usr/include/c++/10.2.0/bits/invoke.h \
- /usr/include/c++/10.2.0/bits/stl_multimap.h \
- /usr/include/c++/10.2.0/bits/erase_if.h /usr/include/stdio.h \
- /usr/include/bits/libc-header-start.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include/stdarg.h \
- /usr/include/bits/types.h /usr/include/bits/timesize.h \
- /usr/include/bits/typesizes.h /usr/include/bits/time64.h \
- /usr/include/bits/types/__fpos_t.h /usr/include/bits/types/__mbstate_t.h \
- /usr/include/bits/types/__fpos64_t.h /usr/include/bits/types/__FILE.h \
- /usr/include/bits/types/FILE.h /usr/include/bits/types/struct_FILE.h \
- /usr/include/bits/types/cookie_io_functions_t.h \
- /usr/include/bits/stdio_lim.h /usr/include/bits/floatn.h \
- /usr/include/bits/floatn-common.h /usr/include/bits/stdio.h \
- /usr/include/c++/10.2.0/string /usr/include/c++/10.2.0/bits/stringfwd.h \
- /usr/include/c++/10.2.0/bits/char_traits.h \
- /usr/include/c++/10.2.0/bits/postypes.h /usr/include/c++/10.2.0/cwchar \
- /usr/include/wchar.h /usr/include/bits/wchar.h \
- /usr/include/bits/types/wint_t.h /usr/include/bits/types/mbstate_t.h \
- /usr/include/bits/types/locale_t.h /usr/include/bits/types/__locale_t.h \
- /usr/include/c++/10.2.0/cstdint \
- /usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include/stdint.h \
- /usr/include/stdint.h /usr/include/bits/stdint-intn.h \
- /usr/include/bits/stdint-uintn.h \
  /usr/include/c++/10.2.0/bits/localefwd.h \
  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/c++locale.h \
  /usr/include/c++/10.2.0/clocale /usr/include/locale.h \
@@ -89,6 +62,14 @@ CMakeFiles/calendar.dir/main.cpp.o: \
  /usr/include/bits/endian.h /usr/include/bits/endianness.h \
  /usr/include/c++/10.2.0/bits/ostream_insert.h \
  /usr/include/c++/10.2.0/bits/cxxabi_forced.h \
+ /usr/include/c++/10.2.0/bits/stl_function.h \
+ /usr/include/c++/10.2.0/backward/binders.h \
+ /usr/include/c++/10.2.0/bits/range_access.h \
+ /usr/include/c++/10.2.0/initializer_list \
+ /usr/include/c++/10.2.0/bits/iterator_concepts.h \
+ /usr/include/c++/10.2.0/concepts \
+ /usr/include/c++/10.2.0/bits/range_cmp.h \
+ /usr/include/c++/10.2.0/bits/int_limits.h \
  /usr/include/c++/10.2.0/bits/basic_string.h \
  /usr/include/c++/10.2.0/ext/atomicity.h \
  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/gthr.h \
@@ -108,6 +89,9 @@ CMakeFiles/calendar.dir/main.cpp.o: \
  /usr/include/bits/types/__sigset_t.h \
  /usr/include/bits/types/struct___jmp_buf_tag.h \
  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/atomic_word.h \
+ /usr/include/c++/10.2.0/ext/alloc_traits.h \
+ /usr/include/c++/10.2.0/bits/alloc_traits.h \
+ /usr/include/c++/10.2.0/bits/stl_construct.h \
  /usr/include/c++/10.2.0/ext/string_conversions.h \
  /usr/include/c++/10.2.0/cstdlib /usr/include/stdlib.h \
  /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
@@ -117,6 +101,11 @@ CMakeFiles/calendar.dir/main.cpp.o: \
  /usr/include/bits/types/sigset_t.h /usr/include/alloca.h \
  /usr/include/bits/stdlib-bsearch.h /usr/include/bits/stdlib-float.h \
  /usr/include/c++/10.2.0/bits/std_abs.h /usr/include/c++/10.2.0/cstdio \
+ /usr/include/stdio.h /usr/include/bits/types/__fpos_t.h \
+ /usr/include/bits/types/__fpos64_t.h \
+ /usr/include/bits/types/struct_FILE.h \
+ /usr/include/bits/types/cookie_io_functions_t.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/stdio.h \
  /usr/include/c++/10.2.0/cerrno /usr/include/errno.h \
  /usr/include/bits/errno.h /usr/include/linux/errno.h \
  /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
@@ -124,40 +113,12 @@ CMakeFiles/calendar.dir/main.cpp.o: \
  /usr/include/c++/10.2.0/bits/charconv.h \
  /usr/include/c++/10.2.0/bits/functional_hash.h \
  /usr/include/c++/10.2.0/bits/basic_string.tcc \
- /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/includes/eventHolidayModel.h \
- /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/includes/eventReminderModel.h \
- /usr/include/c++/10.2.0/vector \
- /usr/include/c++/10.2.0/bits/stl_uninitialized.h \
- /usr/include/c++/10.2.0/bits/stl_vector.h \
- /usr/include/c++/10.2.0/bits/stl_bvector.h \
- /usr/include/c++/10.2.0/bits/vector.tcc /usr/include/event.h \
- /usr/include/event2/event-config.h /usr/include/sys/time.h \
- /usr/include/evutil.h /usr/include/event2/util.h \
- /usr/include/event2/visibility.h /usr/include/netdb.h \
- /usr/include/netinet/in.h /usr/include/sys/socket.h \
- /usr/include/bits/types/struct_iovec.h /usr/include/bits/socket.h \
- /usr/include/bits/socket_type.h /usr/include/bits/sockaddr.h \
- /usr/include/asm/socket.h /usr/include/asm-generic/socket.h \
- /usr/include/linux/posix_types.h /usr/include/linux/stddef.h \
- /usr/include/asm/posix_types.h /usr/include/asm/posix_types_64.h \
- /usr/include/asm-generic/posix_types.h /usr/include/asm/bitsperlong.h \
- /usr/include/asm-generic/bitsperlong.h /usr/include/asm/sockios.h \
- /usr/include/asm-generic/sockios.h \
- /usr/include/bits/types/struct_osockaddr.h /usr/include/bits/in.h \
- /usr/include/rpc/netdb.h /usr/include/bits/types/sigevent_t.h \
- /usr/include/bits/types/__sigval_t.h /usr/include/bits/netdb.h \
- /usr/include/event2/event_struct.h /usr/include/event2/keyvalq_struct.h \
- /usr/include/event2/event.h /usr/include/event2/event_compat.h \
- /usr/include/event2/buffer.h /usr/include/sys/uio.h \
- /usr/include/bits/uio_lim.h /usr/include/bits/uio-ext.h \
- /usr/include/event2/buffer_compat.h /usr/include/event2/bufferevent.h \
- /usr/include/event2/bufferevent_struct.h \
- /usr/include/event2/bufferevent_compat.h /usr/include/event2/tag.h \
- /usr/include/event2/tag_compat.h /usr/include/qt/QtWidgets/QMainWindow \
- /usr/include/qt/QtWidgets/qmainwindow.h \
+ /usr/include/qt/QtWidgets/QListView \
+ /usr/include/qt/QtWidgets/qlistview.h \
  /usr/include/qt/QtWidgets/qtwidgetsglobal.h \
  /usr/include/qt/QtGui/qtguiglobal.h /usr/include/qt/QtCore/qglobal.h \
- /usr/include/c++/10.2.0/cstddef /usr/include/assert.h \
+ /usr/include/c++/10.2.0/cstddef /usr/include/c++/10.2.0/utility \
+ /usr/include/c++/10.2.0/bits/stl_relops.h /usr/include/assert.h \
  /usr/include/qt/QtCore/qconfig.h /usr/include/qt/QtCore/qtcore-config.h \
  /usr/include/qt/QtCore/qsystemdetection.h \
  /usr/include/qt/QtCore/qprocessordetection.h \
@@ -180,8 +141,11 @@ CMakeFiles/calendar.dir/main.cpp.o: \
  /usr/include/qt/QtCore/qversiontagging.h \
  /usr/include/qt/QtGui/qtgui-config.h \
  /usr/include/qt/QtWidgets/qtwidgets-config.h \
- /usr/include/qt/QtWidgets/qwidget.h /usr/include/qt/QtGui/qwindowdefs.h \
- /usr/include/qt/QtCore/qobjectdefs.h /usr/include/qt/QtCore/qnamespace.h \
+ /usr/include/qt/QtWidgets/qabstractitemview.h \
+ /usr/include/qt/QtWidgets/qabstractscrollarea.h \
+ /usr/include/qt/QtWidgets/qframe.h /usr/include/qt/QtWidgets/qwidget.h \
+ /usr/include/qt/QtGui/qwindowdefs.h /usr/include/qt/QtCore/qobjectdefs.h \
+ /usr/include/qt/QtCore/qnamespace.h \
  /usr/include/qt/QtCore/qobjectdefs_impl.h \
  /usr/include/qt/QtCore/qobject.h /usr/include/qt/QtCore/qstring.h \
  /usr/include/qt/QtCore/qchar.h /usr/include/qt/QtCore/qbytearray.h \
@@ -205,26 +169,39 @@ CMakeFiles/calendar.dir/main.cpp.o: \
  /usr/include/qt/QtCore/qhashfunctions.h /usr/include/qt/QtCore/qpair.h \
  /usr/include/c++/10.2.0/numeric \
  /usr/include/c++/10.2.0/bits/stl_numeric.h \
- /usr/include/c++/10.2.0/functional \
+ /usr/include/c++/10.2.0/functional /usr/include/c++/10.2.0/tuple \
+ /usr/include/c++/10.2.0/array \
+ /usr/include/c++/10.2.0/bits/uses_allocator.h \
+ /usr/include/c++/10.2.0/bits/invoke.h \
  /usr/include/c++/10.2.0/bits/refwrap.h \
  /usr/include/c++/10.2.0/bits/std_function.h \
  /usr/include/qt/QtCore/qvector.h \
  /usr/include/qt/QtCore/qcontainertools_impl.h \
- /usr/include/c++/10.2.0/list /usr/include/c++/10.2.0/bits/stl_list.h \
+ /usr/include/c++/10.2.0/vector \
+ /usr/include/c++/10.2.0/bits/stl_uninitialized.h \
+ /usr/include/c++/10.2.0/bits/stl_vector.h \
+ /usr/include/c++/10.2.0/bits/stl_bvector.h \
+ /usr/include/c++/10.2.0/bits/vector.tcc /usr/include/c++/10.2.0/list \
+ /usr/include/c++/10.2.0/bits/stl_list.h \
  /usr/include/c++/10.2.0/bits/allocated_ptr.h \
+ /usr/include/c++/10.2.0/ext/aligned_buffer.h \
  /usr/include/c++/10.2.0/bits/list.tcc \
  /usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed/limits.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed/syslimits.h \
  /usr/include/limits.h /usr/include/bits/posix1_lim.h \
  /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
  /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
- /usr/include/qt/QtCore/qbytearraylist.h \
+ /usr/include/bits/uio_lim.h /usr/include/qt/QtCore/qbytearraylist.h \
  /usr/include/qt/QtCore/qstringlist.h /usr/include/qt/QtCore/qregexp.h \
  /usr/include/qt/QtCore/qstringmatcher.h \
  /usr/include/qt/QtCore/qscopedpointer.h \
  /usr/include/qt/QtCore/qmetatype.h \
  /usr/include/qt/QtCore/qvarlengtharray.h \
- /usr/include/qt/QtCore/qcontainerfwd.h \
+ /usr/include/qt/QtCore/qcontainerfwd.h /usr/include/c++/10.2.0/map \
+ /usr/include/c++/10.2.0/bits/stl_tree.h \
+ /usr/include/c++/10.2.0/bits/stl_map.h \
+ /usr/include/c++/10.2.0/bits/stl_multimap.h \
+ /usr/include/c++/10.2.0/bits/erase_if.h \
  /usr/include/qt/QtCore/qobject_impl.h /usr/include/c++/10.2.0/chrono \
  /usr/include/c++/10.2.0/ratio /usr/include/c++/10.2.0/ctime \
  /usr/include/c++/10.2.0/bits/parse_numbers.h \
@@ -254,16 +231,8 @@ CMakeFiles/calendar.dir/main.cpp.o: \
  /usr/include/qt/QtGui/qfontinfo.h \
  /usr/include/qt/QtWidgets/qsizepolicy.h /usr/include/qt/QtGui/qcursor.h \
  /usr/include/qt/QtGui/qkeysequence.h \
- /usr/include/qt/QtWidgets/qtabwidget.h /usr/include/qt/QtGui/qicon.h \
- /usr/include/qt/QtGui/QStandardItemModel \
- /usr/include/qt/QtGui/qstandarditemmodel.h \
  /usr/include/qt/QtCore/qabstractitemmodel.h \
  /usr/include/qt/QtCore/qvariant.h /usr/include/qt/QtCore/qmap.h \
- /usr/include/qt/QtWidgets/QTableView \
- /usr/include/qt/QtWidgets/qtableview.h \
- /usr/include/qt/QtWidgets/qabstractitemview.h \
- /usr/include/qt/QtWidgets/qabstractscrollarea.h \
- /usr/include/qt/QtWidgets/qframe.h \
  /usr/include/qt/QtCore/qitemselectionmodel.h \
  /usr/include/qt/QtCore/qset.h \
  /usr/include/qt/QtWidgets/qabstractitemdelegate.h \
@@ -272,35 +241,24 @@ CMakeFiles/calendar.dir/main.cpp.o: \
  /usr/include/qt/QtWidgets/qabstractspinbox.h \
  /usr/include/qt/QtGui/qvalidator.h \
  /usr/include/qt/QtCore/qregularexpression.h \
- /usr/include/qt/QtWidgets/qslider.h \
+ /usr/include/qt/QtGui/qicon.h /usr/include/qt/QtWidgets/qslider.h \
  /usr/include/qt/QtWidgets/qabstractslider.h \
  /usr/include/qt/QtWidgets/qstyle.h /usr/include/qt/QtWidgets/qtabbar.h \
+ /usr/include/qt/QtWidgets/qtabwidget.h \
  /usr/include/qt/QtWidgets/qrubberband.h \
- /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/includes/inputDialog.h \
- /usr/include/qt/QtWidgets/QDialog /usr/include/qt/QtWidgets/qdialog.h \
- /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/includes/todoElement.h \
- /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/includes/todoView.h \
- /usr/include/qt/QtWidgets/QListView \
- /usr/include/qt/QtWidgets/qlistview.h \
  /usr/include/qt/QtGui/QStandardItem \
- /usr/include/qt/QtWidgets/QDialogButtonBox \
- /usr/include/qt/QtWidgets/qdialogbuttonbox.h \
- /usr/include/qt/QtWidgets/QFormLayout \
- /usr/include/qt/QtWidgets/qformlayout.h \
- /usr/include/qt/QtWidgets/QLayout /usr/include/qt/QtWidgets/qlayout.h \
- /usr/include/qt/QtWidgets/qlayoutitem.h \
- /usr/include/qt/QtWidgets/qboxlayout.h \
- /usr/include/qt/QtWidgets/qlayout.h \
- /usr/include/qt/QtWidgets/qgridlayout.h \
- /usr/include/qt/QtWidgets/QInputDialog \
- /usr/include/qt/QtWidgets/qinputdialog.h \
- /usr/include/qt/QtWidgets/qlineedit.h \
- /usr/include/qt/QtGui/qtextcursor.h /usr/include/qt/QtGui/qtextformat.h \
- /usr/include/qt/QtGui/qpen.h /usr/include/qt/QtGui/qtextoption.h \
- /usr/include/qt/QtWidgets/qdialog.h \
- /usr/include/qt/QtWidgets/QApplication \
- /usr/include/qt/QtWidgets/qapplication.h \
- /usr/include/qt/QtCore/qcoreapplication.h \
- /usr/include/qt/QtCore/qcoreevent.h /usr/include/qt/QtCore/qeventloop.h \
- /usr/include/qt/QtGui/qguiapplication.h \
- /usr/include/qt/QtGui/qinputmethod.h
+ /usr/include/qt/QtGui/qstandarditemmodel.h \
+ /usr/include/qt/QtGui/QStandardItemModel \
+ /usr/include/qt/QtCore/QModelIndex \
+ /usr/include/qt/QtCore/qabstractitemmodel.h \
+ /usr/include/c++/10.2.0/iostream /usr/include/c++/10.2.0/ostream \
+ /usr/include/c++/10.2.0/ios /usr/include/c++/10.2.0/bits/basic_ios.h \
+ /usr/include/c++/10.2.0/bits/locale_facets.h \
+ /usr/include/c++/10.2.0/cwctype /usr/include/wctype.h \
+ /usr/include/bits/wctype-wchar.h \
+ /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/ctype_base.h \
+ /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+ /usr/include/c++/10.2.0/bits/locale_facets.tcc \
+ /usr/include/c++/10.2.0/bits/basic_ios.tcc \
+ /usr/include/c++/10.2.0/bits/ostream.tcc /usr/include/c++/10.2.0/istream \
+ /usr/include/c++/10.2.0/bits/istream.tcc

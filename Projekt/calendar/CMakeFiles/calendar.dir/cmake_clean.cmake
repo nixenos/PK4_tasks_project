@@ -18,8 +18,12 @@ file(REMOVE_RECURSE
   "CMakeFiles/calendar.dir/res/eventBirthdayModel.cpp.o.d"
   "CMakeFiles/calendar.dir/res/eventModel.cpp.o"
   "CMakeFiles/calendar.dir/res/eventModel.cpp.o.d"
+  "CMakeFiles/calendar.dir/res/eventReminderModel.cpp.o"
+  "CMakeFiles/calendar.dir/res/eventReminderModel.cpp.o.d"
   "CMakeFiles/calendar.dir/res/todoElement.cpp.o"
   "CMakeFiles/calendar.dir/res/todoElement.cpp.o.d"
+  "CMakeFiles/calendar.dir/res/todoView.cpp.o"
+  "CMakeFiles/calendar.dir/res/todoView.cpp.o.d"
   "calendar"
   "calendar.pdb"
 )
