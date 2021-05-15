@@ -133,5 +133,19 @@ class date {
     void incrementMonth();
 
     void decrementMonth();
+
+    bool operator==(const date &right);
+
+    bool operator!=(const date &right);
+
+    std::string stringify();
+
+    bool operator>(const date &right);
+
+    bool operator<(const date &right);
+
+    bool operator>=(const date &right);
+
+    bool operator<=(const date &right);
 };
 } // namespace calendar

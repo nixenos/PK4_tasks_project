@@ -34,4 +34,14 @@ std::string eventReminder::getEvLocation() const noexcept {
     return this->evLocation;
 }
 
+std::string calendar::eventReminder::exportData() const noexcept {
+    std::string objName = typeid(this).name();
+    std::string result = objName + ":" + this->getEvName() + ":" +
+                         this->getEvDescription() + ":" +
+                         this->getEvDate().stringify() + ":" +
+                         std::to_string(this->getEvRepeat()) + ":" +
+                         this->getEvLocation() + ":" + this->getEvType() + "\n";
+    return result;
+}
+
 } // namespace calendar

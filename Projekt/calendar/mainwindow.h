@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include "includes/calendarView.h"
+#include "includes/dataInterface.h"
 #include "includes/date.h"
 #include "includes/eventModel.h"
 #include "includes/inputDialog.h"
@@ -43,13 +44,23 @@ class MainWindow : public QMainWindow {
 
     void showContextMenu(const QPoint &pos);
 
+    void showContextMenuEventElement(const QPoint &pos);
+
     void deleteTodoItem();
+
+    void deleteEventItem();
 
     void showContextMenuDayElement(const QPoint &pos);
 
     void getEventsForDay(const QModelIndex &index);
 
     void createNewReminderEvent();
+
+    void createNewBirthdayEvent();
+
+    void createNewHolidayEvent();
+
+    void on_changeCalendarViewWeekly_clicked();
 
   private:
     Ui::MainWindow *ui;
@@ -70,6 +81,10 @@ class MainWindow : public QMainWindow {
 
     QStandardItemModel *monthlyEventsInterface;
 
-    std::vector<std::vector<std::vector<calendar::day>>> dayList;
+    std::vector<calendar::event *> eventList;
+
+    calendar::dataInterface<calendar::event *> eventDataInterface;
+
+    calendar::dataInterface<calendar::todoElement> todoElementDataInterface;
 };
 #endif // MAINWINDOW_H

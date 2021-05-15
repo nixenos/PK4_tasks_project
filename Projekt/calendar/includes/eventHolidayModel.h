@@ -18,7 +18,8 @@ class eventHoliday : public event {
      * eventHoliday
      */
     eventHoliday(const date &newDate, const std::string &newName,
-                 const repeatCycle &newRepeat, const date &newEvBegin,
+                 const repeatCycle &newRepeat,
+                 const std::string &newEvDescription, const date &newEvBegin,
                  const date &newEvEnd);
 
     /**
@@ -54,5 +55,7 @@ class eventHoliday : public event {
      *
      */
     virtual std::string stringifyEvent() const noexcept;
+
+    virtual std::string exportData() const noexcept;
 };
 } // namespace calendar

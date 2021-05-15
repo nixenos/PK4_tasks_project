@@ -390,10 +390,33 @@ CMakeFiles/calendar.dir/calendar_autogen/mocs_compilation.cpp.o: calendar_autoge
   /usr/include/qt/QtWidgets/qstyle.h \
   /usr/include/qt/QtWidgets/qtabbar.h \
   /usr/include/qt/QtWidgets/qrubberband.h \
+  includes/dataInterface.h \
+  includes/todoElement.h \
+  /usr/include/c++/10.2.0/iostream \
+  /usr/include/c++/10.2.0/ostream \
+  /usr/include/c++/10.2.0/ios \
+  /usr/include/c++/10.2.0/bits/basic_ios.h \
+  /usr/include/c++/10.2.0/bits/locale_facets.h \
+  /usr/include/c++/10.2.0/cwctype \
+  /usr/include/wctype.h \
+  /usr/include/bits/wctype-wchar.h \
+  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/ctype_base.h \
+  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+  /usr/include/c++/10.2.0/bits/locale_facets.tcc \
+  /usr/include/c++/10.2.0/bits/basic_ios.tcc \
+  /usr/include/c++/10.2.0/bits/ostream.tcc \
+  /usr/include/c++/10.2.0/istream \
+  /usr/include/c++/10.2.0/bits/istream.tcc \
+  /usr/include/c++/10.2.0/fstream \
+  /usr/include/c++/10.2.0/bits/codecvt.h \
+  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/basic_file.h \
+  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/c++io.h \
+  /usr/include/c++/10.2.0/bits/fstream.tcc \
+  /usr/include/c++/10.2.0/sstream \
+  /usr/include/c++/10.2.0/bits/sstream.tcc \
   includes/inputDialog.h \
   /usr/include/qt/QtWidgets/QDialog \
   /usr/include/qt/QtWidgets/qdialog.h \
-  includes/todoElement.h \
   includes/todoView.h \
   /usr/include/qt/QtWidgets/QListView \
   /usr/include/qt/QtWidgets/qlistview.h \
@@ -805,10 +828,33 @@ CMakeFiles/calendar.dir/main.cpp.o: main.cpp \
   /usr/include/qt/QtWidgets/qstyle.h \
   /usr/include/qt/QtWidgets/qtabbar.h \
   /usr/include/qt/QtWidgets/qrubberband.h \
+  includes/dataInterface.h \
+  includes/todoElement.h \
+  /usr/include/c++/10.2.0/iostream \
+  /usr/include/c++/10.2.0/ostream \
+  /usr/include/c++/10.2.0/ios \
+  /usr/include/c++/10.2.0/bits/basic_ios.h \
+  /usr/include/c++/10.2.0/bits/locale_facets.h \
+  /usr/include/c++/10.2.0/cwctype \
+  /usr/include/wctype.h \
+  /usr/include/bits/wctype-wchar.h \
+  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/ctype_base.h \
+  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+  /usr/include/c++/10.2.0/bits/locale_facets.tcc \
+  /usr/include/c++/10.2.0/bits/basic_ios.tcc \
+  /usr/include/c++/10.2.0/bits/ostream.tcc \
+  /usr/include/c++/10.2.0/istream \
+  /usr/include/c++/10.2.0/bits/istream.tcc \
+  /usr/include/c++/10.2.0/fstream \
+  /usr/include/c++/10.2.0/bits/codecvt.h \
+  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/basic_file.h \
+  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/c++io.h \
+  /usr/include/c++/10.2.0/bits/fstream.tcc \
+  /usr/include/c++/10.2.0/sstream \
+  /usr/include/c++/10.2.0/bits/sstream.tcc \
   includes/inputDialog.h \
   /usr/include/qt/QtWidgets/QDialog \
   /usr/include/qt/QtWidgets/qdialog.h \
-  includes/todoElement.h \
   includes/todoView.h \
   /usr/include/qt/QtWidgets/QListView \
   /usr/include/qt/QtWidgets/qlistview.h \
@@ -1227,10 +1273,33 @@ CMakeFiles/calendar.dir/mainwindow.cpp.o: mainwindow.cpp \
   /usr/include/qt/QtWidgets/qstyle.h \
   /usr/include/qt/QtWidgets/qtabbar.h \
   /usr/include/qt/QtWidgets/qrubberband.h \
+  includes/dataInterface.h \
+  includes/todoElement.h \
+  /usr/include/c++/10.2.0/iostream \
+  /usr/include/c++/10.2.0/ostream \
+  /usr/include/c++/10.2.0/ios \
+  /usr/include/c++/10.2.0/bits/basic_ios.h \
+  /usr/include/c++/10.2.0/bits/locale_facets.h \
+  /usr/include/c++/10.2.0/cwctype \
+  /usr/include/wctype.h \
+  /usr/include/bits/wctype-wchar.h \
+  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/ctype_base.h \
+  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+  /usr/include/c++/10.2.0/bits/locale_facets.tcc \
+  /usr/include/c++/10.2.0/bits/basic_ios.tcc \
+  /usr/include/c++/10.2.0/bits/ostream.tcc \
+  /usr/include/c++/10.2.0/istream \
+  /usr/include/c++/10.2.0/bits/istream.tcc \
+  /usr/include/c++/10.2.0/fstream \
+  /usr/include/c++/10.2.0/bits/codecvt.h \
+  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/basic_file.h \
+  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/c++io.h \
+  /usr/include/c++/10.2.0/bits/fstream.tcc \
+  /usr/include/c++/10.2.0/sstream \
+  /usr/include/c++/10.2.0/bits/sstream.tcc \
   includes/inputDialog.h \
   /usr/include/qt/QtWidgets/QDialog \
   /usr/include/qt/QtWidgets/qdialog.h \
-  includes/todoElement.h \
   includes/todoView.h \
   /usr/include/qt/QtWidgets/QListView \
   /usr/include/qt/QtWidgets/qlistview.h \
@@ -1303,22 +1372,7 @@ CMakeFiles/calendar.dir/mainwindow.cpp.o: mainwindow.cpp \
   /usr/include/qt/QtWidgets/QTableView \
   /usr/include/qt/QtWidgets/QVBoxLayout \
   /usr/include/qt/QtWidgets/QWidget \
-  /usr/include/qt/QtWidgets/qwidget.h \
-  /usr/include/c++/10.2.0/iostream \
-  /usr/include/c++/10.2.0/ostream \
-  /usr/include/c++/10.2.0/ios \
-  /usr/include/c++/10.2.0/bits/basic_ios.h \
-  /usr/include/c++/10.2.0/bits/locale_facets.h \
-  /usr/include/c++/10.2.0/cwctype \
-  /usr/include/wctype.h \
-  /usr/include/bits/wctype-wchar.h \
-  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/ctype_base.h \
-  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/ctype_inline.h \
-  /usr/include/c++/10.2.0/bits/locale_facets.tcc \
-  /usr/include/c++/10.2.0/bits/basic_ios.tcc \
-  /usr/include/c++/10.2.0/bits/ostream.tcc \
-  /usr/include/c++/10.2.0/istream \
-  /usr/include/c++/10.2.0/bits/istream.tcc
+  /usr/include/qt/QtWidgets/qwidget.h
 
 CMakeFiles/calendar.dir/res/calendarView.cpp.o: res/calendarView.cpp \
   /usr/include/stdc-predef.h \
@@ -1753,6 +1807,261 @@ CMakeFiles/calendar.dir/res/calendarView.cpp.o: res/calendarView.cpp \
   /usr/include/c++/10.2.0/bits/regex_executor.h \
   /usr/include/c++/10.2.0/bits/regex_executor.tcc
 
+CMakeFiles/calendar.dir/res/dataInterface.cpp.o: res/dataInterface.cpp \
+  /usr/include/stdc-predef.h \
+  includes/dataInterface.h \
+  /usr/include/event.h \
+  /usr/include/event2/event-config.h \
+  /usr/include/sys/types.h \
+  /usr/include/features.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include/stddef.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/endian.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/endianness.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/sys/select.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/struct_mutex.h \
+  /usr/include/bits/struct_rwlock.h \
+  /usr/include/sys/time.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include/stdarg.h \
+  /usr/include/evutil.h \
+  /usr/include/event2/util.h \
+  /usr/include/event2/visibility.h \
+  /usr/include/netdb.h \
+  /usr/include/netinet/in.h \
+  /usr/include/sys/socket.h \
+  /usr/include/bits/types/struct_iovec.h \
+  /usr/include/bits/socket.h \
+  /usr/include/bits/socket_type.h \
+  /usr/include/bits/sockaddr.h \
+  /usr/include/asm/socket.h \
+  /usr/include/asm-generic/socket.h \
+  /usr/include/linux/posix_types.h \
+  /usr/include/linux/stddef.h \
+  /usr/include/asm/posix_types.h \
+  /usr/include/asm/posix_types_64.h \
+  /usr/include/asm-generic/posix_types.h \
+  /usr/include/asm/bitsperlong.h \
+  /usr/include/asm-generic/bitsperlong.h \
+  /usr/include/asm/sockios.h \
+  /usr/include/asm-generic/sockios.h \
+  /usr/include/bits/types/struct_osockaddr.h \
+  /usr/include/bits/in.h \
+  /usr/include/rpc/netdb.h \
+  /usr/include/bits/types/sigevent_t.h \
+  /usr/include/bits/types/__sigval_t.h \
+  /usr/include/bits/netdb.h \
+  /usr/include/errno.h \
+  /usr/include/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/bits/types/error_t.h \
+  /usr/include/time.h \
+  /usr/include/bits/time.h \
+  /usr/include/bits/timex.h \
+  /usr/include/bits/types/struct_tm.h \
+  /usr/include/bits/types/struct_itimerspec.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/event2/event_struct.h \
+  /usr/include/event2/keyvalq_struct.h \
+  /usr/include/event2/event.h \
+  /usr/include/stdio.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/bits/stdio.h \
+  /usr/include/event2/event_compat.h \
+  /usr/include/event2/buffer.h \
+  /usr/include/sys/uio.h \
+  /usr/include/bits/uio_lim.h \
+  /usr/include/bits/uio-ext.h \
+  /usr/include/event2/buffer_compat.h \
+  /usr/include/event2/bufferevent.h \
+  /usr/include/event2/bufferevent_struct.h \
+  /usr/include/event2/bufferevent_compat.h \
+  /usr/include/event2/tag.h \
+  /usr/include/event2/tag_compat.h \
+  includes/eventBirthdayModel.h \
+  includes/eventModel.h \
+  includes/date.h \
+  /usr/include/c++/10.2.0/map \
+  /usr/include/c++/10.2.0/bits/stl_tree.h \
+  /usr/include/c++/10.2.0/bits/stl_algobase.h \
+  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/10.2.0/bits/functexcept.h \
+  /usr/include/c++/10.2.0/bits/exception_defines.h \
+  /usr/include/c++/10.2.0/bits/cpp_type_traits.h \
+  /usr/include/c++/10.2.0/ext/type_traits.h \
+  /usr/include/c++/10.2.0/ext/numeric_traits.h \
+  /usr/include/c++/10.2.0/bits/stl_pair.h \
+  /usr/include/c++/10.2.0/bits/move.h \
+  /usr/include/c++/10.2.0/type_traits \
+  /usr/include/c++/10.2.0/bits/stl_iterator_base_types.h \
+  /usr/include/c++/10.2.0/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/10.2.0/bits/concept_check.h \
+  /usr/include/c++/10.2.0/debug/assertions.h \
+  /usr/include/c++/10.2.0/bits/stl_iterator.h \
+  /usr/include/c++/10.2.0/bits/ptr_traits.h \
+  /usr/include/c++/10.2.0/debug/debug.h \
+  /usr/include/c++/10.2.0/bits/predefined_ops.h \
+  /usr/include/c++/10.2.0/bits/allocator.h \
+  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/c++allocator.h \
+  /usr/include/c++/10.2.0/ext/new_allocator.h \
+  /usr/include/c++/10.2.0/new \
+  /usr/include/c++/10.2.0/exception \
+  /usr/include/c++/10.2.0/bits/exception.h \
+  /usr/include/c++/10.2.0/bits/exception_ptr.h \
+  /usr/include/c++/10.2.0/bits/cxxabi_init_exception.h \
+  /usr/include/c++/10.2.0/typeinfo \
+  /usr/include/c++/10.2.0/bits/hash_bytes.h \
+  /usr/include/c++/10.2.0/bits/nested_exception.h \
+  /usr/include/c++/10.2.0/bits/memoryfwd.h \
+  /usr/include/c++/10.2.0/bits/stl_function.h \
+  /usr/include/c++/10.2.0/backward/binders.h \
+  /usr/include/c++/10.2.0/ext/alloc_traits.h \
+  /usr/include/c++/10.2.0/bits/alloc_traits.h \
+  /usr/include/c++/10.2.0/bits/stl_construct.h \
+  /usr/include/c++/10.2.0/ext/aligned_buffer.h \
+  /usr/include/c++/10.2.0/bits/stl_map.h \
+  /usr/include/c++/10.2.0/initializer_list \
+  /usr/include/c++/10.2.0/tuple \
+  /usr/include/c++/10.2.0/utility \
+  /usr/include/c++/10.2.0/bits/stl_relops.h \
+  /usr/include/c++/10.2.0/array \
+  /usr/include/c++/10.2.0/bits/range_access.h \
+  /usr/include/c++/10.2.0/bits/iterator_concepts.h \
+  /usr/include/c++/10.2.0/concepts \
+  /usr/include/c++/10.2.0/bits/range_cmp.h \
+  /usr/include/c++/10.2.0/bits/int_limits.h \
+  /usr/include/c++/10.2.0/bits/uses_allocator.h \
+  /usr/include/c++/10.2.0/bits/invoke.h \
+  /usr/include/c++/10.2.0/bits/stl_multimap.h \
+  /usr/include/c++/10.2.0/bits/erase_if.h \
+  /usr/include/c++/10.2.0/string \
+  /usr/include/c++/10.2.0/bits/stringfwd.h \
+  /usr/include/c++/10.2.0/bits/char_traits.h \
+  /usr/include/c++/10.2.0/bits/postypes.h \
+  /usr/include/c++/10.2.0/cwchar \
+  /usr/include/wchar.h \
+  /usr/include/bits/types/wint_t.h \
+  /usr/include/bits/types/mbstate_t.h \
+  /usr/include/c++/10.2.0/cstdint \
+  /usr/include/c++/10.2.0/bits/localefwd.h \
+  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/c++locale.h \
+  /usr/include/c++/10.2.0/clocale \
+  /usr/include/locale.h \
+  /usr/include/bits/locale.h \
+  /usr/include/c++/10.2.0/iosfwd \
+  /usr/include/c++/10.2.0/cctype \
+  /usr/include/ctype.h \
+  /usr/include/c++/10.2.0/bits/ostream_insert.h \
+  /usr/include/c++/10.2.0/bits/cxxabi_forced.h \
+  /usr/include/c++/10.2.0/bits/basic_string.h \
+  /usr/include/c++/10.2.0/ext/atomicity.h \
+  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/gthr-default.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/bits/sched.h \
+  /usr/include/bits/types/struct_sched_param.h \
+  /usr/include/bits/cpu-set.h \
+  /usr/include/bits/setjmp.h \
+  /usr/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/atomic_word.h \
+  /usr/include/c++/10.2.0/ext/string_conversions.h \
+  /usr/include/c++/10.2.0/cstdlib \
+  /usr/include/stdlib.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/alloca.h \
+  /usr/include/bits/stdlib-bsearch.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/c++/10.2.0/bits/std_abs.h \
+  /usr/include/c++/10.2.0/cstdio \
+  /usr/include/c++/10.2.0/cerrno \
+  /usr/include/c++/10.2.0/bits/charconv.h \
+  /usr/include/c++/10.2.0/bits/functional_hash.h \
+  /usr/include/c++/10.2.0/bits/basic_string.tcc \
+  includes/eventHolidayModel.h \
+  includes/eventReminderModel.h \
+  includes/todoElement.h \
+  /usr/include/c++/10.2.0/iostream \
+  /usr/include/c++/10.2.0/ostream \
+  /usr/include/c++/10.2.0/ios \
+  /usr/include/c++/10.2.0/bits/ios_base.h \
+  /usr/include/c++/10.2.0/bits/locale_classes.h \
+  /usr/include/c++/10.2.0/bits/locale_classes.tcc \
+  /usr/include/c++/10.2.0/system_error \
+  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/error_constants.h \
+  /usr/include/c++/10.2.0/stdexcept \
+  /usr/include/c++/10.2.0/streambuf \
+  /usr/include/c++/10.2.0/bits/streambuf.tcc \
+  /usr/include/c++/10.2.0/bits/basic_ios.h \
+  /usr/include/c++/10.2.0/bits/locale_facets.h \
+  /usr/include/c++/10.2.0/cwctype \
+  /usr/include/wctype.h \
+  /usr/include/bits/wctype-wchar.h \
+  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/ctype_base.h \
+  /usr/include/c++/10.2.0/bits/streambuf_iterator.h \
+  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+  /usr/include/c++/10.2.0/bits/locale_facets.tcc \
+  /usr/include/c++/10.2.0/bits/basic_ios.tcc \
+  /usr/include/c++/10.2.0/bits/ostream.tcc \
+  /usr/include/c++/10.2.0/istream \
+  /usr/include/c++/10.2.0/bits/istream.tcc \
+  /usr/include/c++/10.2.0/fstream \
+  /usr/include/c++/10.2.0/bits/codecvt.h \
+  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/basic_file.h \
+  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/c++io.h \
+  /usr/include/c++/10.2.0/bits/fstream.tcc \
+  /usr/include/c++/10.2.0/sstream \
+  /usr/include/c++/10.2.0/bits/sstream.tcc \
+  /usr/include/c++/10.2.0/vector \
+  /usr/include/c++/10.2.0/bits/stl_uninitialized.h \
+  /usr/include/c++/10.2.0/bits/stl_vector.h \
+  /usr/include/c++/10.2.0/bits/stl_bvector.h \
+  /usr/include/c++/10.2.0/bits/vector.tcc
+
 CMakeFiles/calendar.dir/res/date.cpp.o: res/date.cpp \
   /usr/include/stdc-predef.h \
   includes/date.h \
@@ -2128,6 +2437,177 @@ CMakeFiles/calendar.dir/res/dayModel.cpp.o: res/dayModel.cpp \
 CMakeFiles/calendar.dir/res/eventBirthdayModel.cpp.o: res/eventBirthdayModel.cpp \
   /usr/include/stdc-predef.h \
   includes/eventBirthdayModel.h \
+  includes/eventModel.h \
+  includes/date.h \
+  /usr/include/c++/10.2.0/map \
+  /usr/include/c++/10.2.0/bits/stl_tree.h \
+  /usr/include/c++/10.2.0/bits/stl_algobase.h \
+  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/features.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/10.2.0/bits/functexcept.h \
+  /usr/include/c++/10.2.0/bits/exception_defines.h \
+  /usr/include/c++/10.2.0/bits/cpp_type_traits.h \
+  /usr/include/c++/10.2.0/ext/type_traits.h \
+  /usr/include/c++/10.2.0/ext/numeric_traits.h \
+  /usr/include/c++/10.2.0/bits/stl_pair.h \
+  /usr/include/c++/10.2.0/bits/move.h \
+  /usr/include/c++/10.2.0/type_traits \
+  /usr/include/c++/10.2.0/bits/stl_iterator_base_types.h \
+  /usr/include/c++/10.2.0/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/10.2.0/bits/concept_check.h \
+  /usr/include/c++/10.2.0/debug/assertions.h \
+  /usr/include/c++/10.2.0/bits/stl_iterator.h \
+  /usr/include/c++/10.2.0/bits/ptr_traits.h \
+  /usr/include/c++/10.2.0/debug/debug.h \
+  /usr/include/c++/10.2.0/bits/predefined_ops.h \
+  /usr/include/c++/10.2.0/bits/allocator.h \
+  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/c++allocator.h \
+  /usr/include/c++/10.2.0/ext/new_allocator.h \
+  /usr/include/c++/10.2.0/new \
+  /usr/include/c++/10.2.0/exception \
+  /usr/include/c++/10.2.0/bits/exception.h \
+  /usr/include/c++/10.2.0/bits/exception_ptr.h \
+  /usr/include/c++/10.2.0/bits/cxxabi_init_exception.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include/stddef.h \
+  /usr/include/c++/10.2.0/typeinfo \
+  /usr/include/c++/10.2.0/bits/hash_bytes.h \
+  /usr/include/c++/10.2.0/bits/nested_exception.h \
+  /usr/include/c++/10.2.0/bits/memoryfwd.h \
+  /usr/include/c++/10.2.0/bits/stl_function.h \
+  /usr/include/c++/10.2.0/backward/binders.h \
+  /usr/include/c++/10.2.0/ext/alloc_traits.h \
+  /usr/include/c++/10.2.0/bits/alloc_traits.h \
+  /usr/include/c++/10.2.0/bits/stl_construct.h \
+  /usr/include/c++/10.2.0/ext/aligned_buffer.h \
+  /usr/include/c++/10.2.0/bits/stl_map.h \
+  /usr/include/c++/10.2.0/initializer_list \
+  /usr/include/c++/10.2.0/tuple \
+  /usr/include/c++/10.2.0/utility \
+  /usr/include/c++/10.2.0/bits/stl_relops.h \
+  /usr/include/c++/10.2.0/array \
+  /usr/include/c++/10.2.0/bits/range_access.h \
+  /usr/include/c++/10.2.0/bits/iterator_concepts.h \
+  /usr/include/c++/10.2.0/concepts \
+  /usr/include/c++/10.2.0/bits/range_cmp.h \
+  /usr/include/c++/10.2.0/bits/int_limits.h \
+  /usr/include/c++/10.2.0/bits/uses_allocator.h \
+  /usr/include/c++/10.2.0/bits/invoke.h \
+  /usr/include/c++/10.2.0/bits/stl_multimap.h \
+  /usr/include/c++/10.2.0/bits/erase_if.h \
+  /usr/include/stdio.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include/stdarg.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/bits/stdio.h \
+  /usr/include/c++/10.2.0/string \
+  /usr/include/c++/10.2.0/bits/stringfwd.h \
+  /usr/include/c++/10.2.0/bits/char_traits.h \
+  /usr/include/c++/10.2.0/bits/postypes.h \
+  /usr/include/c++/10.2.0/cwchar \
+  /usr/include/wchar.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/types/wint_t.h \
+  /usr/include/bits/types/mbstate_t.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/c++/10.2.0/cstdint \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/c++/10.2.0/bits/localefwd.h \
+  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/c++locale.h \
+  /usr/include/c++/10.2.0/clocale \
+  /usr/include/locale.h \
+  /usr/include/bits/locale.h \
+  /usr/include/c++/10.2.0/iosfwd \
+  /usr/include/c++/10.2.0/cctype \
+  /usr/include/ctype.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/endianness.h \
+  /usr/include/c++/10.2.0/bits/ostream_insert.h \
+  /usr/include/c++/10.2.0/bits/cxxabi_forced.h \
+  /usr/include/c++/10.2.0/bits/basic_string.h \
+  /usr/include/c++/10.2.0/ext/atomicity.h \
+  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/gthr-default.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/sched.h \
+  /usr/include/bits/types/struct_sched_param.h \
+  /usr/include/bits/cpu-set.h \
+  /usr/include/time.h \
+  /usr/include/bits/time.h \
+  /usr/include/bits/timex.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/struct_tm.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/types/struct_itimerspec.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/struct_mutex.h \
+  /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/setjmp.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/atomic_word.h \
+  /usr/include/c++/10.2.0/ext/string_conversions.h \
+  /usr/include/c++/10.2.0/cstdlib \
+  /usr/include/stdlib.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/sys/types.h \
+  /usr/include/endian.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/sys/select.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/alloca.h \
+  /usr/include/bits/stdlib-bsearch.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/c++/10.2.0/bits/std_abs.h \
+  /usr/include/c++/10.2.0/cstdio \
+  /usr/include/c++/10.2.0/cerrno \
+  /usr/include/errno.h \
+  /usr/include/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/bits/types/error_t.h \
+  /usr/include/c++/10.2.0/bits/charconv.h \
+  /usr/include/c++/10.2.0/bits/functional_hash.h \
+  /usr/include/c++/10.2.0/bits/basic_string.tcc
+
+CMakeFiles/calendar.dir/res/eventHolidayModel.cpp.o: res/eventHolidayModel.cpp \
+  /usr/include/stdc-predef.h \
+  includes/eventHolidayModel.h \
   includes/eventModel.h \
   includes/date.h \
   /usr/include/c++/10.2.0/map \
@@ -2688,7 +3168,7 @@ CMakeFiles/calendar.dir/res/eventReminderModel.cpp.o: res/eventReminderModel.cpp
 CMakeFiles/calendar.dir/res/todoElement.cpp.o: res/todoElement.cpp \
   /usr/include/stdc-predef.h \
   includes/todoElement.h \
-  /usr/include/c++/10.2.0/string \
+  /usr/include/c++/10.2.0/iostream \
   /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
   /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/os_defines.h \
   /usr/include/features.h \
@@ -2698,26 +3178,11 @@ CMakeFiles/calendar.dir/res/todoElement.cpp.o: res/todoElement.cpp \
   /usr/include/gnu/stubs.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/10.2.0/ostream \
+  /usr/include/c++/10.2.0/ios \
+  /usr/include/c++/10.2.0/iosfwd \
   /usr/include/c++/10.2.0/bits/stringfwd.h \
   /usr/include/c++/10.2.0/bits/memoryfwd.h \
-  /usr/include/c++/10.2.0/bits/char_traits.h \
-  /usr/include/c++/10.2.0/bits/stl_algobase.h \
-  /usr/include/c++/10.2.0/bits/functexcept.h \
-  /usr/include/c++/10.2.0/bits/exception_defines.h \
-  /usr/include/c++/10.2.0/bits/cpp_type_traits.h \
-  /usr/include/c++/10.2.0/ext/type_traits.h \
-  /usr/include/c++/10.2.0/ext/numeric_traits.h \
-  /usr/include/c++/10.2.0/bits/stl_pair.h \
-  /usr/include/c++/10.2.0/bits/move.h \
-  /usr/include/c++/10.2.0/type_traits \
-  /usr/include/c++/10.2.0/bits/stl_iterator_base_types.h \
-  /usr/include/c++/10.2.0/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/10.2.0/bits/concept_check.h \
-  /usr/include/c++/10.2.0/debug/assertions.h \
-  /usr/include/c++/10.2.0/bits/stl_iterator.h \
-  /usr/include/c++/10.2.0/bits/ptr_traits.h \
-  /usr/include/c++/10.2.0/debug/debug.h \
-  /usr/include/c++/10.2.0/bits/predefined_ops.h \
   /usr/include/c++/10.2.0/bits/postypes.h \
   /usr/include/c++/10.2.0/cwchar \
   /usr/include/wchar.h \
@@ -2734,6 +3199,32 @@ CMakeFiles/calendar.dir/res/todoElement.cpp.o: res/todoElement.cpp \
   /usr/include/bits/types/FILE.h \
   /usr/include/bits/types/locale_t.h \
   /usr/include/bits/types/__locale_t.h \
+  /usr/include/c++/10.2.0/exception \
+  /usr/include/c++/10.2.0/bits/exception.h \
+  /usr/include/c++/10.2.0/bits/exception_ptr.h \
+  /usr/include/c++/10.2.0/bits/exception_defines.h \
+  /usr/include/c++/10.2.0/bits/cxxabi_init_exception.h \
+  /usr/include/c++/10.2.0/typeinfo \
+  /usr/include/c++/10.2.0/bits/hash_bytes.h \
+  /usr/include/c++/10.2.0/new \
+  /usr/include/c++/10.2.0/bits/nested_exception.h \
+  /usr/include/c++/10.2.0/bits/move.h \
+  /usr/include/c++/10.2.0/type_traits \
+  /usr/include/c++/10.2.0/bits/char_traits.h \
+  /usr/include/c++/10.2.0/bits/stl_algobase.h \
+  /usr/include/c++/10.2.0/bits/functexcept.h \
+  /usr/include/c++/10.2.0/bits/cpp_type_traits.h \
+  /usr/include/c++/10.2.0/ext/type_traits.h \
+  /usr/include/c++/10.2.0/ext/numeric_traits.h \
+  /usr/include/c++/10.2.0/bits/stl_pair.h \
+  /usr/include/c++/10.2.0/bits/stl_iterator_base_types.h \
+  /usr/include/c++/10.2.0/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/10.2.0/bits/concept_check.h \
+  /usr/include/c++/10.2.0/debug/assertions.h \
+  /usr/include/c++/10.2.0/bits/stl_iterator.h \
+  /usr/include/c++/10.2.0/bits/ptr_traits.h \
+  /usr/include/c++/10.2.0/debug/debug.h \
+  /usr/include/c++/10.2.0/bits/predefined_ops.h \
   /usr/include/c++/10.2.0/cstdint \
   /usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include/stdint.h \
   /usr/include/stdint.h \
@@ -2743,38 +3234,16 @@ CMakeFiles/calendar.dir/res/todoElement.cpp.o: res/todoElement.cpp \
   /usr/include/bits/time64.h \
   /usr/include/bits/stdint-intn.h \
   /usr/include/bits/stdint-uintn.h \
-  /usr/include/c++/10.2.0/bits/allocator.h \
-  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/c++allocator.h \
-  /usr/include/c++/10.2.0/ext/new_allocator.h \
-  /usr/include/c++/10.2.0/new \
-  /usr/include/c++/10.2.0/exception \
-  /usr/include/c++/10.2.0/bits/exception.h \
-  /usr/include/c++/10.2.0/bits/exception_ptr.h \
-  /usr/include/c++/10.2.0/bits/cxxabi_init_exception.h \
-  /usr/include/c++/10.2.0/typeinfo \
-  /usr/include/c++/10.2.0/bits/hash_bytes.h \
-  /usr/include/c++/10.2.0/bits/nested_exception.h \
   /usr/include/c++/10.2.0/bits/localefwd.h \
   /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/c++locale.h \
   /usr/include/c++/10.2.0/clocale \
   /usr/include/locale.h \
   /usr/include/bits/locale.h \
-  /usr/include/c++/10.2.0/iosfwd \
   /usr/include/c++/10.2.0/cctype \
   /usr/include/ctype.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
-  /usr/include/c++/10.2.0/bits/ostream_insert.h \
-  /usr/include/c++/10.2.0/bits/cxxabi_forced.h \
-  /usr/include/c++/10.2.0/bits/stl_function.h \
-  /usr/include/c++/10.2.0/backward/binders.h \
-  /usr/include/c++/10.2.0/bits/range_access.h \
-  /usr/include/c++/10.2.0/initializer_list \
-  /usr/include/c++/10.2.0/bits/iterator_concepts.h \
-  /usr/include/c++/10.2.0/concepts \
-  /usr/include/c++/10.2.0/bits/range_cmp.h \
-  /usr/include/c++/10.2.0/bits/int_limits.h \
-  /usr/include/c++/10.2.0/bits/basic_string.h \
+  /usr/include/c++/10.2.0/bits/ios_base.h \
   /usr/include/c++/10.2.0/ext/atomicity.h \
   /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/gthr.h \
   /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/gthr-default.h \
@@ -2803,125 +3272,11 @@ CMakeFiles/calendar.dir/res/todoElement.cpp.o: res/todoElement.cpp \
   /usr/include/bits/types/__sigset_t.h \
   /usr/include/bits/types/struct___jmp_buf_tag.h \
   /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/atomic_word.h \
-  /usr/include/c++/10.2.0/ext/alloc_traits.h \
-  /usr/include/c++/10.2.0/bits/alloc_traits.h \
-  /usr/include/c++/10.2.0/bits/stl_construct.h \
-  /usr/include/c++/10.2.0/ext/string_conversions.h \
-  /usr/include/c++/10.2.0/cstdlib \
-  /usr/include/stdlib.h \
-  /usr/include/bits/waitflags.h \
-  /usr/include/bits/waitstatus.h \
-  /usr/include/sys/types.h \
-  /usr/include/endian.h \
-  /usr/include/bits/byteswap.h \
-  /usr/include/bits/uintn-identity.h \
-  /usr/include/sys/select.h \
-  /usr/include/bits/select.h \
-  /usr/include/bits/types/sigset_t.h \
-  /usr/include/alloca.h \
-  /usr/include/bits/stdlib-bsearch.h \
-  /usr/include/bits/stdlib-float.h \
-  /usr/include/c++/10.2.0/bits/std_abs.h \
-  /usr/include/c++/10.2.0/cstdio \
-  /usr/include/stdio.h \
-  /usr/include/bits/types/__fpos_t.h \
-  /usr/include/bits/types/__fpos64_t.h \
-  /usr/include/bits/types/struct_FILE.h \
-  /usr/include/bits/types/cookie_io_functions_t.h \
-  /usr/include/bits/stdio_lim.h \
-  /usr/include/bits/stdio.h \
-  /usr/include/c++/10.2.0/cerrno \
-  /usr/include/errno.h \
-  /usr/include/bits/errno.h \
-  /usr/include/linux/errno.h \
-  /usr/include/asm/errno.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/asm-generic/errno-base.h \
-  /usr/include/bits/types/error_t.h \
-  /usr/include/c++/10.2.0/bits/charconv.h \
-  /usr/include/c++/10.2.0/bits/functional_hash.h \
-  /usr/include/c++/10.2.0/bits/basic_string.tcc
-
-CMakeFiles/calendar.dir/res/todoView.cpp.o: res/todoView.cpp \
-  /usr/include/stdc-predef.h \
-  includes/todoView.h \
-  includes/todoElement.h \
+  /usr/include/c++/10.2.0/bits/locale_classes.h \
   /usr/include/c++/10.2.0/string \
-  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
-  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/os_defines.h \
-  /usr/include/features.h \
-  /usr/include/sys/cdefs.h \
-  /usr/include/bits/wordsize.h \
-  /usr/include/bits/long-double.h \
-  /usr/include/gnu/stubs.h \
-  /usr/include/gnu/stubs-64.h \
-  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/cpu_defines.h \
-  /usr/include/c++/10.2.0/bits/stringfwd.h \
-  /usr/include/c++/10.2.0/bits/memoryfwd.h \
-  /usr/include/c++/10.2.0/bits/char_traits.h \
-  /usr/include/c++/10.2.0/bits/stl_algobase.h \
-  /usr/include/c++/10.2.0/bits/functexcept.h \
-  /usr/include/c++/10.2.0/bits/exception_defines.h \
-  /usr/include/c++/10.2.0/bits/cpp_type_traits.h \
-  /usr/include/c++/10.2.0/ext/type_traits.h \
-  /usr/include/c++/10.2.0/ext/numeric_traits.h \
-  /usr/include/c++/10.2.0/bits/stl_pair.h \
-  /usr/include/c++/10.2.0/bits/move.h \
-  /usr/include/c++/10.2.0/type_traits \
-  /usr/include/c++/10.2.0/bits/stl_iterator_base_types.h \
-  /usr/include/c++/10.2.0/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/10.2.0/bits/concept_check.h \
-  /usr/include/c++/10.2.0/debug/assertions.h \
-  /usr/include/c++/10.2.0/bits/stl_iterator.h \
-  /usr/include/c++/10.2.0/bits/ptr_traits.h \
-  /usr/include/c++/10.2.0/debug/debug.h \
-  /usr/include/c++/10.2.0/bits/predefined_ops.h \
-  /usr/include/c++/10.2.0/bits/postypes.h \
-  /usr/include/c++/10.2.0/cwchar \
-  /usr/include/wchar.h \
-  /usr/include/bits/libc-header-start.h \
-  /usr/include/bits/floatn.h \
-  /usr/include/bits/floatn-common.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include/stdarg.h \
-  /usr/include/bits/wchar.h \
-  /usr/include/bits/types/wint_t.h \
-  /usr/include/bits/types/mbstate_t.h \
-  /usr/include/bits/types/__mbstate_t.h \
-  /usr/include/bits/types/__FILE.h \
-  /usr/include/bits/types/FILE.h \
-  /usr/include/bits/types/locale_t.h \
-  /usr/include/bits/types/__locale_t.h \
-  /usr/include/c++/10.2.0/cstdint \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include/stdint.h \
-  /usr/include/stdint.h \
-  /usr/include/bits/types.h \
-  /usr/include/bits/timesize.h \
-  /usr/include/bits/typesizes.h \
-  /usr/include/bits/time64.h \
-  /usr/include/bits/stdint-intn.h \
-  /usr/include/bits/stdint-uintn.h \
   /usr/include/c++/10.2.0/bits/allocator.h \
   /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/c++allocator.h \
   /usr/include/c++/10.2.0/ext/new_allocator.h \
-  /usr/include/c++/10.2.0/new \
-  /usr/include/c++/10.2.0/exception \
-  /usr/include/c++/10.2.0/bits/exception.h \
-  /usr/include/c++/10.2.0/bits/exception_ptr.h \
-  /usr/include/c++/10.2.0/bits/cxxabi_init_exception.h \
-  /usr/include/c++/10.2.0/typeinfo \
-  /usr/include/c++/10.2.0/bits/hash_bytes.h \
-  /usr/include/c++/10.2.0/bits/nested_exception.h \
-  /usr/include/c++/10.2.0/bits/localefwd.h \
-  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/c++locale.h \
-  /usr/include/c++/10.2.0/clocale \
-  /usr/include/locale.h \
-  /usr/include/bits/locale.h \
-  /usr/include/c++/10.2.0/iosfwd \
-  /usr/include/c++/10.2.0/cctype \
-  /usr/include/ctype.h \
-  /usr/include/bits/endian.h \
-  /usr/include/bits/endianness.h \
   /usr/include/c++/10.2.0/bits/ostream_insert.h \
   /usr/include/c++/10.2.0/bits/cxxabi_forced.h \
   /usr/include/c++/10.2.0/bits/stl_function.h \
@@ -2933,34 +3288,6 @@ CMakeFiles/calendar.dir/res/todoView.cpp.o: res/todoView.cpp \
   /usr/include/c++/10.2.0/bits/range_cmp.h \
   /usr/include/c++/10.2.0/bits/int_limits.h \
   /usr/include/c++/10.2.0/bits/basic_string.h \
-  /usr/include/c++/10.2.0/ext/atomicity.h \
-  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/gthr.h \
-  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/gthr-default.h \
-  /usr/include/pthread.h \
-  /usr/include/sched.h \
-  /usr/include/bits/types/time_t.h \
-  /usr/include/bits/types/struct_timespec.h \
-  /usr/include/bits/sched.h \
-  /usr/include/bits/types/struct_sched_param.h \
-  /usr/include/bits/cpu-set.h \
-  /usr/include/time.h \
-  /usr/include/bits/time.h \
-  /usr/include/bits/timex.h \
-  /usr/include/bits/types/struct_timeval.h \
-  /usr/include/bits/types/clock_t.h \
-  /usr/include/bits/types/struct_tm.h \
-  /usr/include/bits/types/clockid_t.h \
-  /usr/include/bits/types/timer_t.h \
-  /usr/include/bits/types/struct_itimerspec.h \
-  /usr/include/bits/pthreadtypes.h \
-  /usr/include/bits/thread-shared-types.h \
-  /usr/include/bits/pthreadtypes-arch.h \
-  /usr/include/bits/struct_mutex.h \
-  /usr/include/bits/struct_rwlock.h \
-  /usr/include/bits/setjmp.h \
-  /usr/include/bits/types/__sigset_t.h \
-  /usr/include/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/atomic_word.h \
   /usr/include/c++/10.2.0/ext/alloc_traits.h \
   /usr/include/c++/10.2.0/bits/alloc_traits.h \
   /usr/include/c++/10.2.0/bits/stl_construct.h \
@@ -2999,6 +3326,207 @@ CMakeFiles/calendar.dir/res/todoView.cpp.o: res/todoView.cpp \
   /usr/include/c++/10.2.0/bits/charconv.h \
   /usr/include/c++/10.2.0/bits/functional_hash.h \
   /usr/include/c++/10.2.0/bits/basic_string.tcc \
+  /usr/include/c++/10.2.0/bits/locale_classes.tcc \
+  /usr/include/c++/10.2.0/system_error \
+  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/error_constants.h \
+  /usr/include/c++/10.2.0/stdexcept \
+  /usr/include/c++/10.2.0/streambuf \
+  /usr/include/c++/10.2.0/bits/streambuf.tcc \
+  /usr/include/c++/10.2.0/bits/basic_ios.h \
+  /usr/include/c++/10.2.0/bits/locale_facets.h \
+  /usr/include/c++/10.2.0/cwctype \
+  /usr/include/wctype.h \
+  /usr/include/bits/wctype-wchar.h \
+  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/ctype_base.h \
+  /usr/include/c++/10.2.0/bits/streambuf_iterator.h \
+  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+  /usr/include/c++/10.2.0/bits/locale_facets.tcc \
+  /usr/include/c++/10.2.0/bits/basic_ios.tcc \
+  /usr/include/c++/10.2.0/bits/ostream.tcc \
+  /usr/include/c++/10.2.0/istream \
+  /usr/include/c++/10.2.0/bits/istream.tcc
+
+CMakeFiles/calendar.dir/res/todoView.cpp.o: res/todoView.cpp \
+  /usr/include/stdc-predef.h \
+  includes/todoView.h \
+  includes/todoElement.h \
+  /usr/include/c++/10.2.0/iostream \
+  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/features.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/10.2.0/ostream \
+  /usr/include/c++/10.2.0/ios \
+  /usr/include/c++/10.2.0/iosfwd \
+  /usr/include/c++/10.2.0/bits/stringfwd.h \
+  /usr/include/c++/10.2.0/bits/memoryfwd.h \
+  /usr/include/c++/10.2.0/bits/postypes.h \
+  /usr/include/c++/10.2.0/cwchar \
+  /usr/include/wchar.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include/stdarg.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/types/wint_t.h \
+  /usr/include/bits/types/mbstate_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/c++/10.2.0/exception \
+  /usr/include/c++/10.2.0/bits/exception.h \
+  /usr/include/c++/10.2.0/bits/exception_ptr.h \
+  /usr/include/c++/10.2.0/bits/exception_defines.h \
+  /usr/include/c++/10.2.0/bits/cxxabi_init_exception.h \
+  /usr/include/c++/10.2.0/typeinfo \
+  /usr/include/c++/10.2.0/bits/hash_bytes.h \
+  /usr/include/c++/10.2.0/new \
+  /usr/include/c++/10.2.0/bits/nested_exception.h \
+  /usr/include/c++/10.2.0/bits/move.h \
+  /usr/include/c++/10.2.0/type_traits \
+  /usr/include/c++/10.2.0/bits/char_traits.h \
+  /usr/include/c++/10.2.0/bits/stl_algobase.h \
+  /usr/include/c++/10.2.0/bits/functexcept.h \
+  /usr/include/c++/10.2.0/bits/cpp_type_traits.h \
+  /usr/include/c++/10.2.0/ext/type_traits.h \
+  /usr/include/c++/10.2.0/ext/numeric_traits.h \
+  /usr/include/c++/10.2.0/bits/stl_pair.h \
+  /usr/include/c++/10.2.0/bits/stl_iterator_base_types.h \
+  /usr/include/c++/10.2.0/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/10.2.0/bits/concept_check.h \
+  /usr/include/c++/10.2.0/debug/assertions.h \
+  /usr/include/c++/10.2.0/bits/stl_iterator.h \
+  /usr/include/c++/10.2.0/bits/ptr_traits.h \
+  /usr/include/c++/10.2.0/debug/debug.h \
+  /usr/include/c++/10.2.0/bits/predefined_ops.h \
+  /usr/include/c++/10.2.0/cstdint \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/c++/10.2.0/bits/localefwd.h \
+  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/c++locale.h \
+  /usr/include/c++/10.2.0/clocale \
+  /usr/include/locale.h \
+  /usr/include/bits/locale.h \
+  /usr/include/c++/10.2.0/cctype \
+  /usr/include/ctype.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/endianness.h \
+  /usr/include/c++/10.2.0/bits/ios_base.h \
+  /usr/include/c++/10.2.0/ext/atomicity.h \
+  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/gthr-default.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/sched.h \
+  /usr/include/bits/types/struct_sched_param.h \
+  /usr/include/bits/cpu-set.h \
+  /usr/include/time.h \
+  /usr/include/bits/time.h \
+  /usr/include/bits/timex.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/struct_tm.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/types/struct_itimerspec.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/struct_mutex.h \
+  /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/setjmp.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/atomic_word.h \
+  /usr/include/c++/10.2.0/bits/locale_classes.h \
+  /usr/include/c++/10.2.0/string \
+  /usr/include/c++/10.2.0/bits/allocator.h \
+  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/c++allocator.h \
+  /usr/include/c++/10.2.0/ext/new_allocator.h \
+  /usr/include/c++/10.2.0/bits/ostream_insert.h \
+  /usr/include/c++/10.2.0/bits/cxxabi_forced.h \
+  /usr/include/c++/10.2.0/bits/stl_function.h \
+  /usr/include/c++/10.2.0/backward/binders.h \
+  /usr/include/c++/10.2.0/bits/range_access.h \
+  /usr/include/c++/10.2.0/initializer_list \
+  /usr/include/c++/10.2.0/bits/iterator_concepts.h \
+  /usr/include/c++/10.2.0/concepts \
+  /usr/include/c++/10.2.0/bits/range_cmp.h \
+  /usr/include/c++/10.2.0/bits/int_limits.h \
+  /usr/include/c++/10.2.0/bits/basic_string.h \
+  /usr/include/c++/10.2.0/ext/alloc_traits.h \
+  /usr/include/c++/10.2.0/bits/alloc_traits.h \
+  /usr/include/c++/10.2.0/bits/stl_construct.h \
+  /usr/include/c++/10.2.0/ext/string_conversions.h \
+  /usr/include/c++/10.2.0/cstdlib \
+  /usr/include/stdlib.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/sys/types.h \
+  /usr/include/endian.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/sys/select.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/alloca.h \
+  /usr/include/bits/stdlib-bsearch.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/c++/10.2.0/bits/std_abs.h \
+  /usr/include/c++/10.2.0/cstdio \
+  /usr/include/stdio.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/stdio.h \
+  /usr/include/c++/10.2.0/cerrno \
+  /usr/include/errno.h \
+  /usr/include/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/bits/types/error_t.h \
+  /usr/include/c++/10.2.0/bits/charconv.h \
+  /usr/include/c++/10.2.0/bits/functional_hash.h \
+  /usr/include/c++/10.2.0/bits/basic_string.tcc \
+  /usr/include/c++/10.2.0/bits/locale_classes.tcc \
+  /usr/include/c++/10.2.0/system_error \
+  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/error_constants.h \
+  /usr/include/c++/10.2.0/stdexcept \
+  /usr/include/c++/10.2.0/streambuf \
+  /usr/include/c++/10.2.0/bits/streambuf.tcc \
+  /usr/include/c++/10.2.0/bits/basic_ios.h \
+  /usr/include/c++/10.2.0/bits/locale_facets.h \
+  /usr/include/c++/10.2.0/cwctype \
+  /usr/include/wctype.h \
+  /usr/include/bits/wctype-wchar.h \
+  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/ctype_base.h \
+  /usr/include/c++/10.2.0/bits/streambuf_iterator.h \
+  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+  /usr/include/c++/10.2.0/bits/locale_facets.tcc \
+  /usr/include/c++/10.2.0/bits/basic_ios.tcc \
+  /usr/include/c++/10.2.0/bits/ostream.tcc \
+  /usr/include/c++/10.2.0/istream \
+  /usr/include/c++/10.2.0/bits/istream.tcc \
   /usr/include/qt/QtWidgets/QListView \
   /usr/include/qt/QtWidgets/qlistview.h \
   /usr/include/qt/QtWidgets/qtwidgetsglobal.h \
@@ -3055,15 +3583,6 @@ CMakeFiles/calendar.dir/res/todoView.cpp.o: res/todoView.cpp \
   /usr/include/c++/10.2.0/stdlib.h \
   /usr/include/c++/10.2.0/iterator \
   /usr/include/c++/10.2.0/bits/stream_iterator.h \
-  /usr/include/c++/10.2.0/bits/streambuf_iterator.h \
-  /usr/include/c++/10.2.0/streambuf \
-  /usr/include/c++/10.2.0/bits/ios_base.h \
-  /usr/include/c++/10.2.0/bits/locale_classes.h \
-  /usr/include/c++/10.2.0/bits/locale_classes.tcc \
-  /usr/include/c++/10.2.0/system_error \
-  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/error_constants.h \
-  /usr/include/c++/10.2.0/stdexcept \
-  /usr/include/c++/10.2.0/bits/streambuf.tcc \
   /usr/include/qt/QtCore/qstringliteral.h \
   /usr/include/qt/QtCore/qstringalgorithms.h \
   /usr/include/qt/QtCore/qstringview.h \
@@ -3181,22 +3700,7 @@ CMakeFiles/calendar.dir/res/todoView.cpp.o: res/todoView.cpp \
   /usr/include/qt/QtGui/qstandarditemmodel.h \
   /usr/include/qt/QtGui/QStandardItemModel \
   /usr/include/qt/QtCore/QModelIndex \
-  /usr/include/qt/QtCore/qabstractitemmodel.h \
-  /usr/include/c++/10.2.0/iostream \
-  /usr/include/c++/10.2.0/ostream \
-  /usr/include/c++/10.2.0/ios \
-  /usr/include/c++/10.2.0/bits/basic_ios.h \
-  /usr/include/c++/10.2.0/bits/locale_facets.h \
-  /usr/include/c++/10.2.0/cwctype \
-  /usr/include/wctype.h \
-  /usr/include/bits/wctype-wchar.h \
-  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/ctype_base.h \
-  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/ctype_inline.h \
-  /usr/include/c++/10.2.0/bits/locale_facets.tcc \
-  /usr/include/c++/10.2.0/bits/basic_ios.tcc \
-  /usr/include/c++/10.2.0/bits/ostream.tcc \
-  /usr/include/c++/10.2.0/istream \
-  /usr/include/c++/10.2.0/bits/istream.tcc
+  /usr/include/qt/QtCore/qabstractitemmodel.h
 
 
 res/eventBirthdayModel.cpp:
@@ -3205,8 +3709,6 @@ res/dayModel.cpp:
 
 /usr/include/c++/10.2.0/bits/regex_executor.tcc:
 
-/usr/include/c++/10.2.0/bits/regex_executor.h:
-
 /usr/include/c++/10.2.0/bits/regex.h:
 
 /usr/include/c++/10.2.0/bits/regex_scanner.tcc:
@@ -3214,10 +3716,6 @@ res/dayModel.cpp:
 /usr/include/c++/10.2.0/bits/regex_automaton.tcc:
 
 /usr/include/c++/10.2.0/bits/deque.tcc:
-
-/usr/include/c++/10.2.0/bits/sstream.tcc:
-
-/usr/include/c++/10.2.0/bits/codecvt.h:
 
 /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/messages_members.h:
 
@@ -3229,31 +3727,9 @@ res/dayModel.cpp:
 
 res/calendarView.cpp:
 
-/usr/include/c++/10.2.0/bits/istream.tcc:
-
-/usr/include/c++/10.2.0/istream:
-
-/usr/include/c++/10.2.0/bits/ostream.tcc:
-
-/usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/ctype_inline.h:
-
-/usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/ctype_base.h:
-
-/usr/include/bits/wctype-wchar.h:
-
-/usr/include/c++/10.2.0/ios:
-
-/usr/include/c++/10.2.0/bits/regex_constants.h:
-
-/usr/include/c++/10.2.0/ostream:
-
-/usr/include/c++/10.2.0/iostream:
-
-/usr/include/c++/10.2.0/bits/basic_ios.h:
-
-/usr/include/qt/QtWidgets/QVBoxLayout:
-
 /usr/include/qt/QtWidgets/QStatusBar:
+
+res/eventHolidayModel.cpp:
 
 /usr/include/c++/10.2.0/cstring:
 
@@ -3310,6 +3786,44 @@ res/calendarView.cpp:
 includes/todoView.h:
 
 includes/inputDialog.h:
+
+/usr/include/c++/10.2.0/bits/sstream.tcc:
+
+/usr/include/c++/10.2.0/bits/fstream.tcc:
+
+/usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/c++io.h:
+
+/usr/include/c++/10.2.0/bits/codecvt.h:
+
+/usr/include/c++/10.2.0/bits/regex_executor.h:
+
+/usr/include/c++/10.2.0/fstream:
+
+/usr/include/c++/10.2.0/bits/istream.tcc:
+
+/usr/include/c++/10.2.0/istream:
+
+/usr/include/c++/10.2.0/bits/ostream.tcc:
+
+/usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/ctype_inline.h:
+
+/usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/ctype_base.h:
+
+/usr/include/bits/wctype-wchar.h:
+
+/usr/include/qt/QtWidgets/QVBoxLayout:
+
+/usr/include/c++/10.2.0/bits/basic_ios.h:
+
+/usr/include/c++/10.2.0/ios:
+
+/usr/include/c++/10.2.0/bits/regex_constants.h:
+
+/usr/include/c++/10.2.0/ostream:
+
+/usr/include/c++/10.2.0/iostream:
+
+includes/dataInterface.h:
 
 /usr/include/qt/QtCore/QVariant:
 
@@ -3779,6 +4293,8 @@ includes/calendarView.h:
 
 /usr/include/c++/10.2.0/bits/functexcept.h:
 
+res/dataInterface.cpp:
+
 /usr/include/c++/10.2.0/bits/stl_function.h:
 
 /usr/include/c++/10.2.0/concepts:
@@ -4152,6 +4668,8 @@ main.cpp:
 /usr/include/qt/QtCore/qversiontagging.h:
 
 /usr/include/qt/QtWidgets/QMainWindow:
+
+/usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/basic_file.h:
 
 /usr/include/c++/10.2.0/bits/allocated_ptr.h:
 

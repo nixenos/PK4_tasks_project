@@ -1,6 +1,7 @@
 /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/calendar_autogen/EWIEGA46WW/moc_mainwindow.cpp: /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/mainwindow.h \
   /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/calendar_autogen/moc_predefs.h \
   /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/includes/calendarView.h \
+  /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/includes/dataInterface.h \
   /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/includes/date.h \
   /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/includes/dayModel.h \
   /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/includes/eventBirthdayModel.h \
@@ -108,6 +109,7 @@
   /usr/include/c++/10.2.0/bits/c++0x_warning.h \
   /usr/include/c++/10.2.0/bits/char_traits.h \
   /usr/include/c++/10.2.0/bits/charconv.h \
+  /usr/include/c++/10.2.0/bits/codecvt.h \
   /usr/include/c++/10.2.0/bits/concept_check.h \
   /usr/include/c++/10.2.0/bits/cpp_type_traits.h \
   /usr/include/c++/10.2.0/bits/cxxabi_forced.h \
@@ -117,12 +119,14 @@
   /usr/include/c++/10.2.0/bits/exception.h \
   /usr/include/c++/10.2.0/bits/exception_defines.h \
   /usr/include/c++/10.2.0/bits/exception_ptr.h \
+  /usr/include/c++/10.2.0/bits/fstream.tcc \
   /usr/include/c++/10.2.0/bits/functexcept.h \
   /usr/include/c++/10.2.0/bits/functional_hash.h \
   /usr/include/c++/10.2.0/bits/hash_bytes.h \
   /usr/include/c++/10.2.0/bits/int_limits.h \
   /usr/include/c++/10.2.0/bits/invoke.h \
   /usr/include/c++/10.2.0/bits/ios_base.h \
+  /usr/include/c++/10.2.0/bits/istream.tcc \
   /usr/include/c++/10.2.0/bits/iterator_concepts.h \
   /usr/include/c++/10.2.0/bits/list.tcc \
   /usr/include/c++/10.2.0/bits/locale_classes.h \
@@ -148,6 +152,7 @@
   /usr/include/c++/10.2.0/bits/shared_ptr.h \
   /usr/include/c++/10.2.0/bits/shared_ptr_atomic.h \
   /usr/include/c++/10.2.0/bits/shared_ptr_base.h \
+  /usr/include/c++/10.2.0/bits/sstream.tcc \
   /usr/include/c++/10.2.0/bits/std_abs.h \
   /usr/include/c++/10.2.0/bits/std_function.h \
   /usr/include/c++/10.2.0/bits/stl_algo.h \
@@ -180,11 +185,13 @@
   /usr/include/c++/10.2.0/bits/uses_allocator.h \
   /usr/include/c++/10.2.0/bits/vector.tcc \
   /usr/include/c++/10.2.0/cctype \
+  /usr/include/c++/10.2.0/cerrno \
   /usr/include/c++/10.2.0/clocale \
   /usr/include/c++/10.2.0/compare \
   /usr/include/c++/10.2.0/concepts \
   /usr/include/c++/10.2.0/cstddef \
   /usr/include/c++/10.2.0/cstdint \
+  /usr/include/c++/10.2.0/cstdio \
   /usr/include/c++/10.2.0/cstdlib \
   /usr/include/c++/10.2.0/cwchar \
   /usr/include/c++/10.2.0/cwctype \
@@ -199,10 +206,13 @@
   /usr/include/c++/10.2.0/ext/numeric_traits.h \
   /usr/include/c++/10.2.0/ext/string_conversions.h \
   /usr/include/c++/10.2.0/ext/type_traits.h \
+  /usr/include/c++/10.2.0/fstream \
   /usr/include/c++/10.2.0/functional \
   /usr/include/c++/10.2.0/initializer_list \
   /usr/include/c++/10.2.0/ios \
   /usr/include/c++/10.2.0/iosfwd \
+  /usr/include/c++/10.2.0/iostream \
+  /usr/include/c++/10.2.0/istream \
   /usr/include/c++/10.2.0/iterator \
   /usr/include/c++/10.2.0/limits \
   /usr/include/c++/10.2.0/list \
@@ -217,6 +227,7 @@
   /usr/include/c++/10.2.0/pstl/glue_memory_defs.h \
   /usr/include/c++/10.2.0/pstl/glue_numeric_defs.h \
   /usr/include/c++/10.2.0/ranges \
+  /usr/include/c++/10.2.0/sstream \
   /usr/include/c++/10.2.0/stdexcept \
   /usr/include/c++/10.2.0/stdlib.h \
   /usr/include/c++/10.2.0/streambuf \
@@ -229,8 +240,10 @@
   /usr/include/c++/10.2.0/utility \
   /usr/include/c++/10.2.0/vector \
   /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/atomic_word.h \
+  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/basic_file.h \
   /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/c++allocator.h \
   /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/c++io.h \
   /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/c++locale.h \
   /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/cpu_defines.h \
   /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/ctype_base.h \

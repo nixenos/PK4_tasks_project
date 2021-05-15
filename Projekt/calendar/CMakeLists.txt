@@ -44,6 +44,8 @@ set(PROJECT_SOURCES
         res/eventModel.cpp
         res/eventBirthdayModel.cpp
         res/eventReminderModel.cpp
+        res/eventHolidayModel.cpp
+        res/dataInterface.cpp
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

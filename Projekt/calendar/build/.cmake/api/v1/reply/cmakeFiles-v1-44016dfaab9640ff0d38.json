@@ -6,7 +6,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/3.20.1/CMakeSystem.cmake"
+			"path" : "build/CMakeFiles/3.20.2/CMakeSystem.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -15,7 +15,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/3.20.1/CMakeCXXCompiler.cmake"
+			"path" : "build/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -336,8 +336,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/nixen/Projects/C++/PK4/Projekt/calendar/build",
-		"source" : "/home/nixen/Projects/C++/PK4/Projekt/calendar"
+		"build" : "/home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/build",
+		"source" : "/home/nixen/Projects/Uczelnia/PK4/Projekt/calendar"
 	},
 	"version" : 
 	{

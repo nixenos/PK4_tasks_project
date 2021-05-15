@@ -161,3 +161,46 @@ void calendar::date::decrementMonth() {
     monthModel newMonth = static_cast<calendar::monthModel>(temp);
     this->setMonth(newMonth);
 }
+
+bool calendar::date::operator==(const calendar::date &right) {
+    if (this->getDay() == right.getDay() &&
+        this->getMonth() == right.getMonth() &&
+        this->getYear() == right.getYear()) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+bool calendar::date::operator!=(const calendar::date &right) {
+    return !(*this == right);
+}
+
+bool calendar::date::operator>(const calendar::date &right) {
+    if (this->getDay() > right.getDay() &&
+        this->getMonth() >= right.getMonth() &&
+        this->getYear() >= right.getYear()) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+bool calendar::date::operator<(const calendar::date &right) {
+    return !(*this > right);
+}
+
+bool calendar::date::operator>=(const calendar::date &right) {
+    return (*this > right) || (*this == right);
+}
+
+bool calendar::date::operator<=(const calendar::date &right) {
+    return (*this < right) || (*this == right);
+}
+
+std::string calendar::date::stringify() {
+    std::string result = std::to_string(this->getDay()) + ":" +
+                         std::to_string((int)this->getMonth()) + ":" +
+                         std::to_string(this->getYear());
+    return result;
+}

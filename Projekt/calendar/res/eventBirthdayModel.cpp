@@ -7,7 +7,15 @@ calendar::eventBirthday::eventBirthday(const calendar::date &newDate,
                                        const calendar::repeatCycle &newRepeat,
                                        const std::string &newFirstName,
                                        const std::string &newLastName,
-                                       const calendar::date &newBirthDate) {}
+                                       const calendar::date &newBirthDate)
+    : event(newDate, newName, "NULL", Annually) {
+    setBirthDate(newBirthDate);
+    setPersonalData(std::make_pair(newFirstName, newLastName));
+    int age = newDate.getYear() - newBirthDate.getYear();
+    this->setEvDescription(/*std::to_string(age) + */ "Urodziny " +
+                           getPersonalData().first + " " +
+                           getPersonalData().second);
+}
 
 calendar::date calendar::eventBirthday::getBirthDate() const noexcept {
     return this->birthDate;
@@ -37,4 +45,18 @@ void calendar::eventBirthday::setEvRepeat(
     }
 }
 
-std::string calendar::eventBirthday::stringifyEvent() const noexcept {}
+std::string calendar::eventBirthday::stringifyEvent() const noexcept {
+    std::string result = event::stringifyEvent();
+    return result;
+}
+
+std::string calendar::eventBirthday::exportData() const noexcept {
+    std::string objName = typeid(this).name();
+    std::string result =
+        objName + ":" + this->getEvName() + ":" + this->getEvDescription() +
+        ":" + this->getEvDate().stringify() + ":" +
+        std::to_string(this->getEvRepeat()) + ":" +
+        this->getBirthDate().stringify() + ":" + this->getPersonalData().first +
+        ":" + this->getPersonalData().second + "\n";
+    return result;
+}

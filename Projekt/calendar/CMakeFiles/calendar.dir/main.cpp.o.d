@@ -276,9 +276,26 @@ CMakeFiles/calendar.dir/main.cpp.o: \
  /usr/include/qt/QtWidgets/qabstractslider.h \
  /usr/include/qt/QtWidgets/qstyle.h /usr/include/qt/QtWidgets/qtabbar.h \
  /usr/include/qt/QtWidgets/qrubberband.h \
+ /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/includes/dataInterface.h \
+ /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/includes/todoElement.h \
+ /usr/include/c++/10.2.0/iostream /usr/include/c++/10.2.0/ostream \
+ /usr/include/c++/10.2.0/ios /usr/include/c++/10.2.0/bits/basic_ios.h \
+ /usr/include/c++/10.2.0/bits/locale_facets.h \
+ /usr/include/c++/10.2.0/cwctype /usr/include/wctype.h \
+ /usr/include/bits/wctype-wchar.h \
+ /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/ctype_base.h \
+ /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+ /usr/include/c++/10.2.0/bits/locale_facets.tcc \
+ /usr/include/c++/10.2.0/bits/basic_ios.tcc \
+ /usr/include/c++/10.2.0/bits/ostream.tcc /usr/include/c++/10.2.0/istream \
+ /usr/include/c++/10.2.0/bits/istream.tcc /usr/include/c++/10.2.0/fstream \
+ /usr/include/c++/10.2.0/bits/codecvt.h \
+ /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/basic_file.h \
+ /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/c++io.h \
+ /usr/include/c++/10.2.0/bits/fstream.tcc /usr/include/c++/10.2.0/sstream \
+ /usr/include/c++/10.2.0/bits/sstream.tcc \
  /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/includes/inputDialog.h \
  /usr/include/qt/QtWidgets/QDialog /usr/include/qt/QtWidgets/qdialog.h \
- /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/includes/todoElement.h \
  /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/includes/todoView.h \
  /usr/include/qt/QtWidgets/QListView \
  /usr/include/qt/QtWidgets/qlistview.h \

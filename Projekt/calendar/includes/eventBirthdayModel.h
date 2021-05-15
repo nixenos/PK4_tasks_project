@@ -62,5 +62,7 @@ class eventBirthday : public event {
      *
      */
     virtual std::string stringifyEvent() const noexcept;
+
+    virtual std::string exportData() const noexcept;
 };
 } // namespace calendar

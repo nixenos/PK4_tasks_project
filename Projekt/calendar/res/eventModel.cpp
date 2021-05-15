@@ -1,5 +1,6 @@
 #include "../includes/eventModel.h"
 #include <iostream>
+#include <typeinfo>
 
 calendar::event::event() {
     calendar::date nullDate(1, Jan, 2012);
@@ -53,6 +54,14 @@ void calendar::event::setEvRepeat(const calendar::repeatCycle &newEvRepeat) {
 std::string calendar::event::stringifyEvent() const noexcept {
     std::string result = "NAZWA: " + this->getEvName() +
                          ", OPIS: " + this->getEvDescription() + ", ";
-    std::cout << "BASE\n";
+    // std::cout << "BASE\n";
+    return result;
+}
+
+std::string calendar::event::exportData() const noexcept {
+    std::string result = std::string(typeid(this).name()) + ":" +
+                         this->getEvName() + ":" + this->getEvDescription() +
+                         ":" + this->getEvDate().stringify() + ":" +
+                         std::to_string(this->getEvRepeat());
     return result;
 }

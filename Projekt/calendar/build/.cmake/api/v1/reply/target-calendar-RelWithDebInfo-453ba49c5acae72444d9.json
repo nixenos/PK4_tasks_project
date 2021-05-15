@@ -25,13 +25,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 48,
+				"line" : 61,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 54,
+				"line" : 67,
 				"parent" : 0
 			}
 		]
@@ -42,7 +42,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g"
+					"fragment" : "-O2 -g -DNDEBUG"
 				},
 				{
 					"backtrace" : 2,
@@ -64,20 +64,24 @@
 				},
 				{
 					"backtrace" : 2,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 2,
 					"define" : "QT_WIDGETS_LIB"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"path" : "/home/nixen/Projects/C++/PK4/Projekt/calendar/build"
+					"path" : "/home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/build"
 				},
 				{
-					"path" : "/home/nixen/Projects/C++/PK4/Projekt/calendar"
+					"path" : "/home/nixen/Projects/Uczelnia/PK4/Projekt/calendar"
 				},
 				{
 					"backtrace" : 0,
-					"path" : "/home/nixen/Projects/C++/PK4/Projekt/calendar/build/calendar_autogen/include"
+					"path" : "/home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/build/calendar_autogen/include"
 				},
 				{
 					"backtrace" : 2,
@@ -119,12 +123,24 @@
 				0,
 				1,
 				2,
-				5
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
 			]
 		}
 	],
 	"dependencies" : 
 	[
+		{
+			"id" : "calendar_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+		},
 		{
 			"backtrace" : 0,
 			"id" : "calendar_autogen::@6890427a1f51a3e7e1df"
@@ -136,7 +152,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-g",
+				"fragment" : "-O2 -g -DNDEBUG",
 				"role" : "flags"
 			},
 			{
@@ -175,7 +191,16 @@
 				0,
 				1,
 				2,
-				5
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
 			]
 		},
 		{
@@ -189,7 +214,15 @@
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				4
+				4,
+				15
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				16
 			]
 		}
 	],
@@ -229,6 +262,72 @@
 			"compileGroupIndex" : 0,
 			"path" : "res/todoElement.cpp",
 			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "res/eventModel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "res/eventBirthdayModel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "res/date.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "res/calendarView.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "res/dayModel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "res/todoView.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "res/eventReminderModel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "res/eventHolidayModel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "res/dataInterface.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/calendar_autogen/timestamp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/calendar_autogen/timestamp.rule",
+			"sourceGroupIndex" : 3
 		}
 	],
 	"type" : "EXECUTABLE"
