@@ -1,0 +1,5 @@
+<map id="calendar::date::setWeekNum" name="calendar::date::setWeekNum">
+<area shape="rect" id="node1" title="Ustawia określony numer tygodnia." alt="" coords="260,42,471,69"/>
+<area shape="rect" id="node2" href="$classcalendar_1_1weekly_calendar_view.html#aa8d257161f51be45757eea0fc9bcb8dc" title="Oblicza obecny tydzień oraz ustawia wartości w widoku." alt="" coords="5,5,212,47"/>
+<area shape="rect" id="node3" href="$class_main_window.html#a996c5a2b6f77944776856f08ec30858d" title=" " alt="" coords="9,71,208,98"/>
+</map>

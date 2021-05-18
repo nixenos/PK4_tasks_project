@@ -1,0 +1,19 @@
+<map id="includes/weeklyCalendarView.h" name="includes/weeklyCalendarView.h">
+<area shape="rect" id="node1" title=" " alt="" coords="419,5,647,32"/>
+<area shape="rect" id="node2" href="$day_model_8h.html" title=" " alt="" coords="346,80,445,107"/>
+<area shape="rect" id="node3" href="$event_birthday_model_8h.html" title=" " alt="" coords="5,155,172,181"/>
+<area shape="rect" id="node11" href="$event_holiday_model_8h.html" title=" " alt="" coords="196,155,357,181"/>
+<area shape="rect" id="node12" href="$event_reminder_model_8h.html" title=" " alt="" coords="433,155,608,181"/>
+<area shape="rect" id="node13" title=" " alt="" coords="632,155,695,181"/>
+<area shape="rect" id="node14" title=" " alt="" coords="571,80,641,107"/>
+<area shape="rect" id="node15" title=" " alt="" coords="665,80,781,107"/>
+<area shape="rect" id="node16" title=" " alt="" coords="806,80,966,107"/>
+<area shape="rect" id="node17" title=" " alt="" coords="990,80,1089,107"/>
+<area shape="rect" id="node4" href="$event_model_8h.html" title=" " alt="" coords="340,229,451,256"/>
+<area shape="rect" id="node10" title=" " alt="" coords="59,229,119,256"/>
+<area shape="rect" id="node5" href="$date_8h.html" title=" " alt="" coords="527,304,589,331"/>
+<area shape="rect" id="node8" title=" " alt="" coords="403,379,462,405"/>
+<area shape="rect" id="node6" title=" " alt="" coords="665,379,715,405"/>
+<area shape="rect" id="node7" title=" " alt="" coords="486,379,553,405"/>
+<area shape="rect" id="node9" title=" " alt="" coords="577,379,641,405"/>
+</map>

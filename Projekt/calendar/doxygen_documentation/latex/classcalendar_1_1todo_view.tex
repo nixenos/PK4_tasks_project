@@ -1,0 +1,114 @@
+\hypertarget{classcalendar_1_1todo_view}{}\doxysection{Dokumentacja klasy calendar\+::todo\+View}
+\label{classcalendar_1_1todo_view}\index{calendar::todoView@{calendar::todoView}}
+
+
+Klasa opisująca widok elementów todo.  
+
+
+
+
+{\ttfamily \#include $<$todo\+View.\+h$>$}
+
+\doxysubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classcalendar_1_1todo_view_a7f1143a115d7348744486ffedd25b1e5}{add\+Item}} (std\+::string input\+Text, QStandard\+Item\+Model $\ast$todo\+List\+Model)
+\begin{DoxyCompactList}\small\item\em Dodaje element. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcalendar_1_1todo_view_a125a08e41085ca9157ec64a215d95ae7}{delete\+Item}} (QList\+View $\ast$todo\+List\+View, QStandard\+Item\+Model $\ast$todo\+List\+Model)
+\begin{DoxyCompactList}\small\item\em Usuwa element. \end{DoxyCompactList}\item 
+std\+::vector$<$ \mbox{\hyperlink{classcalendar_1_1todo_element}{todo\+Element}} $>$ \mbox{\hyperlink{classcalendar_1_1todo_view_a1ce2552586d81f38a56c22940d04716c}{get\+Items}} ()
+\begin{DoxyCompactList}\small\item\em Pobiera elementy todo. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcalendar_1_1todo_view_a073c3159bc41ef3172264c94bd63215f}{set\+Items}} (std\+::vector$<$ \mbox{\hyperlink{classcalendar_1_1todo_element}{todo\+Element}} $>$ new\+List, QStandard\+Item\+Model $\ast$todo\+List\+Model)
+\begin{DoxyCompactList}\small\item\em Ustawia elementy todo i wyświetla je. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Opis szczegółowy}
+Klasa opisująca widok elementów todo. 
+
+\doxysubsection{Dokumentacja funkcji składowych}
+\mbox{\Hypertarget{classcalendar_1_1todo_view_a7f1143a115d7348744486ffedd25b1e5}\label{classcalendar_1_1todo_view_a7f1143a115d7348744486ffedd25b1e5}} 
+\index{calendar::todoView@{calendar::todoView}!addItem@{addItem}}
+\index{addItem@{addItem}!calendar::todoView@{calendar::todoView}}
+\doxysubsubsection{\texorpdfstring{addItem()}{addItem()}}
+{\footnotesize\ttfamily void calendar\+::todo\+View\+::add\+Item (\begin{DoxyParamCaption}\item[{std\+::string}]{input\+Text,  }\item[{QStandard\+Item\+Model $\ast$}]{todo\+List\+Model }\end{DoxyParamCaption})}
+
+
+
+Dodaje element. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em input\+Text} & tekst elementu \\
+\hline
+{\em todo\+List\+Model} & model widoku listy elementów \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcalendar_1_1todo_view_a125a08e41085ca9157ec64a215d95ae7}\label{classcalendar_1_1todo_view_a125a08e41085ca9157ec64a215d95ae7}} 
+\index{calendar::todoView@{calendar::todoView}!deleteItem@{deleteItem}}
+\index{deleteItem@{deleteItem}!calendar::todoView@{calendar::todoView}}
+\doxysubsubsection{\texorpdfstring{deleteItem()}{deleteItem()}}
+{\footnotesize\ttfamily void calendar\+::todo\+View\+::delete\+Item (\begin{DoxyParamCaption}\item[{QList\+View $\ast$}]{todo\+List\+View,  }\item[{QStandard\+Item\+Model $\ast$}]{todo\+List\+Model }\end{DoxyParamCaption})}
+
+
+
+Usuwa element. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em todo\+List\+View} & widok listy elementów \\
+\hline
+{\em todo\+List\+Model} & model widoku listy elementów \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcalendar_1_1todo_view_a1ce2552586d81f38a56c22940d04716c}\label{classcalendar_1_1todo_view_a1ce2552586d81f38a56c22940d04716c}} 
+\index{calendar::todoView@{calendar::todoView}!getItems@{getItems}}
+\index{getItems@{getItems}!calendar::todoView@{calendar::todoView}}
+\doxysubsubsection{\texorpdfstring{getItems()}{getItems()}}
+{\footnotesize\ttfamily std\+::vector$<$ \mbox{\hyperlink{classcalendar_1_1todo_element}{todo\+Element}} $>$ calendar\+::todo\+View\+::get\+Items (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Pobiera elementy todo. 
+
+\begin{DoxyReturn}{Zwraca}
+std\+::vector$<$todo\+Element$>$ elementy todo 
+\end{DoxyReturn}
+Oto graf wywoływań tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1todo_view_a1ce2552586d81f38a56c22940d04716c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classcalendar_1_1todo_view_a073c3159bc41ef3172264c94bd63215f}\label{classcalendar_1_1todo_view_a073c3159bc41ef3172264c94bd63215f}} 
+\index{calendar::todoView@{calendar::todoView}!setItems@{setItems}}
+\index{setItems@{setItems}!calendar::todoView@{calendar::todoView}}
+\doxysubsubsection{\texorpdfstring{setItems()}{setItems()}}
+{\footnotesize\ttfamily void calendar\+::todo\+View\+::set\+Items (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \mbox{\hyperlink{classcalendar_1_1todo_element}{todo\+Element}} $>$}]{new\+List,  }\item[{QStandard\+Item\+Model $\ast$}]{todo\+List\+Model }\end{DoxyParamCaption})}
+
+
+
+Ustawia elementy todo i wyświetla je. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em new\+List} & nowa lista elementów todo \\
+\hline
+{\em todo\+List\+Model} & model widoku listy elementów \\
+\hline
+\end{DoxyParams}
+Oto graf wywoływań tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1todo_view_a073c3159bc41ef3172264c94bd63215f_icgraph}
+\end{center}
+\end{figure}
+
+
+Dokumentacja dla tej klasy została wygenerowana z plików\+:\begin{DoxyCompactItemize}
+\item 
+includes/\mbox{\hyperlink{todo_view_8h}{todo\+View.\+h}}\item 
+res/\mbox{\hyperlink{todo_view_8cpp}{todo\+View.\+cpp}}\end{DoxyCompactItemize}

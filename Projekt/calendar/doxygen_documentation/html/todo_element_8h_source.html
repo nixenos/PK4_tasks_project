@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Kalendarz: Plik źródłowy includes/todoElement.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Kalendarz
+   &#160;<span id="projectnumber">0.1</span>
+   </div>
+   <div id="projectbrief">Kalendarz w Qt5</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_09e761304027c904456130627fd4dcf5.html">includes</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">todoElement.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="todo_element_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacecalendar.html">calendar</a> {</div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="classcalendar_1_1todo_element.html">   21</a></span>&#160;<span class="keyword">class </span><a class="code" href="classcalendar_1_1todo_element.html">todoElement</a> {</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <span class="keywordtype">int</span> position;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    std::string dataRecord;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <a class="code" href="classcalendar_1_1todo_element.html#a413e40d19f0ce51a9b7682baf7efed3e">todoElement</a>();</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <a class="code" href="classcalendar_1_1todo_element.html#a413e40d19f0ce51a9b7682baf7efed3e">todoElement</a>(<span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <span class="keywordtype">int</span> &amp;position,</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                <span class="keyword">const</span> std::string &amp;dataRecord);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <span class="keywordtype">int</span> &amp;<a class="code" href="classcalendar_1_1todo_element.html#a717d714bb8d78c6902d7cd4735452f25">getPosition</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classcalendar_1_1todo_element.html#a7c6eefb514be9f4577b4f0d157b1610d">setPosition</a>(<span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <span class="keywordtype">int</span> &amp;newPosition);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keyword">const</span> std::string &amp;<a class="code" href="classcalendar_1_1todo_element.html#a8ef40ef28458e4f48db2bcb25f75be46">getDataRecord</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classcalendar_1_1todo_element.html#adef71b1b186be2e093b1258e67990cef">setDataRecord</a>(<span class="keyword">const</span> std::string &amp;newDataRecord);</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160; </div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classcalendar_1_1todo_element.html#a15f55c36e0a3558d2eec36b5072f1754">incrementPosition</a>();</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160; </div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classcalendar_1_1todo_element.html#a427ec51c5b20ecd054596b84c7d5497e">decrementPosition</a>();</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160; </div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    std::string <a class="code" href="classcalendar_1_1todo_element.html#a24f4b2015dfa436058209f0bc6689193">exportData</a>() <span class="keyword">const</span> noexcept;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;};</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;} <span class="comment">// namespace calendar</span></div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="comment">// namespace todo</span></div>
+<div class="ttc" id="aclasscalendar_1_1todo_element_html"><div class="ttname"><a href="classcalendar_1_1todo_element.html">calendar::todoElement</a></div><div class="ttdoc">klasa przechowująca elementy listy zadań do zrobienia</div><div class="ttdef"><b>Definition:</b> todoElement.h:21</div></div>
+<div class="ttc" id="aclasscalendar_1_1todo_element_html_a15f55c36e0a3558d2eec36b5072f1754"><div class="ttname"><a href="classcalendar_1_1todo_element.html#a15f55c36e0a3558d2eec36b5072f1754">calendar::todoElement::incrementPosition</a></div><div class="ttdeci">void incrementPosition()</div><div class="ttdoc">Inkrementuje pozycję elementu.</div><div class="ttdef"><b>Definition:</b> todoElement.cpp:22</div></div>
+<div class="ttc" id="aclasscalendar_1_1todo_element_html_a24f4b2015dfa436058209f0bc6689193"><div class="ttname"><a href="classcalendar_1_1todo_element.html#a24f4b2015dfa436058209f0bc6689193">calendar::todoElement::exportData</a></div><div class="ttdeci">std::string exportData() const noexcept</div><div class="ttdoc">Eksportuje dane do zapisu.</div><div class="ttdef"><b>Definition:</b> todoElement.cpp:38</div></div>
+<div class="ttc" id="aclasscalendar_1_1todo_element_html_a413e40d19f0ce51a9b7682baf7efed3e"><div class="ttname"><a href="classcalendar_1_1todo_element.html#a413e40d19f0ce51a9b7682baf7efed3e">calendar::todoElement::todoElement</a></div><div class="ttdeci">todoElement()</div><div class="ttdoc">Konstruktor bezargumentowy, tworzy obiekt ignorowany przez widok (position=0, dataRecord=&quot;NULL&quot;)</div><div class="ttdef"><b>Definition:</b> todoElement.cpp:9</div></div>
+<div class="ttc" id="aclasscalendar_1_1todo_element_html_a427ec51c5b20ecd054596b84c7d5497e"><div class="ttname"><a href="classcalendar_1_1todo_element.html#a427ec51c5b20ecd054596b84c7d5497e">calendar::todoElement::decrementPosition</a></div><div class="ttdeci">void decrementPosition()</div><div class="ttdoc">Dekrementuje pozycję elementu.</div><div class="ttdef"><b>Definition:</b> todoElement.cpp:24</div></div>
+<div class="ttc" id="aclasscalendar_1_1todo_element_html_a717d714bb8d78c6902d7cd4735452f25"><div class="ttname"><a href="classcalendar_1_1todo_element.html#a717d714bb8d78c6902d7cd4735452f25">calendar::todoElement::getPosition</a></div><div class="ttdeci">const unsigned long int &amp; getPosition() const</div><div class="ttdoc">Pobiera wartość pola position (pozycję elementu na liście)</div><div class="ttdef"><b>Definition:</b> todoElement.cpp:30</div></div>
+<div class="ttc" id="aclasscalendar_1_1todo_element_html_a7c6eefb514be9f4577b4f0d157b1610d"><div class="ttname"><a href="classcalendar_1_1todo_element.html#a7c6eefb514be9f4577b4f0d157b1610d">calendar::todoElement::setPosition</a></div><div class="ttdeci">void setPosition(const unsigned long int &amp;newPosition)</div><div class="ttdoc">Ustawia wartość pola position (pozycję elementu na liście)</div><div class="ttdef"><b>Definition:</b> todoElement.cpp:14</div></div>
+<div class="ttc" id="aclasscalendar_1_1todo_element_html_a8ef40ef28458e4f48db2bcb25f75be46"><div class="ttname"><a href="classcalendar_1_1todo_element.html#a8ef40ef28458e4f48db2bcb25f75be46">calendar::todoElement::getDataRecord</a></div><div class="ttdeci">const std::string &amp; getDataRecord() const</div><div class="ttdoc">Pobiera wartość pola dataRecord.</div><div class="ttdef"><b>Definition:</b> todoElement.cpp:34</div></div>
+<div class="ttc" id="aclasscalendar_1_1todo_element_html_adef71b1b186be2e093b1258e67990cef"><div class="ttname"><a href="classcalendar_1_1todo_element.html#adef71b1b186be2e093b1258e67990cef">calendar::todoElement::setDataRecord</a></div><div class="ttdeci">void setDataRecord(const std::string &amp;newDataRecord)</div><div class="ttdoc">Ustawia wartość pola dataRecord.</div><div class="ttdef"><b>Definition:</b> todoElement.cpp:18</div></div>
+<div class="ttc" id="anamespacecalendar_html"><div class="ttname"><a href="namespacecalendar.html">calendar</a></div><div class="ttdef"><b>Definition:</b> calendarView.h:21</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

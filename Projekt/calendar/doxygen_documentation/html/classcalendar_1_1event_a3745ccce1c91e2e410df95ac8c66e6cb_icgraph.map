@@ -1,0 +1,8 @@
+<map id="calendar::event::setEvDescription" name="calendar::event::setEvDescription">
+<area shape="rect" id="node1" title="ustawia opis wydarzenia" alt="" coords="479,101,720,127"/>
+<area shape="rect" id="node2" href="$classcalendar_1_1calendar_view.html#ad5f26a90a68dfac815f0df05ac5bedd7" title="Ustawia i oblicza dni w obecnym miesiącu." alt="" coords="252,5,431,47"/>
+<area shape="rect" id="node4" href="$classcalendar_1_1event.html#ae1bff3e5fb2069d140529a789518a281" title="konstruktor bezargumentowy, tworzy obiekt z datą 1.01.2012, nazwą NULL i bez powtarzania" alt="" coords="257,71,425,98"/>
+<area shape="rect" id="node5" href="$classcalendar_1_1event_birthday.html#a935269c95a648dc2c718b44cfacb70ff" title="konstruktor tworzący pełny obiekt klasy eventBirthday" alt="" coords="252,123,431,164"/>
+<area shape="rect" id="node6" href="$classcalendar_1_1event_holiday.html#a8ac3650fe7e1892634a9d2f2ec9ba8fb" title="konstrukot wieloargumentowy, tworzący pełny obiekt klasy eventHoliday" alt="" coords="255,188,428,229"/>
+<area shape="rect" id="node3" href="$class_main_window.html#a996c5a2b6f77944776856f08ec30858d" title=" " alt="" coords="5,13,204,39"/>
+</map>

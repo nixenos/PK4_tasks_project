@@ -1,0 +1,9 @@
+<map id="calendar::date::setCurrentDate" name="calendar::date::setCurrentDate">
+<area shape="rect" id="node1" title="ustawia bieżącą datę." alt="" coords="491,93,713,120"/>
+<area shape="rect" id="node2" href="$classcalendar_1_1date.html#a44b8a58bc9a6225c77adbab6e5f447a6" title="konstruktor bezargumentowy, przypisuje obiektowi aktualną datę." alt="" coords="271,5,423,32"/>
+<area shape="rect" id="node3" href="$class_main_window.html#a996c5a2b6f77944776856f08ec30858d" title=" " alt="" coords="5,123,204,149"/>
+<area shape="rect" id="node4" href="$classcalendar_1_1calendar_view.html#a1caa0f2af08db979f8b03243377e8822" title="Ustawia dzisiejszą datę" alt="" coords="260,57,435,98"/>
+<area shape="rect" id="node6" href="$classcalendar_1_1weekly_calendar_view.html#a92851638fa93b23c196bc080eee01505" title="Ustawia dzisiejszą datę." alt="" coords="252,174,443,215"/>
+<area shape="rect" id="node5" href="$classcalendar_1_1calendar_view.html#a1638dcddfe0636148cccffd37553c606" title="Konstruktor bezargumentowy." alt="" coords="17,57,192,98"/>
+<area shape="rect" id="node7" href="$classcalendar_1_1weekly_calendar_view.html#af041f7fea363c334ac1a971f2dcc81c4" title="Konstruktor bezargumentowy." alt="" coords="5,174,204,215"/>
+</map>

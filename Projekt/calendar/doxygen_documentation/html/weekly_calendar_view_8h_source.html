@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Kalendarz: Plik źródłowy includes/weeklyCalendarView.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Kalendarz
+   &#160;<span id="projectnumber">0.1</span>
+   </div>
+   <div id="projectbrief">Kalendarz w Qt5</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_09e761304027c904456130627fd4dcf5.html">includes</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">weeklyCalendarView.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="weekly_calendar_view_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="day_model_8h.html">dayModel.h</a>&quot;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &quot;event.h&quot;</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="event_birthday_model_8h.html">eventBirthdayModel.h</a>&quot;</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="event_holiday_model_8h.html">eventHolidayModel.h</a>&quot;</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="event_reminder_model_8h.html">eventReminderModel.h</a>&quot;</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include &lt;QMainWindow&gt;</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &lt;QStandardItemModel&gt;</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &lt;QTableView&gt;</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacecalendar.html">calendar</a> {</div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="classcalendar_1_1weekly_calendar_view.html">   26</a></span>&#160;<span class="keyword">class </span><a class="code" href="classcalendar_1_1weekly_calendar_view.html">weeklyCalendarView</a> {</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <a class="code" href="classcalendar_1_1date.html">date</a> today;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    std::vector&lt;day&gt; days;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    std::vector&lt;std::string&gt; monthNames;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    std::vector&lt;event *&gt; events;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <a class="code" href="classcalendar_1_1weekly_calendar_view.html#af041f7fea363c334ac1a971f2dcc81c4">weeklyCalendarView</a>();</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classcalendar_1_1weekly_calendar_view.html#a92851638fa93b23c196bc080eee01505">setTodayDate</a>();</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <a class="code" href="classcalendar_1_1date.html">date</a> <a class="code" href="classcalendar_1_1weekly_calendar_view.html#a53e3f8f005fb3784289afc76db7d9f0d">getTodayDate</a>() <span class="keyword">const</span> noexcept;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classcalendar_1_1weekly_calendar_view.html#aa8d257161f51be45757eea0fc9bcb8dc">calculateCurrentWeek</a>(QStandardItemModel *dayModelInterface,</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                              <span class="keyword">const</span> <a class="code" href="namespacecalendar.html#abc40418b6caa0c78eb28c7a0bc934405">monthModel</a> &amp;month, <span class="keyword">const</span> <span class="keywordtype">int</span> &amp;year,</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                              <span class="keyword">const</span> <span class="keywordtype">int</span> &amp;weekNum,</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                              QStandardItemModel *monthEventsInterface);</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160; </div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    std::string <a class="code" href="classcalendar_1_1weekly_calendar_view.html#a4be0db2ba4efc7f9f4170c7fdb1392e9">getMonthName</a>(<span class="keyword">const</span> <a class="code" href="namespacecalendar.html#abc40418b6caa0c78eb28c7a0bc934405">monthModel</a> &amp;month);</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160; </div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classcalendar_1_1weekly_calendar_view.html#af45221d98829ebee8ef6c05ad14e128b">getEventsForDay</a>(QStandardItemModel *monthEventsInterface,</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                         <span class="keyword">const</span> <span class="keywordtype">int</span> &amp;<a class="code" href="classcalendar_1_1day.html">day</a>);</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    QStandardItem *<a class="code" href="classcalendar_1_1weekly_calendar_view.html#a003cba9c9f63d9b09cda205b4b33fa08">displayReminderEvent</a>(<a class="code" href="classcalendar_1_1event.html">event</a> *newEvent);</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160; </div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classcalendar_1_1weekly_calendar_view.html#a2c265a8fc7fda0cee2844b1a2e7c2a36">addEventFromDialog</a>(</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        QTableView *calendarMonthlyView, <span class="keyword">const</span> std::string &amp;newEvName,</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        <span class="keyword">const</span> std::string &amp;newEvDescription, <span class="keyword">const</span> std::string &amp;newEvLocation,</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        <span class="keyword">const</span> std::string &amp;newEvType, <span class="keyword">const</span> std::string &amp;newEvFirstname,</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        <span class="keyword">const</span> std::string &amp;newEvLastname, <span class="keyword">const</span> <a class="code" href="classcalendar_1_1date.html">date</a> &amp;newEvDate,</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        <span class="keyword">const</span> <a class="code" href="classcalendar_1_1date.html">date</a> &amp;newBirthdate, <span class="keyword">const</span> <a class="code" href="classcalendar_1_1date.html">date</a> &amp;beginDate, <span class="keyword">const</span> <a class="code" href="classcalendar_1_1date.html">date</a> &amp;endDate,</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        <span class="keyword">const</span> <a class="code" href="namespacecalendar.html#a8c77826be937e7a48bf92b36b5247280">repeatCycle</a> &amp;newEvRepeat, <span class="keyword">const</span> std::string &amp;eventClass);</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160; </div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    std::vector&lt;event *&gt; <a class="code" href="classcalendar_1_1weekly_calendar_view.html#aca57c9c4560a07645f912130a46c5414">getEvents</a>() <span class="keyword">const</span> noexcept;</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160; </div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classcalendar_1_1weekly_calendar_view.html#aecadd82bbc8e8b1d8b38d1ab3bfefefe">setEvents</a>(std::vector&lt;event *&gt; newEvents);</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160; </div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classcalendar_1_1weekly_calendar_view.html#a34f296092421cbfc6b13ae760a78cd97">deleteEvent</a>(std::string exportedEventData);</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160; </div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classcalendar_1_1weekly_calendar_view.html#a8b00f446e5fc9101147cae41f50f9ab3">getCurrentWeekNumber</a>(<span class="keyword">const</span> <a class="code" href="classcalendar_1_1date.html">date</a> &amp;tempDate) <span class="keyword">const</span> noexcept;</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;};</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;} <span class="comment">// namespace calendar</span></div>
+<div class="ttc" id="aclasscalendar_1_1date_html"><div class="ttname"><a href="classcalendar_1_1date.html">calendar::date</a></div><div class="ttdoc">klasa obsługująca datę.</div><div class="ttdef"><b>Definition:</b> date.h:56</div></div>
+<div class="ttc" id="aclasscalendar_1_1day_html"><div class="ttname"><a href="classcalendar_1_1day.html">calendar::day</a></div><div class="ttdef"><b>Definition:</b> dayModel.h:19</div></div>
+<div class="ttc" id="aclasscalendar_1_1event_html"><div class="ttname"><a href="classcalendar_1_1event.html">calendar::event</a></div><div class="ttdef"><b>Definition:</b> eventModel.h:19</div></div>
+<div class="ttc" id="aclasscalendar_1_1weekly_calendar_view_html"><div class="ttname"><a href="classcalendar_1_1weekly_calendar_view.html">calendar::weeklyCalendarView</a></div><div class="ttdoc">Klasa operująca widokiem tygodniowym.</div><div class="ttdef"><b>Definition:</b> weeklyCalendarView.h:26</div></div>
+<div class="ttc" id="aclasscalendar_1_1weekly_calendar_view_html_a003cba9c9f63d9b09cda205b4b33fa08"><div class="ttname"><a href="classcalendar_1_1weekly_calendar_view.html#a003cba9c9f63d9b09cda205b4b33fa08">calendar::weeklyCalendarView::displayReminderEvent</a></div><div class="ttdeci">QStandardItem * displayReminderEvent(event *newEvent)</div><div class="ttdoc">Zwraca element Qt, który ma zostać wyświetlony.</div><div class="ttdef"><b>Definition:</b> weeklyCalendarView.cpp:187</div></div>
+<div class="ttc" id="aclasscalendar_1_1weekly_calendar_view_html_a2c265a8fc7fda0cee2844b1a2e7c2a36"><div class="ttname"><a href="classcalendar_1_1weekly_calendar_view.html#a2c265a8fc7fda0cee2844b1a2e7c2a36">calendar::weeklyCalendarView::addEventFromDialog</a></div><div class="ttdeci">void addEventFromDialog(QTableView *calendarMonthlyView, const std::string &amp;newEvName, const std::string &amp;newEvDescription, const std::string &amp;newEvLocation, const std::string &amp;newEvType, const std::string &amp;newEvFirstname, const std::string &amp;newEvLastname, const date &amp;newEvDate, const date &amp;newBirthdate, const date &amp;beginDate, const date &amp;endDate, const repeatCycle &amp;newEvRepeat, const std::string &amp;eventClass)</div><div class="ttdoc">Dodaje wydarzenie z okna dialogowego.</div><div class="ttdef"><b>Definition:</b> weeklyCalendarView.cpp:193</div></div>
+<div class="ttc" id="aclasscalendar_1_1weekly_calendar_view_html_a34f296092421cbfc6b13ae760a78cd97"><div class="ttname"><a href="classcalendar_1_1weekly_calendar_view.html#a34f296092421cbfc6b13ae760a78cd97">calendar::weeklyCalendarView::deleteEvent</a></div><div class="ttdeci">void deleteEvent(std::string exportedEventData)</div><div class="ttdoc">Usuwa wydarzenie.</div><div class="ttdef"><b>Definition:</b> weeklyCalendarView.cpp:233</div></div>
+<div class="ttc" id="aclasscalendar_1_1weekly_calendar_view_html_a4be0db2ba4efc7f9f4170c7fdb1392e9"><div class="ttname"><a href="classcalendar_1_1weekly_calendar_view.html#a4be0db2ba4efc7f9f4170c7fdb1392e9">calendar::weeklyCalendarView::getMonthName</a></div><div class="ttdeci">std::string getMonthName(const monthModel &amp;month)</div><div class="ttdoc">Zwraca nazwę miesiąca dla obiektu monthModel.</div><div class="ttdef"><b>Definition:</b> weeklyCalendarView.cpp:161</div></div>
+<div class="ttc" id="aclasscalendar_1_1weekly_calendar_view_html_a53e3f8f005fb3784289afc76db7d9f0d"><div class="ttname"><a href="classcalendar_1_1weekly_calendar_view.html#a53e3f8f005fb3784289afc76db7d9f0d">calendar::weeklyCalendarView::getTodayDate</a></div><div class="ttdeci">date getTodayDate() const noexcept</div><div class="ttdoc">Pobiera dzisiejszą datę.</div><div class="ttdef"><b>Definition:</b> weeklyCalendarView.cpp:49</div></div>
+<div class="ttc" id="aclasscalendar_1_1weekly_calendar_view_html_a8b00f446e5fc9101147cae41f50f9ab3"><div class="ttname"><a href="classcalendar_1_1weekly_calendar_view.html#a8b00f446e5fc9101147cae41f50f9ab3">calendar::weeklyCalendarView::getCurrentWeekNumber</a></div><div class="ttdeci">int getCurrentWeekNumber(const date &amp;tempDate) const noexcept</div><div class="ttdoc">Pobiera aktualny numer tygodnia.</div><div class="ttdef"><b>Definition:</b> weeklyCalendarView.cpp:25</div></div>
+<div class="ttc" id="aclasscalendar_1_1weekly_calendar_view_html_a92851638fa93b23c196bc080eee01505"><div class="ttname"><a href="classcalendar_1_1weekly_calendar_view.html#a92851638fa93b23c196bc080eee01505">calendar::weeklyCalendarView::setTodayDate</a></div><div class="ttdeci">void setTodayDate()</div><div class="ttdoc">Ustawia dzisiejszą datę.</div><div class="ttdef"><b>Definition:</b> weeklyCalendarView.cpp:43</div></div>
+<div class="ttc" id="aclasscalendar_1_1weekly_calendar_view_html_aa8d257161f51be45757eea0fc9bcb8dc"><div class="ttname"><a href="classcalendar_1_1weekly_calendar_view.html#aa8d257161f51be45757eea0fc9bcb8dc">calendar::weeklyCalendarView::calculateCurrentWeek</a></div><div class="ttdeci">void calculateCurrentWeek(QStandardItemModel *dayModelInterface, const monthModel &amp;month, const int &amp;year, const int &amp;weekNum, QStandardItemModel *monthEventsInterface)</div><div class="ttdoc">Oblicza obecny tydzień oraz ustawia wartości w widoku.</div><div class="ttdef"><b>Definition:</b> weeklyCalendarView.cpp:51</div></div>
+<div class="ttc" id="aclasscalendar_1_1weekly_calendar_view_html_aca57c9c4560a07645f912130a46c5414"><div class="ttname"><a href="classcalendar_1_1weekly_calendar_view.html#aca57c9c4560a07645f912130a46c5414">calendar::weeklyCalendarView::getEvents</a></div><div class="ttdeci">std::vector&lt; event * &gt; getEvents() const noexcept</div><div class="ttdoc">Pobiera wydarzenia.</div><div class="ttdef"><b>Definition:</b> weeklyCalendarView.cpp:225</div></div>
+<div class="ttc" id="aclasscalendar_1_1weekly_calendar_view_html_aecadd82bbc8e8b1d8b38d1ab3bfefefe"><div class="ttname"><a href="classcalendar_1_1weekly_calendar_view.html#aecadd82bbc8e8b1d8b38d1ab3bfefefe">calendar::weeklyCalendarView::setEvents</a></div><div class="ttdeci">void setEvents(std::vector&lt; event * &gt; newEvents)</div><div class="ttdoc">Ustawia wydarzenia w modelu widoku.</div><div class="ttdef"><b>Definition:</b> weeklyCalendarView.cpp:229</div></div>
+<div class="ttc" id="aclasscalendar_1_1weekly_calendar_view_html_af041f7fea363c334ac1a971f2dcc81c4"><div class="ttname"><a href="classcalendar_1_1weekly_calendar_view.html#af041f7fea363c334ac1a971f2dcc81c4">calendar::weeklyCalendarView::weeklyCalendarView</a></div><div class="ttdeci">weeklyCalendarView()</div><div class="ttdoc">Konstruktor bezargumentowy.</div><div class="ttdef"><b>Definition:</b> weeklyCalendarView.cpp:9</div></div>
+<div class="ttc" id="aclasscalendar_1_1weekly_calendar_view_html_af45221d98829ebee8ef6c05ad14e128b"><div class="ttname"><a href="classcalendar_1_1weekly_calendar_view.html#af45221d98829ebee8ef6c05ad14e128b">calendar::weeklyCalendarView::getEventsForDay</a></div><div class="ttdeci">void getEventsForDay(QStandardItemModel *monthEventsInterface, const int &amp;day)</div><div class="ttdoc">Pobiera wydarzenia dla danego dnia.</div><div class="ttdef"><b>Definition:</b> weeklyCalendarView.cpp:167</div></div>
+<div class="ttc" id="aday_model_8h_html"><div class="ttname"><a href="day_model_8h.html">dayModel.h</a></div></div>
+<div class="ttc" id="aevent_birthday_model_8h_html"><div class="ttname"><a href="event_birthday_model_8h.html">eventBirthdayModel.h</a></div></div>
+<div class="ttc" id="aevent_holiday_model_8h_html"><div class="ttname"><a href="event_holiday_model_8h.html">eventHolidayModel.h</a></div></div>
+<div class="ttc" id="aevent_reminder_model_8h_html"><div class="ttname"><a href="event_reminder_model_8h.html">eventReminderModel.h</a></div></div>
+<div class="ttc" id="anamespacecalendar_html"><div class="ttname"><a href="namespacecalendar.html">calendar</a></div><div class="ttdef"><b>Definition:</b> calendarView.h:21</div></div>
+<div class="ttc" id="anamespacecalendar_html_a8c77826be937e7a48bf92b36b5247280"><div class="ttname"><a href="namespacecalendar.html#a8c77826be937e7a48bf92b36b5247280">calendar::repeatCycle</a></div><div class="ttdeci">repeatCycle</div><div class="ttdef"><b>Definition:</b> eventModel.h:17</div></div>
+<div class="ttc" id="anamespacecalendar_html_abc40418b6caa0c78eb28c7a0bc934405"><div class="ttname"><a href="namespacecalendar.html#abc40418b6caa0c78eb28c7a0bc934405">calendar::monthModel</a></div><div class="ttdeci">monthModel</div><div class="ttdoc">typ wyliczeniowy obługujący miesiące.</div><div class="ttdef"><b>Definition:</b> date.h:38</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

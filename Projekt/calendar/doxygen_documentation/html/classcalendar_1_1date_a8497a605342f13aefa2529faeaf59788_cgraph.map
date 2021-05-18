@@ -1,0 +1,6 @@
+<map id="calendar::date::operator==" name="calendar::date::operator==">
+<area shape="rect" id="node1" title="Operator równości." alt="" coords="5,56,205,83"/>
+<area shape="rect" id="node2" href="$classcalendar_1_1date.html#afc729e949594b20f9121b22af9c9187c" title="pobiera dzień miesiąca." alt="" coords="261,5,431,32"/>
+<area shape="rect" id="node3" href="$classcalendar_1_1date.html#afe34409f4e6ebc09d8d3eeac14b281e6" title="pobiera miesiąc." alt="" coords="253,56,439,83"/>
+<area shape="rect" id="node4" href="$classcalendar_1_1date.html#a9c104a57ea4d555a1cd0eea72d9d684e" title="pobiera rok." alt="" coords="261,107,431,133"/>
+</map>

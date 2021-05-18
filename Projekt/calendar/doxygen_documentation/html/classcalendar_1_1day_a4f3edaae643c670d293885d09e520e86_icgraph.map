@@ -1,0 +1,5 @@
+<map id="calendar::day::getEvents" name="calendar::day::getEvents">
+<area shape="rect" id="node1" title="Pobiera wydarzenia danego dnia." alt="" coords="244,46,427,73"/>
+<area shape="rect" id="node2" href="$classcalendar_1_1calendar_view.html#a90fb0871265c6a77c271b4a46654c4b1" title="Pobiera wydarzenia dla danego dnia." alt="" coords="13,5,188,47"/>
+<area shape="rect" id="node3" href="$classcalendar_1_1weekly_calendar_view.html#af45221d98829ebee8ef6c05ad14e128b" title="Pobiera wydarzenia dla danego dnia." alt="" coords="5,71,196,112"/>
+</map>

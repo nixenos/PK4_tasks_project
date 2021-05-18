@@ -1,0 +1,8 @@
+<map id="calendar::weeklyCalendarView::getEventsForDay" name="calendar::weeklyCalendarView::getEventsForDay">
+<area shape="rect" id="node1" title="Pobiera wydarzenia dla danego dnia." alt="" coords="5,89,196,131"/>
+<area shape="rect" id="node2" href="$classcalendar_1_1weekly_calendar_view.html#a003cba9c9f63d9b09cda205b4b33fa08" title="Zwraca element Qt, który ma zostać wyświetlony." alt="" coords="244,5,453,47"/>
+<area shape="rect" id="node4" href="$classcalendar_1_1day.html#a8064a9ecc4ce347f1d5dd95abfeade95" title="Pobiera datę dnia." alt="" coords="264,71,433,98"/>
+<area shape="rect" id="node5" href="$classcalendar_1_1date.html#afc729e949594b20f9121b22af9c9187c" title="pobiera dzień miesiąca." alt="" coords="263,122,434,149"/>
+<area shape="rect" id="node6" href="$classcalendar_1_1day.html#a4f3edaae643c670d293885d09e520e86" title="Pobiera wydarzenia danego dnia." alt="" coords="257,173,440,199"/>
+<area shape="rect" id="node3" href="$classcalendar_1_1event.html#a99bb00302eb18633adf75dd202fe0c03" title="pobiera odpowiednie dane dla każdego z elementów i przetwarza je w std::string wyświetlany w GUI apli..." alt="" coords="501,5,687,47"/>
+</map>

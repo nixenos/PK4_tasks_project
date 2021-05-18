@@ -37,7 +37,7 @@ void calendar::date::setCurrentDate() {
     struct tm tstruct;
     char buffer[80];
     tstruct = *localtime(&currentTime);
-    strftime(buffer, sizeof(buffer), "%Y%m%d", &tstruct);
+    strftime(buffer, sizeof(buffer), "%Y%m%d%W", &tstruct);
     std::string tempDateContainer(buffer);
     // std::cout << "BUFFER: " << tempDateContainer << std::endl;
     unsigned long int newYear = atoi(tempDateContainer.substr(0, 4).c_str());
@@ -47,6 +47,10 @@ void calendar::date::setCurrentDate() {
     std::string tempDay = "00";
     tempDay[0] = tempDateContainer[6];
     tempDay[1] = tempDateContainer[7];
+    std::string tempWeekNum = "00";
+    tempWeekNum[0] = tempDateContainer[8];
+    tempWeekNum[1] = tempDateContainer[9];
+    unsigned long int newWeekNum = atoi(tempWeekNum.c_str());
     unsigned short int newMonth = atoi(tempMonth.c_str()) - 1;
     unsigned short int newDay = atoi(tempDay.c_str());
     this->year = newYear;
@@ -54,6 +58,8 @@ void calendar::date::setCurrentDate() {
     // this->day = static_cast<calendar::weekDayModel>(newDay);
     this->day = newDay;
     this->weekDay = this->calculateWeekDay(this->day, this->month, this->year);
+    this->weekNumber = newWeekNum;
+    // delete[] buffer;
 }
 
 void calendar::date::setDay(const unsigned short &newDay) {
@@ -177,9 +183,23 @@ bool calendar::date::operator!=(const calendar::date &right) {
 }
 
 bool calendar::date::operator>(const calendar::date &right) {
-    if (this->getDay() > right.getDay() &&
-        this->getMonth() >= right.getMonth() &&
-        this->getYear() >= right.getYear()) {
+    // if (this->getDay() > right.getDay() &&
+    //     this->getMonth() >= right.getMonth() &&
+    //     this->getYear() >= right.getYear()) {
+    long long tempLeft =
+        this->getYear() * 100000 + (int)this->getMonth() * 100 + this->getDay();
+    long long tempRight =
+        right.getYear() * 100000 + (int)right.getMonth() * 100 + right.getDay();
+    // if (this->getYear() > right.getYear() ||
+    //     this->getYear() == right.getYear()) {
+    //     if (this->getMonth() > right.getMonth() ||
+    //         this->getMonth() == right.getMonth()) {
+    //         if (this->getDay() > right.getDay()) {
+    //             return true;
+    //         }
+    //     }
+    // }
+    if (tempLeft > tempRight) {
         return true;
     } else {
         return false;
@@ -203,4 +223,84 @@ std::string calendar::date::stringify() {
                          std::to_string((int)this->getMonth()) + ":" +
                          std::to_string(this->getYear());
     return result;
+}
+
+void calendar::date::setWeekNum(const int &newWeekNum) {
+    this->weekNumber = newWeekNum;
+}
+
+int calendar::date::getWeekNum() const noexcept { return this->weekNumber; }
+
+void calendar::date::incrementWeek() {
+    int currentDay = this->getDay() + 7;
+    if (currentDay > 31 && this->getMonth() % 2 == 0 && this->getMonth() < 7) {
+        currentDay -= 31;
+        this->setDay(currentDay);
+        this->incrementMonth();
+    } else if (currentDay > 31 && this->getMonth() % 2 == 1 &&
+               this->getMonth() > 6) {
+        currentDay -= 30;
+        this->setDay(currentDay);
+        this->incrementMonth();
+    } else if (currentDay > 29 && this->getMonth() == 1 &&
+               this->getYear() % 4 == 0) {
+        currentDay -= 29;
+        this->setDay(currentDay);
+        this->incrementMonth();
+    } else if (currentDay > 28 && this->getMonth() == 1 &&
+               this->getYear() % 4 != 0) {
+        currentDay -= 28;
+        this->setDay(currentDay);
+        this->incrementMonth();
+    } else if (currentDay > 30 && this->getMonth() != 1 &&
+               this->getMonth() < 7 && this->getMonth() % 2 == 1) {
+        currentDay -= 30;
+        this->setDay(currentDay);
+        this->incrementMonth();
+    } else if (currentDay > 30 && this->getMonth() > 6 &&
+               this->getMonth() % 2 == 0) {
+        currentDay -= 30;
+        this->setDay(currentDay);
+        this->incrementMonth();
+    } else {
+        this->setDay(currentDay);
+    }
+    if (++weekNumber == 53) {
+        weekNumber = 1;
+    }
+    // this->weekNumber = (++weekNumber);
+}
+
+void calendar::date::decrementWeek() {
+    int currentDay = this->getDay() - 7;
+    if (currentDay < 1) {
+        currentDay--;
+        date tempDate(this->getDay(), this->getMonth(), this->getYear());
+        tempDate.decrementMonth();
+        if (tempDate.getMonth() % 2 == 0 && tempDate.getMonth() < 7) {
+            tempDate.setDay(31 + currentDay);
+        } else if (tempDate.getMonth() % 2 == 1 && tempDate.getMonth() > 6) {
+            tempDate.setDay(31 + currentDay);
+        } else if (tempDate.getMonth() % 2 == 1 && tempDate.getMonth() < 7 &&
+                   tempDate.getMonth() != 1) {
+            tempDate.setDay(30 + currentDay);
+        } else if (tempDate.getMonth() % 2 == 0 && tempDate.getMonth() > 6) {
+            tempDate.setDay(30 + currentDay);
+        } else if (tempDate.getMonth() == 1 && tempDate.getYear() % 4 == 0) {
+            tempDate.setDay(29 + currentDay);
+        } else if (tempDate.getMonth() == 1 && tempDate.getYear() % 4 != 0) {
+            tempDate.setDay(28 + currentDay);
+        } else {
+            tempDate.setDay(0);
+        }
+        this->setDay(tempDate.getDay());
+        this->setMonth(tempDate.getMonth());
+        this->setYear(tempDate.getYear());
+    } else {
+        this->setDay(currentDay);
+    }
+    this->weekNumber--;
+    if (this->weekNumber == 0) {
+        this->weekNumber = 52;
+    }
 }

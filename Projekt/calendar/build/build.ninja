@@ -131,6 +131,14 @@ build CMakeFiles/calendar.dir/res/calendarView.cpp.o: CXX_COMPILER__calendar_Rel
   OBJECT_DIR = CMakeFiles/calendar.dir
   OBJECT_FILE_DIR = CMakeFiles/calendar.dir/res
 
+build CMakeFiles/calendar.dir/res/weeklyCalendarView.cpp.o: CXX_COMPILER__calendar_RelWithDebInfo ../res/weeklyCalendarView.cpp || cmake_object_order_depends_target_calendar
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/calendar.dir/res/weeklyCalendarView.cpp.o.d
+  FLAGS = -O2 -g -DNDEBUG -fPIC -std=gnu++11
+  INCLUDES = -I. -I../ -Icalendar_autogen/include -isystem /usr/include/qt -isystem /usr/include/qt/QtWidgets -isystem /usr/include/qt/QtGui -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++
+  OBJECT_DIR = CMakeFiles/calendar.dir
+  OBJECT_FILE_DIR = CMakeFiles/calendar.dir/res
+
 build CMakeFiles/calendar.dir/res/dayModel.cpp.o: CXX_COMPILER__calendar_RelWithDebInfo ../res/dayModel.cpp || cmake_object_order_depends_target_calendar
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/calendar.dir/res/dayModel.cpp.o.d
@@ -179,7 +187,7 @@ build CMakeFiles/calendar.dir/res/dataInterface.cpp.o: CXX_COMPILER__calendar_Re
 #############################################
 # Link the executable calendar
 
-build calendar: CXX_EXECUTABLE_LINKER__calendar_RelWithDebInfo CMakeFiles/calendar.dir/calendar_autogen/mocs_compilation.cpp.o CMakeFiles/calendar.dir/main.cpp.o CMakeFiles/calendar.dir/mainwindow.cpp.o CMakeFiles/calendar.dir/res/todoElement.cpp.o CMakeFiles/calendar.dir/res/eventModel.cpp.o CMakeFiles/calendar.dir/res/eventBirthdayModel.cpp.o CMakeFiles/calendar.dir/res/date.cpp.o CMakeFiles/calendar.dir/res/calendarView.cpp.o CMakeFiles/calendar.dir/res/dayModel.cpp.o CMakeFiles/calendar.dir/res/todoView.cpp.o CMakeFiles/calendar.dir/res/eventReminderModel.cpp.o CMakeFiles/calendar.dir/res/eventHolidayModel.cpp.o CMakeFiles/calendar.dir/res/dataInterface.cpp.o | /usr/lib/libQt5Widgets.so.5.15.2 /usr/lib/libQt5Gui.so.5.15.2 /usr/lib/libQt5Core.so.5.15.2 || calendar_autogen calendar_autogen_timestamp_deps
+build calendar: CXX_EXECUTABLE_LINKER__calendar_RelWithDebInfo CMakeFiles/calendar.dir/calendar_autogen/mocs_compilation.cpp.o CMakeFiles/calendar.dir/main.cpp.o CMakeFiles/calendar.dir/mainwindow.cpp.o CMakeFiles/calendar.dir/res/todoElement.cpp.o CMakeFiles/calendar.dir/res/eventModel.cpp.o CMakeFiles/calendar.dir/res/eventBirthdayModel.cpp.o CMakeFiles/calendar.dir/res/date.cpp.o CMakeFiles/calendar.dir/res/calendarView.cpp.o CMakeFiles/calendar.dir/res/weeklyCalendarView.cpp.o CMakeFiles/calendar.dir/res/dayModel.cpp.o CMakeFiles/calendar.dir/res/todoView.cpp.o CMakeFiles/calendar.dir/res/eventReminderModel.cpp.o CMakeFiles/calendar.dir/res/eventHolidayModel.cpp.o CMakeFiles/calendar.dir/res/dataInterface.cpp.o | /usr/lib/libQt5Widgets.so.5.15.2 /usr/lib/libQt5Gui.so.5.15.2 /usr/lib/libQt5Core.so.5.15.2 || calendar_autogen calendar_autogen_timestamp_deps
   FLAGS = -O2 -g -DNDEBUG
   LINK_LIBRARIES = /usr/lib/libQt5Widgets.so.5.15.2  /usr/lib/libQt5Gui.so.5.15.2  /usr/lib/libQt5Core.so.5.15.2
   OBJECT_DIR = CMakeFiles/calendar.dir
@@ -214,7 +222,7 @@ build calendar_autogen/timestamp: CUSTOM_COMMAND /usr/bin/moc /usr/bin/uic || ca
 #############################################
 # Phony custom command for CMakeFiles/calendar_autogen_timestamp_deps
 
-build CMakeFiles/calendar_autogen_timestamp_deps: phony /usr/lib/libQt5Widgets.so.5.15.2 /usr/bin/moc /usr/bin/uic
+build CMakeFiles/calendar_autogen_timestamp_deps: phony /usr/lib/libQt5Widgets.so.5.15.2 /usr/bin/uic /usr/bin/moc
 
 
 #############################################

@@ -1,0 +1,179 @@
+\hypertarget{classcalendar_1_1day}{}\doxysection{Dokumentacja klasy calendar\+::day}
+\label{classcalendar_1_1day}\index{calendar::day@{calendar::day}}
+
+
+{\ttfamily \#include $<$day\+Model.\+h$>$}
+
+\doxysubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcalendar_1_1day_acadf6aaab929d3c1f32163a222ff63cd}{day}} ()
+\begin{DoxyCompactList}\small\item\em Konstruktor tworzący pusty obiekt o dacie 1.\+1.\+2012. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classcalendar_1_1day_a5ab9e71519aa714b5f5c651d01e152ab}{day}} (const \mbox{\hyperlink{classcalendar_1_1date}{date}} \&new\+Date)
+\begin{DoxyCompactList}\small\item\em Konstruktor przyjmujący datę \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classcalendar_1_1date}{date}} \mbox{\hyperlink{classcalendar_1_1day_a8064a9ecc4ce347f1d5dd95abfeade95}{get\+Date}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Pobiera datę dnia. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcalendar_1_1day_a2fc678f34ad021ef8fe99ca936bb81a2}{set\+Date}} (const \mbox{\hyperlink{classcalendar_1_1date}{date}} \&new\+Date)
+\begin{DoxyCompactList}\small\item\em Ustawia datę dnia. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcalendar_1_1day_a9cfbbab0abd5c16570da64ffc3fcf5e7}{add\+Event}} (\mbox{\hyperlink{classcalendar_1_1event}{event}} $\ast$new\+Event)
+\begin{DoxyCompactList}\small\item\em Dodaje nowe wydarzenie. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcalendar_1_1day_aa596b332da3f599c0758a57a54ce08c1}{delete\+Event}} (const \mbox{\hyperlink{classcalendar_1_1event}{event}} \&del\+Event)
+\begin{DoxyCompactList}\small\item\em usuwa podane wydarzenie z listy \end{DoxyCompactList}\item 
+std\+::vector$<$ \mbox{\hyperlink{classcalendar_1_1event}{event}} $\ast$ $>$ \mbox{\hyperlink{classcalendar_1_1day_a4f3edaae643c670d293885d09e520e86}{get\+Events}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Pobiera wydarzenia danego dnia. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Dokumentacja konstruktora i destruktora}
+\mbox{\Hypertarget{classcalendar_1_1day_acadf6aaab929d3c1f32163a222ff63cd}\label{classcalendar_1_1day_acadf6aaab929d3c1f32163a222ff63cd}} 
+\index{calendar::day@{calendar::day}!day@{day}}
+\index{day@{day}!calendar::day@{calendar::day}}
+\doxysubsubsection{\texorpdfstring{day()}{day()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily calendar\+::day\+::day (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Konstruktor tworzący pusty obiekt o dacie 1.\+1.\+2012. 
+
+Construct a new day object. Oto graf wywołań dla tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=348pt]{classcalendar_1_1day_acadf6aaab929d3c1f32163a222ff63cd_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classcalendar_1_1day_a5ab9e71519aa714b5f5c651d01e152ab}\label{classcalendar_1_1day_a5ab9e71519aa714b5f5c651d01e152ab}} 
+\index{calendar::day@{calendar::day}!day@{day}}
+\index{day@{day}!calendar::day@{calendar::day}}
+\doxysubsubsection{\texorpdfstring{day()}{day()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily calendar\+::day\+::day (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classcalendar_1_1date}{date}} \&}]{new\+Date }\end{DoxyParamCaption})}
+
+
+
+Konstruktor przyjmujący datę 
+
+
+\begin{DoxyParams}{Parametry}
+{\em new\+Date} & nowa data dnia \\
+\hline
+\end{DoxyParams}
+Oto graf wywołań dla tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=348pt]{classcalendar_1_1day_a5ab9e71519aa714b5f5c651d01e152ab_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Dokumentacja funkcji składowych}
+\mbox{\Hypertarget{classcalendar_1_1day_a9cfbbab0abd5c16570da64ffc3fcf5e7}\label{classcalendar_1_1day_a9cfbbab0abd5c16570da64ffc3fcf5e7}} 
+\index{calendar::day@{calendar::day}!addEvent@{addEvent}}
+\index{addEvent@{addEvent}!calendar::day@{calendar::day}}
+\doxysubsubsection{\texorpdfstring{addEvent()}{addEvent()}}
+{\footnotesize\ttfamily void calendar\+::day\+::add\+Event (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classcalendar_1_1event}{event}} $\ast$}]{new\+Event }\end{DoxyParamCaption})}
+
+
+
+Dodaje nowe wydarzenie. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em new\+Event} & nowe wydarzenie \\
+\hline
+\end{DoxyParams}
+Oto graf wywoływań tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1day_a9cfbbab0abd5c16570da64ffc3fcf5e7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classcalendar_1_1day_aa596b332da3f599c0758a57a54ce08c1}\label{classcalendar_1_1day_aa596b332da3f599c0758a57a54ce08c1}} 
+\index{calendar::day@{calendar::day}!deleteEvent@{deleteEvent}}
+\index{deleteEvent@{deleteEvent}!calendar::day@{calendar::day}}
+\doxysubsubsection{\texorpdfstring{deleteEvent()}{deleteEvent()}}
+{\footnotesize\ttfamily void calendar\+::day\+::delete\+Event (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classcalendar_1_1event}{event}} \&}]{del\+Event }\end{DoxyParamCaption})}
+
+
+
+usuwa podane wydarzenie z listy 
+
+
+\begin{DoxyParams}{Parametry}
+{\em del\+Event} & wydarzenie do usunięcia \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcalendar_1_1day_a8064a9ecc4ce347f1d5dd95abfeade95}\label{classcalendar_1_1day_a8064a9ecc4ce347f1d5dd95abfeade95}} 
+\index{calendar::day@{calendar::day}!getDate@{getDate}}
+\index{getDate@{getDate}!calendar::day@{calendar::day}}
+\doxysubsubsection{\texorpdfstring{getDate()}{getDate()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classcalendar_1_1date}{date}} calendar\+::day\+::get\+Date (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+
+
+Pobiera datę dnia. 
+
+\begin{DoxyReturn}{Zwraca}
+data 
+\end{DoxyReturn}
+Oto graf wywoływań tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1day_a8064a9ecc4ce347f1d5dd95abfeade95_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classcalendar_1_1day_a4f3edaae643c670d293885d09e520e86}\label{classcalendar_1_1day_a4f3edaae643c670d293885d09e520e86}} 
+\index{calendar::day@{calendar::day}!getEvents@{getEvents}}
+\index{getEvents@{getEvents}!calendar::day@{calendar::day}}
+\doxysubsubsection{\texorpdfstring{getEvents()}{getEvents()}}
+{\footnotesize\ttfamily std\+::vector$<$ \mbox{\hyperlink{classcalendar_1_1event}{event}} $\ast$ $>$ calendar\+::day\+::get\+Events (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+
+
+Pobiera wydarzenia danego dnia. 
+
+\begin{DoxyReturn}{Zwraca}
+std\+::vector$<$date$>$ wydarzenia 
+\end{DoxyReturn}
+Oto graf wywoływań tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1day_a4f3edaae643c670d293885d09e520e86_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classcalendar_1_1day_a2fc678f34ad021ef8fe99ca936bb81a2}\label{classcalendar_1_1day_a2fc678f34ad021ef8fe99ca936bb81a2}} 
+\index{calendar::day@{calendar::day}!setDate@{setDate}}
+\index{setDate@{setDate}!calendar::day@{calendar::day}}
+\doxysubsubsection{\texorpdfstring{setDate()}{setDate()}}
+{\footnotesize\ttfamily void calendar\+::day\+::set\+Date (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classcalendar_1_1date}{date}} \&}]{new\+Date }\end{DoxyParamCaption})}
+
+
+
+Ustawia datę dnia. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em new\+Date} & nowa data \\
+\hline
+\end{DoxyParams}
+Oto graf wywoływań tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=348pt]{classcalendar_1_1day_a2fc678f34ad021ef8fe99ca936bb81a2_icgraph}
+\end{center}
+\end{figure}
+
+
+Dokumentacja dla tej klasy została wygenerowana z plików\+:\begin{DoxyCompactItemize}
+\item 
+includes/\mbox{\hyperlink{day_model_8h}{day\+Model.\+h}}\item 
+res/\mbox{\hyperlink{day_model_8cpp}{day\+Model.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,328 @@
+\hypertarget{classcalendar_1_1calendar_view}{}\doxysection{Dokumentacja klasy calendar\+::calendar\+View}
+\label{classcalendar_1_1calendar_view}\index{calendar::calendarView@{calendar::calendarView}}
+
+
+klasa opisująca model widoku miesięcznego.  
+
+
+
+
+{\ttfamily \#include $<$calendar\+View.\+h$>$}
+
+\doxysubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcalendar_1_1calendar_view_a1638dcddfe0636148cccffd37553c606}{calendar\+View}} ()
+\begin{DoxyCompactList}\small\item\em Konstruktor bezargumentowy. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcalendar_1_1calendar_view_a1caa0f2af08db979f8b03243377e8822}{set\+Today\+Date}} ()
+\begin{DoxyCompactList}\small\item\em Ustawia dzisiejszą datę \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classcalendar_1_1date}{date}} \mbox{\hyperlink{classcalendar_1_1calendar_view_a2af30dee09efc1efddc1a906b486872b}{get\+Today\+Date}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Pobiera dzisiejszą datę \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcalendar_1_1calendar_view_ad5f26a90a68dfac815f0df05ac5bedd7}{calculate\+Current\+Month}} (QStandard\+Item\+Model $\ast$day\+Model\+Interface, const \mbox{\hyperlink{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405}{month\+Model}} \&month, const int \&year, QStandard\+Item\+Model $\ast$month\+Events\+Interface)
+\begin{DoxyCompactList}\small\item\em Ustawia i oblicza dni w obecnym miesiącu. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classcalendar_1_1calendar_view_a21206448083d4d91f837b672c2481765}{get\+Month\+Name}} (const \mbox{\hyperlink{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405}{month\+Model}} \&month)
+\begin{DoxyCompactList}\small\item\em Pobiera nazwę miesiąca. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcalendar_1_1calendar_view_a90fb0871265c6a77c271b4a46654c4b1}{get\+Events\+For\+Day}} (QStandard\+Item\+Model $\ast$month\+Events\+Interface, const int \&\mbox{\hyperlink{classcalendar_1_1day}{day}})
+\begin{DoxyCompactList}\small\item\em Pobiera wydarzenia dla danego dnia. \end{DoxyCompactList}\item 
+QStandard\+Item $\ast$ \mbox{\hyperlink{classcalendar_1_1calendar_view_a325c377177a948636f55c6bfa30190a2}{display\+Reminder\+Event}} (\mbox{\hyperlink{classcalendar_1_1event}{event}} $\ast$new\+Event)
+\begin{DoxyCompactList}\small\item\em Zwraca opis wydarzenia. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcalendar_1_1calendar_view_ac4bad199c4a24d3b789cf507ebe83408}{add\+Event\+From\+Dialog}} (QTable\+View $\ast$calendar\+Monthly\+View, const std\+::string \&new\+Ev\+Name, const std\+::string \&new\+Ev\+Description, const std\+::string \&new\+Ev\+Location, const std\+::string \&new\+Ev\+Type, const std\+::string \&new\+Ev\+Firstname, const std\+::string \&new\+Ev\+Lastname, const \mbox{\hyperlink{classcalendar_1_1date}{date}} \&new\+Ev\+Date, const \mbox{\hyperlink{classcalendar_1_1date}{date}} \&new\+Birthdate, const \mbox{\hyperlink{classcalendar_1_1date}{date}} \&begin\+Date, const \mbox{\hyperlink{classcalendar_1_1date}{date}} \&end\+Date, const \mbox{\hyperlink{namespacecalendar_a8c77826be937e7a48bf92b36b5247280}{repeat\+Cycle}} \&new\+Ev\+Repeat, const std\+::string \&event\+Class)
+\begin{DoxyCompactList}\small\item\em Dodaje wydarzenie z okna dialogowego. \end{DoxyCompactList}\item 
+std\+::vector$<$ \mbox{\hyperlink{classcalendar_1_1event}{event}} $\ast$ $>$ \mbox{\hyperlink{classcalendar_1_1calendar_view_a7dd23a34a3a7c9efaf75b50ec3e99cf0}{get\+Events}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Pobiera listę wydarzeń. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcalendar_1_1calendar_view_a27b0eb2cb128cf966ea2884b402d7528}{set\+Events}} (std\+::vector$<$ \mbox{\hyperlink{classcalendar_1_1event}{event}} $\ast$ $>$ new\+Events)
+\begin{DoxyCompactList}\small\item\em Ustawia listę wydarzeń \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcalendar_1_1calendar_view_ad0936605483140c4a821bf8db67ba497}{delete\+Event}} (std\+::string exported\+Event\+Data)
+\begin{DoxyCompactList}\small\item\em Usuwa wydarzenie o określonym opisie. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Opis szczegółowy}
+klasa opisująca model widoku miesięcznego. 
+
+\doxysubsection{Dokumentacja konstruktora i destruktora}
+\mbox{\Hypertarget{classcalendar_1_1calendar_view_a1638dcddfe0636148cccffd37553c606}\label{classcalendar_1_1calendar_view_a1638dcddfe0636148cccffd37553c606}} 
+\index{calendar::calendarView@{calendar::calendarView}!calendarView@{calendarView}}
+\index{calendarView@{calendarView}!calendar::calendarView@{calendar::calendarView}}
+\doxysubsubsection{\texorpdfstring{calendarView()}{calendarView()}}
+{\footnotesize\ttfamily calendar\+::calendar\+View\+::calendar\+View (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Konstruktor bezargumentowy. 
+
+Oto graf wywołań dla tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1calendar_view_a1638dcddfe0636148cccffd37553c606_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Dokumentacja funkcji składowych}
+\mbox{\Hypertarget{classcalendar_1_1calendar_view_ac4bad199c4a24d3b789cf507ebe83408}\label{classcalendar_1_1calendar_view_ac4bad199c4a24d3b789cf507ebe83408}} 
+\index{calendar::calendarView@{calendar::calendarView}!addEventFromDialog@{addEventFromDialog}}
+\index{addEventFromDialog@{addEventFromDialog}!calendar::calendarView@{calendar::calendarView}}
+\doxysubsubsection{\texorpdfstring{addEventFromDialog()}{addEventFromDialog()}}
+{\footnotesize\ttfamily void calendar\+::calendar\+View\+::add\+Event\+From\+Dialog (\begin{DoxyParamCaption}\item[{QTable\+View $\ast$}]{calendar\+Monthly\+View,  }\item[{const std\+::string \&}]{new\+Ev\+Name,  }\item[{const std\+::string \&}]{new\+Ev\+Description,  }\item[{const std\+::string \&}]{new\+Ev\+Location,  }\item[{const std\+::string \&}]{new\+Ev\+Type,  }\item[{const std\+::string \&}]{new\+Ev\+Firstname,  }\item[{const std\+::string \&}]{new\+Ev\+Lastname,  }\item[{const \mbox{\hyperlink{classcalendar_1_1date}{date}} \&}]{new\+Ev\+Date,  }\item[{const \mbox{\hyperlink{classcalendar_1_1date}{date}} \&}]{new\+Birthdate,  }\item[{const \mbox{\hyperlink{classcalendar_1_1date}{date}} \&}]{begin\+Date,  }\item[{const \mbox{\hyperlink{classcalendar_1_1date}{date}} \&}]{end\+Date,  }\item[{const \mbox{\hyperlink{namespacecalendar_a8c77826be937e7a48bf92b36b5247280}{repeat\+Cycle}} \&}]{new\+Ev\+Repeat,  }\item[{const std\+::string \&}]{event\+Class }\end{DoxyParamCaption})}
+
+
+
+Dodaje wydarzenie z okna dialogowego. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em calendar\+Monthly\+View} & widok tabelaryczny \\
+\hline
+{\em new\+Ev\+Name} & nazwa wydarzenia \\
+\hline
+{\em new\+Ev\+Description} & opis wydarzenia \\
+\hline
+{\em new\+Ev\+Location} & lokalizacja wydarzenia \\
+\hline
+{\em new\+Ev\+Type} & typ wydarzenia \\
+\hline
+{\em new\+Ev\+Firstname} & imię osoby, która ma urodziny \\
+\hline
+{\em new\+Ev\+Lastname} & nazwisko osoby, która ma urodziny \\
+\hline
+{\em new\+Ev\+Date} & data wydarzenia \\
+\hline
+{\em new\+Birthdate} & data narodzin osoby \\
+\hline
+{\em begin\+Date} & data rozpoczęcia wakacji \\
+\hline
+{\em end\+Date} & data zakończenia wakacji \\
+\hline
+{\em new\+Ev\+Repeat} & sposób powtarzania wydarzenia \\
+\hline
+{\em event\+Class} & rodzaj wydarzenia \\
+\hline
+\end{DoxyParams}
+Oto graf wywołań dla tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1calendar_view_ac4bad199c4a24d3b789cf507ebe83408_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classcalendar_1_1calendar_view_ad5f26a90a68dfac815f0df05ac5bedd7}\label{classcalendar_1_1calendar_view_ad5f26a90a68dfac815f0df05ac5bedd7}} 
+\index{calendar::calendarView@{calendar::calendarView}!calculateCurrentMonth@{calculateCurrentMonth}}
+\index{calculateCurrentMonth@{calculateCurrentMonth}!calendar::calendarView@{calendar::calendarView}}
+\doxysubsubsection{\texorpdfstring{calculateCurrentMonth()}{calculateCurrentMonth()}}
+{\footnotesize\ttfamily void calendar\+::calendar\+View\+::calculate\+Current\+Month (\begin{DoxyParamCaption}\item[{QStandard\+Item\+Model $\ast$}]{day\+Model\+Interface,  }\item[{const \mbox{\hyperlink{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405}{month\+Model}} \&}]{month,  }\item[{const int \&}]{year,  }\item[{QStandard\+Item\+Model $\ast$}]{month\+Events\+Interface }\end{DoxyParamCaption})}
+
+
+
+Ustawia i oblicza dni w obecnym miesiącu. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em day\+Model\+Interface} & model widoku dni \\
+\hline
+{\em month} & obecny miesiąc \\
+\hline
+{\em year} & obecny rok \\
+\hline
+{\em month\+Events\+Interface} & model widoku wydarzeń \\
+\hline
+\end{DoxyParams}
+Oto graf wywołań dla tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1calendar_view_ad5f26a90a68dfac815f0df05ac5bedd7_cgraph}
+\end{center}
+\end{figure}
+Oto graf wywoływań tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1calendar_view_ad5f26a90a68dfac815f0df05ac5bedd7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classcalendar_1_1calendar_view_ad0936605483140c4a821bf8db67ba497}\label{classcalendar_1_1calendar_view_ad0936605483140c4a821bf8db67ba497}} 
+\index{calendar::calendarView@{calendar::calendarView}!deleteEvent@{deleteEvent}}
+\index{deleteEvent@{deleteEvent}!calendar::calendarView@{calendar::calendarView}}
+\doxysubsubsection{\texorpdfstring{deleteEvent()}{deleteEvent()}}
+{\footnotesize\ttfamily void calendar\+::calendar\+View\+::delete\+Event (\begin{DoxyParamCaption}\item[{std\+::string}]{exported\+Event\+Data }\end{DoxyParamCaption})}
+
+
+
+Usuwa wydarzenie o określonym opisie. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em exported\+Event\+Data} & opis wydarzenia \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcalendar_1_1calendar_view_a325c377177a948636f55c6bfa30190a2}\label{classcalendar_1_1calendar_view_a325c377177a948636f55c6bfa30190a2}} 
+\index{calendar::calendarView@{calendar::calendarView}!displayReminderEvent@{displayReminderEvent}}
+\index{displayReminderEvent@{displayReminderEvent}!calendar::calendarView@{calendar::calendarView}}
+\doxysubsubsection{\texorpdfstring{displayReminderEvent()}{displayReminderEvent()}}
+{\footnotesize\ttfamily QStandard\+Item $\ast$ calendar\+::calendar\+View\+::display\+Reminder\+Event (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classcalendar_1_1event}{event}} $\ast$}]{new\+Event }\end{DoxyParamCaption})}
+
+
+
+Zwraca opis wydarzenia. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em new\+Event} & wydarzenie do opisania \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+QStandard\+Item$\ast$ obiekt Qt z opisem wydarzenia 
+\end{DoxyReturn}
+Oto graf wywołań dla tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1calendar_view_a325c377177a948636f55c6bfa30190a2_cgraph}
+\end{center}
+\end{figure}
+Oto graf wywoływań tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1calendar_view_a325c377177a948636f55c6bfa30190a2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classcalendar_1_1calendar_view_a7dd23a34a3a7c9efaf75b50ec3e99cf0}\label{classcalendar_1_1calendar_view_a7dd23a34a3a7c9efaf75b50ec3e99cf0}} 
+\index{calendar::calendarView@{calendar::calendarView}!getEvents@{getEvents}}
+\index{getEvents@{getEvents}!calendar::calendarView@{calendar::calendarView}}
+\doxysubsubsection{\texorpdfstring{getEvents()}{getEvents()}}
+{\footnotesize\ttfamily std\+::vector$<$ \mbox{\hyperlink{classcalendar_1_1event}{event}} $\ast$ $>$ calendar\+::calendar\+View\+::get\+Events (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+
+
+Pobiera listę wydarzeń. 
+
+\begin{DoxyReturn}{Zwraca}
+std\+::vector$<$event $\ast$$>$ lista wydarzeń 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcalendar_1_1calendar_view_a90fb0871265c6a77c271b4a46654c4b1}\label{classcalendar_1_1calendar_view_a90fb0871265c6a77c271b4a46654c4b1}} 
+\index{calendar::calendarView@{calendar::calendarView}!getEventsForDay@{getEventsForDay}}
+\index{getEventsForDay@{getEventsForDay}!calendar::calendarView@{calendar::calendarView}}
+\doxysubsubsection{\texorpdfstring{getEventsForDay()}{getEventsForDay()}}
+{\footnotesize\ttfamily void calendar\+::calendar\+View\+::get\+Events\+For\+Day (\begin{DoxyParamCaption}\item[{QStandard\+Item\+Model $\ast$}]{month\+Events\+Interface,  }\item[{const int \&}]{day }\end{DoxyParamCaption})}
+
+
+
+Pobiera wydarzenia dla danego dnia. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em month\+Events\+Interface} & model widoku wydarzeń \\
+\hline
+{\em day} & dany dzień \\
+\hline
+\end{DoxyParams}
+Oto graf wywołań dla tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1calendar_view_a90fb0871265c6a77c271b4a46654c4b1_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classcalendar_1_1calendar_view_a21206448083d4d91f837b672c2481765}\label{classcalendar_1_1calendar_view_a21206448083d4d91f837b672c2481765}} 
+\index{calendar::calendarView@{calendar::calendarView}!getMonthName@{getMonthName}}
+\index{getMonthName@{getMonthName}!calendar::calendarView@{calendar::calendarView}}
+\doxysubsubsection{\texorpdfstring{getMonthName()}{getMonthName()}}
+{\footnotesize\ttfamily std\+::string calendar\+::calendar\+View\+::get\+Month\+Name (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405}{month\+Model}} \&}]{month }\end{DoxyParamCaption})}
+
+
+
+Pobiera nazwę miesiąca. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em month} & dany miesiąć \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+std\+::string nazwa miesiąca 
+\end{DoxyReturn}
+Oto graf wywoływań tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1calendar_view_a21206448083d4d91f837b672c2481765_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classcalendar_1_1calendar_view_a2af30dee09efc1efddc1a906b486872b}\label{classcalendar_1_1calendar_view_a2af30dee09efc1efddc1a906b486872b}} 
+\index{calendar::calendarView@{calendar::calendarView}!getTodayDate@{getTodayDate}}
+\index{getTodayDate@{getTodayDate}!calendar::calendarView@{calendar::calendarView}}
+\doxysubsubsection{\texorpdfstring{getTodayDate()}{getTodayDate()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classcalendar_1_1date}{date}} calendar\+::calendar\+View\+::get\+Today\+Date (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+
+
+Pobiera dzisiejszą datę 
+
+\begin{DoxyReturn}{Zwraca}
+date dzisiejsza data 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcalendar_1_1calendar_view_a27b0eb2cb128cf966ea2884b402d7528}\label{classcalendar_1_1calendar_view_a27b0eb2cb128cf966ea2884b402d7528}} 
+\index{calendar::calendarView@{calendar::calendarView}!setEvents@{setEvents}}
+\index{setEvents@{setEvents}!calendar::calendarView@{calendar::calendarView}}
+\doxysubsubsection{\texorpdfstring{setEvents()}{setEvents()}}
+{\footnotesize\ttfamily void calendar\+::calendar\+View\+::set\+Events (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \mbox{\hyperlink{classcalendar_1_1event}{event}} $\ast$ $>$}]{new\+Events }\end{DoxyParamCaption})}
+
+
+
+Ustawia listę wydarzeń 
+
+
+\begin{DoxyParams}{Parametry}
+{\em new\+Events} & lista wydarzeń \\
+\hline
+\end{DoxyParams}
+Oto graf wywoływań tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1calendar_view_a27b0eb2cb128cf966ea2884b402d7528_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classcalendar_1_1calendar_view_a1caa0f2af08db979f8b03243377e8822}\label{classcalendar_1_1calendar_view_a1caa0f2af08db979f8b03243377e8822}} 
+\index{calendar::calendarView@{calendar::calendarView}!setTodayDate@{setTodayDate}}
+\index{setTodayDate@{setTodayDate}!calendar::calendarView@{calendar::calendarView}}
+\doxysubsubsection{\texorpdfstring{setTodayDate()}{setTodayDate()}}
+{\footnotesize\ttfamily void calendar\+::calendar\+View\+::set\+Today\+Date (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Ustawia dzisiejszą datę 
+
+Oto graf wywołań dla tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1calendar_view_a1caa0f2af08db979f8b03243377e8822_cgraph}
+\end{center}
+\end{figure}
+Oto graf wywoływań tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1calendar_view_a1caa0f2af08db979f8b03243377e8822_icgraph}
+\end{center}
+\end{figure}
+
+
+Dokumentacja dla tej klasy została wygenerowana z plików\+:\begin{DoxyCompactItemize}
+\item 
+includes/\mbox{\hyperlink{calendar_view_8h}{calendar\+View.\+h}}\item 
+res/\mbox{\hyperlink{calendar_view_8cpp}{calendar\+View.\+cpp}}\end{DoxyCompactItemize}

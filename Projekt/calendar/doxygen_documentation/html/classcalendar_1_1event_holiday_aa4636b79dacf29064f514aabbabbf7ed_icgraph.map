@@ -1,0 +1,9 @@
+<map id="calendar::eventHoliday::getEvEnd" name="calendar::eventHoliday::getEvEnd">
+<area shape="rect" id="node1" title="pobiera koniec trwania wydarzenia" alt="" coords="507,71,680,112"/>
+<area shape="rect" id="node2" href="$classcalendar_1_1calendar_view.html#ad5f26a90a68dfac815f0df05ac5bedd7" title="Ustawia i oblicza dni w obecnym miesiącu." alt="" coords="266,5,445,47"/>
+<area shape="rect" id="node4" href="$classcalendar_1_1weekly_calendar_view.html#aa8d257161f51be45757eea0fc9bcb8dc" title="Oblicza obecny tydzień oraz ustawia wartości w widoku." alt="" coords="252,71,459,112"/>
+<area shape="rect" id="node5" href="$classcalendar_1_1event_holiday.html#a2be4f57a608d2bae73aa5178bb8eb4cc" title="Eksportuje dane do zapisu." alt="" coords="269,136,442,177"/>
+<area shape="rect" id="node3" href="$class_main_window.html#a996c5a2b6f77944776856f08ec30858d" title=" " alt="" coords="5,13,204,39"/>
+<area shape="rect" id="node6" href="$classcalendar_1_1calendar_view.html#ac4bad199c4a24d3b789cf507ebe83408" title="Dodaje wydarzenie z okna dialogowego." alt="" coords="17,103,192,144"/>
+<area shape="rect" id="node7" href="$classcalendar_1_1weekly_calendar_view.html#a2c265a8fc7fda0cee2844b1a2e7c2a36" title="Dodaje wydarzenie z okna dialogowego." alt="" coords="5,168,204,209"/>
+</map>

@@ -1,0 +1,244 @@
+\hypertarget{classcalendar_1_1event_birthday}{}\doxysection{Dokumentacja klasy calendar\+::event\+Birthday}
+\label{classcalendar_1_1event_birthday}\index{calendar::eventBirthday@{calendar::eventBirthday}}
+
+
+{\ttfamily \#include $<$event\+Birthday\+Model.\+h$>$}
+
+
+
+Diagram dziedziczenia dla calendar\+::event\+Birthday
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=214pt]{classcalendar_1_1event_birthday__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Diagram współpracy dla calendar\+::event\+Birthday\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=214pt]{classcalendar_1_1event_birthday__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcalendar_1_1event_birthday_a7b47b3818e4f30099a105e8a7390f8fc}{event\+Birthday}} ()
+\begin{DoxyCompactList}\small\item\em konstruktor bezargumentowy, tworzy pusty obiekt, wszystko ustawia na NULL \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classcalendar_1_1event_birthday_a935269c95a648dc2c718b44cfacb70ff}{event\+Birthday}} (const \mbox{\hyperlink{classcalendar_1_1date}{date}} \&new\+Date, const std\+::string \&new\+Name, const \mbox{\hyperlink{namespacecalendar_a8c77826be937e7a48bf92b36b5247280}{repeat\+Cycle}} \&new\+Repeat, const std\+::string \&new\+First\+Name, const std\+::string \&new\+Last\+Name, const \mbox{\hyperlink{classcalendar_1_1date}{date}} \&new\+Birth\+Date)
+\begin{DoxyCompactList}\small\item\em konstruktor tworzący pełny obiekt klasy \mbox{\hyperlink{classcalendar_1_1event_birthday}{event\+Birthday}} \end{DoxyCompactList}\item 
+std\+::pair$<$ std\+::string, std\+::string $>$ \mbox{\hyperlink{classcalendar_1_1event_birthday_af428350e9b76a378b875dbd522168313}{get\+Personal\+Data}} () const noexcept
+\begin{DoxyCompactList}\small\item\em pobiera dane osoby mającej urodziny \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcalendar_1_1event_birthday_a8e804fe51490b0a08f03547cbe28b4a6}{set\+Personal\+Data}} (const std\+::pair$<$ std\+::string, std\+::string $>$ \&new\+Personal\+Data)
+\begin{DoxyCompactList}\small\item\em ustawia dane osoby mającej urodziny \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classcalendar_1_1date}{date}} \mbox{\hyperlink{classcalendar_1_1event_birthday_a09d6f3307b14da54c4f1534ad4d28c82}{get\+Birth\+Date}} () const noexcept
+\begin{DoxyCompactList}\small\item\em pobiera dzień urodzin osoby \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcalendar_1_1event_birthday_a681f4de04212d1960842effedb418c32}{set\+Birth\+Date}} (const \mbox{\hyperlink{classcalendar_1_1date}{date}} \&new\+Birth\+Date)
+\begin{DoxyCompactList}\small\item\em ustawia nowy dzień urodzin osoby \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcalendar_1_1event_birthday_acae7e69b0e437e9942ce9d92be42a828}{set\+Ev\+Repeat}} (const \mbox{\hyperlink{namespacecalendar_a8c77826be937e7a48bf92b36b5247280}{calendar\+::repeat\+Cycle}} \&new\+Ev\+Repeat)
+\begin{DoxyCompactList}\small\item\em redeclaration of set\+Ev\+Repeat function \end{DoxyCompactList}\item 
+virtual std\+::string \mbox{\hyperlink{classcalendar_1_1event_birthday_a512b5a0321942414067f560841f22838}{stringify\+Event}} () const noexcept
+\begin{DoxyCompactList}\small\item\em deklaracja metody wirtualnej z klasy event \end{DoxyCompactList}\item 
+virtual std\+::string \mbox{\hyperlink{classcalendar_1_1event_birthday_ae3d0ba4030d90d0ea21733ce154e5e3e}{export\+Data}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Eksportuje dane do zapisu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Dokumentacja konstruktora i destruktora}
+\mbox{\Hypertarget{classcalendar_1_1event_birthday_a7b47b3818e4f30099a105e8a7390f8fc}\label{classcalendar_1_1event_birthday_a7b47b3818e4f30099a105e8a7390f8fc}} 
+\index{calendar::eventBirthday@{calendar::eventBirthday}!eventBirthday@{eventBirthday}}
+\index{eventBirthday@{eventBirthday}!calendar::eventBirthday@{calendar::eventBirthday}}
+\doxysubsubsection{\texorpdfstring{eventBirthday()}{eventBirthday()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily calendar\+::event\+Birthday\+::event\+Birthday (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+konstruktor bezargumentowy, tworzy pusty obiekt, wszystko ustawia na NULL 
+
+\mbox{\Hypertarget{classcalendar_1_1event_birthday_a935269c95a648dc2c718b44cfacb70ff}\label{classcalendar_1_1event_birthday_a935269c95a648dc2c718b44cfacb70ff}} 
+\index{calendar::eventBirthday@{calendar::eventBirthday}!eventBirthday@{eventBirthday}}
+\index{eventBirthday@{eventBirthday}!calendar::eventBirthday@{calendar::eventBirthday}}
+\doxysubsubsection{\texorpdfstring{eventBirthday()}{eventBirthday()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily calendar\+::event\+Birthday\+::event\+Birthday (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classcalendar_1_1date}{date}} \&}]{new\+Date,  }\item[{const std\+::string \&}]{new\+Name,  }\item[{const \mbox{\hyperlink{namespacecalendar_a8c77826be937e7a48bf92b36b5247280}{repeat\+Cycle}} \&}]{new\+Repeat,  }\item[{const std\+::string \&}]{new\+First\+Name,  }\item[{const std\+::string \&}]{new\+Last\+Name,  }\item[{const \mbox{\hyperlink{classcalendar_1_1date}{date}} \&}]{new\+Birth\+Date }\end{DoxyParamCaption})}
+
+
+
+konstruktor tworzący pełny obiekt klasy \mbox{\hyperlink{classcalendar_1_1event_birthday}{event\+Birthday}} 
+
+Oto graf wywołań dla tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1event_birthday_a935269c95a648dc2c718b44cfacb70ff_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Dokumentacja funkcji składowych}
+\mbox{\Hypertarget{classcalendar_1_1event_birthday_ae3d0ba4030d90d0ea21733ce154e5e3e}\label{classcalendar_1_1event_birthday_ae3d0ba4030d90d0ea21733ce154e5e3e}} 
+\index{calendar::eventBirthday@{calendar::eventBirthday}!exportData@{exportData}}
+\index{exportData@{exportData}!calendar::eventBirthday@{calendar::eventBirthday}}
+\doxysubsubsection{\texorpdfstring{exportData()}{exportData()}}
+{\footnotesize\ttfamily std\+::string calendar\+::event\+Birthday\+::export\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}, {\ttfamily [noexcept]}}
+
+
+
+Eksportuje dane do zapisu. 
+
+\begin{DoxyReturn}{Zwraca}
+std\+::string wyeksportowane dane 
+\end{DoxyReturn}
+
+
+Reimplementowana z \mbox{\hyperlink{classcalendar_1_1event_a0e92d003929c80547406fd7987a13d5b}{calendar\+::event}}.
+
+\mbox{\Hypertarget{classcalendar_1_1event_birthday_a09d6f3307b14da54c4f1534ad4d28c82}\label{classcalendar_1_1event_birthday_a09d6f3307b14da54c4f1534ad4d28c82}} 
+\index{calendar::eventBirthday@{calendar::eventBirthday}!getBirthDate@{getBirthDate}}
+\index{getBirthDate@{getBirthDate}!calendar::eventBirthday@{calendar::eventBirthday}}
+\doxysubsubsection{\texorpdfstring{getBirthDate()}{getBirthDate()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classcalendar_1_1date}{calendar\+::date}} calendar\+::event\+Birthday\+::get\+Birth\+Date (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+
+
+pobiera dzień urodzin osoby 
+
+\begin{DoxyReturn}{Zwraca}
+data narodzin osoby 
+\end{DoxyReturn}
+Oto graf wywoływań tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1event_birthday_a09d6f3307b14da54c4f1534ad4d28c82_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classcalendar_1_1event_birthday_af428350e9b76a378b875dbd522168313}\label{classcalendar_1_1event_birthday_af428350e9b76a378b875dbd522168313}} 
+\index{calendar::eventBirthday@{calendar::eventBirthday}!getPersonalData@{getPersonalData}}
+\index{getPersonalData@{getPersonalData}!calendar::eventBirthday@{calendar::eventBirthday}}
+\doxysubsubsection{\texorpdfstring{getPersonalData()}{getPersonalData()}}
+{\footnotesize\ttfamily std\+::pair$<$ std\+::string, std\+::string $>$ calendar\+::event\+Birthday\+::get\+Personal\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+
+
+pobiera dane osoby mającej urodziny 
+
+\begin{DoxyReturn}{Zwraca}
+para imię, nazwisko osoby 
+\end{DoxyReturn}
+Oto graf wywoływań tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1event_birthday_af428350e9b76a378b875dbd522168313_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classcalendar_1_1event_birthday_a681f4de04212d1960842effedb418c32}\label{classcalendar_1_1event_birthday_a681f4de04212d1960842effedb418c32}} 
+\index{calendar::eventBirthday@{calendar::eventBirthday}!setBirthDate@{setBirthDate}}
+\index{setBirthDate@{setBirthDate}!calendar::eventBirthday@{calendar::eventBirthday}}
+\doxysubsubsection{\texorpdfstring{setBirthDate()}{setBirthDate()}}
+{\footnotesize\ttfamily void calendar\+::event\+Birthday\+::set\+Birth\+Date (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classcalendar_1_1date}{date}} \&}]{new\+Birth\+Date }\end{DoxyParamCaption})}
+
+
+
+ustawia nowy dzień urodzin osoby 
+
+
+\begin{DoxyParams}{Parametry}
+{\em new\+Birth\+Date} & nowa data narodzin osoby \\
+\hline
+\end{DoxyParams}
+Oto graf wywoływań tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1event_birthday_a681f4de04212d1960842effedb418c32_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classcalendar_1_1event_birthday_acae7e69b0e437e9942ce9d92be42a828}\label{classcalendar_1_1event_birthday_acae7e69b0e437e9942ce9d92be42a828}} 
+\index{calendar::eventBirthday@{calendar::eventBirthday}!setEvRepeat@{setEvRepeat}}
+\index{setEvRepeat@{setEvRepeat}!calendar::eventBirthday@{calendar::eventBirthday}}
+\doxysubsubsection{\texorpdfstring{setEvRepeat()}{setEvRepeat()}}
+{\footnotesize\ttfamily void calendar\+::event\+Birthday\+::set\+Ev\+Repeat (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{namespacecalendar_a8c77826be937e7a48bf92b36b5247280}{calendar\+::repeat\+Cycle}} \&}]{new\+Ev\+Repeat }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+redeclaration of set\+Ev\+Repeat function 
+
+
+
+Reimplementowana z \mbox{\hyperlink{classcalendar_1_1event_ad28f196e28f3c6715835e895a941636b}{calendar\+::event}}.
+
+Oto graf wywołań dla tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1event_birthday_acae7e69b0e437e9942ce9d92be42a828_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classcalendar_1_1event_birthday_a8e804fe51490b0a08f03547cbe28b4a6}\label{classcalendar_1_1event_birthday_a8e804fe51490b0a08f03547cbe28b4a6}} 
+\index{calendar::eventBirthday@{calendar::eventBirthday}!setPersonalData@{setPersonalData}}
+\index{setPersonalData@{setPersonalData}!calendar::eventBirthday@{calendar::eventBirthday}}
+\doxysubsubsection{\texorpdfstring{setPersonalData()}{setPersonalData()}}
+{\footnotesize\ttfamily void calendar\+::event\+Birthday\+::set\+Personal\+Data (\begin{DoxyParamCaption}\item[{const std\+::pair$<$ std\+::string, std\+::string $>$ \&}]{new\+Personal\+Data }\end{DoxyParamCaption})}
+
+
+
+ustawia dane osoby mającej urodziny 
+
+
+\begin{DoxyParams}{Parametry}
+{\em new\+Personal\+Data} & nowe dane osoby \\
+\hline
+\end{DoxyParams}
+Oto graf wywoływań tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1event_birthday_a8e804fe51490b0a08f03547cbe28b4a6_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classcalendar_1_1event_birthday_a512b5a0321942414067f560841f22838}\label{classcalendar_1_1event_birthday_a512b5a0321942414067f560841f22838}} 
+\index{calendar::eventBirthday@{calendar::eventBirthday}!stringifyEvent@{stringifyEvent}}
+\index{stringifyEvent@{stringifyEvent}!calendar::eventBirthday@{calendar::eventBirthday}}
+\doxysubsubsection{\texorpdfstring{stringifyEvent()}{stringifyEvent()}}
+{\footnotesize\ttfamily std\+::string calendar\+::event\+Birthday\+::stringify\+Event (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}, {\ttfamily [noexcept]}}
+
+
+
+deklaracja metody wirtualnej z klasy event 
+
+
+
+Reimplementowana z \mbox{\hyperlink{classcalendar_1_1event_a99bb00302eb18633adf75dd202fe0c03}{calendar\+::event}}.
+
+Oto graf wywołań dla tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1event_birthday_a512b5a0321942414067f560841f22838_cgraph}
+\end{center}
+\end{figure}
+Oto graf wywoływań tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1event_birthday_a512b5a0321942414067f560841f22838_icgraph}
+\end{center}
+\end{figure}
+
+
+Dokumentacja dla tej klasy została wygenerowana z plików\+:\begin{DoxyCompactItemize}
+\item 
+includes/\mbox{\hyperlink{event_birthday_model_8h}{event\+Birthday\+Model.\+h}}\item 
+res/\mbox{\hyperlink{event_birthday_model_8cpp}{event\+Birthday\+Model.\+cpp}}\end{DoxyCompactItemize}

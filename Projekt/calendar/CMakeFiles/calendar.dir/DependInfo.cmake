@@ -21,6 +21,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/res/eventReminderModel.cpp" "CMakeFiles/calendar.dir/res/eventReminderModel.cpp.o" "gcc" "CMakeFiles/calendar.dir/res/eventReminderModel.cpp.o.d"
   "/home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/res/todoElement.cpp" "CMakeFiles/calendar.dir/res/todoElement.cpp.o" "gcc" "CMakeFiles/calendar.dir/res/todoElement.cpp.o.d"
   "/home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/res/todoView.cpp" "CMakeFiles/calendar.dir/res/todoView.cpp.o" "gcc" "CMakeFiles/calendar.dir/res/todoView.cpp.o.d"
+  "/home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/res/weeklyCalendarView.cpp" "CMakeFiles/calendar.dir/res/weeklyCalendarView.cpp.o" "gcc" "CMakeFiles/calendar.dir/res/weeklyCalendarView.cpp.o.d"
   )
 
 # Targets to which this target links.

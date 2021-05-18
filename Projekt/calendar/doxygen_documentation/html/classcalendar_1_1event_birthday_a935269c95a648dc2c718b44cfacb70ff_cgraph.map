@@ -1,0 +1,7 @@
+<map id="calendar::eventBirthday::eventBirthday" name="calendar::eventBirthday::eventBirthday">
+<area shape="rect" id="node1" title="konstruktor tworzący pełny obiekt klasy eventBirthday" alt="" coords="5,100,184,141"/>
+<area shape="rect" id="node2" href="$classcalendar_1_1event_birthday.html#af428350e9b76a378b875dbd522168313" title="pobiera dane osoby mającej urodziny" alt="" coords="263,5,442,47"/>
+<area shape="rect" id="node3" href="$classcalendar_1_1event_birthday.html#a681f4de04212d1960842effedb418c32" title="ustawia nowy dzień urodzin osoby" alt="" coords="263,71,442,112"/>
+<area shape="rect" id="node4" href="$classcalendar_1_1event.html#a3745ccce1c91e2e410df95ac8c66e6cb" title="ustawia opis wydarzenia" alt="" coords="232,137,473,163"/>
+<area shape="rect" id="node5" href="$classcalendar_1_1event_birthday.html#a8e804fe51490b0a08f03547cbe28b4a6" title="ustawia dane osoby mającej urodziny" alt="" coords="263,188,442,229"/>
+</map>

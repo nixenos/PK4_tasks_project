@@ -1,0 +1,8 @@
+<map id="calendar::date::decrementWeek" name="calendar::date::decrementWeek">
+<area shape="rect" id="node1" title="Dekrementuje tydzień." alt="" coords="5,122,236,149"/>
+<area shape="rect" id="node2" href="$classcalendar_1_1date.html#a5e680bcd8e87eec56f0b33a871c199a2" title="Dekrementuje miesiąc." alt="" coords="284,5,477,47"/>
+<area shape="rect" id="node3" href="$classcalendar_1_1date.html#afc729e949594b20f9121b22af9c9187c" title="pobiera dzień miesiąca." alt="" coords="295,71,466,98"/>
+<area shape="rect" id="node4" href="$classcalendar_1_1date.html#afe34409f4e6ebc09d8d3eeac14b281e6" title="pobiera miesiąc." alt="" coords="288,122,473,149"/>
+<area shape="rect" id="node5" href="$classcalendar_1_1date.html#a9c104a57ea4d555a1cd0eea72d9d684e" title="pobiera rok." alt="" coords="295,173,466,199"/>
+<area shape="rect" id="node6" href="$classcalendar_1_1date.html#a81df76e55a71fecd2bbda2ce73875c88" title="ustawia dzień miesiąca." alt="" coords="296,223,465,250"/>
+</map>

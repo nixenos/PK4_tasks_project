@@ -1,0 +1,5 @@
+<map id="calendar::calendarView::calendarView" name="calendar::calendarView::calendarView">
+<area shape="rect" id="node1" title="Konstruktor bezargumentowy." alt="" coords="5,5,180,47"/>
+<area shape="rect" id="node2" href="$classcalendar_1_1calendar_view.html#a1caa0f2af08db979f8b03243377e8822" title="Ustawia dzisiejszą datę" alt="" coords="228,5,403,47"/>
+<area shape="rect" id="node3" href="$classcalendar_1_1date.html#ae2b16c8e24e29583a66201d4c7d47a40" title="ustawia bieżącą datę." alt="" coords="451,13,673,39"/>
+</map>

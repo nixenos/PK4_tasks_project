@@ -1,0 +1,9 @@
+<map id="calendar::dataInterface::importDataFromSaveFile" name="calendar::dataInterface::importDataFromSaveFile">
+<area shape="rect" id="node1" title=" " alt="" coords="5,71,196,112"/>
+<area shape="rect" id="node2" href="$classcalendar_1_1event_birthday.html#a512b5a0321942414067f560841f22838" title="deklaracja metody wirtualnej z klasy event" alt="" coords="248,5,427,47"/>
+<area shape="rect" id="node4" href="$classcalendar_1_1event_holiday.html#a51c2d5db395745585aa6edb0bae5323b" title="deklaracja metody wirtualnej z klasy event" alt="" coords="251,71,424,112"/>
+<area shape="rect" id="node5" href="$classcalendar_1_1event_reminder.html#a85bf9d1a85ffcfb7ea8f88fa06928561" title="deklaracja metody wirtualnej z klasy event" alt="" coords="244,136,431,177"/>
+<area shape="rect" id="node3" href="$classcalendar_1_1event.html#a99bb00302eb18633adf75dd202fe0c03" title="pobiera odpowiednie dane dla każdego z elementów i przetwarza je w std::string wyświetlany w GUI apli..." alt="" coords="479,71,665,112"/>
+<area shape="rect" id="node6" href="$classcalendar_1_1event_reminder.html#ad0ff99be4dc13deb6fa89a1e61434ffa" title="pobiera lokalizację wydarzenia" alt="" coords="479,136,665,177"/>
+<area shape="rect" id="node7" href="$classcalendar_1_1event_reminder.html#abc95eef5c7cd68208265734f3c2d9d1f" title="pobiera typ wydarzenia" alt="" coords="479,201,665,243"/>
+</map>

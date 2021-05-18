@@ -1,0 +1,4 @@
+<map id="calendar::weeklyCalendarView::displayReminderEvent" name="calendar::weeklyCalendarView::displayReminderEvent">
+<area shape="rect" id="node1" title="Zwraca element Qt, który ma zostać wyświetlony." alt="" coords="5,5,215,47"/>
+<area shape="rect" id="node2" href="$classcalendar_1_1event.html#a99bb00302eb18633adf75dd202fe0c03" title="pobiera odpowiednie dane dla każdego z elementów i przetwarza je w std::string wyświetlany w GUI apli..." alt="" coords="263,5,448,47"/>
+</map>

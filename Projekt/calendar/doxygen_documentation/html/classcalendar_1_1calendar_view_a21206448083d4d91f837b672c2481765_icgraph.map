@@ -1,0 +1,4 @@
+<map id="calendar::calendarView::getMonthName" name="calendar::calendarView::getMonthName">
+<area shape="rect" id="node1" title="Pobiera nazwę miesiąca." alt="" coords="252,5,427,47"/>
+<area shape="rect" id="node2" href="$class_main_window.html#a996c5a2b6f77944776856f08ec30858d" title=" " alt="" coords="5,13,204,39"/>
+</map>

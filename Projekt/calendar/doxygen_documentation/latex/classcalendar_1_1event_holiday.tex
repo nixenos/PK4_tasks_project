@@ -1,0 +1,236 @@
+\hypertarget{classcalendar_1_1event_holiday}{}\doxysection{Dokumentacja klasy calendar\+::event\+Holiday}
+\label{classcalendar_1_1event_holiday}\index{calendar::eventHoliday@{calendar::eventHoliday}}
+
+
+{\ttfamily \#include $<$event\+Holiday\+Model.\+h$>$}
+
+
+
+Diagram dziedziczenia dla calendar\+::event\+Holiday
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=210pt]{classcalendar_1_1event_holiday__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Diagram współpracy dla calendar\+::event\+Holiday\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=210pt]{classcalendar_1_1event_holiday__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcalendar_1_1event_holiday_a1ec27f37f1db644a945ead649f8c5bc2}{event\+Holiday}} ()
+\begin{DoxyCompactList}\small\item\em konstruktor bezargumentowy, tworzy pusty obiekt \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classcalendar_1_1event_holiday_a8ac3650fe7e1892634a9d2f2ec9ba8fb}{event\+Holiday}} (const \mbox{\hyperlink{classcalendar_1_1date}{date}} \&new\+Date, const std\+::string \&new\+Name, const \mbox{\hyperlink{namespacecalendar_a8c77826be937e7a48bf92b36b5247280}{repeat\+Cycle}} \&new\+Repeat, const std\+::string \&new\+Ev\+Description, const \mbox{\hyperlink{classcalendar_1_1date}{date}} \&new\+Ev\+Begin, const \mbox{\hyperlink{classcalendar_1_1date}{date}} \&new\+Ev\+End)
+\begin{DoxyCompactList}\small\item\em konstrukot wieloargumentowy, tworzący pełny obiekt klasy \mbox{\hyperlink{classcalendar_1_1event_holiday}{event\+Holiday}} \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classcalendar_1_1date}{date}} \mbox{\hyperlink{classcalendar_1_1event_holiday_a6b59309f80501abbe52b6bd747098c58}{get\+Ev\+Begin}} () const noexcept
+\begin{DoxyCompactList}\small\item\em pobiera początek trwania wydarzenia \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcalendar_1_1event_holiday_ae7b1162a40f3a8179e478120b8903b4b}{set\+Ev\+Begin}} (const \mbox{\hyperlink{classcalendar_1_1date}{date}} \&new\+Ev\+Begin)
+\begin{DoxyCompactList}\small\item\em ustawia początek trwania wydarzenia \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classcalendar_1_1date}{date}} \mbox{\hyperlink{classcalendar_1_1event_holiday_aa4636b79dacf29064f514aabbabbf7ed}{get\+Ev\+End}} () const noexcept
+\begin{DoxyCompactList}\small\item\em pobiera koniec trwania wydarzenia \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcalendar_1_1event_holiday_a5f14e22387aec924e14e839127b6317c}{set\+Ev\+End}} (const \mbox{\hyperlink{classcalendar_1_1date}{date}} \&new\+Ev\+End)
+\begin{DoxyCompactList}\small\item\em ustawia koniec trwania wydarzenia \end{DoxyCompactList}\item 
+virtual std\+::string \mbox{\hyperlink{classcalendar_1_1event_holiday_a51c2d5db395745585aa6edb0bae5323b}{stringify\+Event}} () const noexcept
+\begin{DoxyCompactList}\small\item\em deklaracja metody wirtualnej z klasy event \end{DoxyCompactList}\item 
+virtual std\+::string \mbox{\hyperlink{classcalendar_1_1event_holiday_a2be4f57a608d2bae73aa5178bb8eb4cc}{export\+Data}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Eksportuje dane do zapisu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Dokumentacja konstruktora i destruktora}
+\mbox{\Hypertarget{classcalendar_1_1event_holiday_a1ec27f37f1db644a945ead649f8c5bc2}\label{classcalendar_1_1event_holiday_a1ec27f37f1db644a945ead649f8c5bc2}} 
+\index{calendar::eventHoliday@{calendar::eventHoliday}!eventHoliday@{eventHoliday}}
+\index{eventHoliday@{eventHoliday}!calendar::eventHoliday@{calendar::eventHoliday}}
+\doxysubsubsection{\texorpdfstring{eventHoliday()}{eventHoliday()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily calendar\+::event\+Holiday\+::event\+Holiday (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+konstruktor bezargumentowy, tworzy pusty obiekt 
+
+\mbox{\Hypertarget{classcalendar_1_1event_holiday_a8ac3650fe7e1892634a9d2f2ec9ba8fb}\label{classcalendar_1_1event_holiday_a8ac3650fe7e1892634a9d2f2ec9ba8fb}} 
+\index{calendar::eventHoliday@{calendar::eventHoliday}!eventHoliday@{eventHoliday}}
+\index{eventHoliday@{eventHoliday}!calendar::eventHoliday@{calendar::eventHoliday}}
+\doxysubsubsection{\texorpdfstring{eventHoliday()}{eventHoliday()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily calendar\+::event\+Holiday\+::event\+Holiday (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classcalendar_1_1date}{date}} \&}]{new\+Date,  }\item[{const std\+::string \&}]{new\+Name,  }\item[{const \mbox{\hyperlink{namespacecalendar_a8c77826be937e7a48bf92b36b5247280}{repeat\+Cycle}} \&}]{new\+Repeat,  }\item[{const std\+::string \&}]{new\+Ev\+Description,  }\item[{const \mbox{\hyperlink{classcalendar_1_1date}{date}} \&}]{new\+Ev\+Begin,  }\item[{const \mbox{\hyperlink{classcalendar_1_1date}{date}} \&}]{new\+Ev\+End }\end{DoxyParamCaption})}
+
+
+
+konstrukot wieloargumentowy, tworzący pełny obiekt klasy \mbox{\hyperlink{classcalendar_1_1event_holiday}{event\+Holiday}} 
+
+Oto graf wywołań dla tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1event_holiday_a8ac3650fe7e1892634a9d2f2ec9ba8fb_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Dokumentacja funkcji składowych}
+\mbox{\Hypertarget{classcalendar_1_1event_holiday_a2be4f57a608d2bae73aa5178bb8eb4cc}\label{classcalendar_1_1event_holiday_a2be4f57a608d2bae73aa5178bb8eb4cc}} 
+\index{calendar::eventHoliday@{calendar::eventHoliday}!exportData@{exportData}}
+\index{exportData@{exportData}!calendar::eventHoliday@{calendar::eventHoliday}}
+\doxysubsubsection{\texorpdfstring{exportData()}{exportData()}}
+{\footnotesize\ttfamily std\+::string calendar\+::event\+Holiday\+::export\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}, {\ttfamily [noexcept]}}
+
+
+
+Eksportuje dane do zapisu. 
+
+\begin{DoxyReturn}{Zwraca}
+std\+::string wyeksportowane dane 
+\end{DoxyReturn}
+
+
+Reimplementowana z \mbox{\hyperlink{classcalendar_1_1event_a0e92d003929c80547406fd7987a13d5b}{calendar\+::event}}.
+
+Oto graf wywołań dla tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1event_holiday_a2be4f57a608d2bae73aa5178bb8eb4cc_cgraph}
+\end{center}
+\end{figure}
+Oto graf wywoływań tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1event_holiday_a2be4f57a608d2bae73aa5178bb8eb4cc_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classcalendar_1_1event_holiday_a6b59309f80501abbe52b6bd747098c58}\label{classcalendar_1_1event_holiday_a6b59309f80501abbe52b6bd747098c58}} 
+\index{calendar::eventHoliday@{calendar::eventHoliday}!getEvBegin@{getEvBegin}}
+\index{getEvBegin@{getEvBegin}!calendar::eventHoliday@{calendar::eventHoliday}}
+\doxysubsubsection{\texorpdfstring{getEvBegin()}{getEvBegin()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classcalendar_1_1date}{date}} calendar\+::event\+Holiday\+::get\+Ev\+Begin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+
+
+pobiera początek trwania wydarzenia 
+
+\begin{DoxyReturn}{Zwraca}
+początek trwania wydarzenia 
+\end{DoxyReturn}
+Oto graf wywoływań tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1event_holiday_a6b59309f80501abbe52b6bd747098c58_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classcalendar_1_1event_holiday_aa4636b79dacf29064f514aabbabbf7ed}\label{classcalendar_1_1event_holiday_aa4636b79dacf29064f514aabbabbf7ed}} 
+\index{calendar::eventHoliday@{calendar::eventHoliday}!getEvEnd@{getEvEnd}}
+\index{getEvEnd@{getEvEnd}!calendar::eventHoliday@{calendar::eventHoliday}}
+\doxysubsubsection{\texorpdfstring{getEvEnd()}{getEvEnd()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classcalendar_1_1date}{date}} calendar\+::event\+Holiday\+::get\+Ev\+End (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+
+
+pobiera koniec trwania wydarzenia 
+
+\begin{DoxyReturn}{Zwraca}
+koniec trwania wydarzenia 
+\end{DoxyReturn}
+Oto graf wywoływań tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1event_holiday_aa4636b79dacf29064f514aabbabbf7ed_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classcalendar_1_1event_holiday_ae7b1162a40f3a8179e478120b8903b4b}\label{classcalendar_1_1event_holiday_ae7b1162a40f3a8179e478120b8903b4b}} 
+\index{calendar::eventHoliday@{calendar::eventHoliday}!setEvBegin@{setEvBegin}}
+\index{setEvBegin@{setEvBegin}!calendar::eventHoliday@{calendar::eventHoliday}}
+\doxysubsubsection{\texorpdfstring{setEvBegin()}{setEvBegin()}}
+{\footnotesize\ttfamily void calendar\+::event\+Holiday\+::set\+Ev\+Begin (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classcalendar_1_1date}{date}} \&}]{new\+Ev\+Begin }\end{DoxyParamCaption})}
+
+
+
+ustawia początek trwania wydarzenia 
+
+
+\begin{DoxyParams}{Parametry}
+{\em new\+Ev\+Begin} & nowy początek \\
+\hline
+\end{DoxyParams}
+Oto graf wywoływań tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1event_holiday_ae7b1162a40f3a8179e478120b8903b4b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classcalendar_1_1event_holiday_a5f14e22387aec924e14e839127b6317c}\label{classcalendar_1_1event_holiday_a5f14e22387aec924e14e839127b6317c}} 
+\index{calendar::eventHoliday@{calendar::eventHoliday}!setEvEnd@{setEvEnd}}
+\index{setEvEnd@{setEvEnd}!calendar::eventHoliday@{calendar::eventHoliday}}
+\doxysubsubsection{\texorpdfstring{setEvEnd()}{setEvEnd()}}
+{\footnotesize\ttfamily void calendar\+::event\+Holiday\+::set\+Ev\+End (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classcalendar_1_1date}{date}} \&}]{new\+Ev\+End }\end{DoxyParamCaption})}
+
+
+
+ustawia koniec trwania wydarzenia 
+
+
+\begin{DoxyParams}{Parametry}
+{\em new\+Ev\+End} & nowy koniec \\
+\hline
+\end{DoxyParams}
+Oto graf wywoływań tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1event_holiday_a5f14e22387aec924e14e839127b6317c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classcalendar_1_1event_holiday_a51c2d5db395745585aa6edb0bae5323b}\label{classcalendar_1_1event_holiday_a51c2d5db395745585aa6edb0bae5323b}} 
+\index{calendar::eventHoliday@{calendar::eventHoliday}!stringifyEvent@{stringifyEvent}}
+\index{stringifyEvent@{stringifyEvent}!calendar::eventHoliday@{calendar::eventHoliday}}
+\doxysubsubsection{\texorpdfstring{stringifyEvent()}{stringifyEvent()}}
+{\footnotesize\ttfamily std\+::string calendar\+::event\+Holiday\+::stringify\+Event (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}, {\ttfamily [noexcept]}}
+
+
+
+deklaracja metody wirtualnej z klasy event 
+
+
+
+Reimplementowana z \mbox{\hyperlink{classcalendar_1_1event_a99bb00302eb18633adf75dd202fe0c03}{calendar\+::event}}.
+
+Oto graf wywołań dla tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1event_holiday_a51c2d5db395745585aa6edb0bae5323b_cgraph}
+\end{center}
+\end{figure}
+Oto graf wywoływań tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1event_holiday_a51c2d5db395745585aa6edb0bae5323b_icgraph}
+\end{center}
+\end{figure}
+
+
+Dokumentacja dla tej klasy została wygenerowana z plików\+:\begin{DoxyCompactItemize}
+\item 
+includes/\mbox{\hyperlink{event_holiday_model_8h}{event\+Holiday\+Model.\+h}}\item 
+res/\mbox{\hyperlink{event_holiday_model_8cpp}{event\+Holiday\+Model.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,9 @@
+<map id="calendar::eventHoliday::eventHoliday" name="calendar::eventHoliday::eventHoliday">
+<area shape="rect" id="node1" title="konstrukot wieloargumentowy, tworzący pełny obiekt klasy eventHoliday" alt="" coords="5,144,179,185"/>
+<area shape="rect" id="node2" href="$classcalendar_1_1event_holiday.html#ae7b1162a40f3a8179e478120b8903b4b" title="ustawia początek trwania wydarzenia" alt="" coords="261,5,434,47"/>
+<area shape="rect" id="node3" href="$classcalendar_1_1event.html#abdd62f802c8f39492a8c8e7591e9cd41" title="ustawia datę wydarzenia" alt="" coords="248,71,447,98"/>
+<area shape="rect" id="node4" href="$classcalendar_1_1event.html#a3745ccce1c91e2e410df95ac8c66e6cb" title="ustawia opis wydarzenia" alt="" coords="227,122,468,149"/>
+<area shape="rect" id="node5" href="$classcalendar_1_1event_holiday.html#a5f14e22387aec924e14e839127b6317c" title="ustawia koniec trwania wydarzenia" alt="" coords="261,173,434,215"/>
+<area shape="rect" id="node6" href="$classcalendar_1_1event.html#a6f34bc21bfc3ee76fa924b045f836241" title="ustawia nazwę wydarzenia" alt="" coords="244,239,451,266"/>
+<area shape="rect" id="node7" href="$classcalendar_1_1event.html#ad28f196e28f3c6715835e895a941636b" title="ustawia nowy cykl powtarzania" alt="" coords="241,290,454,317"/>
+</map>

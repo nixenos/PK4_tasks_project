@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Kalendarz: Plik źródłowy includes/eventModel.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Kalendarz
+   &#160;<span id="projectnumber">0.1</span>
+   </div>
+   <div id="projectbrief">Kalendarz w Qt5</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_09e761304027c904456130627fd4dcf5.html">includes</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">eventModel.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="event_model_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="date_8h.html">date.h</a>&quot;</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacecalendar.html">calendar</a> {</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="namespacecalendar.html#a8c77826be937e7a48bf92b36b5247280adae1a3381e1b71e4d119de51a5ca101a">   17</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">enum</span> <a class="code" href="namespacecalendar.html#a8c77826be937e7a48bf92b36b5247280">repeatCycle</a> { <a class="code" href="namespacecalendar.html#a8c77826be937e7a48bf92b36b5247280a22217856cc46e0e263a2b5033281a5b1">Daily</a>, <a class="code" href="namespacecalendar.html#a8c77826be937e7a48bf92b36b5247280aa472a9fde415fc116f9dbdae1bb38a79">Weekly</a>, <a class="code" href="namespacecalendar.html#a8c77826be937e7a48bf92b36b5247280a6adf436ceb73a19c6ca8b61e68e9f224">Monthly</a>, <a class="code" href="namespacecalendar.html#a8c77826be937e7a48bf92b36b5247280adae1a3381e1b71e4d119de51a5ca101a">Annually</a>, <a class="code" href="namespacecalendar.html#a8c77826be937e7a48bf92b36b5247280a10634802e4498720b1a92ab4fbe00b75">None</a> } <a class="code" href="namespacecalendar.html#a8c77826be937e7a48bf92b36b5247280">repeatCycle</a>;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classcalendar_1_1event.html">   19</a></span>&#160;<span class="keyword">class </span><a class="code" href="classcalendar_1_1event.html">event</a> {</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;  <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <a class="code" href="classcalendar_1_1date.html">date</a> evDate;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    std::string evName;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <a class="code" href="namespacecalendar.html#a8c77826be937e7a48bf92b36b5247280">repeatCycle</a> evRepeat;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    std::string evDescription;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <a class="code" href="classcalendar_1_1event.html#ae1bff3e5fb2069d140529a789518a281">event</a>();</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <a class="code" href="classcalendar_1_1event.html#ae1bff3e5fb2069d140529a789518a281">event</a>(<span class="keyword">const</span> <a class="code" href="classcalendar_1_1date.html">date</a> &amp;newDate, <span class="keyword">const</span> std::string &amp;newName,</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;          <span class="keyword">const</span> std::string &amp;newEvDescription, <span class="keyword">const</span> <a class="code" href="namespacecalendar.html#a8c77826be937e7a48bf92b36b5247280">repeatCycle</a> &amp;newRepeat);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <a class="code" href="classcalendar_1_1date.html">date</a> <a class="code" href="classcalendar_1_1event.html#a99993846677f024fe708e3389b6d24b5">getEvDate</a>() <span class="keyword">const</span> noexcept;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classcalendar_1_1event.html#abdd62f802c8f39492a8c8e7591e9cd41">setEvDate</a>(<span class="keyword">const</span> <a class="code" href="classcalendar_1_1date.html">date</a> &amp;newDate);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    std::string <a class="code" href="classcalendar_1_1event.html#aa476023424cf60cfbc621b4747632edc">getEvName</a>() <span class="keyword">const</span> noexcept;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classcalendar_1_1event.html#a6f34bc21bfc3ee76fa924b045f836241">setEvName</a>(<span class="keyword">const</span> std::string &amp;newEvName);</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160; </div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <a class="code" href="namespacecalendar.html#a8c77826be937e7a48bf92b36b5247280">repeatCycle</a> <a class="code" href="classcalendar_1_1event.html#ac895d6e2070e4fb1009847694af91ef5">getEvRepeat</a>() <span class="keyword">const</span> noexcept;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160; </div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classcalendar_1_1event.html#ad28f196e28f3c6715835e895a941636b">setEvRepeat</a>(<span class="keyword">const</span> <a class="code" href="namespacecalendar.html#a8c77826be937e7a48bf92b36b5247280">repeatCycle</a> &amp;newEvRepeat);</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160; </div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    std::string <a class="code" href="classcalendar_1_1event.html#a0c99b577f913bd8fb022cb1a1b7b0b1a">getEvDescription</a>() <span class="keyword">const</span> noexcept;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160; </div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classcalendar_1_1event.html#a3745ccce1c91e2e410df95ac8c66e6cb">setEvDescription</a>(<span class="keyword">const</span> std::string &amp;newEvDesription);</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160; </div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <span class="keyword">virtual</span> std::string <a class="code" href="classcalendar_1_1event.html#a99bb00302eb18633adf75dd202fe0c03">stringifyEvent</a>() <span class="keyword">const</span> noexcept;</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160; </div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    <span class="keyword">virtual</span> std::string <a class="code" href="classcalendar_1_1event.html#a0e92d003929c80547406fd7987a13d5b">exportData</a>() <span class="keyword">const</span> noexcept;</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;};</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;} <span class="comment">// namespace calendar</span></div>
+<div class="ttc" id="aclasscalendar_1_1date_html"><div class="ttname"><a href="classcalendar_1_1date.html">calendar::date</a></div><div class="ttdoc">klasa obsługująca datę.</div><div class="ttdef"><b>Definition:</b> date.h:56</div></div>
+<div class="ttc" id="aclasscalendar_1_1event_html"><div class="ttname"><a href="classcalendar_1_1event.html">calendar::event</a></div><div class="ttdef"><b>Definition:</b> eventModel.h:19</div></div>
+<div class="ttc" id="aclasscalendar_1_1event_html_a0c99b577f913bd8fb022cb1a1b7b0b1a"><div class="ttname"><a href="classcalendar_1_1event.html#a0c99b577f913bd8fb022cb1a1b7b0b1a">calendar::event::getEvDescription</a></div><div class="ttdeci">std::string getEvDescription() const noexcept</div><div class="ttdef"><b>Definition:</b> eventModel.cpp:32</div></div>
+<div class="ttc" id="aclasscalendar_1_1event_html_a0e92d003929c80547406fd7987a13d5b"><div class="ttname"><a href="classcalendar_1_1event.html#a0e92d003929c80547406fd7987a13d5b">calendar::event::exportData</a></div><div class="ttdeci">virtual std::string exportData() const noexcept</div><div class="ttdoc">Eksportuje dane do zapisu.</div><div class="ttdef"><b>Definition:</b> eventModel.cpp:61</div></div>
+<div class="ttc" id="aclasscalendar_1_1event_html_a3745ccce1c91e2e410df95ac8c66e6cb"><div class="ttname"><a href="classcalendar_1_1event.html#a3745ccce1c91e2e410df95ac8c66e6cb">calendar::event::setEvDescription</a></div><div class="ttdeci">void setEvDescription(const std::string &amp;newEvDesription)</div><div class="ttdoc">ustawia opis wydarzenia</div><div class="ttdef"><b>Definition:</b> eventModel.cpp:36</div></div>
+<div class="ttc" id="aclasscalendar_1_1event_html_a6f34bc21bfc3ee76fa924b045f836241"><div class="ttname"><a href="classcalendar_1_1event.html#a6f34bc21bfc3ee76fa924b045f836241">calendar::event::setEvName</a></div><div class="ttdeci">void setEvName(const std::string &amp;newEvName)</div><div class="ttdoc">ustawia nazwę wydarzenia</div><div class="ttdef"><b>Definition:</b> eventModel.cpp:42</div></div>
+<div class="ttc" id="aclasscalendar_1_1event_html_a99993846677f024fe708e3389b6d24b5"><div class="ttname"><a href="classcalendar_1_1event.html#a99993846677f024fe708e3389b6d24b5">calendar::event::getEvDate</a></div><div class="ttdeci">date getEvDate() const noexcept</div><div class="ttdoc">pobiera datę wydarzenia</div><div class="ttdef"><b>Definition:</b> eventModel.cpp:24</div></div>
+<div class="ttc" id="aclasscalendar_1_1event_html_a99bb00302eb18633adf75dd202fe0c03"><div class="ttname"><a href="classcalendar_1_1event.html#a99bb00302eb18633adf75dd202fe0c03">calendar::event::stringifyEvent</a></div><div class="ttdeci">virtual std::string stringifyEvent() const noexcept</div><div class="ttdoc">pobiera odpowiednie dane dla każdego z elementów i przetwarza je w std::string wyświetlany w GUI apli...</div><div class="ttdef"><b>Definition:</b> eventModel.cpp:54</div></div>
+<div class="ttc" id="aclasscalendar_1_1event_html_aa476023424cf60cfbc621b4747632edc"><div class="ttname"><a href="classcalendar_1_1event.html#aa476023424cf60cfbc621b4747632edc">calendar::event::getEvName</a></div><div class="ttdeci">std::string getEvName() const noexcept</div><div class="ttdoc">pobiera nazwę wydarzenia</div><div class="ttdef"><b>Definition:</b> eventModel.cpp:40</div></div>
+<div class="ttc" id="aclasscalendar_1_1event_html_abdd62f802c8f39492a8c8e7591e9cd41"><div class="ttname"><a href="classcalendar_1_1event.html#abdd62f802c8f39492a8c8e7591e9cd41">calendar::event::setEvDate</a></div><div class="ttdeci">void setEvDate(const date &amp;newDate)</div><div class="ttdoc">ustawia datę wydarzenia</div><div class="ttdef"><b>Definition:</b> eventModel.cpp:28</div></div>
+<div class="ttc" id="aclasscalendar_1_1event_html_ac895d6e2070e4fb1009847694af91ef5"><div class="ttname"><a href="classcalendar_1_1event.html#ac895d6e2070e4fb1009847694af91ef5">calendar::event::getEvRepeat</a></div><div class="ttdeci">repeatCycle getEvRepeat() const noexcept</div><div class="ttdoc">pobiera cykl powtarzania</div><div class="ttdef"><b>Definition:</b> eventModel.cpp:46</div></div>
+<div class="ttc" id="aclasscalendar_1_1event_html_ad28f196e28f3c6715835e895a941636b"><div class="ttname"><a href="classcalendar_1_1event.html#ad28f196e28f3c6715835e895a941636b">calendar::event::setEvRepeat</a></div><div class="ttdeci">virtual void setEvRepeat(const repeatCycle &amp;newEvRepeat)</div><div class="ttdoc">ustawia nowy cykl powtarzania</div><div class="ttdef"><b>Definition:</b> eventModel.cpp:50</div></div>
+<div class="ttc" id="aclasscalendar_1_1event_html_ae1bff3e5fb2069d140529a789518a281"><div class="ttname"><a href="classcalendar_1_1event.html#ae1bff3e5fb2069d140529a789518a281">calendar::event::event</a></div><div class="ttdeci">event()</div><div class="ttdoc">konstruktor bezargumentowy, tworzy obiekt z datą 1.01.2012, nazwą NULL i bez powtarzania</div><div class="ttdef"><b>Definition:</b> eventModel.cpp:5</div></div>
+<div class="ttc" id="adate_8h_html"><div class="ttname"><a href="date_8h.html">date.h</a></div></div>
+<div class="ttc" id="anamespacecalendar_html"><div class="ttname"><a href="namespacecalendar.html">calendar</a></div><div class="ttdef"><b>Definition:</b> calendarView.h:21</div></div>
+<div class="ttc" id="anamespacecalendar_html_a8c77826be937e7a48bf92b36b5247280"><div class="ttname"><a href="namespacecalendar.html#a8c77826be937e7a48bf92b36b5247280">calendar::repeatCycle</a></div><div class="ttdeci">repeatCycle</div><div class="ttdef"><b>Definition:</b> eventModel.h:17</div></div>
+<div class="ttc" id="anamespacecalendar_html_a8c77826be937e7a48bf92b36b5247280a10634802e4498720b1a92ab4fbe00b75"><div class="ttname"><a href="namespacecalendar.html#a8c77826be937e7a48bf92b36b5247280a10634802e4498720b1a92ab4fbe00b75">calendar::None</a></div><div class="ttdeci">@ None</div><div class="ttdef"><b>Definition:</b> eventModel.h:17</div></div>
+<div class="ttc" id="anamespacecalendar_html_a8c77826be937e7a48bf92b36b5247280a22217856cc46e0e263a2b5033281a5b1"><div class="ttname"><a href="namespacecalendar.html#a8c77826be937e7a48bf92b36b5247280a22217856cc46e0e263a2b5033281a5b1">calendar::Daily</a></div><div class="ttdeci">@ Daily</div><div class="ttdef"><b>Definition:</b> eventModel.h:17</div></div>
+<div class="ttc" id="anamespacecalendar_html_a8c77826be937e7a48bf92b36b5247280a6adf436ceb73a19c6ca8b61e68e9f224"><div class="ttname"><a href="namespacecalendar.html#a8c77826be937e7a48bf92b36b5247280a6adf436ceb73a19c6ca8b61e68e9f224">calendar::Monthly</a></div><div class="ttdeci">@ Monthly</div><div class="ttdef"><b>Definition:</b> eventModel.h:17</div></div>
+<div class="ttc" id="anamespacecalendar_html_a8c77826be937e7a48bf92b36b5247280aa472a9fde415fc116f9dbdae1bb38a79"><div class="ttname"><a href="namespacecalendar.html#a8c77826be937e7a48bf92b36b5247280aa472a9fde415fc116f9dbdae1bb38a79">calendar::Weekly</a></div><div class="ttdeci">@ Weekly</div><div class="ttdef"><b>Definition:</b> eventModel.h:17</div></div>
+<div class="ttc" id="anamespacecalendar_html_a8c77826be937e7a48bf92b36b5247280adae1a3381e1b71e4d119de51a5ca101a"><div class="ttname"><a href="namespacecalendar.html#a8c77826be937e7a48bf92b36b5247280adae1a3381e1b71e4d119de51a5ca101a">calendar::Annually</a></div><div class="ttdeci">@ Annually</div><div class="ttdef"><b>Definition:</b> eventModel.h:17</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

@@ -1,0 +1,6 @@
+<map id="MainWindow::saveToFiles" name="MainWindow::saveToFiles">
+<area shape="rect" id="node1" title=" " alt="" coords="5,78,193,105"/>
+<area shape="rect" id="node2" href="$classcalendar_1_1data_interface.html#a1fca4b4c987caf86c1d363bdcc49720f" title="Zapisuje dane do plików." alt="" coords="241,5,415,47"/>
+<area shape="rect" id="node3" href="$classcalendar_1_1todo_view.html#a1ce2552586d81f38a56c22940d04716c" title="Pobiera elementy todo." alt="" coords="255,71,401,112"/>
+<area shape="rect" id="node4" href="$classcalendar_1_1data_interface.html#a37a0ee050e9840e14614d0c6274b052c" title="Pobiera dane do interfejsu." alt="" coords="241,136,415,177"/>
+</map>

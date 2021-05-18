@@ -6,6 +6,7 @@
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent), ui(new Ui::MainWindow) {
+    monthlyView = true;
     ui->setupUi(this);
     this->eventDataInterface.importDataFromSaveFile();
     this->eventList = this->eventDataInterface.loadDataFromInterface();
@@ -20,6 +21,7 @@ MainWindow::MainWindow(QWidget *parent)
     ui->listView->setModel(todoElementInterface);
     dayElementInterface = new QStandardItemModel(0, 0, nullptr);
     monthlyEventsInterface = new QStandardItemModel(nullptr);
+    weeklyEventsInterface = new QStandardItemModel(nullptr);
     labelsList << "Poniedziałek"
                << "Wtorek"
                << "Środa"
@@ -29,6 +31,8 @@ MainWindow::MainWindow(QWidget *parent)
                << "Niedziela";
     dayElementInterface->setHorizontalHeaderLabels(labelsList);
     ui->monthTableView->setModel(dayElementInterface);
+    ui->monthTableView->setWordWrap(true);
+    ui->monthTableView->setTextElideMode(Qt::ElideNone);
     // temp @TODO
     // QStandardItem *tempItem = new QStandardItem("1");
     // tempItem->setTextAlignment(Qt::AlignCenter);
@@ -37,6 +41,8 @@ MainWindow::MainWindow(QWidget *parent)
     calendar::date tempToday;
     tempToday.setCurrentDate();
     newCalendarView.setTodayDate();
+    newWeeklyCalendarView.setTodayDate();
+    currentWeek = newWeeklyCalendarView.getCurrentWeekNumber(tempToday);
     std::cout << "DEBUG: " << (int)tempToday.getMonth() << std::endl;
     newCalendarView.calculateCurrentMonth(
         dayElementInterface, tempToday.getMonth(), tempToday.getYear(),
@@ -44,6 +50,8 @@ MainWindow::MainWindow(QWidget *parent)
     datePlaceholder.setDay(tempToday.getDay());
     datePlaceholder.setMonth(tempToday.getMonth());
     datePlaceholder.setYear(tempToday.getYear());
+    datePlaceholder.setWeekNum(
+        newWeeklyCalendarView.getCurrentWeekNumber(datePlaceholder));
     ui->yearLabel->setText(std::to_string(datePlaceholder.getYear()).c_str());
     ui->monthLabel->setText(
         newCalendarView.getMonthName(datePlaceholder.getMonth()).c_str());
@@ -83,24 +91,70 @@ void MainWindow::showContextMenuEventElement(const QPoint &pos) {
 
 void MainWindow::showContextMenuDayElement(const QPoint &pos) {
     QPoint globalPos = this->ui->monthTableView->mapToGlobal(pos);
-
+    // std::cout << globalPos.x() << ", " << globalPos.y() << std::endl;
+    int tempData = 0;
     QMenu itemMenu;
-    itemMenu.addAction("Dodaj przypomnienie", this,
-                       SLOT(createNewReminderEvent()));
-    itemMenu.addAction("Dodaj wakacje", this, SLOT(createNewHolidayEvent()));
-    itemMenu.addAction("Dodaj urodziny", this, SLOT(createNewBirthdayEvent()));
-
+    for (auto index :
+         this->ui->monthTableView->selectionModel()->selectedIndexes()) {
+        tempData = index.data().toInt();
+        std::cout << tempData << std::endl;
+    }
+    if (monthlyView) {
+        itemMenu.addAction("Dodaj przypomnienie", this,
+                           SLOT(createNewReminderEvent()));
+        itemMenu.addAction("Dodaj wakacje", this,
+                           SLOT(createNewHolidayEvent()));
+        itemMenu.addAction("Dodaj urodziny", this,
+                           SLOT(createNewBirthdayEvent()));
+    } else if (!monthlyView) {
+        if (tempData) {
+            itemMenu.addAction("Dodaj przypomnienie", this,
+                               SLOT(createNewReminderEvent()));
+            itemMenu.addAction("Dodaj wakacje", this,
+                               SLOT(createNewHolidayEvent()));
+            itemMenu.addAction("Dodaj urodziny", this,
+                               SLOT(createNewBirthdayEvent()));
+        } else {
+            itemMenu.addAction("Usuń wydarzenie", this,
+                               SLOT(deleteEventItem()));
+        }
+    }
     itemMenu.exec(globalPos);
 }
 
 void MainWindow::createNewReminderEvent() {
     calendar::date tempDate(12, calendar::Jan, 2021);
     calendar::date *selectedDate;
-    for (auto index :
-         this->ui->monthTableView->selectionModel()->selectedIndexes()) {
-        int tempData = index.data().toInt();
-        selectedDate = new calendar::date(tempData, datePlaceholder.getMonth(),
-                                          datePlaceholder.getYear());
+    if (monthlyView == true) {
+        for (auto index :
+             this->ui->monthTableView->selectionModel()->selectedIndexes()) {
+            int tempData = index.data().toInt();
+            selectedDate =
+                new calendar::date(tempData, datePlaceholder.getMonth(),
+                                   datePlaceholder.getYear());
+        }
+    } else {
+        for (auto index :
+             this->ui->monthTableView->selectionModel()->selectedIndexes()) {
+            // std::cout << this->weeklyEventsInterface->item(0, index.column())
+            //                  ->data()
+            //                  .toString()
+            //                  .toStdString()
+
+            //           << std::endl;
+            // int tempData = this->weeklyEventsInterface->item(0,
+            // index.column())
+            //                    ->data()
+            //                    .toInt();
+            int tempData = index.data().toInt();
+            std::cout << tempData;
+            selectedDate =
+                new calendar::date(tempData, datePlaceholder.getMonth(),
+                                   datePlaceholder.getYear());
+        }
+    }
+    if (selectedDate->getDay() == 0) {
+        return;
     }
     QString evName = QInputDialog::getText(
         this, tr("Podaj dane 1/4"), tr("Nazwa wydarzenia:"), QLineEdit::Normal);
@@ -129,34 +183,68 @@ void MainWindow::createNewReminderEvent() {
     } else {
         evRepeatType = calendar::None;
     }
-    this->newCalendarView.addEventFromDialog(
-        this->ui->monthTableView, evName.toStdString(), "BRAK OPISU",
-        evLocation.toStdString(), evType.toStdString(), "TEST", "TEST",
-        *selectedDate, tempDate, tempDate, tempDate, evRepeatType, "REMINDER");
-    // eventList[datePlaceholder.getYear()][datePlaceholder.getMonth()].push_back(
-    //    tempEvent);
-    for (auto index :
-         this->ui->monthTableView->selectionModel()->selectedIndexes()) {
-        getEventsForDay(index);
-        QStandardItem *tempItem =
-            this->dayElementInterface->itemFromIndex(index);
-        tempItem->setForeground(Qt::darkGreen);
+    if (monthlyView) {
+        this->newCalendarView.addEventFromDialog(
+            this->ui->monthTableView, evName.toStdString(), "BRAK OPISU",
+            evLocation.toStdString(), evType.toStdString(), "TEST", "TEST",
+            *selectedDate, tempDate, tempDate, tempDate, evRepeatType,
+            "REMINDER");
+        // eventList[datePlaceholder.getYear()][datePlaceholder.getMonth()].push_back(
+        //    tempEvent);
+        for (auto index :
+             this->ui->monthTableView->selectionModel()->selectedIndexes()) {
+            getEventsForDay(index);
+            QStandardItem *tempItem =
+                this->dayElementInterface->itemFromIndex(index);
+            tempItem->setForeground(Qt::darkGreen);
+        }
+        newCalendarView.calculateCurrentMonth(
+            dayElementInterface, datePlaceholder.getMonth(),
+            datePlaceholder.getYear(), this->monthlyEventsInterface);
+        eventList = this->newCalendarView.getEvents();
+    } else {
+        this->newCalendarView.addEventFromDialog(
+            this->ui->monthTableView, evName.toStdString(), "BRAK OPISU",
+            evLocation.toStdString(), evType.toStdString(), "TEST", "TEST",
+            *selectedDate, tempDate, tempDate, tempDate, evRepeatType,
+            "REMINDER");
+        eventList = this->newCalendarView.getEvents();
+        newWeeklyCalendarView.setEvents(eventList);
+        newWeeklyCalendarView.calculateCurrentWeek(
+            dayElementInterface, datePlaceholder.getMonth(),
+            datePlaceholder.getYear(), currentWeek,
+            this->weeklyEventsInterface);
+        ui->monthTableView->resizeRowsToContents();
     }
-    newCalendarView.calculateCurrentMonth(
-        dayElementInterface, datePlaceholder.getMonth(),
-        datePlaceholder.getYear(), this->monthlyEventsInterface);
-    eventList = this->newCalendarView.getEvents();
 }
 
 void MainWindow::createNewBirthdayEvent() {
     calendar::date tempDate(12, calendar::Jan, 2021);
     calendar::date *selectedDate;
-    for (auto index :
-         this->ui->monthTableView->selectionModel()->selectedIndexes()) {
-        int tempData = index.data().toInt();
+    if (monthlyView == true) {
+        for (auto index :
+             this->ui->monthTableView->selectionModel()->selectedIndexes()) {
+            int tempData = index.data().toInt();
 
-        selectedDate = new calendar::date(tempData, datePlaceholder.getMonth(),
-                                          datePlaceholder.getYear());
+            selectedDate =
+                new calendar::date(tempData, datePlaceholder.getMonth(),
+                                   datePlaceholder.getYear());
+        }
+    } else {
+        for (auto index :
+             this->ui->monthTableView->selectionModel()->selectedIndexes()) {
+            // int tempData = this->weeklyEventsInterface->item(0,
+            // index.column())
+            //                    ->data()
+            //                    .toInt();
+            int tempData = index.data().toInt();
+            selectedDate =
+                new calendar::date(tempData, datePlaceholder.getMonth(),
+                                   datePlaceholder.getYear());
+        }
+    }
+    if (selectedDate->getDay() == 0) {
+        return;
     }
     int inputYear = 2012;
     QString inputName = QInputDialog::getText(this, tr("Podaj dane 1/3"),
@@ -168,33 +256,65 @@ void MainWindow::createNewBirthdayEvent() {
     calendar::date tempBirthDate(selectedDate->getDay(),
                                  selectedDate->getMonth(), inputYear);
     // td::vector<calendar::day> tempDays = 0;
-    this->newCalendarView.addEventFromDialog(
-        this->ui->monthTableView, "Urodziny", "BRAK OPISU", "BRAK", "BRAK",
-        inputName.toStdString(), inputSurname.toStdString(), *selectedDate,
-        tempBirthDate, tempDate, tempDate, calendar::Annually, "BIRTHDAY");
-    // eventList[datePlaceholder.getYear()][datePlaceholder.getMonth()].push_back(
-    //    tempEvent);
-    for (auto index :
-         this->ui->monthTableView->selectionModel()->selectedIndexes()) {
-        getEventsForDay(index);
-        QStandardItem *tempItem =
-            this->dayElementInterface->itemFromIndex(index);
-        tempItem->setForeground(Qt::darkGreen);
-        newCalendarView.calculateCurrentMonth(
-            dayElementInterface, datePlaceholder.getMonth(),
-            datePlaceholder.getYear(), this->monthlyEventsInterface);
+    if (monthlyView) {
+        this->newCalendarView.addEventFromDialog(
+            this->ui->monthTableView, "Urodziny", "BRAK OPISU", "BRAK", "BRAK",
+            inputName.toStdString(), inputSurname.toStdString(), *selectedDate,
+            tempBirthDate, tempDate, tempDate, calendar::Annually, "BIRTHDAY");
+        // eventList[datePlaceholder.getYear()][datePlaceholder.getMonth()].push_back(
+        //    tempEvent);
+        for (auto index :
+             this->ui->monthTableView->selectionModel()->selectedIndexes()) {
+            getEventsForDay(index);
+            QStandardItem *tempItem =
+                this->dayElementInterface->itemFromIndex(index);
+            tempItem->setForeground(Qt::darkGreen);
+            newCalendarView.calculateCurrentMonth(
+                dayElementInterface, datePlaceholder.getMonth(),
+                datePlaceholder.getYear(), this->monthlyEventsInterface);
+            eventList = this->newCalendarView.getEvents();
+        }
+    } else {
+        this->newCalendarView.addEventFromDialog(
+            this->ui->monthTableView, "Urodziny", "BRAK OPISU", "BRAK", "BRAK",
+            inputName.toStdString(), inputSurname.toStdString(), *selectedDate,
+            tempBirthDate, tempDate, tempDate, calendar::Annually, "BIRTHDAY");
         eventList = this->newCalendarView.getEvents();
+        newWeeklyCalendarView.setEvents(eventList);
+        newWeeklyCalendarView.calculateCurrentWeek(
+            dayElementInterface, datePlaceholder.getMonth(),
+            datePlaceholder.getYear(), currentWeek,
+            this->weeklyEventsInterface);
+        ui->monthTableView->resizeRowsToContents();
     }
 }
 
 void MainWindow::createNewHolidayEvent() {
     calendar::date tempDate(12, calendar::Jan, 2021);
     calendar::date *selectedDate;
-    for (auto index :
-         this->ui->monthTableView->selectionModel()->selectedIndexes()) {
-        int tempData = index.data().toInt();
-        selectedDate = new calendar::date(tempData, datePlaceholder.getMonth(),
-                                          datePlaceholder.getYear());
+    if (monthlyView == true) {
+        for (auto index :
+             this->ui->monthTableView->selectionModel()->selectedIndexes()) {
+            int tempData = index.data().toInt();
+            selectedDate =
+                new calendar::date(tempData, datePlaceholder.getMonth(),
+                                   datePlaceholder.getYear());
+        }
+    } else {
+        for (auto index :
+             this->ui->monthTableView->selectionModel()->selectedIndexes()) {
+            // int tempData = this->weeklyEventsInterface->item(0,
+            // index.column())
+            //                    ->data()
+            //                    .toInt();
+            int tempData = index.data().toInt();
+            selectedDate =
+                new calendar::date(tempData, datePlaceholder.getMonth(),
+                                   datePlaceholder.getYear());
+        }
+    }
+    if (selectedDate->getDay() == 0) {
+        return;
     }
     QString evName = QInputDialog::getText(
         this, tr("Podaj dane 1/4"), tr("Nazwa wydarzenia:"), QLineEdit::Normal);
@@ -236,23 +356,38 @@ void MainWindow::createNewHolidayEvent() {
     } else {
         evRepeatType = calendar::None;
     }
-    this->newCalendarView.addEventFromDialog(
-        this->ui->monthTableView, evName.toStdString(), evDesc.toStdString(),
-        "NONE", "NONE", "TEST", "TEST", *selectedDate, tempDate, *selectedDate,
-        endDate, evRepeatType, "HOLIDAY");
-    // eventList[datePlaceholder.getYear()][datePlaceholder.getMonth()].push_back(
-    //    tempEvent);
-    for (auto index :
-         this->ui->monthTableView->selectionModel()->selectedIndexes()) {
-        getEventsForDay(index);
-        QStandardItem *tempItem =
-            this->dayElementInterface->itemFromIndex(index);
-        tempItem->setForeground(Qt::darkGreen);
-        newCalendarView.calculateCurrentMonth(
-            dayElementInterface, datePlaceholder.getMonth(),
-            datePlaceholder.getYear(), this->monthlyEventsInterface);
+    if (monthlyView) {
+        this->newCalendarView.addEventFromDialog(
+            this->ui->monthTableView, evName.toStdString(),
+            evDesc.toStdString(), "NONE", "NONE", "TEST", "TEST", *selectedDate,
+            tempDate, *selectedDate, endDate, evRepeatType, "HOLIDAY");
+        // eventList[datePlaceholder.getYear()][datePlaceholder.getMonth()].push_back(
+        //    tempEvent);
+        for (auto index :
+             this->ui->monthTableView->selectionModel()->selectedIndexes()) {
+            getEventsForDay(index);
+            QStandardItem *tempItem =
+                this->dayElementInterface->itemFromIndex(index);
+            tempItem->setForeground(Qt::darkGreen);
+            newCalendarView.calculateCurrentMonth(
+                dayElementInterface, datePlaceholder.getMonth(),
+                datePlaceholder.getYear(), this->monthlyEventsInterface);
+            eventList = this->newCalendarView.getEvents();
+        }
+    } else {
+        this->newCalendarView.addEventFromDialog(
+            this->ui->monthTableView, evName.toStdString(),
+            evDesc.toStdString(), "NONE", "NONE", "TEST", "TEST", *selectedDate,
+            tempDate, *selectedDate, endDate, evRepeatType, "HOLIDAY");
         eventList = this->newCalendarView.getEvents();
+        newWeeklyCalendarView.setEvents(eventList);
+        newWeeklyCalendarView.calculateCurrentWeek(
+            dayElementInterface, datePlaceholder.getMonth(),
+            datePlaceholder.getYear(), currentWeek,
+            this->weeklyEventsInterface);
+        ui->monthTableView->resizeRowsToContents();
     }
+    // delete selectedDate;
 }
 
 void MainWindow::deleteTodoItem() {
@@ -261,8 +396,42 @@ void MainWindow::deleteTodoItem() {
 }
 
 void MainWindow::deleteEventItem() {
-    // std::cout << "Deleting items\n";
-    // this->newTodoView.deleteItem(this->ui->listView, todoElementInterface);
+    std::cout << "Deleting items\n";
+    // monthlyEventsInterface <- model
+    // ui->eventsListView
+    if (monthlyView) {
+        for (QModelIndex index :
+             ui->eventsListView->selectionModel()->selectedIndexes()) {
+            QStandardItem *tempItem =
+                monthlyEventsInterface->itemFromIndex(index);
+            newCalendarView.deleteEvent(index.data().toString().toStdString());
+            monthlyEventsInterface->removeRow(index.row());
+            this->eventList = newCalendarView.getEvents();
+            // delete tempItem;
+        }
+        newCalendarView.calculateCurrentMonth(
+            dayElementInterface, datePlaceholder.getMonth(),
+            datePlaceholder.getYear(), this->monthlyEventsInterface);
+        // this->newTodoView.deleteItem(this->ui->listView,
+        // todoElementInterface);
+    } else {
+        std::string tempData = "";
+        for (auto index :
+             this->ui->monthTableView->selectionModel()->selectedIndexes()) {
+            tempData = index.data().toString().toStdString();
+            std::cout << tempData << std::endl;
+            newCalendarView.deleteEvent(tempData);
+            newWeeklyCalendarView.deleteEvent(tempData);
+            this->eventList = newCalendarView.getEvents();
+            newWeeklyCalendarView.setEvents(eventList);
+            newWeeklyCalendarView.calculateCurrentWeek(
+                dayElementInterface, datePlaceholder.getMonth(),
+                datePlaceholder.getYear(), currentWeek,
+                this->weeklyEventsInterface);
+            weeklyEventsInterface->setData(index, "");
+            ui->monthTableView->resizeRowsToContents();
+        }
+    }
 }
 
 void MainWindow::getEventsForDay(const QModelIndex &index) {
@@ -271,11 +440,30 @@ void MainWindow::getEventsForDay(const QModelIndex &index) {
                                           index.data().toInt());
 }
 
-MainWindow::~MainWindow() { delete ui; }
+MainWindow::~MainWindow() {
+    delete ui;
+    delete monthlyEventsInterface;
+    delete weeklyEventsInterface;
+    delete dayElementInterface;
+    delete todoElementInterface;
+    for (auto ptr : eventList) {
+        delete ptr;
+    }
+}
 
 void MainWindow::on_changeCalendarViewMonthly_clicked() {
+    // this->eventList = newWeeklyCalendarView.getEvents();
+    // this->newCalendarView.setEvents(this->eventList);
     ui->eventsListView->show();
+    ui->monthTableView->setModel(dayElementInterface);
     ui->monthTableView->show();
+    ui->nextMonth->setText("Nast. miesiąc");
+    ui->prevMonth->setText("Pop. miesiąc");
+    monthlyView = true;
+    newCalendarView.calculateCurrentMonth(
+        dayElementInterface, datePlaceholder.getMonth(),
+        datePlaceholder.getYear(), this->monthlyEventsInterface);
+    ui->monthTableView->resizeRowsToContents();
 }
 
 void MainWindow::saveToFiles() {
@@ -291,6 +479,10 @@ void MainWindow::saveToFiles() {
 void MainWindow::closeWindow() {
     this->saveToFiles();
     this->close();
+    monthlyEventsInterface->clear();
+    weeklyEventsInterface->clear();
+    dayElementInterface->clear();
+    todoElementInterface->clear();
 }
 
 void MainWindow::on_addTodoItemButton_clicked() {
@@ -313,32 +505,86 @@ void MainWindow::on_addTodoItemButton_clicked() {
 }
 
 void MainWindow::on_nextMonth_clicked() {
-    datePlaceholder.incrementMonth();
-    dayElementInterface->clear();
-    dayElementInterface->setHorizontalHeaderLabels(labelsList);
-    newCalendarView.calculateCurrentMonth(
-        dayElementInterface, datePlaceholder.getMonth(),
-        datePlaceholder.getYear(), this->monthlyEventsInterface);
-    ui->yearLabel->setText(std::to_string(datePlaceholder.getYear()).c_str());
-    ui->monthLabel->setText(
-        this->newCalendarView.getMonthName(datePlaceholder.getMonth()).c_str());
-    monthlyEventsInterface->clear();
+    if (monthlyView == true) {
+        datePlaceholder.incrementMonth();
+        dayElementInterface->clear();
+        dayElementInterface->setHorizontalHeaderLabels(labelsList);
+        newCalendarView.calculateCurrentMonth(
+            dayElementInterface, datePlaceholder.getMonth(),
+            datePlaceholder.getYear(), this->monthlyEventsInterface);
+        ui->yearLabel->setText(
+            std::to_string(datePlaceholder.getYear()).c_str());
+        ui->monthLabel->setText(
+            this->newCalendarView.getMonthName(datePlaceholder.getMonth())
+                .c_str());
+        monthlyEventsInterface->clear();
+    } else {
+        datePlaceholder.incrementWeek();
+        if (++currentWeek == 53) {
+            currentWeek = 1;
+        }
+        weeklyEventsInterface->clear();
+        weeklyEventsInterface->setHorizontalHeaderLabels(labelsList);
+        ui->yearLabel->setText(
+            std::to_string(datePlaceholder.getYear()).c_str());
+        ui->monthLabel->setText(
+            this->newCalendarView.getMonthName(datePlaceholder.getMonth())
+                .c_str());
+        newWeeklyCalendarView.calculateCurrentWeek(
+            dayElementInterface, datePlaceholder.getMonth(),
+            datePlaceholder.getYear(), currentWeek,
+            this->weeklyEventsInterface);
+        ui->monthTableView->resizeRowsToContents();
+    }
 }
 
 void MainWindow::on_prevMonth_clicked() {
-    datePlaceholder.decrementMonth();
-    dayElementInterface->clear();
-    dayElementInterface->setHorizontalHeaderLabels(labelsList);
-    newCalendarView.calculateCurrentMonth(
-        dayElementInterface, datePlaceholder.getMonth(),
-        datePlaceholder.getYear(), this->monthlyEventsInterface);
-    ui->yearLabel->setText(std::to_string(datePlaceholder.getYear()).c_str());
-    ui->monthLabel->setText(
-        this->newCalendarView.getMonthName(datePlaceholder.getMonth()).c_str());
-    monthlyEventsInterface->clear();
+    if (monthlyView == true) {
+        datePlaceholder.decrementMonth();
+        dayElementInterface->clear();
+        dayElementInterface->setHorizontalHeaderLabels(labelsList);
+        newCalendarView.calculateCurrentMonth(
+            dayElementInterface, datePlaceholder.getMonth(),
+            datePlaceholder.getYear(), this->monthlyEventsInterface);
+        ui->yearLabel->setText(
+            std::to_string(datePlaceholder.getYear()).c_str());
+        ui->monthLabel->setText(
+            this->newCalendarView.getMonthName(datePlaceholder.getMonth())
+                .c_str());
+        monthlyEventsInterface->clear();
+    } else {
+        datePlaceholder.decrementWeek();
+        if (--currentWeek == 0) {
+            currentWeek = 52;
+        }
+        weeklyEventsInterface->clear();
+        weeklyEventsInterface->setHorizontalHeaderLabels(labelsList);
+        ui->yearLabel->setText(
+            std::to_string(datePlaceholder.getYear()).c_str());
+        ui->monthLabel->setText(
+            this->newCalendarView.getMonthName(datePlaceholder.getMonth())
+                .c_str());
+        newWeeklyCalendarView.calculateCurrentWeek(
+            dayElementInterface, datePlaceholder.getMonth(),
+            datePlaceholder.getYear(), currentWeek,
+            this->weeklyEventsInterface);
+        ui->monthTableView->resizeRowsToContents();
+    }
 }
 
 void MainWindow::on_changeCalendarViewWeekly_clicked() {
-    ui->monthTableView->hide();
+    this->eventList = newCalendarView.getEvents();
+    this->newWeeklyCalendarView.setEvents(this->eventList);
+    // ui->monthTableView->hide();
+    ui->monthTableView->setModel(weeklyEventsInterface);
     ui->eventsListView->hide();
+    ui->nextMonth->setText("Nast. tydzień");
+    ui->prevMonth->setText("Pop. tydzień");
+    weeklyEventsInterface->setHorizontalHeaderLabels(labelsList);
+    monthlyView = false;
+    currentWeek = datePlaceholder.getWeekNum();
+    newWeeklyCalendarView.calculateCurrentWeek(
+        dayElementInterface, datePlaceholder.getMonth(),
+        datePlaceholder.getYear(), currentWeek, this->weeklyEventsInterface);
+    ui->monthTableView->resizeRowsToContents();
 }

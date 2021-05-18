@@ -1,0 +1,6 @@
+<map id="calendar::day::getDate" name="calendar::day::getDate">
+<area shape="rect" id="node1" title="Pobiera datę dnia." alt="" coords="260,78,429,105"/>
+<area shape="rect" id="node2" href="$classcalendar_1_1weekly_calendar_view.html#aa8d257161f51be45757eea0fc9bcb8dc" title="Oblicza obecny tydzień oraz ustawia wartości w widoku." alt="" coords="5,5,212,47"/>
+<area shape="rect" id="node3" href="$classcalendar_1_1calendar_view.html#a90fb0871265c6a77c271b4a46654c4b1" title="Pobiera wydarzenia dla danego dnia." alt="" coords="21,71,196,112"/>
+<area shape="rect" id="node4" href="$classcalendar_1_1weekly_calendar_view.html#af45221d98829ebee8ef6c05ad14e128b" title="Pobiera wydarzenia dla danego dnia." alt="" coords="13,136,204,177"/>
+</map>

@@ -28,6 +28,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/calendar.dir/res/todoElement.cpp.o.d"
   "CMakeFiles/calendar.dir/res/todoView.cpp.o"
   "CMakeFiles/calendar.dir/res/todoView.cpp.o.d"
+  "CMakeFiles/calendar.dir/res/weeklyCalendarView.cpp.o"
+  "CMakeFiles/calendar.dir/res/weeklyCalendarView.cpp.o.d"
   "calendar"
   "calendar.pdb"
 )

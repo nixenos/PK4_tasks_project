@@ -1,0 +1,9 @@
+<map id="calendar::date::getYear" name="calendar::date::getYear">
+<area shape="rect" id="node1" title="pobiera rok." alt="" coords="531,159,701,186"/>
+<area shape="rect" id="node2" href="$classcalendar_1_1calendar_view.html#ad5f26a90a68dfac815f0df05ac5bedd7" title="Ustawia i oblicza dni w obecnym miesiącu." alt="" coords="278,5,457,47"/>
+<area shape="rect" id="node3" href="$class_main_window.html#a996c5a2b6f77944776856f08ec30858d" title=" " alt="" coords="5,42,204,69"/>
+<area shape="rect" id="node4" href="$classcalendar_1_1weekly_calendar_view.html#aa8d257161f51be45757eea0fc9bcb8dc" title="Oblicza obecny tydzień oraz ustawia wartości w widoku." alt="" coords="264,123,471,164"/>
+<area shape="rect" id="node5" href="$classcalendar_1_1date.html#aeda88b88ec32333a9166dcf42dfbbe9d" title="Dekrementuje tydzień." alt="" coords="252,189,483,215"/>
+<area shape="rect" id="node6" href="$classcalendar_1_1date.html#a8497a605342f13aefa2529faeaf59788" title="Operator równości." alt="" coords="267,239,467,266"/>
+<area shape="rect" id="node7" href="$classcalendar_1_1date.html#a50ae67338f7a3eb5e0a549c453707b78" title=" " alt="" coords="273,290,462,317"/>
+</map>

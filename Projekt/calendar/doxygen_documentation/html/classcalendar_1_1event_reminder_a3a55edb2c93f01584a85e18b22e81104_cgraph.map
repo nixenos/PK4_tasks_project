@@ -1,0 +1,5 @@
+<map id="calendar::eventReminder::eventReminder" name="calendar::eventReminder::eventReminder">
+<area shape="rect" id="node1" title="konstruktor wieloargumentowy, tworzy obiekt o wszystkich właściwościach" alt="" coords="5,39,192,80"/>
+<area shape="rect" id="node2" href="$classcalendar_1_1event_reminder.html#a790c2a234a772c11aaba8f6c4fbfa015" title="ustawia nową lokalizację wydarzenia" alt="" coords="240,5,427,47"/>
+<area shape="rect" id="node3" href="$classcalendar_1_1event_reminder.html#ae79b7045c7fcf5461739a7ceee3d2e56" title="ustawia nowy typ wydarzenia" alt="" coords="240,71,427,112"/>
+</map>

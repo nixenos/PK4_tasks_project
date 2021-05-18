@@ -1,0 +1,4 @@
+<map id="calendar::weeklyCalendarView::setTodayDate" name="calendar::weeklyCalendarView::setTodayDate">
+<area shape="rect" id="node1" title="Ustawia dzisiejszą datę." alt="" coords="5,5,196,47"/>
+<area shape="rect" id="node2" href="$classcalendar_1_1date.html#ae2b16c8e24e29583a66201d4c7d47a40" title="ustawia bieżącą datę." alt="" coords="244,13,467,39"/>
+</map>

@@ -1,3 +1,13 @@
+/**
+ * @file eventReminderModel.h
+ * @author Wojciech Janota
+ * @brief
+ * @version 0.1
+ * @date 2021-05-18
+ *
+ * @copyright Copyright (c) 2021
+ *
+ */
 #pragma once
 #include "eventModel.h"
 #include <string>
@@ -58,6 +68,11 @@ class eventReminder : public event {
      */
     virtual std::string stringifyEvent() const noexcept;
 
+    /**
+     * @brief Eksportuje dane do zapisu
+     *
+     * @return std::string wyeksportowane dane
+     */
     virtual std::string exportData() const noexcept;
 };
 } // namespace calendar

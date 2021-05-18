@@ -1,0 +1,2749 @@
+\begin{theindex}
+
+  \item {\_GNU\_SOURCE}
+    \subitem {moc\_predefs.h}, \hyperpage{146}, \hyperpage{205}, 
+		\hyperpage{263}
+  \item {\_LP64}
+    \subitem {moc\_predefs.h}, \hyperpage{147}, \hyperpage{205}, 
+		\hyperpage{264}
+  \item {\_STDC\_PREDEF\_H}
+    \subitem {moc\_predefs.h}, \hyperpage{147}, \hyperpage{205}, 
+		\hyperpage{264}
+  \item {\_\_ATOMIC\_ACQUIRE}
+    \subitem {moc\_predefs.h}, \hyperpage{97}, \hyperpage{156}, 
+		\hyperpage{214}
+  \item {\_\_ATOMIC\_ACQ\_REL}
+    \subitem {moc\_predefs.h}, \hyperpage{97}, \hyperpage{155}, 
+		\hyperpage{214}
+  \item {\_\_ATOMIC\_CONSUME}
+    \subitem {moc\_predefs.h}, \hyperpage{97}, \hyperpage{156}, 
+		\hyperpage{214}
+  \item {\_\_ATOMIC\_HLE\_ACQUIRE}
+    \subitem {moc\_predefs.h}, \hyperpage{97}, \hyperpage{156}, 
+		\hyperpage{214}
+  \item {\_\_ATOMIC\_HLE\_RELEASE}
+    \subitem {moc\_predefs.h}, \hyperpage{97}, \hyperpage{156}, 
+		\hyperpage{214}
+  \item {\_\_ATOMIC\_RELAXED}
+    \subitem {moc\_predefs.h}, \hyperpage{97}, \hyperpage{156}, 
+		\hyperpage{214}
+  \item {\_\_ATOMIC\_RELEASE}
+    \subitem {moc\_predefs.h}, \hyperpage{98}, \hyperpage{156}, 
+		\hyperpage{215}
+  \item {\_\_ATOMIC\_SEQ\_CST}
+    \subitem {moc\_predefs.h}, \hyperpage{98}, \hyperpage{156}, 
+		\hyperpage{215}
+  \item {\_\_BIGGEST\_ALIGNMENT\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{98}, \hyperpage{156}, 
+		\hyperpage{215}
+  \item {\_\_BYTE\_ORDER\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{98}, \hyperpage{157}, 
+		\hyperpage{215}
+  \item {\_\_CHAR16\_TYPE\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{98}, \hyperpage{157}, 
+		\hyperpage{215}
+  \item {\_\_CHAR32\_TYPE\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{98}, \hyperpage{157}, 
+		\hyperpage{215}
+  \item {\_\_CHAR\_BIT\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{98}, \hyperpage{157}, 
+		\hyperpage{215}
+  \item {\_\_DBL\_DECIMAL\_DIG\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{103}, \hyperpage{161}, 
+		\hyperpage{220}
+  \item {\_\_DBL\_DENORM\_MIN\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{103}, \hyperpage{162}, 
+		\hyperpage{220}
+  \item {\_\_DBL\_DIG\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{103}, \hyperpage{162}, 
+		\hyperpage{220}
+  \item {\_\_DBL\_EPSILON\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{103}, \hyperpage{162}, 
+		\hyperpage{220}
+  \item {\_\_DBL\_HAS\_DENORM\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{103}, \hyperpage{162}, 
+		\hyperpage{220}
+  \item {\_\_DBL\_HAS\_INFINITY\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{103}, \hyperpage{162}, 
+		\hyperpage{220}
+  \item {\_\_DBL\_HAS\_QUIET\_NAN\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{104}, \hyperpage{162}, 
+		\hyperpage{221}
+  \item {\_\_DBL\_MANT\_DIG\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{104}, \hyperpage{162}, 
+		\hyperpage{221}
+  \item {\_\_DBL\_MAX\_10\_EXP\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{104}, \hyperpage{162}, 
+		\hyperpage{221}
+  \item {\_\_DBL\_MAX\_EXP\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{104}, \hyperpage{163}, 
+		\hyperpage{221}
+  \item {\_\_DBL\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{104}, \hyperpage{163}, 
+		\hyperpage{221}
+  \item {\_\_DBL\_MIN\_10\_EXP\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{104}, \hyperpage{163}, 
+		\hyperpage{221}
+  \item {\_\_DBL\_MIN\_EXP\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{104}, \hyperpage{163}, 
+		\hyperpage{221}
+  \item {\_\_DBL\_MIN\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{104}, \hyperpage{163}, 
+		\hyperpage{221}
+  \item {\_\_DBL\_NORM\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{105}, \hyperpage{163}, 
+		\hyperpage{222}
+  \item {\_\_DEC128\_EPSILON\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{105}, \hyperpage{163}, 
+		\hyperpage{222}
+  \item {\_\_DEC128\_MANT\_DIG\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{105}, \hyperpage{163}, 
+		\hyperpage{222}
+  \item {\_\_DEC128\_MAX\_EXP\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{105}, \hyperpage{164}, 
+		\hyperpage{222}
+  \item {\_\_DEC128\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{105}, \hyperpage{164}, 
+		\hyperpage{222}
+  \item {\_\_DEC128\_MIN\_EXP\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{105}, \hyperpage{164}, 
+		\hyperpage{222}
+  \item {\_\_DEC128\_MIN\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{105}, \hyperpage{164}, 
+		\hyperpage{222}
+  \item {\_\_DEC128\_SUBNORMAL\_MIN\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{105}, \hyperpage{164}, 
+		\hyperpage{222}
+  \item {\_\_DEC32\_EPSILON\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{106}, \hyperpage{164}, 
+		\hyperpage{223}
+  \item {\_\_DEC32\_MANT\_DIG\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{106}, \hyperpage{164}, 
+		\hyperpage{223}
+  \item {\_\_DEC32\_MAX\_EXP\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{106}, \hyperpage{165}, 
+		\hyperpage{223}
+  \item {\_\_DEC32\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{106}, \hyperpage{164}, 
+		\hyperpage{223}
+  \item {\_\_DEC32\_MIN\_EXP\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{106}, \hyperpage{165}, 
+		\hyperpage{223}
+  \item {\_\_DEC32\_MIN\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{106}, \hyperpage{165}, 
+		\hyperpage{223}
+  \item {\_\_DEC32\_SUBNORMAL\_MIN\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{106}, \hyperpage{165}, 
+		\hyperpage{223}
+  \item {\_\_DEC64\_EPSILON\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{106}, \hyperpage{165}, 
+		\hyperpage{223}
+  \item {\_\_DEC64\_MANT\_DIG\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{107}, \hyperpage{165}, 
+		\hyperpage{224}
+  \item {\_\_DEC64\_MAX\_EXP\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{107}, \hyperpage{165}, 
+		\hyperpage{224}
+  \item {\_\_DEC64\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{107}, \hyperpage{165}, 
+		\hyperpage{224}
+  \item {\_\_DEC64\_MIN\_EXP\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{107}, \hyperpage{166}, 
+		\hyperpage{224}
+  \item {\_\_DEC64\_MIN\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{107}, \hyperpage{166}, 
+		\hyperpage{224}
+  \item {\_\_DEC64\_SUBNORMAL\_MIN\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{107}, \hyperpage{166}, 
+		\hyperpage{224}
+  \item {\_\_DECIMAL\_BID\_FORMAT\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{107}, \hyperpage{166}, 
+		\hyperpage{224}
+  \item {\_\_DECIMAL\_DIG\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{108}, \hyperpage{166}, 
+		\hyperpage{225}
+  \item {\_\_DEC\_EVAL\_METHOD\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{107}, \hyperpage{166}, 
+		\hyperpage{224}
+  \item {\_\_DEPRECATED}
+    \subitem {moc\_predefs.h}, \hyperpage{108}, \hyperpage{166}, 
+		\hyperpage{225}
+  \item {\_\_ELF\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{108}, \hyperpage{166}, 
+		\hyperpage{225}
+  \item {\_\_EXCEPTIONS}
+    \subitem {moc\_predefs.h}, \hyperpage{108}, \hyperpage{167}, 
+		\hyperpage{225}
+  \item {\_\_FINITE\_MATH\_ONLY\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{108}, \hyperpage{167}, 
+		\hyperpage{225}
+  \item {\_\_FLOAT\_WORD\_ORDER\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{108}, \hyperpage{167}, 
+		\hyperpage{225}
+  \item {\_\_FLT128\_DECIMAL\_DIG\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{108}, \hyperpage{167}, 
+		\hyperpage{225}
+  \item {\_\_FLT128\_DENORM\_MIN\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{108}, \hyperpage{167}, 
+		\hyperpage{225}
+  \item {\_\_FLT128\_DIG\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{109}, \hyperpage{167}, 
+		\hyperpage{226}
+  \item {\_\_FLT128\_EPSILON\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{109}, \hyperpage{167}, 
+		\hyperpage{226}
+  \item {\_\_FLT128\_HAS\_DENORM\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{109}, \hyperpage{167}, 
+		\hyperpage{226}
+  \item {\_\_FLT128\_HAS\_INFINITY\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{109}, \hyperpage{168}, 
+		\hyperpage{226}
+  \item {\_\_FLT128\_HAS\_QUIET\_NAN\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{109}, \hyperpage{168}, 
+		\hyperpage{226}
+  \item {\_\_FLT128\_MANT\_DIG\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{109}, \hyperpage{168}, 
+		\hyperpage{226}
+  \item {\_\_FLT128\_MAX\_10\_EXP\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{109}, \hyperpage{168}, 
+		\hyperpage{226}
+  \item {\_\_FLT128\_MAX\_EXP\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{110}, \hyperpage{168}, 
+		\hyperpage{227}
+  \item {\_\_FLT128\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{109}, \hyperpage{168}, 
+		\hyperpage{226}
+  \item {\_\_FLT128\_MIN\_10\_EXP\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{110}, \hyperpage{168}, 
+		\hyperpage{227}
+  \item {\_\_FLT128\_MIN\_EXP\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{110}, \hyperpage{169}, 
+		\hyperpage{227}
+  \item {\_\_FLT128\_MIN\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{110}, \hyperpage{168}, 
+		\hyperpage{227}
+  \item {\_\_FLT128\_NORM\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{110}, \hyperpage{169}, 
+		\hyperpage{227}
+  \item {\_\_FLT32X\_DECIMAL\_DIG\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{112}, \hyperpage{171}, 
+		\hyperpage{229}
+  \item {\_\_FLT32X\_DENORM\_MIN\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{112}, \hyperpage{171}, 
+		\hyperpage{229}
+  \item {\_\_FLT32X\_DIG\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{112}, \hyperpage{171}, 
+		\hyperpage{229}
+  \item {\_\_FLT32X\_EPSILON\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{112}, \hyperpage{171}, 
+		\hyperpage{229}
+  \item {\_\_FLT32X\_HAS\_DENORM\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{113}, \hyperpage{171}, 
+		\hyperpage{230}
+  \item {\_\_FLT32X\_HAS\_INFINITY\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{113}, \hyperpage{171}, 
+		\hyperpage{230}
+  \item {\_\_FLT32X\_HAS\_QUIET\_NAN\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{113}, \hyperpage{171}, 
+		\hyperpage{230}
+  \item {\_\_FLT32X\_MANT\_DIG\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{113}, \hyperpage{172}, 
+		\hyperpage{230}
+  \item {\_\_FLT32X\_MAX\_10\_EXP\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{113}, \hyperpage{172}, 
+		\hyperpage{230}
+  \item {\_\_FLT32X\_MAX\_EXP\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{113}, \hyperpage{172}, 
+		\hyperpage{230}
+  \item {\_\_FLT32X\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{113}, \hyperpage{172}, 
+		\hyperpage{230}
+  \item {\_\_FLT32X\_MIN\_10\_EXP\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{113}, \hyperpage{172}, 
+		\hyperpage{230}
+  \item {\_\_FLT32X\_MIN\_EXP\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{114}, \hyperpage{172}, 
+		\hyperpage{231}
+  \item {\_\_FLT32X\_MIN\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{114}, \hyperpage{172}, 
+		\hyperpage{231}
+  \item {\_\_FLT32X\_NORM\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{114}, \hyperpage{172}, 
+		\hyperpage{231}
+  \item {\_\_FLT32\_DECIMAL\_DIG\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{110}, \hyperpage{169}, 
+		\hyperpage{227}
+  \item {\_\_FLT32\_DENORM\_MIN\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{110}, \hyperpage{169}, 
+		\hyperpage{227}
+  \item {\_\_FLT32\_DIG\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{110}, \hyperpage{169}, 
+		\hyperpage{227}
+  \item {\_\_FLT32\_EPSILON\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{111}, \hyperpage{169}, 
+		\hyperpage{228}
+  \item {\_\_FLT32\_HAS\_DENORM\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{111}, \hyperpage{169}, 
+		\hyperpage{228}
+  \item {\_\_FLT32\_HAS\_INFINITY\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{111}, \hyperpage{169}, 
+		\hyperpage{228}
+  \item {\_\_FLT32\_HAS\_QUIET\_NAN\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{111}, \hyperpage{170}, 
+		\hyperpage{228}
+  \item {\_\_FLT32\_MANT\_DIG\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{111}, \hyperpage{170}, 
+		\hyperpage{228}
+  \item {\_\_FLT32\_MAX\_10\_EXP\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{111}, \hyperpage{170}, 
+		\hyperpage{228}
+  \item {\_\_FLT32\_MAX\_EXP\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{111}, \hyperpage{170}, 
+		\hyperpage{228}
+  \item {\_\_FLT32\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{111}, \hyperpage{170}, 
+		\hyperpage{228}
+  \item {\_\_FLT32\_MIN\_10\_EXP\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{112}, \hyperpage{170}, 
+		\hyperpage{229}
+  \item {\_\_FLT32\_MIN\_EXP\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{112}, \hyperpage{170}, 
+		\hyperpage{229}
+  \item {\_\_FLT32\_MIN\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{112}, \hyperpage{170}, 
+		\hyperpage{229}
+  \item {\_\_FLT32\_NORM\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{112}, \hyperpage{171}, 
+		\hyperpage{229}
+  \item {\_\_FLT64X\_DECIMAL\_DIG\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{116}, \hyperpage{174}, 
+		\hyperpage{233}
+  \item {\_\_FLT64X\_DENORM\_MIN\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{116}, \hyperpage{175}, 
+		\hyperpage{233}
+  \item {\_\_FLT64X\_DIG\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{116}, \hyperpage{175}, 
+		\hyperpage{233}
+  \item {\_\_FLT64X\_EPSILON\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{116}, \hyperpage{175}, 
+		\hyperpage{233}
+  \item {\_\_FLT64X\_HAS\_DENORM\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{116}, \hyperpage{175}, 
+		\hyperpage{233}
+  \item {\_\_FLT64X\_HAS\_INFINITY\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{116}, \hyperpage{175}, 
+		\hyperpage{233}
+  \item {\_\_FLT64X\_HAS\_QUIET\_NAN\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{117}, \hyperpage{175}, 
+		\hyperpage{234}
+  \item {\_\_FLT64X\_MANT\_DIG\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{117}, \hyperpage{175}, 
+		\hyperpage{234}
+  \item {\_\_FLT64X\_MAX\_10\_EXP\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{117}, \hyperpage{175}, 
+		\hyperpage{234}
+  \item {\_\_FLT64X\_MAX\_EXP\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{117}, \hyperpage{176}, 
+		\hyperpage{234}
+  \item {\_\_FLT64X\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{117}, \hyperpage{176}, 
+		\hyperpage{234}
+  \item {\_\_FLT64X\_MIN\_10\_EXP\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{117}, \hyperpage{176}, 
+		\hyperpage{234}
+  \item {\_\_FLT64X\_MIN\_EXP\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{117}, \hyperpage{176}, 
+		\hyperpage{234}
+  \item {\_\_FLT64X\_MIN\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{117}, \hyperpage{176}, 
+		\hyperpage{234}
+  \item {\_\_FLT64X\_NORM\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{118}, \hyperpage{176}, 
+		\hyperpage{235}
+  \item {\_\_FLT64\_DECIMAL\_DIG\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{114}, \hyperpage{173}, 
+		\hyperpage{231}
+  \item {\_\_FLT64\_DENORM\_MIN\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{114}, \hyperpage{173}, 
+		\hyperpage{231}
+  \item {\_\_FLT64\_DIG\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{114}, \hyperpage{173}, 
+		\hyperpage{231}
+  \item {\_\_FLT64\_EPSILON\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{114}, \hyperpage{173}, 
+		\hyperpage{231}
+  \item {\_\_FLT64\_HAS\_DENORM\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{114}, \hyperpage{173}, 
+		\hyperpage{231}
+  \item {\_\_FLT64\_HAS\_INFINITY\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{115}, \hyperpage{173}, 
+		\hyperpage{232}
+  \item {\_\_FLT64\_HAS\_QUIET\_NAN\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{115}, \hyperpage{173}, 
+		\hyperpage{232}
+  \item {\_\_FLT64\_MANT\_DIG\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{115}, \hyperpage{173}, 
+		\hyperpage{232}
+  \item {\_\_FLT64\_MAX\_10\_EXP\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{115}, \hyperpage{174}, 
+		\hyperpage{232}
+  \item {\_\_FLT64\_MAX\_EXP\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{115}, \hyperpage{174}, 
+		\hyperpage{232}
+  \item {\_\_FLT64\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{115}, \hyperpage{174}, 
+		\hyperpage{232}
+  \item {\_\_FLT64\_MIN\_10\_EXP\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{115}, \hyperpage{174}, 
+		\hyperpage{232}
+  \item {\_\_FLT64\_MIN\_EXP\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{116}, \hyperpage{174}, 
+		\hyperpage{233}
+  \item {\_\_FLT64\_MIN\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{115}, \hyperpage{174}, 
+		\hyperpage{232}
+  \item {\_\_FLT64\_NORM\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{116}, \hyperpage{174}, 
+		\hyperpage{233}
+  \item {\_\_FLT\_DECIMAL\_DIG\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{118}, \hyperpage{176}, 
+		\hyperpage{235}
+  \item {\_\_FLT\_DENORM\_MIN\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{118}, \hyperpage{176}, 
+		\hyperpage{235}
+  \item {\_\_FLT\_DIG\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{118}, \hyperpage{177}, 
+		\hyperpage{235}
+  \item {\_\_FLT\_EPSILON\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{118}, \hyperpage{177}, 
+		\hyperpage{235}
+  \item {\_\_FLT\_EVAL\_METHOD\_TS\_18661\_3\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{118}, \hyperpage{177}, 
+		\hyperpage{235}
+  \item {\_\_FLT\_EVAL\_METHOD\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{118}, \hyperpage{177}, 
+		\hyperpage{235}
+  \item {\_\_FLT\_HAS\_DENORM\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{118}, \hyperpage{177}, 
+		\hyperpage{235}
+  \item {\_\_FLT\_HAS\_INFINITY\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{119}, \hyperpage{177}, 
+		\hyperpage{236}
+  \item {\_\_FLT\_HAS\_QUIET\_NAN\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{119}, \hyperpage{177}, 
+		\hyperpage{236}
+  \item {\_\_FLT\_MANT\_DIG\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{119}, \hyperpage{177}, 
+		\hyperpage{236}
+  \item {\_\_FLT\_MAX\_10\_EXP\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{119}, \hyperpage{178}, 
+		\hyperpage{236}
+  \item {\_\_FLT\_MAX\_EXP\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{119}, \hyperpage{178}, 
+		\hyperpage{236}
+  \item {\_\_FLT\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{119}, \hyperpage{178}, 
+		\hyperpage{236}
+  \item {\_\_FLT\_MIN\_10\_EXP\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{119}, \hyperpage{178}, 
+		\hyperpage{236}
+  \item {\_\_FLT\_MIN\_EXP\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{120}, \hyperpage{178}, 
+		\hyperpage{237}
+  \item {\_\_FLT\_MIN\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{119}, \hyperpage{178}, 
+		\hyperpage{236}
+  \item {\_\_FLT\_NORM\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{120}, \hyperpage{178}, 
+		\hyperpage{237}
+  \item {\_\_FLT\_RADIX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{120}, \hyperpage{178}, 
+		\hyperpage{237}
+  \item {\_\_FXSR\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{120}, \hyperpage{179}, 
+		\hyperpage{237}
+  \item {\_\_GCC\_ASM\_FLAG\_OUTPUTS\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{120}, \hyperpage{179}, 
+		\hyperpage{237}
+  \item {\_\_GCC\_ATOMIC\_BOOL\_LOCK\_FREE}
+    \subitem {moc\_predefs.h}, \hyperpage{120}, \hyperpage{179}, 
+		\hyperpage{237}
+  \item {\_\_GCC\_ATOMIC\_CHAR16\_T\_LOCK\_FREE}
+    \subitem {moc\_predefs.h}, \hyperpage{120}, \hyperpage{179}, 
+		\hyperpage{237}
+  \item {\_\_GCC\_ATOMIC\_CHAR32\_T\_LOCK\_FREE}
+    \subitem {moc\_predefs.h}, \hyperpage{120}, \hyperpage{179}, 
+		\hyperpage{237}
+  \item {\_\_GCC\_ATOMIC\_CHAR\_LOCK\_FREE}
+    \subitem {moc\_predefs.h}, \hyperpage{121}, \hyperpage{179}, 
+		\hyperpage{238}
+  \item {\_\_GCC\_ATOMIC\_INT\_LOCK\_FREE}
+    \subitem {moc\_predefs.h}, \hyperpage{121}, \hyperpage{179}, 
+		\hyperpage{238}
+  \item {\_\_GCC\_ATOMIC\_LLONG\_LOCK\_FREE}
+    \subitem {moc\_predefs.h}, \hyperpage{121}, \hyperpage{179}, 
+		\hyperpage{238}
+  \item {\_\_GCC\_ATOMIC\_LONG\_LOCK\_FREE}
+    \subitem {moc\_predefs.h}, \hyperpage{121}, \hyperpage{180}, 
+		\hyperpage{238}
+  \item {\_\_GCC\_ATOMIC\_POINTER\_LOCK\_FREE}
+    \subitem {moc\_predefs.h}, \hyperpage{121}, \hyperpage{180}, 
+		\hyperpage{238}
+  \item {\_\_GCC\_ATOMIC\_SHORT\_LOCK\_FREE}
+    \subitem {moc\_predefs.h}, \hyperpage{121}, \hyperpage{180}, 
+		\hyperpage{238}
+  \item {\_\_GCC\_ATOMIC\_TEST\_AND\_SET\_TRUEVAL}
+    \subitem {moc\_predefs.h}, \hyperpage{121}, \hyperpage{180}, 
+		\hyperpage{238}
+  \item {\_\_GCC\_ATOMIC\_WCHAR\_T\_LOCK\_FREE}
+    \subitem {moc\_predefs.h}, \hyperpage{121}, \hyperpage{180}, 
+		\hyperpage{238}
+  \item {\_\_GCC\_HAVE\_DWARF2\_CFI\_ASM}
+    \subitem {moc\_predefs.h}, \hyperpage{122}, \hyperpage{180}, 
+		\hyperpage{239}
+  \item {\_\_GCC\_HAVE\_SYNC\_COMPARE\_AND\_SWAP\_1}
+    \subitem {moc\_predefs.h}, \hyperpage{122}, \hyperpage{180}, 
+		\hyperpage{239}
+  \item {\_\_GCC\_HAVE\_SYNC\_COMPARE\_AND\_SWAP\_2}
+    \subitem {moc\_predefs.h}, \hyperpage{122}, \hyperpage{180}, 
+		\hyperpage{239}
+  \item {\_\_GCC\_HAVE\_SYNC\_COMPARE\_AND\_SWAP\_4}
+    \subitem {moc\_predefs.h}, \hyperpage{122}, \hyperpage{181}, 
+		\hyperpage{239}
+  \item {\_\_GCC\_HAVE\_SYNC\_COMPARE\_AND\_SWAP\_8}
+    \subitem {moc\_predefs.h}, \hyperpage{122}, \hyperpage{181}, 
+		\hyperpage{239}
+  \item {\_\_GCC\_IEC\_559}
+    \subitem {moc\_predefs.h}, \hyperpage{122}, \hyperpage{181}, 
+		\hyperpage{239}
+  \item {\_\_GCC\_IEC\_559\_COMPLEX}
+    \subitem {moc\_predefs.h}, \hyperpage{122}, \hyperpage{181}, 
+		\hyperpage{239}
+  \item {\_\_GLIBCXX\_BITSIZE\_INT\_N\_0}
+    \subitem {moc\_predefs.h}, \hyperpage{122}, \hyperpage{181}, 
+		\hyperpage{239}
+  \item {\_\_GLIBCXX\_TYPE\_INT\_N\_0}
+    \subitem {moc\_predefs.h}, \hyperpage{123}, \hyperpage{181}, 
+		\hyperpage{240}
+  \item {\_\_GNUC\_MINOR\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{123}, \hyperpage{182}, 
+		\hyperpage{240}
+  \item {\_\_GNUC\_PATCHLEVEL\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{123}, \hyperpage{182}, 
+		\hyperpage{240}
+  \item {\_\_GNUC\_STDC\_INLINE\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{123}, \hyperpage{182}, 
+		\hyperpage{240}
+  \item {\_\_GNUC\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{123}, \hyperpage{181}, 
+		\hyperpage{240}
+  \item {\_\_GNUG\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{123}, \hyperpage{182}, 
+		\hyperpage{240}
+  \item {\_\_GXX\_ABI\_VERSION}
+    \subitem {moc\_predefs.h}, \hyperpage{123}, \hyperpage{182}, 
+		\hyperpage{240}
+  \item {\_\_GXX\_EXPERIMENTAL\_CXX0X\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{124}, \hyperpage{182}, 
+		\hyperpage{241}
+  \item {\_\_GXX\_RTTI}
+    \subitem {moc\_predefs.h}, \hyperpage{124}, \hyperpage{182}, 
+		\hyperpage{241}
+  \item {\_\_GXX\_WEAK\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{124}, \hyperpage{182}, 
+		\hyperpage{241}
+  \item {\_\_HAVE\_SPECULATION\_SAFE\_VALUE}
+    \subitem {moc\_predefs.h}, \hyperpage{124}, \hyperpage{183}, 
+		\hyperpage{241}
+  \item {\_\_INT16\_C}
+    \subitem {moc\_predefs.h}, \hyperpage{124}, \hyperpage{183}, 
+		\hyperpage{241}
+  \item {\_\_INT16\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{124}, \hyperpage{183}, 
+		\hyperpage{241}
+  \item {\_\_INT16\_TYPE\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{124}, \hyperpage{183}, 
+		\hyperpage{241}
+  \item {\_\_INT32\_C}
+    \subitem {moc\_predefs.h}, \hyperpage{125}, \hyperpage{183}, 
+		\hyperpage{242}
+  \item {\_\_INT32\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{125}, \hyperpage{183}, 
+		\hyperpage{242}
+  \item {\_\_INT32\_TYPE\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{125}, \hyperpage{183}, 
+		\hyperpage{242}
+  \item {\_\_INT64\_C}
+    \subitem {moc\_predefs.h}, \hyperpage{125}, \hyperpage{184}, 
+		\hyperpage{242}
+  \item {\_\_INT64\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{125}, \hyperpage{184}, 
+		\hyperpage{242}
+  \item {\_\_INT64\_TYPE\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{125}, \hyperpage{184}, 
+		\hyperpage{242}
+  \item {\_\_INT8\_C}
+    \subitem {moc\_predefs.h}, \hyperpage{125}, \hyperpage{184}, 
+		\hyperpage{242}
+  \item {\_\_INT8\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{126}, \hyperpage{184}, 
+		\hyperpage{243}
+  \item {\_\_INT8\_TYPE\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{126}, \hyperpage{184}, 
+		\hyperpage{243}
+  \item {\_\_INTMAX\_C}
+    \subitem {moc\_predefs.h}, \hyperpage{129}, \hyperpage{188}, 
+		\hyperpage{246}
+  \item {\_\_INTMAX\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{129}, \hyperpage{188}, 
+		\hyperpage{246}
+  \item {\_\_INTMAX\_TYPE\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{130}, \hyperpage{188}, 
+		\hyperpage{247}
+  \item {\_\_INTMAX\_WIDTH\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{130}, \hyperpage{188}, 
+		\hyperpage{247}
+  \item {\_\_INTPTR\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{130}, \hyperpage{188}, 
+		\hyperpage{247}
+  \item {\_\_INTPTR\_TYPE\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{130}, \hyperpage{188}, 
+		\hyperpage{247}
+  \item {\_\_INTPTR\_WIDTH\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{130}, \hyperpage{189}, 
+		\hyperpage{247}
+  \item {\_\_INT\_FAST16\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{126}, \hyperpage{184}, 
+		\hyperpage{243}
+  \item {\_\_INT\_FAST16\_TYPE\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{126}, \hyperpage{185}, 
+		\hyperpage{243}
+  \item {\_\_INT\_FAST16\_WIDTH\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{126}, \hyperpage{185}, 
+		\hyperpage{243}
+  \item {\_\_INT\_FAST32\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{126}, \hyperpage{185}, 
+		\hyperpage{243}
+  \item {\_\_INT\_FAST32\_TYPE\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{126}, \hyperpage{185}, 
+		\hyperpage{243}
+  \item {\_\_INT\_FAST32\_WIDTH\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{127}, \hyperpage{185}, 
+		\hyperpage{244}
+  \item {\_\_INT\_FAST64\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{127}, \hyperpage{185}, 
+		\hyperpage{244}
+  \item {\_\_INT\_FAST64\_TYPE\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{127}, \hyperpage{185}, 
+		\hyperpage{244}
+  \item {\_\_INT\_FAST64\_WIDTH\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{127}, \hyperpage{185}, 
+		\hyperpage{244}
+  \item {\_\_INT\_FAST8\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{127}, \hyperpage{186}, 
+		\hyperpage{244}
+  \item {\_\_INT\_FAST8\_TYPE\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{127}, \hyperpage{186}, 
+		\hyperpage{244}
+  \item {\_\_INT\_FAST8\_WIDTH\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{127}, \hyperpage{186}, 
+		\hyperpage{244}
+  \item {\_\_INT\_LEAST16\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{127}, \hyperpage{186}, 
+		\hyperpage{244}
+  \item {\_\_INT\_LEAST16\_TYPE\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{128}, \hyperpage{186}, 
+		\hyperpage{245}
+  \item {\_\_INT\_LEAST16\_WIDTH\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{128}, \hyperpage{186}, 
+		\hyperpage{245}
+  \item {\_\_INT\_LEAST32\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{128}, \hyperpage{186}, 
+		\hyperpage{245}
+  \item {\_\_INT\_LEAST32\_TYPE\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{128}, \hyperpage{186}, 
+		\hyperpage{245}
+  \item {\_\_INT\_LEAST32\_WIDTH\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{128}, \hyperpage{187}, 
+		\hyperpage{245}
+  \item {\_\_INT\_LEAST64\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{128}, \hyperpage{187}, 
+		\hyperpage{245}
+  \item {\_\_INT\_LEAST64\_TYPE\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{128}, \hyperpage{187}, 
+		\hyperpage{245}
+  \item {\_\_INT\_LEAST64\_WIDTH\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{128}, \hyperpage{187}, 
+		\hyperpage{245}
+  \item {\_\_INT\_LEAST8\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{129}, \hyperpage{187}, 
+		\hyperpage{246}
+  \item {\_\_INT\_LEAST8\_TYPE\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{129}, \hyperpage{187}, 
+		\hyperpage{246}
+  \item {\_\_INT\_LEAST8\_WIDTH\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{129}, \hyperpage{187}, 
+		\hyperpage{246}
+  \item {\_\_INT\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{129}, \hyperpage{187}, 
+		\hyperpage{246}
+  \item {\_\_INT\_WIDTH\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{129}, \hyperpage{188}, 
+		\hyperpage{246}
+  \item {\_\_LDBL\_DECIMAL\_DIG\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{130}, \hyperpage{189}, 
+		\hyperpage{247}
+  \item {\_\_LDBL\_DENORM\_MIN\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{131}, \hyperpage{189}, 
+		\hyperpage{248}
+  \item {\_\_LDBL\_DIG\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{131}, \hyperpage{189}, 
+		\hyperpage{248}
+  \item {\_\_LDBL\_EPSILON\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{131}, \hyperpage{189}, 
+		\hyperpage{248}
+  \item {\_\_LDBL\_HAS\_DENORM\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{131}, \hyperpage{189}, 
+		\hyperpage{248}
+  \item {\_\_LDBL\_HAS\_INFINITY\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{131}, \hyperpage{190}, 
+		\hyperpage{248}
+  \item {\_\_LDBL\_HAS\_QUIET\_NAN\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{131}, \hyperpage{190}, 
+		\hyperpage{248}
+  \item {\_\_LDBL\_MANT\_DIG\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{131}, \hyperpage{190}, 
+		\hyperpage{248}
+  \item {\_\_LDBL\_MAX\_10\_EXP\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{131}, \hyperpage{190}, 
+		\hyperpage{248}
+  \item {\_\_LDBL\_MAX\_EXP\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{132}, \hyperpage{190}, 
+		\hyperpage{249}
+  \item {\_\_LDBL\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{132}, \hyperpage{190}, 
+		\hyperpage{249}
+  \item {\_\_LDBL\_MIN\_10\_EXP\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{132}, \hyperpage{190}, 
+		\hyperpage{249}
+  \item {\_\_LDBL\_MIN\_EXP\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{132}, \hyperpage{191}, 
+		\hyperpage{249}
+  \item {\_\_LDBL\_MIN\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{132}, \hyperpage{190}, 
+		\hyperpage{249}
+  \item {\_\_LDBL\_NORM\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{132}, \hyperpage{191}, 
+		\hyperpage{249}
+  \item {\_\_LONG\_LONG\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{133}, \hyperpage{191}, 
+		\hyperpage{250}
+  \item {\_\_LONG\_LONG\_WIDTH\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{133}, \hyperpage{191}, 
+		\hyperpage{250}
+  \item {\_\_LONG\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{133}, \hyperpage{191}, 
+		\hyperpage{250}
+  \item {\_\_LONG\_WIDTH\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{133}, \hyperpage{191}, 
+		\hyperpage{250}
+  \item {\_\_LP64\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{133}, \hyperpage{192}, 
+		\hyperpage{250}
+  \item {\_\_MMX\_WITH\_SSE\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{133}, \hyperpage{192}, 
+		\hyperpage{250}
+  \item {\_\_MMX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{133}, \hyperpage{192}, 
+		\hyperpage{250}
+  \item {\_\_NO\_INLINE\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{133}, \hyperpage{192}, 
+		\hyperpage{250}
+  \item {\_\_ORDER\_BIG\_ENDIAN\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{134}, \hyperpage{192}, 
+		\hyperpage{251}
+  \item {\_\_ORDER\_LITTLE\_ENDIAN\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{134}, \hyperpage{192}, 
+		\hyperpage{251}
+  \item {\_\_ORDER\_PDP\_ENDIAN\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{134}, \hyperpage{192}, 
+		\hyperpage{251}
+  \item {\_\_PIC\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{134}, \hyperpage{193}, 
+		\hyperpage{251}
+  \item {\_\_PIE\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{134}, \hyperpage{193}, 
+		\hyperpage{251}
+  \item {\_\_PRAGMA\_REDEFINE\_EXTNAME}
+    \subitem {moc\_predefs.h}, \hyperpage{134}, \hyperpage{193}, 
+		\hyperpage{251}
+  \item {\_\_PTRDIFF\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{135}, \hyperpage{193}, 
+		\hyperpage{252}
+  \item {\_\_PTRDIFF\_TYPE\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{135}, \hyperpage{193}, 
+		\hyperpage{252}
+  \item {\_\_PTRDIFF\_WIDTH\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{135}, \hyperpage{193}, 
+		\hyperpage{252}
+  \item {\_\_REGISTER\_PREFIX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{135}, \hyperpage{193}, 
+		\hyperpage{252}
+  \item {\_\_SCHAR\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{135}, \hyperpage{194}, 
+		\hyperpage{252}
+  \item {\_\_SCHAR\_WIDTH\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{135}, \hyperpage{194}, 
+		\hyperpage{252}
+  \item {\_\_SEG\_FS}
+    \subitem {moc\_predefs.h}, \hyperpage{135}, \hyperpage{194}, 
+		\hyperpage{252}
+  \item {\_\_SEG\_GS}
+    \subitem {moc\_predefs.h}, \hyperpage{135}, \hyperpage{194}, 
+		\hyperpage{252}
+  \item {\_\_SHRT\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{136}, \hyperpage{194}, 
+		\hyperpage{253}
+  \item {\_\_SHRT\_WIDTH\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{136}, \hyperpage{194}, 
+		\hyperpage{253}
+  \item {\_\_SIG\_ATOMIC\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{136}, \hyperpage{194}, 
+		\hyperpage{253}
+  \item {\_\_SIG\_ATOMIC\_MIN\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{136}, \hyperpage{194}, 
+		\hyperpage{253}
+  \item {\_\_SIG\_ATOMIC\_TYPE\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{136}, \hyperpage{195}, 
+		\hyperpage{253}
+  \item {\_\_SIG\_ATOMIC\_WIDTH\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{136}, \hyperpage{195}, 
+		\hyperpage{253}
+  \item {\_\_SIZEOF\_DOUBLE\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{137}, \hyperpage{195}, 
+		\hyperpage{254}
+  \item {\_\_SIZEOF\_FLOAT128\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{137}, \hyperpage{195}, 
+		\hyperpage{254}
+  \item {\_\_SIZEOF\_FLOAT80\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{137}, \hyperpage{195}, 
+		\hyperpage{254}
+  \item {\_\_SIZEOF\_FLOAT\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{137}, \hyperpage{196}, 
+		\hyperpage{254}
+  \item {\_\_SIZEOF\_INT128\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{137}, \hyperpage{196}, 
+		\hyperpage{254}
+  \item {\_\_SIZEOF\_INT\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{137}, \hyperpage{196}, 
+		\hyperpage{254}
+  \item {\_\_SIZEOF\_LONG\_DOUBLE\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{138}, \hyperpage{196}, 
+		\hyperpage{255}
+  \item {\_\_SIZEOF\_LONG\_LONG\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{138}, \hyperpage{196}, 
+		\hyperpage{255}
+  \item {\_\_SIZEOF\_LONG\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{137}, \hyperpage{196}, 
+		\hyperpage{254}
+  \item {\_\_SIZEOF\_POINTER\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{138}, \hyperpage{196}, 
+		\hyperpage{255}
+  \item {\_\_SIZEOF\_PTRDIFF\_T\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{138}, \hyperpage{196}, 
+		\hyperpage{255}
+  \item {\_\_SIZEOF\_SHORT\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{138}, \hyperpage{197}, 
+		\hyperpage{255}
+  \item {\_\_SIZEOF\_SIZE\_T\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{138}, \hyperpage{197}, 
+		\hyperpage{255}
+  \item {\_\_SIZEOF\_WCHAR\_T\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{138}, \hyperpage{197}, 
+		\hyperpage{255}
+  \item {\_\_SIZEOF\_WINT\_T\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{138}, \hyperpage{197}, 
+		\hyperpage{255}
+  \item {\_\_SIZE\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{136}, \hyperpage{195}, 
+		\hyperpage{253}
+  \item {\_\_SIZE\_TYPE\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{136}, \hyperpage{195}, 
+		\hyperpage{253}
+  \item {\_\_SIZE\_WIDTH\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{137}, \hyperpage{195}, 
+		\hyperpage{254}
+  \item {\_\_SSE2\_MATH\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{139}, \hyperpage{197}, 
+		\hyperpage{256}
+  \item {\_\_SSE2\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{139}, \hyperpage{197}, 
+		\hyperpage{256}
+  \item {\_\_SSE\_MATH\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{139}, \hyperpage{197}, 
+		\hyperpage{256}
+  \item {\_\_SSE\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{139}, \hyperpage{197}, 
+		\hyperpage{256}
+  \item {\_\_SSP\_STRONG\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{139}, \hyperpage{198}, 
+		\hyperpage{256}
+  \item {\_\_STDC\_HOSTED\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{139}, \hyperpage{198}, 
+		\hyperpage{256}
+  \item {\_\_STDC\_IEC\_559\_COMPLEX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{140}, \hyperpage{198}, 
+		\hyperpage{257}
+  \item {\_\_STDC\_IEC\_559\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{139}, \hyperpage{198}, 
+		\hyperpage{256}
+  \item {\_\_STDC\_ISO\_10646\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{140}, \hyperpage{198}, 
+		\hyperpage{257}
+  \item {\_\_STDC\_UTF\_16\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{140}, \hyperpage{198}, 
+		\hyperpage{257}
+  \item {\_\_STDC\_UTF\_32\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{140}, \hyperpage{198}, 
+		\hyperpage{257}
+  \item {\_\_STDC\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{139}, \hyperpage{198}, 
+		\hyperpage{256}
+  \item {\_\_UINT16\_C}
+    \subitem {moc\_predefs.h}, \hyperpage{140}, \hyperpage{199}, 
+		\hyperpage{257}
+  \item {\_\_UINT16\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{140}, \hyperpage{199}, 
+		\hyperpage{257}
+  \item {\_\_UINT16\_TYPE\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{140}, \hyperpage{199}, 
+		\hyperpage{257}
+  \item {\_\_UINT32\_C}
+    \subitem {moc\_predefs.h}, \hyperpage{141}, \hyperpage{199}, 
+		\hyperpage{258}
+  \item {\_\_UINT32\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{141}, \hyperpage{199}, 
+		\hyperpage{258}
+  \item {\_\_UINT32\_TYPE\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{141}, \hyperpage{199}, 
+		\hyperpage{258}
+  \item {\_\_UINT64\_C}
+    \subitem {moc\_predefs.h}, \hyperpage{141}, \hyperpage{199}, 
+		\hyperpage{258}
+  \item {\_\_UINT64\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{141}, \hyperpage{200}, 
+		\hyperpage{258}
+  \item {\_\_UINT64\_TYPE\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{141}, \hyperpage{200}, 
+		\hyperpage{258}
+  \item {\_\_UINT8\_C}
+    \subitem {moc\_predefs.h}, \hyperpage{141}, \hyperpage{200}, 
+		\hyperpage{258}
+  \item {\_\_UINT8\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{142}, \hyperpage{200}, 
+		\hyperpage{259}
+  \item {\_\_UINT8\_TYPE\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{142}, \hyperpage{200}, 
+		\hyperpage{259}
+  \item {\_\_UINTMAX\_C}
+    \subitem {moc\_predefs.h}, \hyperpage{144}, \hyperpage{202}, 
+		\hyperpage{261}
+  \item {\_\_UINTMAX\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{144}, \hyperpage{202}, 
+		\hyperpage{261}
+  \item {\_\_UINTMAX\_TYPE\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{144}, \hyperpage{203}, 
+		\hyperpage{261}
+  \item {\_\_UINTPTR\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{144}, \hyperpage{203}, 
+		\hyperpage{261}
+  \item {\_\_UINTPTR\_TYPE\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{145}, \hyperpage{203}, 
+		\hyperpage{262}
+  \item {\_\_UINT\_FAST16\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{142}, \hyperpage{200}, 
+		\hyperpage{259}
+  \item {\_\_UINT\_FAST16\_TYPE\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{142}, \hyperpage{200}, 
+		\hyperpage{259}
+  \item {\_\_UINT\_FAST32\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{142}, \hyperpage{201}, 
+		\hyperpage{259}
+  \item {\_\_UINT\_FAST32\_TYPE\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{142}, \hyperpage{201}, 
+		\hyperpage{259}
+  \item {\_\_UINT\_FAST64\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{142}, \hyperpage{201}, 
+		\hyperpage{259}
+  \item {\_\_UINT\_FAST64\_TYPE\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{143}, \hyperpage{201}, 
+		\hyperpage{260}
+  \item {\_\_UINT\_FAST8\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{143}, \hyperpage{201}, 
+		\hyperpage{260}
+  \item {\_\_UINT\_FAST8\_TYPE\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{143}, \hyperpage{201}, 
+		\hyperpage{260}
+  \item {\_\_UINT\_LEAST16\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{143}, \hyperpage{201}, 
+		\hyperpage{260}
+  \item {\_\_UINT\_LEAST16\_TYPE\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{143}, \hyperpage{201}, 
+		\hyperpage{260}
+  \item {\_\_UINT\_LEAST32\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{143}, \hyperpage{202}, 
+		\hyperpage{260}
+  \item {\_\_UINT\_LEAST32\_TYPE\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{143}, \hyperpage{202}, 
+		\hyperpage{260}
+  \item {\_\_UINT\_LEAST64\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{143}, \hyperpage{202}, 
+		\hyperpage{260}
+  \item {\_\_UINT\_LEAST64\_TYPE\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{144}, \hyperpage{202}, 
+		\hyperpage{261}
+  \item {\_\_UINT\_LEAST8\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{144}, \hyperpage{202}, 
+		\hyperpage{261}
+  \item {\_\_UINT\_LEAST8\_TYPE\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{144}, \hyperpage{202}, 
+		\hyperpage{261}
+  \item {\_\_USER\_LABEL\_PREFIX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{145}, \hyperpage{203}, 
+		\hyperpage{262}
+  \item {\_\_VERSION\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{145}, \hyperpage{203}, 
+		\hyperpage{262}
+  \item {\_\_WCHAR\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{145}, \hyperpage{203}, 
+		\hyperpage{262}
+  \item {\_\_WCHAR\_MIN\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{145}, \hyperpage{204}, 
+		\hyperpage{262}
+  \item {\_\_WCHAR\_TYPE\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{145}, \hyperpage{204}, 
+		\hyperpage{262}
+  \item {\_\_WCHAR\_WIDTH\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{146}, \hyperpage{204}, 
+		\hyperpage{263}
+  \item {\_\_WINT\_MAX\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{146}, \hyperpage{204}, 
+		\hyperpage{263}
+  \item {\_\_WINT\_MIN\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{146}, \hyperpage{204}, 
+		\hyperpage{263}
+  \item {\_\_WINT\_TYPE\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{146}, \hyperpage{204}, 
+		\hyperpage{263}
+  \item {\_\_WINT\_WIDTH\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{146}, \hyperpage{204}, 
+		\hyperpage{263}
+  \item {\_\_amd64}
+    \subitem {moc\_predefs.h}, \hyperpage{97}, \hyperpage{155}, 
+		\hyperpage{214}
+  \item {\_\_amd64\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{97}, \hyperpage{155}, 
+		\hyperpage{214}
+  \item {\_\_code\_model\_small\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{98}, \hyperpage{157}, 
+		\hyperpage{215}
+  \item {\_\_cplusplus}
+    \subitem {moc\_predefs.h}, \hyperpage{99}, \hyperpage{157}, 
+		\hyperpage{216}
+  \item {\_\_cpp\_aggregate\_nsdmi}
+    \subitem {moc\_predefs.h}, \hyperpage{99}, \hyperpage{157}, 
+		\hyperpage{216}
+  \item {\_\_cpp\_alias\_templates}
+    \subitem {moc\_predefs.h}, \hyperpage{99}, \hyperpage{157}, 
+		\hyperpage{216}
+  \item {\_\_cpp\_attributes}
+    \subitem {moc\_predefs.h}, \hyperpage{99}, \hyperpage{158}, 
+		\hyperpage{216}
+  \item {\_\_cpp\_binary\_literals}
+    \subitem {moc\_predefs.h}, \hyperpage{99}, \hyperpage{158}, 
+		\hyperpage{216}
+  \item {\_\_cpp\_constexpr}
+    \subitem {moc\_predefs.h}, \hyperpage{99}, \hyperpage{158}, 
+		\hyperpage{216}
+  \item {\_\_cpp\_decltype}
+    \subitem {moc\_predefs.h}, \hyperpage{99}, \hyperpage{158}, 
+		\hyperpage{216}
+  \item {\_\_cpp\_decltype\_auto}
+    \subitem {moc\_predefs.h}, \hyperpage{99}, \hyperpage{158}, 
+		\hyperpage{216}
+  \item {\_\_cpp\_delegating\_constructors}
+    \subitem {moc\_predefs.h}, \hyperpage{100}, \hyperpage{158}, 
+		\hyperpage{217}
+  \item {\_\_cpp\_digit\_separators}
+    \subitem {moc\_predefs.h}, \hyperpage{100}, \hyperpage{158}, 
+		\hyperpage{217}
+  \item {\_\_cpp\_exceptions}
+    \subitem {moc\_predefs.h}, \hyperpage{100}, \hyperpage{158}, 
+		\hyperpage{217}
+  \item {\_\_cpp\_generic\_lambdas}
+    \subitem {moc\_predefs.h}, \hyperpage{100}, \hyperpage{159}, 
+		\hyperpage{217}
+  \item {\_\_cpp\_hex\_float}
+    \subitem {moc\_predefs.h}, \hyperpage{100}, \hyperpage{159}, 
+		\hyperpage{217}
+  \item {\_\_cpp\_inheriting\_constructors}
+    \subitem {moc\_predefs.h}, \hyperpage{100}, \hyperpage{159}, 
+		\hyperpage{217}
+  \item {\_\_cpp\_init\_captures}
+    \subitem {moc\_predefs.h}, \hyperpage{100}, \hyperpage{159}, 
+		\hyperpage{217}
+  \item {\_\_cpp\_initializer\_lists}
+    \subitem {moc\_predefs.h}, \hyperpage{100}, \hyperpage{159}, 
+		\hyperpage{217}
+  \item {\_\_cpp\_lambdas}
+    \subitem {moc\_predefs.h}, \hyperpage{101}, \hyperpage{159}, 
+		\hyperpage{218}
+  \item {\_\_cpp\_nsdmi}
+    \subitem {moc\_predefs.h}, \hyperpage{101}, \hyperpage{159}, 
+		\hyperpage{218}
+  \item {\_\_cpp\_range\_based\_for}
+    \subitem {moc\_predefs.h}, \hyperpage{101}, \hyperpage{159}, 
+		\hyperpage{218}
+  \item {\_\_cpp\_raw\_strings}
+    \subitem {moc\_predefs.h}, \hyperpage{101}, \hyperpage{160}, 
+		\hyperpage{218}
+  \item {\_\_cpp\_ref\_qualifiers}
+    \subitem {moc\_predefs.h}, \hyperpage{101}, \hyperpage{160}, 
+		\hyperpage{218}
+  \item {\_\_cpp\_return\_type\_deduction}
+    \subitem {moc\_predefs.h}, \hyperpage{101}, \hyperpage{160}, 
+		\hyperpage{218}
+  \item {\_\_cpp\_rtti}
+    \subitem {moc\_predefs.h}, \hyperpage{101}, \hyperpage{160}, 
+		\hyperpage{218}
+  \item {\_\_cpp\_runtime\_arrays}
+    \subitem {moc\_predefs.h}, \hyperpage{101}, \hyperpage{160}, 
+		\hyperpage{218}
+  \item {\_\_cpp\_rvalue\_reference}
+    \subitem {moc\_predefs.h}, \hyperpage{102}, \hyperpage{160}, 
+		\hyperpage{219}
+  \item {\_\_cpp\_rvalue\_references}
+    \subitem {moc\_predefs.h}, \hyperpage{102}, \hyperpage{160}, 
+		\hyperpage{219}
+  \item {\_\_cpp\_sized\_deallocation}
+    \subitem {moc\_predefs.h}, \hyperpage{102}, \hyperpage{160}, 
+		\hyperpage{219}
+  \item {\_\_cpp\_static\_assert}
+    \subitem {moc\_predefs.h}, \hyperpage{102}, \hyperpage{161}, 
+		\hyperpage{219}
+  \item {\_\_cpp\_threadsafe\_static\_init}
+    \subitem {moc\_predefs.h}, \hyperpage{102}, \hyperpage{161}, 
+		\hyperpage{219}
+  \item {\_\_cpp\_unicode\_characters}
+    \subitem {moc\_predefs.h}, \hyperpage{102}, \hyperpage{161}, 
+		\hyperpage{219}
+  \item {\_\_cpp\_unicode\_literals}
+    \subitem {moc\_predefs.h}, \hyperpage{102}, \hyperpage{161}, 
+		\hyperpage{219}
+  \item {\_\_cpp\_user\_defined\_literals}
+    \subitem {moc\_predefs.h}, \hyperpage{102}, \hyperpage{161}, 
+		\hyperpage{219}
+  \item {\_\_cpp\_variable\_templates}
+    \subitem {moc\_predefs.h}, \hyperpage{103}, \hyperpage{161}, 
+		\hyperpage{220}
+  \item {\_\_cpp\_variadic\_templates}
+    \subitem {moc\_predefs.h}, \hyperpage{103}, \hyperpage{161}, 
+		\hyperpage{220}
+  \item {\_\_gnu\_linux\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{123}, \hyperpage{181}, 
+		\hyperpage{240}
+  \item {\_\_k8}
+    \subitem {moc\_predefs.h}, \hyperpage{130}, \hyperpage{189}, 
+		\hyperpage{247}
+  \item {\_\_k8\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{130}, \hyperpage{189}, 
+		\hyperpage{247}
+  \item {\_\_linux}
+    \subitem {moc\_predefs.h}, \hyperpage{132}, \hyperpage{191}, 
+		\hyperpage{249}
+  \item {\_\_linux\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{132}, \hyperpage{191}, 
+		\hyperpage{249}
+  \item {\_\_pic\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{134}, \hyperpage{192}, 
+		\hyperpage{251}
+  \item {\_\_pie\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{134}, \hyperpage{193}, 
+		\hyperpage{251}
+  \item {\_\_unix}
+    \subitem {moc\_predefs.h}, \hyperpage{145}, \hyperpage{203}, 
+		\hyperpage{262}
+  \item {\_\_unix\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{145}, \hyperpage{203}, 
+		\hyperpage{262}
+  \item {\_\_x86\_64}
+    \subitem {moc\_predefs.h}, \hyperpage{146}, \hyperpage{204}, 
+		\hyperpage{263}
+  \item {\_\_x86\_64\_\_}
+    \subitem {moc\_predefs.h}, \hyperpage{146}, \hyperpage{205}, 
+		\hyperpage{263}
+  \item {$\sim$MainWindow}
+    \subitem {MainWindow}, \hyperpage{66}
+
+  \indexspace
+
+  \item {ABI\_ID}
+    \subitem {moc\_predefs.h}, \hyperpage{147}, \hyperpage{205}, 
+		\hyperpage{264}
+  \item {addEvent}
+    \subitem {calendar::day}, \hyperpage{37}
+  \item {addEventFromDialog}
+    \subitem {calendar::calendarView}, \hyperpage{14}
+    \subitem {calendar::weeklyCalendarView}, \hyperpage{82}
+  \item {addItem}
+    \subitem {calendar::todoView}, \hyperpage{73}
+  \item {addTodoItemButton}
+    \subitem {Ui\_MainWindow}, \hyperpage{77}
+  \item {Annually}
+    \subitem {calendar}, \hyperpage{11}
+  \item {Apr}
+    \subitem {calendar}, \hyperpage{11}
+  \item {ARCHITECTURE\_ID}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{266}, \hyperpage{269}, 
+		\hyperpage{272}, \hyperpage{275}, \hyperpage{278}, 
+		\hyperpage{281}
+  \item {Aug}
+    \subitem {calendar}, \hyperpage{11}
+
+  \indexspace
+
+  \item {build/calendar\_autogen/EWIEGA46WW/moc\_mainwindow.cpp.d}, 
+		\hyperpage{89}
+  \item {build/calendar\_autogen/moc\_predefs.h}, \hyperpage{89}
+  \item {build/calendar\_autogen/mocs\_compilation.cpp}, 
+		\hyperpage{265}
+  \item {build/CMakeFiles/3.20.0/CompilerIdCXX/CMakeCXXCompilerId.cpp}, 
+		\hyperpage{266}
+  \item {build/CMakeFiles/3.20.1/CompilerIdCXX/CMakeCXXCompilerId.cpp}, 
+		\hyperpage{269}
+  \item {build/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp}, 
+		\hyperpage{272}
+  \item {build/CMakeFiles/calendar.dir/calendar\_autogen/mocs\_compilation.cpp.o.d}, 
+		\hyperpage{284}
+  \item {build/CMakeFiles/calendar.dir/main.cpp.o.d}, \hyperpage{284}
+  \item {build/CMakeFiles/calendar.dir/mainwindow.cpp.o.d}, 
+		\hyperpage{284}
+
+  \indexspace
+
+  \item {calculateCurrentMonth}
+    \subitem {calendar::calendarView}, \hyperpage{15}
+  \item {calculateCurrentWeek}
+    \subitem {calendar::weeklyCalendarView}, \hyperpage{83}
+  \item {calendar}, \hyperpage{9}
+    \subitem {Annually}, \hyperpage{11}
+    \subitem {Apr}, \hyperpage{11}
+    \subitem {Aug}, \hyperpage{11}
+    \subitem {Daily}, \hyperpage{11}
+    \subitem {Dec}, \hyperpage{11}
+    \subitem {Feb}, \hyperpage{11}
+    \subitem {Fri}, \hyperpage{11}
+    \subitem {Jan}, \hyperpage{11}
+    \subitem {Jul}, \hyperpage{11}
+    \subitem {Jun}, \hyperpage{11}
+    \subitem {Mar}, \hyperpage{11}
+    \subitem {May}, \hyperpage{11}
+    \subitem {Mon}, \hyperpage{11}
+    \subitem {Monthly}, \hyperpage{11}
+    \subitem {monthModel}, \hyperpage{10}
+    \subitem {None}, \hyperpage{11}
+    \subitem {Nov}, \hyperpage{11}
+    \subitem {Oct}, \hyperpage{11}
+    \subitem {repeatCycle}, \hyperpage{10, 11}
+    \subitem {Sat}, \hyperpage{11}
+    \subitem {Sep}, \hyperpage{11}
+    \subitem {Sun}, \hyperpage{11}
+    \subitem {Thu}, \hyperpage{11}
+    \subitem {Tue}, \hyperpage{11}
+    \subitem {Wed}, \hyperpage{11}
+    \subitem {weekDayModel}, \hyperpage{10, 11}
+    \subitem {Weekly}, \hyperpage{11}
+  \item {calendar::calendarView}, \hyperpage{13}
+    \subitem {addEventFromDialog}, \hyperpage{14}
+    \subitem {calculateCurrentMonth}, \hyperpage{15}
+    \subitem {calendarView}, \hyperpage{14}
+    \subitem {deleteEvent}, \hyperpage{17}
+    \subitem {displayReminderEvent}, \hyperpage{17}
+    \subitem {getEvents}, \hyperpage{18}
+    \subitem {getEventsForDay}, \hyperpage{18}
+    \subitem {getMonthName}, \hyperpage{19}
+    \subitem {getTodayDate}, \hyperpage{19}
+    \subitem {setEvents}, \hyperpage{20}
+    \subitem {setTodayDate}, \hyperpage{20}
+  \item {calendar::dataInterface$<$ T $>$}, \hyperpage{21}
+    \subitem {dataInterface}, \hyperpage{22}
+    \subitem {exportDataToSaveFile}, \hyperpage{22, 23}
+    \subitem {importDataFromSaveFile}, \hyperpage{23}
+    \subitem {loadDataFromInterface}, \hyperpage{24}
+    \subitem {loadDataToInterface}, \hyperpage{24}
+  \item {calendar::date}, \hyperpage{25}
+    \subitem {date}, \hyperpage{26}
+    \subitem {decrementMonth}, \hyperpage{26}
+    \subitem {decrementWeek}, \hyperpage{27}
+    \subitem {getDay}, \hyperpage{27}
+    \subitem {getMonth}, \hyperpage{28}
+    \subitem {getWeekDay}, \hyperpage{29}
+    \subitem {getWeekNum}, \hyperpage{29}
+    \subitem {getYear}, \hyperpage{30}
+    \subitem {incrementMonth}, \hyperpage{30}
+    \subitem {incrementWeek}, \hyperpage{31}
+    \subitem {operator!=}, \hyperpage{31}
+    \subitem {operator$<$}, \hyperpage{31}
+    \subitem {operator$<$=}, \hyperpage{31}
+    \subitem {operator$>$}, \hyperpage{32}
+    \subitem {operator$>$=}, \hyperpage{32}
+    \subitem {operator==}, \hyperpage{31}
+    \subitem {setCurrentDate}, \hyperpage{32}
+    \subitem {setDay}, \hyperpage{33}
+    \subitem {setMonth}, \hyperpage{33}
+    \subitem {setWeekNum}, \hyperpage{34}
+    \subitem {setYear}, \hyperpage{34}
+    \subitem {stringify}, \hyperpage{35}
+  \item {calendar::day}, \hyperpage{36}
+    \subitem {addEvent}, \hyperpage{37}
+    \subitem {day}, \hyperpage{36}
+    \subitem {deleteEvent}, \hyperpage{37}
+    \subitem {getDate}, \hyperpage{38}
+    \subitem {getEvents}, \hyperpage{38}
+    \subitem {setDate}, \hyperpage{39}
+  \item {calendar::event}, \hyperpage{40}
+    \subitem {event}, \hyperpage{40, 41}
+    \subitem {exportData}, \hyperpage{41}
+    \subitem {getEvDate}, \hyperpage{42}
+    \subitem {getEvDescription}, \hyperpage{42}
+    \subitem {getEvName}, \hyperpage{43}
+    \subitem {getEvRepeat}, \hyperpage{43}
+    \subitem {setEvDate}, \hyperpage{44}
+    \subitem {setEvDescription}, \hyperpage{45}
+    \subitem {setEvName}, \hyperpage{45}
+    \subitem {setEvRepeat}, \hyperpage{46}
+    \subitem {stringifyEvent}, \hyperpage{46}
+  \item {calendar::eventBirthday}, \hyperpage{47}
+    \subitem {eventBirthday}, \hyperpage{48}
+    \subitem {exportData}, \hyperpage{49}
+    \subitem {getBirthDate}, \hyperpage{49}
+    \subitem {getPersonalData}, \hyperpage{50}
+    \subitem {setBirthDate}, \hyperpage{50}
+    \subitem {setEvRepeat}, \hyperpage{51}
+    \subitem {setPersonalData}, \hyperpage{51}
+    \subitem {stringifyEvent}, \hyperpage{52}
+  \item {calendar::eventHoliday}, \hyperpage{53}
+    \subitem {eventHoliday}, \hyperpage{54}
+    \subitem {exportData}, \hyperpage{54}
+    \subitem {getEvBegin}, \hyperpage{55}
+    \subitem {getEvEnd}, \hyperpage{56}
+    \subitem {setEvBegin}, \hyperpage{56}
+    \subitem {setEvEnd}, \hyperpage{58}
+    \subitem {stringifyEvent}, \hyperpage{58}
+  \item {calendar::eventReminder}, \hyperpage{59}
+    \subitem {eventReminder}, \hyperpage{60}
+    \subitem {exportData}, \hyperpage{61}
+    \subitem {getEvLocation}, \hyperpage{61}
+    \subitem {getEvType}, \hyperpage{62}
+    \subitem {setEvLocation}, \hyperpage{62}
+    \subitem {setEvType}, \hyperpage{63}
+    \subitem {stringifyEvent}, \hyperpage{63}
+  \item {calendar::todoElement}, \hyperpage{69}
+    \subitem {decrementPosition}, \hyperpage{71}
+    \subitem {exportData}, \hyperpage{71}
+    \subitem {getDataRecord}, \hyperpage{71}
+    \subitem {getPosition}, \hyperpage{71}
+    \subitem {incrementPosition}, \hyperpage{72}
+    \subitem {setDataRecord}, \hyperpage{72}
+    \subitem {setPosition}, \hyperpage{72}
+    \subitem {todoElement}, \hyperpage{70}
+  \item {calendar::todoView}, \hyperpage{73}
+    \subitem {addItem}, \hyperpage{73}
+    \subitem {deleteItem}, \hyperpage{73}
+    \subitem {getItems}, \hyperpage{74}
+    \subitem {setItems}, \hyperpage{74}
+  \item {calendar::weeklyCalendarView}, \hyperpage{81}
+    \subitem {addEventFromDialog}, \hyperpage{82}
+    \subitem {calculateCurrentWeek}, \hyperpage{83}
+    \subitem {deleteEvent}, \hyperpage{84}
+    \subitem {displayReminderEvent}, \hyperpage{84}
+    \subitem {getCurrentWeekNumber}, \hyperpage{85}
+    \subitem {getEvents}, \hyperpage{86}
+    \subitem {getEventsForDay}, \hyperpage{86}
+    \subitem {getMonthName}, \hyperpage{87}
+    \subitem {getTodayDate}, \hyperpage{87}
+    \subitem {setEvents}, \hyperpage{87}
+    \subitem {setTodayDate}, \hyperpage{88}
+    \subitem {weeklyCalendarView}, \hyperpage{82}
+  \item {calendar\_autogen/EWIEGA46WW/moc\_mainwindow.cpp}, 
+		\hyperpage{284}
+  \item {calendar\_autogen/EWIEGA46WW/moc\_mainwindow.cpp.d}, 
+		\hyperpage{89}
+  \item {calendar\_autogen/include/ui\_mainwindow.h}, \hyperpage{285}
+  \item {calendar\_autogen/moc\_predefs.h}, \hyperpage{148}
+  \item {calendar\_autogen/mocs\_compilation.cpp}, \hyperpage{265}
+  \item {calendarView}
+    \subitem {calendar::calendarView}, \hyperpage{14}
+  \item {centralwidget}
+    \subitem {Ui\_MainWindow}, \hyperpage{77}
+  \item {changeCalendarViewMonthly}
+    \subitem {Ui\_MainWindow}, \hyperpage{77}
+  \item {changeCalendarViewWeekly}
+    \subitem {Ui\_MainWindow}, \hyperpage{77}
+  \item {closeAction}
+    \subitem {Ui\_MainWindow}, \hyperpage{78}
+  \item {closeWindow}
+    \subitem {MainWindow}, \hyperpage{67}
+  \item {cmake-\/build-\/debug/calendar\_autogen/EWIEGA46WW/moc\_mainwindow.cpp.d}, 
+		\hyperpage{89}
+  \item {cmake-\/build-\/debug/calendar\_autogen/moc\_predefs.h}, 
+		\hyperpage{206}
+  \item {cmake-\/build-\/debug/calendar\_autogen/mocs\_compilation.cpp}, 
+		\hyperpage{266}
+  \item {cmake-\/build-\/debug/CMakeFiles/3.20.0/CompilerIdCXX/CMakeCXXCompilerId.cpp}, 
+		\hyperpage{275}
+  \item {CMakeCXXCompilerId.cpp}
+    \subitem {ARCHITECTURE\_ID}, \hyperpage{266}, \hyperpage{269}, 
+		\hyperpage{272}, \hyperpage{275}, \hyperpage{278}, 
+		\hyperpage{281}
+    \subitem {COMPILER\_ID}, \hyperpage{267}, \hyperpage{270}, 
+		\hyperpage{273}, \hyperpage{276}, \hyperpage{279}, 
+		\hyperpage{282}
+    \subitem {CXX\_STD}, \hyperpage{267}, \hyperpage{270}, 
+		\hyperpage{273}, \hyperpage{276}, \hyperpage{279}, 
+		\hyperpage{282}
+    \subitem {DEC}, \hyperpage{267}, \hyperpage{270}, \hyperpage{273}, 
+		\hyperpage{276}, \hyperpage{279}, \hyperpage{282}
+    \subitem {HEX}, \hyperpage{267}, \hyperpage{270}, \hyperpage{273}, 
+		\hyperpage{276}, \hyperpage{279}, \hyperpage{282}
+    \subitem {info\_arch}, \hyperpage{268}, \hyperpage{271}, 
+		\hyperpage{274}, \hyperpage{277}, \hyperpage{280}, 
+		\hyperpage{283}
+    \subitem {info\_compiler}, \hyperpage{268}, \hyperpage{271}, 
+		\hyperpage{274}, \hyperpage{277}, \hyperpage{280}, 
+		\hyperpage{283}
+    \subitem {info\_language\_dialect\_default}, \hyperpage{268}, 
+		\hyperpage{271}, \hyperpage{274}, \hyperpage{277}, 
+		\hyperpage{280}, \hyperpage{283}
+    \subitem {info\_platform}, \hyperpage{269}, \hyperpage{272}, 
+		\hyperpage{275}, \hyperpage{278}, \hyperpage{281}, 
+		\hyperpage{284}
+    \subitem {main}, \hyperpage{268}, \hyperpage{271}, \hyperpage{274}, 
+		\hyperpage{277}, \hyperpage{280}, \hyperpage{283}
+    \subitem {PLATFORM\_ID}, \hyperpage{267}, \hyperpage{270}, 
+		\hyperpage{273}, \hyperpage{276}, \hyperpage{279}, 
+		\hyperpage{282}
+    \subitem {STRINGIFY}, \hyperpage{268}, \hyperpage{271}, 
+		\hyperpage{274}, \hyperpage{277}, \hyperpage{280}, 
+		\hyperpage{283}
+    \subitem {STRINGIFY\_HELPER}, \hyperpage{268}, \hyperpage{271}, 
+		\hyperpage{274}, \hyperpage{277}, \hyperpage{280}, 
+		\hyperpage{283}
+  \item {CMakeFiles/3.20.1/CompilerIdCXX/CMakeCXXCompilerId.cpp}, 
+		\hyperpage{278}
+  \item {CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp}, 
+		\hyperpage{281}
+  \item {CMakeFiles/calendar.dir/calendar\_autogen/mocs\_compilation.cpp.o.d}, 
+		\hyperpage{284}
+  \item {CMakeFiles/calendar.dir/main.cpp.o.d}, \hyperpage{284}
+  \item {CMakeFiles/calendar.dir/mainwindow.cpp.o.d}, \hyperpage{284}
+  \item {CMakeFiles/calendar.dir/res/calendarView.cpp.o.d}, 
+		\hyperpage{287}
+  \item {CMakeFiles/calendar.dir/res/dataInterface.cpp.o.d}, 
+		\hyperpage{287}
+  \item {CMakeFiles/calendar.dir/res/date.cpp.o.d}, \hyperpage{287}
+  \item {CMakeFiles/calendar.dir/res/dayModel.cpp.o.d}, \hyperpage{287}
+  \item {CMakeFiles/calendar.dir/res/eventBirthdayModel.cpp.o.d}, 
+		\hyperpage{287}
+  \item {CMakeFiles/calendar.dir/res/eventHolidayModel.cpp.o.d}, 
+		\hyperpage{287}
+  \item {CMakeFiles/calendar.dir/res/eventModel.cpp.o.d}, 
+		\hyperpage{287}
+  \item {CMakeFiles/calendar.dir/res/eventReminderModel.cpp.o.d}, 
+		\hyperpage{287}
+  \item {CMakeFiles/calendar.dir/res/inputDialog.cpp.o.d}, 
+		\hyperpage{287}
+  \item {CMakeFiles/calendar.dir/res/todoElement.cpp.o.d}, 
+		\hyperpage{287}
+  \item {CMakeFiles/calendar.dir/res/todoView.cpp.o.d}, \hyperpage{287}
+  \item {CMakeFiles/calendar.dir/res/weeklyCalendarView.cpp.o.d}, 
+		\hyperpage{287}
+  \item {COMPILER\_ID}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{267}, \hyperpage{270}, 
+		\hyperpage{273}, \hyperpage{276}, \hyperpage{279}, 
+		\hyperpage{282}
+  \item {CXX\_STD}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{267}, \hyperpage{270}, 
+		\hyperpage{273}, \hyperpage{276}, \hyperpage{279}, 
+		\hyperpage{282}
+
+  \indexspace
+
+  \item {Daily}
+    \subitem {calendar}, \hyperpage{11}
+  \item {data}
+    \subitem {qt\_meta\_stringdata\_MainWindow\_t}, \hyperpage{69}
+  \item {dataInterface}
+    \subitem {calendar::dataInterface$<$ T $>$}, \hyperpage{22}
+  \item {date}
+    \subitem {calendar::date}, \hyperpage{26}
+  \item {date.h}
+    \subitem {MAX\_YEAR\_CAP}, \hyperpage{292}
+  \item {day}
+    \subitem {calendar::day}, \hyperpage{36}
+  \item {DEC}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{267}, \hyperpage{270}, 
+		\hyperpage{273}, \hyperpage{276}, \hyperpage{279}, 
+		\hyperpage{282}
+  \item {Dec}
+    \subitem {calendar}, \hyperpage{11}
+  \item {decrementMonth}
+    \subitem {calendar::date}, \hyperpage{26}
+  \item {decrementPosition}
+    \subitem {calendar::todoElement}, \hyperpage{71}
+  \item {decrementWeek}
+    \subitem {calendar::date}, \hyperpage{27}
+  \item {deleteEvent}
+    \subitem {calendar::calendarView}, \hyperpage{17}
+    \subitem {calendar::day}, \hyperpage{37}
+    \subitem {calendar::weeklyCalendarView}, \hyperpage{84}
+  \item {deleteItem}
+    \subitem {calendar::todoView}, \hyperpage{73}
+  \item {displayReminderEvent}
+    \subitem {calendar::calendarView}, \hyperpage{17}
+    \subitem {calendar::weeklyCalendarView}, \hyperpage{84}
+
+  \indexspace
+
+  \item {event}
+    \subitem {calendar::event}, \hyperpage{40, 41}
+  \item {eventBirthday}
+    \subitem {calendar::eventBirthday}, \hyperpage{48}
+  \item {eventHoliday}
+    \subitem {calendar::eventHoliday}, \hyperpage{54}
+  \item {eventReminder}
+    \subitem {calendar::eventReminder}, \hyperpage{60}
+  \item {eventsListView}
+    \subitem {Ui\_MainWindow}, \hyperpage{78}
+  \item {exportData}
+    \subitem {calendar::event}, \hyperpage{41}
+    \subitem {calendar::eventBirthday}, \hyperpage{49}
+    \subitem {calendar::eventHoliday}, \hyperpage{54}
+    \subitem {calendar::eventReminder}, \hyperpage{61}
+    \subitem {calendar::todoElement}, \hyperpage{71}
+  \item {exportDataToSaveFile}
+    \subitem {calendar::dataInterface$<$ T $>$}, \hyperpage{22, 23}
+
+  \indexspace
+
+  \item {Feb}
+    \subitem {calendar}, \hyperpage{11}
+  \item {Fri}
+    \subitem {calendar}, \hyperpage{11}
+
+  \indexspace
+
+  \item {getBirthDate}
+    \subitem {calendar::eventBirthday}, \hyperpage{49}
+  \item {getCurrentWeekNumber}
+    \subitem {calendar::weeklyCalendarView}, \hyperpage{85}
+  \item {getDataRecord}
+    \subitem {calendar::todoElement}, \hyperpage{71}
+  \item {getDate}
+    \subitem {calendar::day}, \hyperpage{38}
+  \item {getDay}
+    \subitem {calendar::date}, \hyperpage{27}
+  \item {getEvBegin}
+    \subitem {calendar::eventHoliday}, \hyperpage{55}
+  \item {getEvDate}
+    \subitem {calendar::event}, \hyperpage{42}
+  \item {getEvDescription}
+    \subitem {calendar::event}, \hyperpage{42}
+  \item {getEvEnd}
+    \subitem {calendar::eventHoliday}, \hyperpage{56}
+  \item {getEvents}
+    \subitem {calendar::calendarView}, \hyperpage{18}
+    \subitem {calendar::day}, \hyperpage{38}
+    \subitem {calendar::weeklyCalendarView}, \hyperpage{86}
+  \item {getEventsForDay}
+    \subitem {calendar::calendarView}, \hyperpage{18}
+    \subitem {calendar::weeklyCalendarView}, \hyperpage{86}
+  \item {getEvLocation}
+    \subitem {calendar::eventReminder}, \hyperpage{61}
+  \item {getEvName}
+    \subitem {calendar::event}, \hyperpage{43}
+  \item {getEvRepeat}
+    \subitem {calendar::event}, \hyperpage{43}
+  \item {getEvType}
+    \subitem {calendar::eventReminder}, \hyperpage{62}
+  \item {getItems}
+    \subitem {calendar::todoView}, \hyperpage{74}
+  \item {getMonth}
+    \subitem {calendar::date}, \hyperpage{28}
+  \item {getMonthName}
+    \subitem {calendar::calendarView}, \hyperpage{19}
+    \subitem {calendar::weeklyCalendarView}, \hyperpage{87}
+  \item {getPersonalData}
+    \subitem {calendar::eventBirthday}, \hyperpage{50}
+  \item {getPosition}
+    \subitem {calendar::todoElement}, \hyperpage{71}
+  \item {getTodayDate}
+    \subitem {calendar::calendarView}, \hyperpage{19}
+    \subitem {calendar::weeklyCalendarView}, \hyperpage{87}
+  \item {getWeekDay}
+    \subitem {calendar::date}, \hyperpage{29}
+  \item {getWeekNum}
+    \subitem {calendar::date}, \hyperpage{29}
+  \item {getYear}
+    \subitem {calendar::date}, \hyperpage{30}
+
+  \indexspace
+
+  \item {HEX}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{267}, \hyperpage{270}, 
+		\hyperpage{273}, \hyperpage{276}, \hyperpage{279}, 
+		\hyperpage{282}
+  \item {horizontalLayout}
+    \subitem {Ui\_MainWindow}, \hyperpage{78}
+  \item {horizontalLayout\_2}
+    \subitem {Ui\_MainWindow}, \hyperpage{78}
+  \item {horizontalLayout\_3}
+    \subitem {Ui\_MainWindow}, \hyperpage{78}
+
+  \indexspace
+
+  \item {importDataFromSaveFile}
+    \subitem {calendar::dataInterface$<$ T $>$}, \hyperpage{23}
+  \item {includes/calendarView.h}, \hyperpage{287}
+  \item {includes/dataInterface.h}, \hyperpage{289}
+  \item {includes/date.h}, \hyperpage{291}
+  \item {includes/dayModel.h}, \hyperpage{293}
+  \item {includes/eventBirthdayModel.h}, \hyperpage{294}
+  \item {includes/eventHolidayModel.h}, \hyperpage{295}
+  \item {includes/eventModel.h}, \hyperpage{297}
+  \item {includes/eventReminderModel.h}, \hyperpage{298}
+  \item {includes/todoElement.h}, \hyperpage{300}
+  \item {includes/todoView.h}, \hyperpage{301}
+  \item {includes/weeklyCalendarView.h}, \hyperpage{302}
+  \item {incrementMonth}
+    \subitem {calendar::date}, \hyperpage{30}
+  \item {incrementPosition}
+    \subitem {calendar::todoElement}, \hyperpage{72}
+  \item {incrementWeek}
+    \subitem {calendar::date}, \hyperpage{31}
+  \item {info\_arch}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{268}, \hyperpage{271}, 
+		\hyperpage{274}, \hyperpage{277}, \hyperpage{280}, 
+		\hyperpage{283}
+  \item {info\_compiler}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{268}, \hyperpage{271}, 
+		\hyperpage{274}, \hyperpage{277}, \hyperpage{280}, 
+		\hyperpage{283}
+  \item {info\_language\_dialect\_default}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{268}, \hyperpage{271}, 
+		\hyperpage{274}, \hyperpage{277}, \hyperpage{280}, 
+		\hyperpage{283}
+  \item {info\_platform}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{269}, \hyperpage{272}, 
+		\hyperpage{275}, \hyperpage{278}, \hyperpage{281}, 
+		\hyperpage{284}
+
+  \indexspace
+
+  \item {Jan}
+    \subitem {calendar}, \hyperpage{11}
+  \item {Jul}
+    \subitem {calendar}, \hyperpage{11}
+  \item {Jun}
+    \subitem {calendar}, \hyperpage{11}
+
+  \indexspace
+
+  \item {layoutWidget}
+    \subitem {Ui\_MainWindow}, \hyperpage{78}
+  \item {layoutWidget1}
+    \subitem {Ui\_MainWindow}, \hyperpage{78}
+  \item {layoutWidget2}
+    \subitem {Ui\_MainWindow}, \hyperpage{78}
+  \item {linux}
+    \subitem {moc\_predefs.h}, \hyperpage{147}, \hyperpage{205}, 
+		\hyperpage{264}
+  \item {listView}
+    \subitem {Ui\_MainWindow}, \hyperpage{79}
+  \item {loadDataFromInterface}
+    \subitem {calendar::dataInterface$<$ T $>$}, \hyperpage{24}
+  \item {loadDataToInterface}
+    \subitem {calendar::dataInterface$<$ T $>$}, \hyperpage{24}
+
+  \indexspace
+
+  \item {main}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{268}, \hyperpage{271}, 
+		\hyperpage{274}, \hyperpage{277}, \hyperpage{280}, 
+		\hyperpage{283}
+    \subitem {main.cpp}, \hyperpage{304}
+  \item {main.cpp}, \hyperpage{304}
+    \subitem {main}, \hyperpage{304}
+  \item {MainWindow}, \hyperpage{64}
+    \subitem {$\sim$MainWindow}, \hyperpage{66}
+    \subitem {closeWindow}, \hyperpage{67}
+    \subitem {MainWindow}, \hyperpage{65}
+    \subitem {saveToFiles}, \hyperpage{67}
+  \item {mainwindow.cpp}, \hyperpage{304}
+  \item {mainwindow.h}, \hyperpage{305}
+  \item {Mar}
+    \subitem {calendar}, \hyperpage{11}
+  \item {MAX\_YEAR\_CAP}
+    \subitem {date.h}, \hyperpage{292}
+  \item {May}
+    \subitem {calendar}, \hyperpage{11}
+  \item {menubar}
+    \subitem {Ui\_MainWindow}, \hyperpage{79}
+  \item {menutest}
+    \subitem {Ui\_MainWindow}, \hyperpage{79}
+  \item {moc\_mainwindow.cpp}
+    \subitem {QT\_MOC\_LITERAL}, \hyperpage{285}
+  \item {moc\_predefs.h}
+    \subitem {\_GNU\_SOURCE}, \hyperpage{146}, \hyperpage{205}, 
+		\hyperpage{263}
+    \subitem {\_LP64}, \hyperpage{147}, \hyperpage{205}, 
+		\hyperpage{264}
+    \subitem {\_STDC\_PREDEF\_H}, \hyperpage{147}, \hyperpage{205}, 
+		\hyperpage{264}
+    \subitem {\_\_ATOMIC\_ACQUIRE}, \hyperpage{97}, \hyperpage{156}, 
+		\hyperpage{214}
+    \subitem {\_\_ATOMIC\_ACQ\_REL}, \hyperpage{97}, \hyperpage{155}, 
+		\hyperpage{214}
+    \subitem {\_\_ATOMIC\_CONSUME}, \hyperpage{97}, \hyperpage{156}, 
+		\hyperpage{214}
+    \subitem {\_\_ATOMIC\_HLE\_ACQUIRE}, \hyperpage{97}, 
+		\hyperpage{156}, \hyperpage{214}
+    \subitem {\_\_ATOMIC\_HLE\_RELEASE}, \hyperpage{97}, 
+		\hyperpage{156}, \hyperpage{214}
+    \subitem {\_\_ATOMIC\_RELAXED}, \hyperpage{97}, \hyperpage{156}, 
+		\hyperpage{214}
+    \subitem {\_\_ATOMIC\_RELEASE}, \hyperpage{98}, \hyperpage{156}, 
+		\hyperpage{215}
+    \subitem {\_\_ATOMIC\_SEQ\_CST}, \hyperpage{98}, \hyperpage{156}, 
+		\hyperpage{215}
+    \subitem {\_\_BIGGEST\_ALIGNMENT\_\_}, \hyperpage{98}, 
+		\hyperpage{156}, \hyperpage{215}
+    \subitem {\_\_BYTE\_ORDER\_\_}, \hyperpage{98}, \hyperpage{157}, 
+		\hyperpage{215}
+    \subitem {\_\_CHAR16\_TYPE\_\_}, \hyperpage{98}, \hyperpage{157}, 
+		\hyperpage{215}
+    \subitem {\_\_CHAR32\_TYPE\_\_}, \hyperpage{98}, \hyperpage{157}, 
+		\hyperpage{215}
+    \subitem {\_\_CHAR\_BIT\_\_}, \hyperpage{98}, \hyperpage{157}, 
+		\hyperpage{215}
+    \subitem {\_\_DBL\_DECIMAL\_DIG\_\_}, \hyperpage{103}, 
+		\hyperpage{161}, \hyperpage{220}
+    \subitem {\_\_DBL\_DENORM\_MIN\_\_}, \hyperpage{103}, 
+		\hyperpage{162}, \hyperpage{220}
+    \subitem {\_\_DBL\_DIG\_\_}, \hyperpage{103}, \hyperpage{162}, 
+		\hyperpage{220}
+    \subitem {\_\_DBL\_EPSILON\_\_}, \hyperpage{103}, \hyperpage{162}, 
+		\hyperpage{220}
+    \subitem {\_\_DBL\_HAS\_DENORM\_\_}, \hyperpage{103}, 
+		\hyperpage{162}, \hyperpage{220}
+    \subitem {\_\_DBL\_HAS\_INFINITY\_\_}, \hyperpage{103}, 
+		\hyperpage{162}, \hyperpage{220}
+    \subitem {\_\_DBL\_HAS\_QUIET\_NAN\_\_}, \hyperpage{104}, 
+		\hyperpage{162}, \hyperpage{221}
+    \subitem {\_\_DBL\_MANT\_DIG\_\_}, \hyperpage{104}, \hyperpage{162}, 
+		\hyperpage{221}
+    \subitem {\_\_DBL\_MAX\_10\_EXP\_\_}, \hyperpage{104}, 
+		\hyperpage{162}, \hyperpage{221}
+    \subitem {\_\_DBL\_MAX\_EXP\_\_}, \hyperpage{104}, \hyperpage{163}, 
+		\hyperpage{221}
+    \subitem {\_\_DBL\_MAX\_\_}, \hyperpage{104}, \hyperpage{163}, 
+		\hyperpage{221}
+    \subitem {\_\_DBL\_MIN\_10\_EXP\_\_}, \hyperpage{104}, 
+		\hyperpage{163}, \hyperpage{221}
+    \subitem {\_\_DBL\_MIN\_EXP\_\_}, \hyperpage{104}, \hyperpage{163}, 
+		\hyperpage{221}
+    \subitem {\_\_DBL\_MIN\_\_}, \hyperpage{104}, \hyperpage{163}, 
+		\hyperpage{221}
+    \subitem {\_\_DBL\_NORM\_MAX\_\_}, \hyperpage{105}, \hyperpage{163}, 
+		\hyperpage{222}
+    \subitem {\_\_DEC128\_EPSILON\_\_}, \hyperpage{105}, 
+		\hyperpage{163}, \hyperpage{222}
+    \subitem {\_\_DEC128\_MANT\_DIG\_\_}, \hyperpage{105}, 
+		\hyperpage{163}, \hyperpage{222}
+    \subitem {\_\_DEC128\_MAX\_EXP\_\_}, \hyperpage{105}, 
+		\hyperpage{164}, \hyperpage{222}
+    \subitem {\_\_DEC128\_MAX\_\_}, \hyperpage{105}, \hyperpage{164}, 
+		\hyperpage{222}
+    \subitem {\_\_DEC128\_MIN\_EXP\_\_}, \hyperpage{105}, 
+		\hyperpage{164}, \hyperpage{222}
+    \subitem {\_\_DEC128\_MIN\_\_}, \hyperpage{105}, \hyperpage{164}, 
+		\hyperpage{222}
+    \subitem {\_\_DEC128\_SUBNORMAL\_MIN\_\_}, \hyperpage{105}, 
+		\hyperpage{164}, \hyperpage{222}
+    \subitem {\_\_DEC32\_EPSILON\_\_}, \hyperpage{106}, \hyperpage{164}, 
+		\hyperpage{223}
+    \subitem {\_\_DEC32\_MANT\_DIG\_\_}, \hyperpage{106}, 
+		\hyperpage{164}, \hyperpage{223}
+    \subitem {\_\_DEC32\_MAX\_EXP\_\_}, \hyperpage{106}, 
+		\hyperpage{165}, \hyperpage{223}
+    \subitem {\_\_DEC32\_MAX\_\_}, \hyperpage{106}, \hyperpage{164}, 
+		\hyperpage{223}
+    \subitem {\_\_DEC32\_MIN\_EXP\_\_}, \hyperpage{106}, 
+		\hyperpage{165}, \hyperpage{223}
+    \subitem {\_\_DEC32\_MIN\_\_}, \hyperpage{106}, \hyperpage{165}, 
+		\hyperpage{223}
+    \subitem {\_\_DEC32\_SUBNORMAL\_MIN\_\_}, \hyperpage{106}, 
+		\hyperpage{165}, \hyperpage{223}
+    \subitem {\_\_DEC64\_EPSILON\_\_}, \hyperpage{106}, \hyperpage{165}, 
+		\hyperpage{223}
+    \subitem {\_\_DEC64\_MANT\_DIG\_\_}, \hyperpage{107}, 
+		\hyperpage{165}, \hyperpage{224}
+    \subitem {\_\_DEC64\_MAX\_EXP\_\_}, \hyperpage{107}, 
+		\hyperpage{165}, \hyperpage{224}
+    \subitem {\_\_DEC64\_MAX\_\_}, \hyperpage{107}, \hyperpage{165}, 
+		\hyperpage{224}
+    \subitem {\_\_DEC64\_MIN\_EXP\_\_}, \hyperpage{107}, 
+		\hyperpage{166}, \hyperpage{224}
+    \subitem {\_\_DEC64\_MIN\_\_}, \hyperpage{107}, \hyperpage{166}, 
+		\hyperpage{224}
+    \subitem {\_\_DEC64\_SUBNORMAL\_MIN\_\_}, \hyperpage{107}, 
+		\hyperpage{166}, \hyperpage{224}
+    \subitem {\_\_DECIMAL\_BID\_FORMAT\_\_}, \hyperpage{107}, 
+		\hyperpage{166}, \hyperpage{224}
+    \subitem {\_\_DECIMAL\_DIG\_\_}, \hyperpage{108}, \hyperpage{166}, 
+		\hyperpage{225}
+    \subitem {\_\_DEC\_EVAL\_METHOD\_\_}, \hyperpage{107}, 
+		\hyperpage{166}, \hyperpage{224}
+    \subitem {\_\_DEPRECATED}, \hyperpage{108}, \hyperpage{166}, 
+		\hyperpage{225}
+    \subitem {\_\_ELF\_\_}, \hyperpage{108}, \hyperpage{166}, 
+		\hyperpage{225}
+    \subitem {\_\_EXCEPTIONS}, \hyperpage{108}, \hyperpage{167}, 
+		\hyperpage{225}
+    \subitem {\_\_FINITE\_MATH\_ONLY\_\_}, \hyperpage{108}, 
+		\hyperpage{167}, \hyperpage{225}
+    \subitem {\_\_FLOAT\_WORD\_ORDER\_\_}, \hyperpage{108}, 
+		\hyperpage{167}, \hyperpage{225}
+    \subitem {\_\_FLT128\_DECIMAL\_DIG\_\_}, \hyperpage{108}, 
+		\hyperpage{167}, \hyperpage{225}
+    \subitem {\_\_FLT128\_DENORM\_MIN\_\_}, \hyperpage{108}, 
+		\hyperpage{167}, \hyperpage{225}
+    \subitem {\_\_FLT128\_DIG\_\_}, \hyperpage{109}, \hyperpage{167}, 
+		\hyperpage{226}
+    \subitem {\_\_FLT128\_EPSILON\_\_}, \hyperpage{109}, 
+		\hyperpage{167}, \hyperpage{226}
+    \subitem {\_\_FLT128\_HAS\_DENORM\_\_}, \hyperpage{109}, 
+		\hyperpage{167}, \hyperpage{226}
+    \subitem {\_\_FLT128\_HAS\_INFINITY\_\_}, \hyperpage{109}, 
+		\hyperpage{168}, \hyperpage{226}
+    \subitem {\_\_FLT128\_HAS\_QUIET\_NAN\_\_}, \hyperpage{109}, 
+		\hyperpage{168}, \hyperpage{226}
+    \subitem {\_\_FLT128\_MANT\_DIG\_\_}, \hyperpage{109}, 
+		\hyperpage{168}, \hyperpage{226}
+    \subitem {\_\_FLT128\_MAX\_10\_EXP\_\_}, \hyperpage{109}, 
+		\hyperpage{168}, \hyperpage{226}
+    \subitem {\_\_FLT128\_MAX\_EXP\_\_}, \hyperpage{110}, 
+		\hyperpage{168}, \hyperpage{227}
+    \subitem {\_\_FLT128\_MAX\_\_}, \hyperpage{109}, \hyperpage{168}, 
+		\hyperpage{226}
+    \subitem {\_\_FLT128\_MIN\_10\_EXP\_\_}, \hyperpage{110}, 
+		\hyperpage{168}, \hyperpage{227}
+    \subitem {\_\_FLT128\_MIN\_EXP\_\_}, \hyperpage{110}, 
+		\hyperpage{169}, \hyperpage{227}
+    \subitem {\_\_FLT128\_MIN\_\_}, \hyperpage{110}, \hyperpage{168}, 
+		\hyperpage{227}
+    \subitem {\_\_FLT128\_NORM\_MAX\_\_}, \hyperpage{110}, 
+		\hyperpage{169}, \hyperpage{227}
+    \subitem {\_\_FLT32X\_DECIMAL\_DIG\_\_}, \hyperpage{112}, 
+		\hyperpage{171}, \hyperpage{229}
+    \subitem {\_\_FLT32X\_DENORM\_MIN\_\_}, \hyperpage{112}, 
+		\hyperpage{171}, \hyperpage{229}
+    \subitem {\_\_FLT32X\_DIG\_\_}, \hyperpage{112}, \hyperpage{171}, 
+		\hyperpage{229}
+    \subitem {\_\_FLT32X\_EPSILON\_\_}, \hyperpage{112}, 
+		\hyperpage{171}, \hyperpage{229}
+    \subitem {\_\_FLT32X\_HAS\_DENORM\_\_}, \hyperpage{113}, 
+		\hyperpage{171}, \hyperpage{230}
+    \subitem {\_\_FLT32X\_HAS\_INFINITY\_\_}, \hyperpage{113}, 
+		\hyperpage{171}, \hyperpage{230}
+    \subitem {\_\_FLT32X\_HAS\_QUIET\_NAN\_\_}, \hyperpage{113}, 
+		\hyperpage{171}, \hyperpage{230}
+    \subitem {\_\_FLT32X\_MANT\_DIG\_\_}, \hyperpage{113}, 
+		\hyperpage{172}, \hyperpage{230}
+    \subitem {\_\_FLT32X\_MAX\_10\_EXP\_\_}, \hyperpage{113}, 
+		\hyperpage{172}, \hyperpage{230}
+    \subitem {\_\_FLT32X\_MAX\_EXP\_\_}, \hyperpage{113}, 
+		\hyperpage{172}, \hyperpage{230}
+    \subitem {\_\_FLT32X\_MAX\_\_}, \hyperpage{113}, \hyperpage{172}, 
+		\hyperpage{230}
+    \subitem {\_\_FLT32X\_MIN\_10\_EXP\_\_}, \hyperpage{113}, 
+		\hyperpage{172}, \hyperpage{230}
+    \subitem {\_\_FLT32X\_MIN\_EXP\_\_}, \hyperpage{114}, 
+		\hyperpage{172}, \hyperpage{231}
+    \subitem {\_\_FLT32X\_MIN\_\_}, \hyperpage{114}, \hyperpage{172}, 
+		\hyperpage{231}
+    \subitem {\_\_FLT32X\_NORM\_MAX\_\_}, \hyperpage{114}, 
+		\hyperpage{172}, \hyperpage{231}
+    \subitem {\_\_FLT32\_DECIMAL\_DIG\_\_}, \hyperpage{110}, 
+		\hyperpage{169}, \hyperpage{227}
+    \subitem {\_\_FLT32\_DENORM\_MIN\_\_}, \hyperpage{110}, 
+		\hyperpage{169}, \hyperpage{227}
+    \subitem {\_\_FLT32\_DIG\_\_}, \hyperpage{110}, \hyperpage{169}, 
+		\hyperpage{227}
+    \subitem {\_\_FLT32\_EPSILON\_\_}, \hyperpage{111}, \hyperpage{169}, 
+		\hyperpage{228}
+    \subitem {\_\_FLT32\_HAS\_DENORM\_\_}, \hyperpage{111}, 
+		\hyperpage{169}, \hyperpage{228}
+    \subitem {\_\_FLT32\_HAS\_INFINITY\_\_}, \hyperpage{111}, 
+		\hyperpage{169}, \hyperpage{228}
+    \subitem {\_\_FLT32\_HAS\_QUIET\_NAN\_\_}, \hyperpage{111}, 
+		\hyperpage{170}, \hyperpage{228}
+    \subitem {\_\_FLT32\_MANT\_DIG\_\_}, \hyperpage{111}, 
+		\hyperpage{170}, \hyperpage{228}
+    \subitem {\_\_FLT32\_MAX\_10\_EXP\_\_}, \hyperpage{111}, 
+		\hyperpage{170}, \hyperpage{228}
+    \subitem {\_\_FLT32\_MAX\_EXP\_\_}, \hyperpage{111}, 
+		\hyperpage{170}, \hyperpage{228}
+    \subitem {\_\_FLT32\_MAX\_\_}, \hyperpage{111}, \hyperpage{170}, 
+		\hyperpage{228}
+    \subitem {\_\_FLT32\_MIN\_10\_EXP\_\_}, \hyperpage{112}, 
+		\hyperpage{170}, \hyperpage{229}
+    \subitem {\_\_FLT32\_MIN\_EXP\_\_}, \hyperpage{112}, 
+		\hyperpage{170}, \hyperpage{229}
+    \subitem {\_\_FLT32\_MIN\_\_}, \hyperpage{112}, \hyperpage{170}, 
+		\hyperpage{229}
+    \subitem {\_\_FLT32\_NORM\_MAX\_\_}, \hyperpage{112}, 
+		\hyperpage{171}, \hyperpage{229}
+    \subitem {\_\_FLT64X\_DECIMAL\_DIG\_\_}, \hyperpage{116}, 
+		\hyperpage{174}, \hyperpage{233}
+    \subitem {\_\_FLT64X\_DENORM\_MIN\_\_}, \hyperpage{116}, 
+		\hyperpage{175}, \hyperpage{233}
+    \subitem {\_\_FLT64X\_DIG\_\_}, \hyperpage{116}, \hyperpage{175}, 
+		\hyperpage{233}
+    \subitem {\_\_FLT64X\_EPSILON\_\_}, \hyperpage{116}, 
+		\hyperpage{175}, \hyperpage{233}
+    \subitem {\_\_FLT64X\_HAS\_DENORM\_\_}, \hyperpage{116}, 
+		\hyperpage{175}, \hyperpage{233}
+    \subitem {\_\_FLT64X\_HAS\_INFINITY\_\_}, \hyperpage{116}, 
+		\hyperpage{175}, \hyperpage{233}
+    \subitem {\_\_FLT64X\_HAS\_QUIET\_NAN\_\_}, \hyperpage{117}, 
+		\hyperpage{175}, \hyperpage{234}
+    \subitem {\_\_FLT64X\_MANT\_DIG\_\_}, \hyperpage{117}, 
+		\hyperpage{175}, \hyperpage{234}
+    \subitem {\_\_FLT64X\_MAX\_10\_EXP\_\_}, \hyperpage{117}, 
+		\hyperpage{175}, \hyperpage{234}
+    \subitem {\_\_FLT64X\_MAX\_EXP\_\_}, \hyperpage{117}, 
+		\hyperpage{176}, \hyperpage{234}
+    \subitem {\_\_FLT64X\_MAX\_\_}, \hyperpage{117}, \hyperpage{176}, 
+		\hyperpage{234}
+    \subitem {\_\_FLT64X\_MIN\_10\_EXP\_\_}, \hyperpage{117}, 
+		\hyperpage{176}, \hyperpage{234}
+    \subitem {\_\_FLT64X\_MIN\_EXP\_\_}, \hyperpage{117}, 
+		\hyperpage{176}, \hyperpage{234}
+    \subitem {\_\_FLT64X\_MIN\_\_}, \hyperpage{117}, \hyperpage{176}, 
+		\hyperpage{234}
+    \subitem {\_\_FLT64X\_NORM\_MAX\_\_}, \hyperpage{118}, 
+		\hyperpage{176}, \hyperpage{235}
+    \subitem {\_\_FLT64\_DECIMAL\_DIG\_\_}, \hyperpage{114}, 
+		\hyperpage{173}, \hyperpage{231}
+    \subitem {\_\_FLT64\_DENORM\_MIN\_\_}, \hyperpage{114}, 
+		\hyperpage{173}, \hyperpage{231}
+    \subitem {\_\_FLT64\_DIG\_\_}, \hyperpage{114}, \hyperpage{173}, 
+		\hyperpage{231}
+    \subitem {\_\_FLT64\_EPSILON\_\_}, \hyperpage{114}, \hyperpage{173}, 
+		\hyperpage{231}
+    \subitem {\_\_FLT64\_HAS\_DENORM\_\_}, \hyperpage{114}, 
+		\hyperpage{173}, \hyperpage{231}
+    \subitem {\_\_FLT64\_HAS\_INFINITY\_\_}, \hyperpage{115}, 
+		\hyperpage{173}, \hyperpage{232}
+    \subitem {\_\_FLT64\_HAS\_QUIET\_NAN\_\_}, \hyperpage{115}, 
+		\hyperpage{173}, \hyperpage{232}
+    \subitem {\_\_FLT64\_MANT\_DIG\_\_}, \hyperpage{115}, 
+		\hyperpage{173}, \hyperpage{232}
+    \subitem {\_\_FLT64\_MAX\_10\_EXP\_\_}, \hyperpage{115}, 
+		\hyperpage{174}, \hyperpage{232}
+    \subitem {\_\_FLT64\_MAX\_EXP\_\_}, \hyperpage{115}, 
+		\hyperpage{174}, \hyperpage{232}
+    \subitem {\_\_FLT64\_MAX\_\_}, \hyperpage{115}, \hyperpage{174}, 
+		\hyperpage{232}
+    \subitem {\_\_FLT64\_MIN\_10\_EXP\_\_}, \hyperpage{115}, 
+		\hyperpage{174}, \hyperpage{232}
+    \subitem {\_\_FLT64\_MIN\_EXP\_\_}, \hyperpage{116}, 
+		\hyperpage{174}, \hyperpage{233}
+    \subitem {\_\_FLT64\_MIN\_\_}, \hyperpage{115}, \hyperpage{174}, 
+		\hyperpage{232}
+    \subitem {\_\_FLT64\_NORM\_MAX\_\_}, \hyperpage{116}, 
+		\hyperpage{174}, \hyperpage{233}
+    \subitem {\_\_FLT\_DECIMAL\_DIG\_\_}, \hyperpage{118}, 
+		\hyperpage{176}, \hyperpage{235}
+    \subitem {\_\_FLT\_DENORM\_MIN\_\_}, \hyperpage{118}, 
+		\hyperpage{176}, \hyperpage{235}
+    \subitem {\_\_FLT\_DIG\_\_}, \hyperpage{118}, \hyperpage{177}, 
+		\hyperpage{235}
+    \subitem {\_\_FLT\_EPSILON\_\_}, \hyperpage{118}, \hyperpage{177}, 
+		\hyperpage{235}
+    \subitem {\_\_FLT\_EVAL\_METHOD\_TS\_18661\_3\_\_}, \hyperpage{118}, 
+		\hyperpage{177}, \hyperpage{235}
+    \subitem {\_\_FLT\_EVAL\_METHOD\_\_}, \hyperpage{118}, 
+		\hyperpage{177}, \hyperpage{235}
+    \subitem {\_\_FLT\_HAS\_DENORM\_\_}, \hyperpage{118}, 
+		\hyperpage{177}, \hyperpage{235}
+    \subitem {\_\_FLT\_HAS\_INFINITY\_\_}, \hyperpage{119}, 
+		\hyperpage{177}, \hyperpage{236}
+    \subitem {\_\_FLT\_HAS\_QUIET\_NAN\_\_}, \hyperpage{119}, 
+		\hyperpage{177}, \hyperpage{236}
+    \subitem {\_\_FLT\_MANT\_DIG\_\_}, \hyperpage{119}, \hyperpage{177}, 
+		\hyperpage{236}
+    \subitem {\_\_FLT\_MAX\_10\_EXP\_\_}, \hyperpage{119}, 
+		\hyperpage{178}, \hyperpage{236}
+    \subitem {\_\_FLT\_MAX\_EXP\_\_}, \hyperpage{119}, \hyperpage{178}, 
+		\hyperpage{236}
+    \subitem {\_\_FLT\_MAX\_\_}, \hyperpage{119}, \hyperpage{178}, 
+		\hyperpage{236}
+    \subitem {\_\_FLT\_MIN\_10\_EXP\_\_}, \hyperpage{119}, 
+		\hyperpage{178}, \hyperpage{236}
+    \subitem {\_\_FLT\_MIN\_EXP\_\_}, \hyperpage{120}, \hyperpage{178}, 
+		\hyperpage{237}
+    \subitem {\_\_FLT\_MIN\_\_}, \hyperpage{119}, \hyperpage{178}, 
+		\hyperpage{236}
+    \subitem {\_\_FLT\_NORM\_MAX\_\_}, \hyperpage{120}, \hyperpage{178}, 
+		\hyperpage{237}
+    \subitem {\_\_FLT\_RADIX\_\_}, \hyperpage{120}, \hyperpage{178}, 
+		\hyperpage{237}
+    \subitem {\_\_FXSR\_\_}, \hyperpage{120}, \hyperpage{179}, 
+		\hyperpage{237}
+    \subitem {\_\_GCC\_ASM\_FLAG\_OUTPUTS\_\_}, \hyperpage{120}, 
+		\hyperpage{179}, \hyperpage{237}
+    \subitem {\_\_GCC\_ATOMIC\_BOOL\_LOCK\_FREE}, \hyperpage{120}, 
+		\hyperpage{179}, \hyperpage{237}
+    \subitem {\_\_GCC\_ATOMIC\_CHAR16\_T\_LOCK\_FREE}, \hyperpage{120}, 
+		\hyperpage{179}, \hyperpage{237}
+    \subitem {\_\_GCC\_ATOMIC\_CHAR32\_T\_LOCK\_FREE}, \hyperpage{120}, 
+		\hyperpage{179}, \hyperpage{237}
+    \subitem {\_\_GCC\_ATOMIC\_CHAR\_LOCK\_FREE}, \hyperpage{121}, 
+		\hyperpage{179}, \hyperpage{238}
+    \subitem {\_\_GCC\_ATOMIC\_INT\_LOCK\_FREE}, \hyperpage{121}, 
+		\hyperpage{179}, \hyperpage{238}
+    \subitem {\_\_GCC\_ATOMIC\_LLONG\_LOCK\_FREE}, \hyperpage{121}, 
+		\hyperpage{179}, \hyperpage{238}
+    \subitem {\_\_GCC\_ATOMIC\_LONG\_LOCK\_FREE}, \hyperpage{121}, 
+		\hyperpage{180}, \hyperpage{238}
+    \subitem {\_\_GCC\_ATOMIC\_POINTER\_LOCK\_FREE}, \hyperpage{121}, 
+		\hyperpage{180}, \hyperpage{238}
+    \subitem {\_\_GCC\_ATOMIC\_SHORT\_LOCK\_FREE}, \hyperpage{121}, 
+		\hyperpage{180}, \hyperpage{238}
+    \subitem {\_\_GCC\_ATOMIC\_TEST\_AND\_SET\_TRUEVAL}, 
+		\hyperpage{121}, \hyperpage{180}, \hyperpage{238}
+    \subitem {\_\_GCC\_ATOMIC\_WCHAR\_T\_LOCK\_FREE}, \hyperpage{121}, 
+		\hyperpage{180}, \hyperpage{238}
+    \subitem {\_\_GCC\_HAVE\_DWARF2\_CFI\_ASM}, \hyperpage{122}, 
+		\hyperpage{180}, \hyperpage{239}
+    \subitem {\_\_GCC\_HAVE\_SYNC\_COMPARE\_AND\_SWAP\_1}, 
+		\hyperpage{122}, \hyperpage{180}, \hyperpage{239}
+    \subitem {\_\_GCC\_HAVE\_SYNC\_COMPARE\_AND\_SWAP\_2}, 
+		\hyperpage{122}, \hyperpage{180}, \hyperpage{239}
+    \subitem {\_\_GCC\_HAVE\_SYNC\_COMPARE\_AND\_SWAP\_4}, 
+		\hyperpage{122}, \hyperpage{181}, \hyperpage{239}
+    \subitem {\_\_GCC\_HAVE\_SYNC\_COMPARE\_AND\_SWAP\_8}, 
+		\hyperpage{122}, \hyperpage{181}, \hyperpage{239}
+    \subitem {\_\_GCC\_IEC\_559}, \hyperpage{122}, \hyperpage{181}, 
+		\hyperpage{239}
+    \subitem {\_\_GCC\_IEC\_559\_COMPLEX}, \hyperpage{122}, 
+		\hyperpage{181}, \hyperpage{239}
+    \subitem {\_\_GLIBCXX\_BITSIZE\_INT\_N\_0}, \hyperpage{122}, 
+		\hyperpage{181}, \hyperpage{239}
+    \subitem {\_\_GLIBCXX\_TYPE\_INT\_N\_0}, \hyperpage{123}, 
+		\hyperpage{181}, \hyperpage{240}
+    \subitem {\_\_GNUC\_MINOR\_\_}, \hyperpage{123}, \hyperpage{182}, 
+		\hyperpage{240}
+    \subitem {\_\_GNUC\_PATCHLEVEL\_\_}, \hyperpage{123}, 
+		\hyperpage{182}, \hyperpage{240}
+    \subitem {\_\_GNUC\_STDC\_INLINE\_\_}, \hyperpage{123}, 
+		\hyperpage{182}, \hyperpage{240}
+    \subitem {\_\_GNUC\_\_}, \hyperpage{123}, \hyperpage{181}, 
+		\hyperpage{240}
+    \subitem {\_\_GNUG\_\_}, \hyperpage{123}, \hyperpage{182}, 
+		\hyperpage{240}
+    \subitem {\_\_GXX\_ABI\_VERSION}, \hyperpage{123}, \hyperpage{182}, 
+		\hyperpage{240}
+    \subitem {\_\_GXX\_EXPERIMENTAL\_CXX0X\_\_}, \hyperpage{124}, 
+		\hyperpage{182}, \hyperpage{241}
+    \subitem {\_\_GXX\_RTTI}, \hyperpage{124}, \hyperpage{182}, 
+		\hyperpage{241}
+    \subitem {\_\_GXX\_WEAK\_\_}, \hyperpage{124}, \hyperpage{182}, 
+		\hyperpage{241}
+    \subitem {\_\_HAVE\_SPECULATION\_SAFE\_VALUE}, \hyperpage{124}, 
+		\hyperpage{183}, \hyperpage{241}
+    \subitem {\_\_INT16\_C}, \hyperpage{124}, \hyperpage{183}, 
+		\hyperpage{241}
+    \subitem {\_\_INT16\_MAX\_\_}, \hyperpage{124}, \hyperpage{183}, 
+		\hyperpage{241}
+    \subitem {\_\_INT16\_TYPE\_\_}, \hyperpage{124}, \hyperpage{183}, 
+		\hyperpage{241}
+    \subitem {\_\_INT32\_C}, \hyperpage{125}, \hyperpage{183}, 
+		\hyperpage{242}
+    \subitem {\_\_INT32\_MAX\_\_}, \hyperpage{125}, \hyperpage{183}, 
+		\hyperpage{242}
+    \subitem {\_\_INT32\_TYPE\_\_}, \hyperpage{125}, \hyperpage{183}, 
+		\hyperpage{242}
+    \subitem {\_\_INT64\_C}, \hyperpage{125}, \hyperpage{184}, 
+		\hyperpage{242}
+    \subitem {\_\_INT64\_MAX\_\_}, \hyperpage{125}, \hyperpage{184}, 
+		\hyperpage{242}
+    \subitem {\_\_INT64\_TYPE\_\_}, \hyperpage{125}, \hyperpage{184}, 
+		\hyperpage{242}
+    \subitem {\_\_INT8\_C}, \hyperpage{125}, \hyperpage{184}, 
+		\hyperpage{242}
+    \subitem {\_\_INT8\_MAX\_\_}, \hyperpage{126}, \hyperpage{184}, 
+		\hyperpage{243}
+    \subitem {\_\_INT8\_TYPE\_\_}, \hyperpage{126}, \hyperpage{184}, 
+		\hyperpage{243}
+    \subitem {\_\_INTMAX\_C}, \hyperpage{129}, \hyperpage{188}, 
+		\hyperpage{246}
+    \subitem {\_\_INTMAX\_MAX\_\_}, \hyperpage{129}, \hyperpage{188}, 
+		\hyperpage{246}
+    \subitem {\_\_INTMAX\_TYPE\_\_}, \hyperpage{130}, \hyperpage{188}, 
+		\hyperpage{247}
+    \subitem {\_\_INTMAX\_WIDTH\_\_}, \hyperpage{130}, \hyperpage{188}, 
+		\hyperpage{247}
+    \subitem {\_\_INTPTR\_MAX\_\_}, \hyperpage{130}, \hyperpage{188}, 
+		\hyperpage{247}
+    \subitem {\_\_INTPTR\_TYPE\_\_}, \hyperpage{130}, \hyperpage{188}, 
+		\hyperpage{247}
+    \subitem {\_\_INTPTR\_WIDTH\_\_}, \hyperpage{130}, \hyperpage{189}, 
+		\hyperpage{247}
+    \subitem {\_\_INT\_FAST16\_MAX\_\_}, \hyperpage{126}, 
+		\hyperpage{184}, \hyperpage{243}
+    \subitem {\_\_INT\_FAST16\_TYPE\_\_}, \hyperpage{126}, 
+		\hyperpage{185}, \hyperpage{243}
+    \subitem {\_\_INT\_FAST16\_WIDTH\_\_}, \hyperpage{126}, 
+		\hyperpage{185}, \hyperpage{243}
+    \subitem {\_\_INT\_FAST32\_MAX\_\_}, \hyperpage{126}, 
+		\hyperpage{185}, \hyperpage{243}
+    \subitem {\_\_INT\_FAST32\_TYPE\_\_}, \hyperpage{126}, 
+		\hyperpage{185}, \hyperpage{243}
+    \subitem {\_\_INT\_FAST32\_WIDTH\_\_}, \hyperpage{127}, 
+		\hyperpage{185}, \hyperpage{244}
+    \subitem {\_\_INT\_FAST64\_MAX\_\_}, \hyperpage{127}, 
+		\hyperpage{185}, \hyperpage{244}
+    \subitem {\_\_INT\_FAST64\_TYPE\_\_}, \hyperpage{127}, 
+		\hyperpage{185}, \hyperpage{244}
+    \subitem {\_\_INT\_FAST64\_WIDTH\_\_}, \hyperpage{127}, 
+		\hyperpage{185}, \hyperpage{244}
+    \subitem {\_\_INT\_FAST8\_MAX\_\_}, \hyperpage{127}, 
+		\hyperpage{186}, \hyperpage{244}
+    \subitem {\_\_INT\_FAST8\_TYPE\_\_}, \hyperpage{127}, 
+		\hyperpage{186}, \hyperpage{244}
+    \subitem {\_\_INT\_FAST8\_WIDTH\_\_}, \hyperpage{127}, 
+		\hyperpage{186}, \hyperpage{244}
+    \subitem {\_\_INT\_LEAST16\_MAX\_\_}, \hyperpage{127}, 
+		\hyperpage{186}, \hyperpage{244}
+    \subitem {\_\_INT\_LEAST16\_TYPE\_\_}, \hyperpage{128}, 
+		\hyperpage{186}, \hyperpage{245}
+    \subitem {\_\_INT\_LEAST16\_WIDTH\_\_}, \hyperpage{128}, 
+		\hyperpage{186}, \hyperpage{245}
+    \subitem {\_\_INT\_LEAST32\_MAX\_\_}, \hyperpage{128}, 
+		\hyperpage{186}, \hyperpage{245}
+    \subitem {\_\_INT\_LEAST32\_TYPE\_\_}, \hyperpage{128}, 
+		\hyperpage{186}, \hyperpage{245}
+    \subitem {\_\_INT\_LEAST32\_WIDTH\_\_}, \hyperpage{128}, 
+		\hyperpage{187}, \hyperpage{245}
+    \subitem {\_\_INT\_LEAST64\_MAX\_\_}, \hyperpage{128}, 
+		\hyperpage{187}, \hyperpage{245}
+    \subitem {\_\_INT\_LEAST64\_TYPE\_\_}, \hyperpage{128}, 
+		\hyperpage{187}, \hyperpage{245}
+    \subitem {\_\_INT\_LEAST64\_WIDTH\_\_}, \hyperpage{128}, 
+		\hyperpage{187}, \hyperpage{245}
+    \subitem {\_\_INT\_LEAST8\_MAX\_\_}, \hyperpage{129}, 
+		\hyperpage{187}, \hyperpage{246}
+    \subitem {\_\_INT\_LEAST8\_TYPE\_\_}, \hyperpage{129}, 
+		\hyperpage{187}, \hyperpage{246}
+    \subitem {\_\_INT\_LEAST8\_WIDTH\_\_}, \hyperpage{129}, 
+		\hyperpage{187}, \hyperpage{246}
+    \subitem {\_\_INT\_MAX\_\_}, \hyperpage{129}, \hyperpage{187}, 
+		\hyperpage{246}
+    \subitem {\_\_INT\_WIDTH\_\_}, \hyperpage{129}, \hyperpage{188}, 
+		\hyperpage{246}
+    \subitem {\_\_LDBL\_DECIMAL\_DIG\_\_}, \hyperpage{130}, 
+		\hyperpage{189}, \hyperpage{247}
+    \subitem {\_\_LDBL\_DENORM\_MIN\_\_}, \hyperpage{131}, 
+		\hyperpage{189}, \hyperpage{248}
+    \subitem {\_\_LDBL\_DIG\_\_}, \hyperpage{131}, \hyperpage{189}, 
+		\hyperpage{248}
+    \subitem {\_\_LDBL\_EPSILON\_\_}, \hyperpage{131}, \hyperpage{189}, 
+		\hyperpage{248}
+    \subitem {\_\_LDBL\_HAS\_DENORM\_\_}, \hyperpage{131}, 
+		\hyperpage{189}, \hyperpage{248}
+    \subitem {\_\_LDBL\_HAS\_INFINITY\_\_}, \hyperpage{131}, 
+		\hyperpage{190}, \hyperpage{248}
+    \subitem {\_\_LDBL\_HAS\_QUIET\_NAN\_\_}, \hyperpage{131}, 
+		\hyperpage{190}, \hyperpage{248}
+    \subitem {\_\_LDBL\_MANT\_DIG\_\_}, \hyperpage{131}, 
+		\hyperpage{190}, \hyperpage{248}
+    \subitem {\_\_LDBL\_MAX\_10\_EXP\_\_}, \hyperpage{131}, 
+		\hyperpage{190}, \hyperpage{248}
+    \subitem {\_\_LDBL\_MAX\_EXP\_\_}, \hyperpage{132}, \hyperpage{190}, 
+		\hyperpage{249}
+    \subitem {\_\_LDBL\_MAX\_\_}, \hyperpage{132}, \hyperpage{190}, 
+		\hyperpage{249}
+    \subitem {\_\_LDBL\_MIN\_10\_EXP\_\_}, \hyperpage{132}, 
+		\hyperpage{190}, \hyperpage{249}
+    \subitem {\_\_LDBL\_MIN\_EXP\_\_}, \hyperpage{132}, \hyperpage{191}, 
+		\hyperpage{249}
+    \subitem {\_\_LDBL\_MIN\_\_}, \hyperpage{132}, \hyperpage{190}, 
+		\hyperpage{249}
+    \subitem {\_\_LDBL\_NORM\_MAX\_\_}, \hyperpage{132}, 
+		\hyperpage{191}, \hyperpage{249}
+    \subitem {\_\_LONG\_LONG\_MAX\_\_}, \hyperpage{133}, 
+		\hyperpage{191}, \hyperpage{250}
+    \subitem {\_\_LONG\_LONG\_WIDTH\_\_}, \hyperpage{133}, 
+		\hyperpage{191}, \hyperpage{250}
+    \subitem {\_\_LONG\_MAX\_\_}, \hyperpage{133}, \hyperpage{191}, 
+		\hyperpage{250}
+    \subitem {\_\_LONG\_WIDTH\_\_}, \hyperpage{133}, \hyperpage{191}, 
+		\hyperpage{250}
+    \subitem {\_\_LP64\_\_}, \hyperpage{133}, \hyperpage{192}, 
+		\hyperpage{250}
+    \subitem {\_\_MMX\_WITH\_SSE\_\_}, \hyperpage{133}, \hyperpage{192}, 
+		\hyperpage{250}
+    \subitem {\_\_MMX\_\_}, \hyperpage{133}, \hyperpage{192}, 
+		\hyperpage{250}
+    \subitem {\_\_NO\_INLINE\_\_}, \hyperpage{133}, \hyperpage{192}, 
+		\hyperpage{250}
+    \subitem {\_\_ORDER\_BIG\_ENDIAN\_\_}, \hyperpage{134}, 
+		\hyperpage{192}, \hyperpage{251}
+    \subitem {\_\_ORDER\_LITTLE\_ENDIAN\_\_}, \hyperpage{134}, 
+		\hyperpage{192}, \hyperpage{251}
+    \subitem {\_\_ORDER\_PDP\_ENDIAN\_\_}, \hyperpage{134}, 
+		\hyperpage{192}, \hyperpage{251}
+    \subitem {\_\_PIC\_\_}, \hyperpage{134}, \hyperpage{193}, 
+		\hyperpage{251}
+    \subitem {\_\_PIE\_\_}, \hyperpage{134}, \hyperpage{193}, 
+		\hyperpage{251}
+    \subitem {\_\_PRAGMA\_REDEFINE\_EXTNAME}, \hyperpage{134}, 
+		\hyperpage{193}, \hyperpage{251}
+    \subitem {\_\_PTRDIFF\_MAX\_\_}, \hyperpage{135}, \hyperpage{193}, 
+		\hyperpage{252}
+    \subitem {\_\_PTRDIFF\_TYPE\_\_}, \hyperpage{135}, \hyperpage{193}, 
+		\hyperpage{252}
+    \subitem {\_\_PTRDIFF\_WIDTH\_\_}, \hyperpage{135}, \hyperpage{193}, 
+		\hyperpage{252}
+    \subitem {\_\_REGISTER\_PREFIX\_\_}, \hyperpage{135}, 
+		\hyperpage{193}, \hyperpage{252}
+    \subitem {\_\_SCHAR\_MAX\_\_}, \hyperpage{135}, \hyperpage{194}, 
+		\hyperpage{252}
+    \subitem {\_\_SCHAR\_WIDTH\_\_}, \hyperpage{135}, \hyperpage{194}, 
+		\hyperpage{252}
+    \subitem {\_\_SEG\_FS}, \hyperpage{135}, \hyperpage{194}, 
+		\hyperpage{252}
+    \subitem {\_\_SEG\_GS}, \hyperpage{135}, \hyperpage{194}, 
+		\hyperpage{252}
+    \subitem {\_\_SHRT\_MAX\_\_}, \hyperpage{136}, \hyperpage{194}, 
+		\hyperpage{253}
+    \subitem {\_\_SHRT\_WIDTH\_\_}, \hyperpage{136}, \hyperpage{194}, 
+		\hyperpage{253}
+    \subitem {\_\_SIG\_ATOMIC\_MAX\_\_}, \hyperpage{136}, 
+		\hyperpage{194}, \hyperpage{253}
+    \subitem {\_\_SIG\_ATOMIC\_MIN\_\_}, \hyperpage{136}, 
+		\hyperpage{194}, \hyperpage{253}
+    \subitem {\_\_SIG\_ATOMIC\_TYPE\_\_}, \hyperpage{136}, 
+		\hyperpage{195}, \hyperpage{253}
+    \subitem {\_\_SIG\_ATOMIC\_WIDTH\_\_}, \hyperpage{136}, 
+		\hyperpage{195}, \hyperpage{253}
+    \subitem {\_\_SIZEOF\_DOUBLE\_\_}, \hyperpage{137}, \hyperpage{195}, 
+		\hyperpage{254}
+    \subitem {\_\_SIZEOF\_FLOAT128\_\_}, \hyperpage{137}, 
+		\hyperpage{195}, \hyperpage{254}
+    \subitem {\_\_SIZEOF\_FLOAT80\_\_}, \hyperpage{137}, 
+		\hyperpage{195}, \hyperpage{254}
+    \subitem {\_\_SIZEOF\_FLOAT\_\_}, \hyperpage{137}, \hyperpage{196}, 
+		\hyperpage{254}
+    \subitem {\_\_SIZEOF\_INT128\_\_}, \hyperpage{137}, \hyperpage{196}, 
+		\hyperpage{254}
+    \subitem {\_\_SIZEOF\_INT\_\_}, \hyperpage{137}, \hyperpage{196}, 
+		\hyperpage{254}
+    \subitem {\_\_SIZEOF\_LONG\_DOUBLE\_\_}, \hyperpage{138}, 
+		\hyperpage{196}, \hyperpage{255}
+    \subitem {\_\_SIZEOF\_LONG\_LONG\_\_}, \hyperpage{138}, 
+		\hyperpage{196}, \hyperpage{255}
+    \subitem {\_\_SIZEOF\_LONG\_\_}, \hyperpage{137}, \hyperpage{196}, 
+		\hyperpage{254}
+    \subitem {\_\_SIZEOF\_POINTER\_\_}, \hyperpage{138}, 
+		\hyperpage{196}, \hyperpage{255}
+    \subitem {\_\_SIZEOF\_PTRDIFF\_T\_\_}, \hyperpage{138}, 
+		\hyperpage{196}, \hyperpage{255}
+    \subitem {\_\_SIZEOF\_SHORT\_\_}, \hyperpage{138}, \hyperpage{197}, 
+		\hyperpage{255}
+    \subitem {\_\_SIZEOF\_SIZE\_T\_\_}, \hyperpage{138}, 
+		\hyperpage{197}, \hyperpage{255}
+    \subitem {\_\_SIZEOF\_WCHAR\_T\_\_}, \hyperpage{138}, 
+		\hyperpage{197}, \hyperpage{255}
+    \subitem {\_\_SIZEOF\_WINT\_T\_\_}, \hyperpage{138}, 
+		\hyperpage{197}, \hyperpage{255}
+    \subitem {\_\_SIZE\_MAX\_\_}, \hyperpage{136}, \hyperpage{195}, 
+		\hyperpage{253}
+    \subitem {\_\_SIZE\_TYPE\_\_}, \hyperpage{136}, \hyperpage{195}, 
+		\hyperpage{253}
+    \subitem {\_\_SIZE\_WIDTH\_\_}, \hyperpage{137}, \hyperpage{195}, 
+		\hyperpage{254}
+    \subitem {\_\_SSE2\_MATH\_\_}, \hyperpage{139}, \hyperpage{197}, 
+		\hyperpage{256}
+    \subitem {\_\_SSE2\_\_}, \hyperpage{139}, \hyperpage{197}, 
+		\hyperpage{256}
+    \subitem {\_\_SSE\_MATH\_\_}, \hyperpage{139}, \hyperpage{197}, 
+		\hyperpage{256}
+    \subitem {\_\_SSE\_\_}, \hyperpage{139}, \hyperpage{197}, 
+		\hyperpage{256}
+    \subitem {\_\_SSP\_STRONG\_\_}, \hyperpage{139}, \hyperpage{198}, 
+		\hyperpage{256}
+    \subitem {\_\_STDC\_HOSTED\_\_}, \hyperpage{139}, \hyperpage{198}, 
+		\hyperpage{256}
+    \subitem {\_\_STDC\_IEC\_559\_COMPLEX\_\_}, \hyperpage{140}, 
+		\hyperpage{198}, \hyperpage{257}
+    \subitem {\_\_STDC\_IEC\_559\_\_}, \hyperpage{139}, \hyperpage{198}, 
+		\hyperpage{256}
+    \subitem {\_\_STDC\_ISO\_10646\_\_}, \hyperpage{140}, 
+		\hyperpage{198}, \hyperpage{257}
+    \subitem {\_\_STDC\_UTF\_16\_\_}, \hyperpage{140}, \hyperpage{198}, 
+		\hyperpage{257}
+    \subitem {\_\_STDC\_UTF\_32\_\_}, \hyperpage{140}, \hyperpage{198}, 
+		\hyperpage{257}
+    \subitem {\_\_STDC\_\_}, \hyperpage{139}, \hyperpage{198}, 
+		\hyperpage{256}
+    \subitem {\_\_UINT16\_C}, \hyperpage{140}, \hyperpage{199}, 
+		\hyperpage{257}
+    \subitem {\_\_UINT16\_MAX\_\_}, \hyperpage{140}, \hyperpage{199}, 
+		\hyperpage{257}
+    \subitem {\_\_UINT16\_TYPE\_\_}, \hyperpage{140}, \hyperpage{199}, 
+		\hyperpage{257}
+    \subitem {\_\_UINT32\_C}, \hyperpage{141}, \hyperpage{199}, 
+		\hyperpage{258}
+    \subitem {\_\_UINT32\_MAX\_\_}, \hyperpage{141}, \hyperpage{199}, 
+		\hyperpage{258}
+    \subitem {\_\_UINT32\_TYPE\_\_}, \hyperpage{141}, \hyperpage{199}, 
+		\hyperpage{258}
+    \subitem {\_\_UINT64\_C}, \hyperpage{141}, \hyperpage{199}, 
+		\hyperpage{258}
+    \subitem {\_\_UINT64\_MAX\_\_}, \hyperpage{141}, \hyperpage{200}, 
+		\hyperpage{258}
+    \subitem {\_\_UINT64\_TYPE\_\_}, \hyperpage{141}, \hyperpage{200}, 
+		\hyperpage{258}
+    \subitem {\_\_UINT8\_C}, \hyperpage{141}, \hyperpage{200}, 
+		\hyperpage{258}
+    \subitem {\_\_UINT8\_MAX\_\_}, \hyperpage{142}, \hyperpage{200}, 
+		\hyperpage{259}
+    \subitem {\_\_UINT8\_TYPE\_\_}, \hyperpage{142}, \hyperpage{200}, 
+		\hyperpage{259}
+    \subitem {\_\_UINTMAX\_C}, \hyperpage{144}, \hyperpage{202}, 
+		\hyperpage{261}
+    \subitem {\_\_UINTMAX\_MAX\_\_}, \hyperpage{144}, \hyperpage{202}, 
+		\hyperpage{261}
+    \subitem {\_\_UINTMAX\_TYPE\_\_}, \hyperpage{144}, \hyperpage{203}, 
+		\hyperpage{261}
+    \subitem {\_\_UINTPTR\_MAX\_\_}, \hyperpage{144}, \hyperpage{203}, 
+		\hyperpage{261}
+    \subitem {\_\_UINTPTR\_TYPE\_\_}, \hyperpage{145}, \hyperpage{203}, 
+		\hyperpage{262}
+    \subitem {\_\_UINT\_FAST16\_MAX\_\_}, \hyperpage{142}, 
+		\hyperpage{200}, \hyperpage{259}
+    \subitem {\_\_UINT\_FAST16\_TYPE\_\_}, \hyperpage{142}, 
+		\hyperpage{200}, \hyperpage{259}
+    \subitem {\_\_UINT\_FAST32\_MAX\_\_}, \hyperpage{142}, 
+		\hyperpage{201}, \hyperpage{259}
+    \subitem {\_\_UINT\_FAST32\_TYPE\_\_}, \hyperpage{142}, 
+		\hyperpage{201}, \hyperpage{259}
+    \subitem {\_\_UINT\_FAST64\_MAX\_\_}, \hyperpage{142}, 
+		\hyperpage{201}, \hyperpage{259}
+    \subitem {\_\_UINT\_FAST64\_TYPE\_\_}, \hyperpage{143}, 
+		\hyperpage{201}, \hyperpage{260}
+    \subitem {\_\_UINT\_FAST8\_MAX\_\_}, \hyperpage{143}, 
+		\hyperpage{201}, \hyperpage{260}
+    \subitem {\_\_UINT\_FAST8\_TYPE\_\_}, \hyperpage{143}, 
+		\hyperpage{201}, \hyperpage{260}
+    \subitem {\_\_UINT\_LEAST16\_MAX\_\_}, \hyperpage{143}, 
+		\hyperpage{201}, \hyperpage{260}
+    \subitem {\_\_UINT\_LEAST16\_TYPE\_\_}, \hyperpage{143}, 
+		\hyperpage{201}, \hyperpage{260}
+    \subitem {\_\_UINT\_LEAST32\_MAX\_\_}, \hyperpage{143}, 
+		\hyperpage{202}, \hyperpage{260}
+    \subitem {\_\_UINT\_LEAST32\_TYPE\_\_}, \hyperpage{143}, 
+		\hyperpage{202}, \hyperpage{260}
+    \subitem {\_\_UINT\_LEAST64\_MAX\_\_}, \hyperpage{143}, 
+		\hyperpage{202}, \hyperpage{260}
+    \subitem {\_\_UINT\_LEAST64\_TYPE\_\_}, \hyperpage{144}, 
+		\hyperpage{202}, \hyperpage{261}
+    \subitem {\_\_UINT\_LEAST8\_MAX\_\_}, \hyperpage{144}, 
+		\hyperpage{202}, \hyperpage{261}
+    \subitem {\_\_UINT\_LEAST8\_TYPE\_\_}, \hyperpage{144}, 
+		\hyperpage{202}, \hyperpage{261}
+    \subitem {\_\_USER\_LABEL\_PREFIX\_\_}, \hyperpage{145}, 
+		\hyperpage{203}, \hyperpage{262}
+    \subitem {\_\_VERSION\_\_}, \hyperpage{145}, \hyperpage{203}, 
+		\hyperpage{262}
+    \subitem {\_\_WCHAR\_MAX\_\_}, \hyperpage{145}, \hyperpage{203}, 
+		\hyperpage{262}
+    \subitem {\_\_WCHAR\_MIN\_\_}, \hyperpage{145}, \hyperpage{204}, 
+		\hyperpage{262}
+    \subitem {\_\_WCHAR\_TYPE\_\_}, \hyperpage{145}, \hyperpage{204}, 
+		\hyperpage{262}
+    \subitem {\_\_WCHAR\_WIDTH\_\_}, \hyperpage{146}, \hyperpage{204}, 
+		\hyperpage{263}
+    \subitem {\_\_WINT\_MAX\_\_}, \hyperpage{146}, \hyperpage{204}, 
+		\hyperpage{263}
+    \subitem {\_\_WINT\_MIN\_\_}, \hyperpage{146}, \hyperpage{204}, 
+		\hyperpage{263}
+    \subitem {\_\_WINT\_TYPE\_\_}, \hyperpage{146}, \hyperpage{204}, 
+		\hyperpage{263}
+    \subitem {\_\_WINT\_WIDTH\_\_}, \hyperpage{146}, \hyperpage{204}, 
+		\hyperpage{263}
+    \subitem {\_\_amd64}, \hyperpage{97}, \hyperpage{155}, 
+		\hyperpage{214}
+    \subitem {\_\_amd64\_\_}, \hyperpage{97}, \hyperpage{155}, 
+		\hyperpage{214}
+    \subitem {\_\_code\_model\_small\_\_}, \hyperpage{98}, 
+		\hyperpage{157}, \hyperpage{215}
+    \subitem {\_\_cplusplus}, \hyperpage{99}, \hyperpage{157}, 
+		\hyperpage{216}
+    \subitem {\_\_cpp\_aggregate\_nsdmi}, \hyperpage{99}, 
+		\hyperpage{157}, \hyperpage{216}
+    \subitem {\_\_cpp\_alias\_templates}, \hyperpage{99}, 
+		\hyperpage{157}, \hyperpage{216}
+    \subitem {\_\_cpp\_attributes}, \hyperpage{99}, \hyperpage{158}, 
+		\hyperpage{216}
+    \subitem {\_\_cpp\_binary\_literals}, \hyperpage{99}, 
+		\hyperpage{158}, \hyperpage{216}
+    \subitem {\_\_cpp\_constexpr}, \hyperpage{99}, \hyperpage{158}, 
+		\hyperpage{216}
+    \subitem {\_\_cpp\_decltype}, \hyperpage{99}, \hyperpage{158}, 
+		\hyperpage{216}
+    \subitem {\_\_cpp\_decltype\_auto}, \hyperpage{99}, \hyperpage{158}, 
+		\hyperpage{216}
+    \subitem {\_\_cpp\_delegating\_constructors}, \hyperpage{100}, 
+		\hyperpage{158}, \hyperpage{217}
+    \subitem {\_\_cpp\_digit\_separators}, \hyperpage{100}, 
+		\hyperpage{158}, \hyperpage{217}
+    \subitem {\_\_cpp\_exceptions}, \hyperpage{100}, \hyperpage{158}, 
+		\hyperpage{217}
+    \subitem {\_\_cpp\_generic\_lambdas}, \hyperpage{100}, 
+		\hyperpage{159}, \hyperpage{217}
+    \subitem {\_\_cpp\_hex\_float}, \hyperpage{100}, \hyperpage{159}, 
+		\hyperpage{217}
+    \subitem {\_\_cpp\_inheriting\_constructors}, \hyperpage{100}, 
+		\hyperpage{159}, \hyperpage{217}
+    \subitem {\_\_cpp\_init\_captures}, \hyperpage{100}, 
+		\hyperpage{159}, \hyperpage{217}
+    \subitem {\_\_cpp\_initializer\_lists}, \hyperpage{100}, 
+		\hyperpage{159}, \hyperpage{217}
+    \subitem {\_\_cpp\_lambdas}, \hyperpage{101}, \hyperpage{159}, 
+		\hyperpage{218}
+    \subitem {\_\_cpp\_nsdmi}, \hyperpage{101}, \hyperpage{159}, 
+		\hyperpage{218}
+    \subitem {\_\_cpp\_range\_based\_for}, \hyperpage{101}, 
+		\hyperpage{159}, \hyperpage{218}
+    \subitem {\_\_cpp\_raw\_strings}, \hyperpage{101}, \hyperpage{160}, 
+		\hyperpage{218}
+    \subitem {\_\_cpp\_ref\_qualifiers}, \hyperpage{101}, 
+		\hyperpage{160}, \hyperpage{218}
+    \subitem {\_\_cpp\_return\_type\_deduction}, \hyperpage{101}, 
+		\hyperpage{160}, \hyperpage{218}
+    \subitem {\_\_cpp\_rtti}, \hyperpage{101}, \hyperpage{160}, 
+		\hyperpage{218}
+    \subitem {\_\_cpp\_runtime\_arrays}, \hyperpage{101}, 
+		\hyperpage{160}, \hyperpage{218}
+    \subitem {\_\_cpp\_rvalue\_reference}, \hyperpage{102}, 
+		\hyperpage{160}, \hyperpage{219}
+    \subitem {\_\_cpp\_rvalue\_references}, \hyperpage{102}, 
+		\hyperpage{160}, \hyperpage{219}
+    \subitem {\_\_cpp\_sized\_deallocation}, \hyperpage{102}, 
+		\hyperpage{160}, \hyperpage{219}
+    \subitem {\_\_cpp\_static\_assert}, \hyperpage{102}, 
+		\hyperpage{161}, \hyperpage{219}
+    \subitem {\_\_cpp\_threadsafe\_static\_init}, \hyperpage{102}, 
+		\hyperpage{161}, \hyperpage{219}
+    \subitem {\_\_cpp\_unicode\_characters}, \hyperpage{102}, 
+		\hyperpage{161}, \hyperpage{219}
+    \subitem {\_\_cpp\_unicode\_literals}, \hyperpage{102}, 
+		\hyperpage{161}, \hyperpage{219}
+    \subitem {\_\_cpp\_user\_defined\_literals}, \hyperpage{102}, 
+		\hyperpage{161}, \hyperpage{219}
+    \subitem {\_\_cpp\_variable\_templates}, \hyperpage{103}, 
+		\hyperpage{161}, \hyperpage{220}
+    \subitem {\_\_cpp\_variadic\_templates}, \hyperpage{103}, 
+		\hyperpage{161}, \hyperpage{220}
+    \subitem {\_\_gnu\_linux\_\_}, \hyperpage{123}, \hyperpage{181}, 
+		\hyperpage{240}
+    \subitem {\_\_k8}, \hyperpage{130}, \hyperpage{189}, 
+		\hyperpage{247}
+    \subitem {\_\_k8\_\_}, \hyperpage{130}, \hyperpage{189}, 
+		\hyperpage{247}
+    \subitem {\_\_linux}, \hyperpage{132}, \hyperpage{191}, 
+		\hyperpage{249}
+    \subitem {\_\_linux\_\_}, \hyperpage{132}, \hyperpage{191}, 
+		\hyperpage{249}
+    \subitem {\_\_pic\_\_}, \hyperpage{134}, \hyperpage{192}, 
+		\hyperpage{251}
+    \subitem {\_\_pie\_\_}, \hyperpage{134}, \hyperpage{193}, 
+		\hyperpage{251}
+    \subitem {\_\_unix}, \hyperpage{145}, \hyperpage{203}, 
+		\hyperpage{262}
+    \subitem {\_\_unix\_\_}, \hyperpage{145}, \hyperpage{203}, 
+		\hyperpage{262}
+    \subitem {\_\_x86\_64}, \hyperpage{146}, \hyperpage{204}, 
+		\hyperpage{263}
+    \subitem {\_\_x86\_64\_\_}, \hyperpage{146}, \hyperpage{205}, 
+		\hyperpage{263}
+    \subitem {ABI\_ID}, \hyperpage{147}, \hyperpage{205}, 
+		\hyperpage{264}
+    \subitem {linux}, \hyperpage{147}, \hyperpage{205}, \hyperpage{264}
+    \subitem {QT\_CORE\_LIB}, \hyperpage{147}, \hyperpage{205}, 
+		\hyperpage{264}
+    \subitem {QT\_GUI\_LIB}, \hyperpage{147}, \hyperpage{205}, 
+		\hyperpage{264}
+    \subitem {QT\_NO\_DEBUG}, \hyperpage{206}
+    \subitem {QT\_WIDGETS\_LIB}, \hyperpage{147}, \hyperpage{206}, 
+		\hyperpage{264}
+    \subitem {SIZEOF\_DPTR}, \hyperpage{147}, \hyperpage{206}, 
+		\hyperpage{264}
+    \subitem {unix}, \hyperpage{148}, \hyperpage{206}, \hyperpage{265}
+  \item {Mon}
+    \subitem {calendar}, \hyperpage{11}
+  \item {monthLabel}
+    \subitem {Ui\_MainWindow}, \hyperpage{79}
+  \item {Monthly}
+    \subitem {calendar}, \hyperpage{11}
+  \item {monthModel}
+    \subitem {calendar}, \hyperpage{10}
+  \item {monthTableView}
+    \subitem {Ui\_MainWindow}, \hyperpage{79}
+
+  \indexspace
+
+  \item {nextMonth}
+    \subitem {Ui\_MainWindow}, \hyperpage{79}
+  \item {None}
+    \subitem {calendar}, \hyperpage{11}
+  \item {Nov}
+    \subitem {calendar}, \hyperpage{11}
+
+  \indexspace
+
+  \item {Oct}
+    \subitem {calendar}, \hyperpage{11}
+  \item {operator!=}
+    \subitem {calendar::date}, \hyperpage{31}
+  \item {operator$<$}
+    \subitem {calendar::date}, \hyperpage{31}
+  \item {operator$<$=}
+    \subitem {calendar::date}, \hyperpage{31}
+  \item {operator$>$}
+    \subitem {calendar::date}, \hyperpage{32}
+  \item {operator$>$=}
+    \subitem {calendar::date}, \hyperpage{32}
+  \item {operator==}
+    \subitem {calendar::date}, \hyperpage{31}
+
+  \indexspace
+
+  \item {PLATFORM\_ID}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{267}, \hyperpage{270}, 
+		\hyperpage{273}, \hyperpage{276}, \hyperpage{279}, 
+		\hyperpage{282}
+  \item {prevMonth}
+    \subitem {Ui\_MainWindow}, \hyperpage{79}
+
+  \indexspace
+
+  \item {QT\_CORE\_LIB}
+    \subitem {moc\_predefs.h}, \hyperpage{147}, \hyperpage{205}, 
+		\hyperpage{264}
+  \item {QT\_GUI\_LIB}
+    \subitem {moc\_predefs.h}, \hyperpage{147}, \hyperpage{205}, 
+		\hyperpage{264}
+  \item {qt\_meta\_stringdata\_MainWindow\_t}, \hyperpage{69}
+    \subitem {data}, \hyperpage{69}
+    \subitem {stringdata0}, \hyperpage{69}
+  \item {QT\_MOC\_LITERAL}
+    \subitem {moc\_mainwindow.cpp}, \hyperpage{285}
+  \item {QT\_NO\_DEBUG}
+    \subitem {moc\_predefs.h}, \hyperpage{206}
+  \item {QT\_WIDGETS\_LIB}
+    \subitem {moc\_predefs.h}, \hyperpage{147}, \hyperpage{206}, 
+		\hyperpage{264}
+
+  \indexspace
+
+  \item {repeatCycle}
+    \subitem {calendar}, \hyperpage{10, 11}
+  \item {res/calendarView.cpp}, \hyperpage{306}
+  \item {res/dataInterface.cpp}, \hyperpage{306}
+  \item {res/date.cpp}, \hyperpage{307}
+  \item {res/dayModel.cpp}, \hyperpage{307}
+  \item {res/eventBirthdayModel.cpp}, \hyperpage{308}
+  \item {res/eventHolidayModel.cpp}, \hyperpage{308}
+  \item {res/eventModel.cpp}, \hyperpage{309}
+  \item {res/eventReminderModel.cpp}, \hyperpage{310}
+  \item {res/todoElement.cpp}, \hyperpage{311}
+  \item {res/todoView.cpp}, \hyperpage{311}
+  \item {res/weeklyCalendarView.cpp}, \hyperpage{312}
+  \item {retranslateUi}
+    \subitem {Ui\_MainWindow}, \hyperpage{76}
+
+  \indexspace
+
+  \item {Sat}
+    \subitem {calendar}, \hyperpage{11}
+  \item {saveAction}
+    \subitem {Ui\_MainWindow}, \hyperpage{79}
+  \item {saveToFiles}
+    \subitem {MainWindow}, \hyperpage{67}
+  \item {Sep}
+    \subitem {calendar}, \hyperpage{11}
+  \item {setBirthDate}
+    \subitem {calendar::eventBirthday}, \hyperpage{50}
+  \item {setCurrentDate}
+    \subitem {calendar::date}, \hyperpage{32}
+  \item {setDataRecord}
+    \subitem {calendar::todoElement}, \hyperpage{72}
+  \item {setDate}
+    \subitem {calendar::day}, \hyperpage{39}
+  \item {setDay}
+    \subitem {calendar::date}, \hyperpage{33}
+  \item {setEvBegin}
+    \subitem {calendar::eventHoliday}, \hyperpage{56}
+  \item {setEvDate}
+    \subitem {calendar::event}, \hyperpage{44}
+  \item {setEvDescription}
+    \subitem {calendar::event}, \hyperpage{45}
+  \item {setEvEnd}
+    \subitem {calendar::eventHoliday}, \hyperpage{58}
+  \item {setEvents}
+    \subitem {calendar::calendarView}, \hyperpage{20}
+    \subitem {calendar::weeklyCalendarView}, \hyperpage{87}
+  \item {setEvLocation}
+    \subitem {calendar::eventReminder}, \hyperpage{62}
+  \item {setEvName}
+    \subitem {calendar::event}, \hyperpage{45}
+  \item {setEvRepeat}
+    \subitem {calendar::event}, \hyperpage{46}
+    \subitem {calendar::eventBirthday}, \hyperpage{51}
+  \item {setEvType}
+    \subitem {calendar::eventReminder}, \hyperpage{63}
+  \item {setItems}
+    \subitem {calendar::todoView}, \hyperpage{74}
+  \item {setMonth}
+    \subitem {calendar::date}, \hyperpage{33}
+  \item {setPersonalData}
+    \subitem {calendar::eventBirthday}, \hyperpage{51}
+  \item {setPosition}
+    \subitem {calendar::todoElement}, \hyperpage{72}
+  \item {setTodayDate}
+    \subitem {calendar::calendarView}, \hyperpage{20}
+    \subitem {calendar::weeklyCalendarView}, \hyperpage{88}
+  \item {setupUi}
+    \subitem {Ui\_MainWindow}, \hyperpage{76}
+  \item {setWeekNum}
+    \subitem {calendar::date}, \hyperpage{34}
+  \item {setYear}
+    \subitem {calendar::date}, \hyperpage{34}
+  \item {SIZEOF\_DPTR}
+    \subitem {moc\_predefs.h}, \hyperpage{147}, \hyperpage{206}, 
+		\hyperpage{264}
+  \item {statusbar}
+    \subitem {Ui\_MainWindow}, \hyperpage{80}
+  \item {stringdata0}
+    \subitem {qt\_meta\_stringdata\_MainWindow\_t}, \hyperpage{69}
+  \item {STRINGIFY}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{268}, \hyperpage{271}, 
+		\hyperpage{274}, \hyperpage{277}, \hyperpage{280}, 
+		\hyperpage{283}
+  \item {stringify}
+    \subitem {calendar::date}, \hyperpage{35}
+  \item {STRINGIFY\_HELPER}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{268}, \hyperpage{271}, 
+		\hyperpage{274}, \hyperpage{277}, \hyperpage{280}, 
+		\hyperpage{283}
+  \item {stringifyEvent}
+    \subitem {calendar::event}, \hyperpage{46}
+    \subitem {calendar::eventBirthday}, \hyperpage{52}
+    \subitem {calendar::eventHoliday}, \hyperpage{58}
+    \subitem {calendar::eventReminder}, \hyperpage{63}
+  \item {Sun}
+    \subitem {calendar}, \hyperpage{11}
+
+  \indexspace
+
+  \item {Thu}
+    \subitem {calendar}, \hyperpage{11}
+  \item {todoElement}
+    \subitem {calendar::todoElement}, \hyperpage{70}
+  \item {todoItemTextInput}
+    \subitem {Ui\_MainWindow}, \hyperpage{80}
+  \item {todoLabel}
+    \subitem {Ui\_MainWindow}, \hyperpage{80}
+  \item {Tue}
+    \subitem {calendar}, \hyperpage{11}
+
+  \indexspace
+
+  \item {Ui}, \hyperpage{12}
+  \item {Ui::MainWindow}, \hyperpage{68}
+  \item {Ui\_MainWindow}, \hyperpage{75}
+    \subitem {addTodoItemButton}, \hyperpage{77}
+    \subitem {centralwidget}, \hyperpage{77}
+    \subitem {changeCalendarViewMonthly}, \hyperpage{77}
+    \subitem {changeCalendarViewWeekly}, \hyperpage{77}
+    \subitem {closeAction}, \hyperpage{78}
+    \subitem {eventsListView}, \hyperpage{78}
+    \subitem {horizontalLayout}, \hyperpage{78}
+    \subitem {horizontalLayout\_2}, \hyperpage{78}
+    \subitem {horizontalLayout\_3}, \hyperpage{78}
+    \subitem {layoutWidget}, \hyperpage{78}
+    \subitem {layoutWidget1}, \hyperpage{78}
+    \subitem {layoutWidget2}, \hyperpage{78}
+    \subitem {listView}, \hyperpage{79}
+    \subitem {menubar}, \hyperpage{79}
+    \subitem {menutest}, \hyperpage{79}
+    \subitem {monthLabel}, \hyperpage{79}
+    \subitem {monthTableView}, \hyperpage{79}
+    \subitem {nextMonth}, \hyperpage{79}
+    \subitem {prevMonth}, \hyperpage{79}
+    \subitem {retranslateUi}, \hyperpage{76}
+    \subitem {saveAction}, \hyperpage{79}
+    \subitem {setupUi}, \hyperpage{76}
+    \subitem {statusbar}, \hyperpage{80}
+    \subitem {todoItemTextInput}, \hyperpage{80}
+    \subitem {todoLabel}, \hyperpage{80}
+    \subitem {verticalLayout}, \hyperpage{80}
+    \subitem {verticalLayout\_2}, \hyperpage{80}
+    \subitem {verticalLayout\_3}, \hyperpage{80}
+    \subitem {yearLabel}, \hyperpage{80}
+  \item {unix}
+    \subitem {moc\_predefs.h}, \hyperpage{148}, \hyperpage{206}, 
+		\hyperpage{265}
+
+  \indexspace
+
+  \item {verticalLayout}
+    \subitem {Ui\_MainWindow}, \hyperpage{80}
+  \item {verticalLayout\_2}
+    \subitem {Ui\_MainWindow}, \hyperpage{80}
+  \item {verticalLayout\_3}
+    \subitem {Ui\_MainWindow}, \hyperpage{80}
+
+  \indexspace
+
+  \item {Wed}
+    \subitem {calendar}, \hyperpage{11}
+  \item {weekDayModel}
+    \subitem {calendar}, \hyperpage{10, 11}
+  \item {Weekly}
+    \subitem {calendar}, \hyperpage{11}
+  \item {weeklyCalendarView}
+    \subitem {calendar::weeklyCalendarView}, \hyperpage{82}
+
+  \indexspace
+
+  \item {yearLabel}
+    \subitem {Ui\_MainWindow}, \hyperpage{80}
+
+\end{theindex}

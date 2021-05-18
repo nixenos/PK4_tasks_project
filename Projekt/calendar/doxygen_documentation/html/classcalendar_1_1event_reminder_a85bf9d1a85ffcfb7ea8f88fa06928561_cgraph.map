@@ -1,0 +1,6 @@
+<map id="calendar::eventReminder::stringifyEvent" name="calendar::eventReminder::stringifyEvent">
+<area shape="rect" id="node1" title="deklaracja metody wirtualnej z klasy event" alt="" coords="5,71,192,112"/>
+<area shape="rect" id="node2" href="$classcalendar_1_1event_reminder.html#ad0ff99be4dc13deb6fa89a1e61434ffa" title="pobiera lokalizację wydarzenia" alt="" coords="240,5,427,47"/>
+<area shape="rect" id="node3" href="$classcalendar_1_1event_reminder.html#abc95eef5c7cd68208265734f3c2d9d1f" title="pobiera typ wydarzenia" alt="" coords="240,71,427,112"/>
+<area shape="rect" id="node4" href="$classcalendar_1_1event.html#a99bb00302eb18633adf75dd202fe0c03" title="pobiera odpowiednie dane dla każdego z elementów i przetwarza je w std::string wyświetlany w GUI apli..." alt="" coords="241,136,426,177"/>
+</map>

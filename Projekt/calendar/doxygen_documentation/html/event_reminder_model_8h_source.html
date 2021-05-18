@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Kalendarz: Plik źródłowy includes/eventReminderModel.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Kalendarz
+   &#160;<span id="projectnumber">0.1</span>
+   </div>
+   <div id="projectbrief">Kalendarz w Qt5</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_09e761304027c904456130627fd4dcf5.html">includes</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">eventReminderModel.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="event_reminder_model_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="event_model_8h.html">eventModel.h</a>&quot;</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacecalendar.html">calendar</a> {</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classcalendar_1_1event_reminder.html">   16</a></span>&#160;<span class="keyword">class </span><a class="code" href="classcalendar_1_1event_reminder.html">eventReminder</a> : <span class="keyword">public</span> <a class="code" href="classcalendar_1_1event.html">event</a> {</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;  <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    std::string evLocation;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    std::string evType;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <a class="code" href="classcalendar_1_1event_reminder.html#a2b4bb6164f972a34b0ad303ef2e612a0">eventReminder</a>();</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <a class="code" href="classcalendar_1_1event_reminder.html#a2b4bb6164f972a34b0ad303ef2e612a0">eventReminder</a>(<span class="keyword">const</span> <a class="code" href="classcalendar_1_1date.html">date</a> &amp;newDate, <span class="keyword">const</span> std::string &amp;newName,</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                  <span class="keyword">const</span> <a class="code" href="namespacecalendar.html#a8c77826be937e7a48bf92b36b5247280">repeatCycle</a> &amp;newRepeat,</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                  <span class="keyword">const</span> std::string &amp;newEvLocation,</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                  <span class="keyword">const</span> std::string &amp;newEvType);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    std::string <a class="code" href="classcalendar_1_1event_reminder.html#ad0ff99be4dc13deb6fa89a1e61434ffa">getEvLocation</a>() <span class="keyword">const</span> noexcept;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classcalendar_1_1event_reminder.html#a790c2a234a772c11aaba8f6c4fbfa015">setEvLocation</a>(<span class="keyword">const</span> std::string &amp;newEvLocation);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    std::string <a class="code" href="classcalendar_1_1event_reminder.html#abc95eef5c7cd68208265734f3c2d9d1f">getEvType</a>() <span class="keyword">const</span> noexcept;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classcalendar_1_1event_reminder.html#ae79b7045c7fcf5461739a7ceee3d2e56">setEvType</a>(<span class="keyword">const</span> std::string &amp;newEvType);</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160; </div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keyword">virtual</span> std::string <a class="code" href="classcalendar_1_1event_reminder.html#a85bf9d1a85ffcfb7ea8f88fa06928561">stringifyEvent</a>() <span class="keyword">const</span> noexcept;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160; </div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keyword">virtual</span> std::string <a class="code" href="classcalendar_1_1event_reminder.html#af533ec46a96abfffbf8960e18f79b398">exportData</a>() <span class="keyword">const</span> noexcept;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;};</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;} <span class="comment">// namespace calendar</span></div>
+<div class="ttc" id="aclasscalendar_1_1date_html"><div class="ttname"><a href="classcalendar_1_1date.html">calendar::date</a></div><div class="ttdoc">klasa obsługująca datę.</div><div class="ttdef"><b>Definition:</b> date.h:56</div></div>
+<div class="ttc" id="aclasscalendar_1_1event_html"><div class="ttname"><a href="classcalendar_1_1event.html">calendar::event</a></div><div class="ttdef"><b>Definition:</b> eventModel.h:19</div></div>
+<div class="ttc" id="aclasscalendar_1_1event_reminder_html"><div class="ttname"><a href="classcalendar_1_1event_reminder.html">calendar::eventReminder</a></div><div class="ttdef"><b>Definition:</b> eventReminderModel.h:16</div></div>
+<div class="ttc" id="aclasscalendar_1_1event_reminder_html_a2b4bb6164f972a34b0ad303ef2e612a0"><div class="ttname"><a href="classcalendar_1_1event_reminder.html#a2b4bb6164f972a34b0ad303ef2e612a0">calendar::eventReminder::eventReminder</a></div><div class="ttdeci">eventReminder()</div><div class="ttdoc">konstruktor bezargumentowy, tworzy pusty obiekt o wszystkich polach NULL</div><div class="ttdef"><b>Definition:</b> eventReminderModel.cpp:14</div></div>
+<div class="ttc" id="aclasscalendar_1_1event_reminder_html_a790c2a234a772c11aaba8f6c4fbfa015"><div class="ttname"><a href="classcalendar_1_1event_reminder.html#a790c2a234a772c11aaba8f6c4fbfa015">calendar::eventReminder::setEvLocation</a></div><div class="ttdeci">void setEvLocation(const std::string &amp;newEvLocation)</div><div class="ttdoc">ustawia nową lokalizację wydarzenia</div><div class="ttdef"><b>Definition:</b> eventReminderModel.cpp:16</div></div>
+<div class="ttc" id="aclasscalendar_1_1event_reminder_html_a85bf9d1a85ffcfb7ea8f88fa06928561"><div class="ttname"><a href="classcalendar_1_1event_reminder.html#a85bf9d1a85ffcfb7ea8f88fa06928561">calendar::eventReminder::stringifyEvent</a></div><div class="ttdeci">virtual std::string stringifyEvent() const noexcept</div><div class="ttdoc">deklaracja metody wirtualnej z klasy event</div><div class="ttdef"><b>Definition:</b> eventReminderModel.cpp:23</div></div>
+<div class="ttc" id="aclasscalendar_1_1event_reminder_html_abc95eef5c7cd68208265734f3c2d9d1f"><div class="ttname"><a href="classcalendar_1_1event_reminder.html#abc95eef5c7cd68208265734f3c2d9d1f">calendar::eventReminder::getEvType</a></div><div class="ttdeci">std::string getEvType() const noexcept</div><div class="ttdoc">pobiera typ wydarzenia</div><div class="ttdef"><b>Definition:</b> eventReminderModel.cpp:31</div></div>
+<div class="ttc" id="aclasscalendar_1_1event_reminder_html_ad0ff99be4dc13deb6fa89a1e61434ffa"><div class="ttname"><a href="classcalendar_1_1event_reminder.html#ad0ff99be4dc13deb6fa89a1e61434ffa">calendar::eventReminder::getEvLocation</a></div><div class="ttdeci">std::string getEvLocation() const noexcept</div><div class="ttdoc">pobiera lokalizację wydarzenia</div><div class="ttdef"><b>Definition:</b> eventReminderModel.cpp:33</div></div>
+<div class="ttc" id="aclasscalendar_1_1event_reminder_html_ae79b7045c7fcf5461739a7ceee3d2e56"><div class="ttname"><a href="classcalendar_1_1event_reminder.html#ae79b7045c7fcf5461739a7ceee3d2e56">calendar::eventReminder::setEvType</a></div><div class="ttdeci">void setEvType(const std::string &amp;newEvType)</div><div class="ttdoc">ustawia nowy typ wydarzenia</div><div class="ttdef"><b>Definition:</b> eventReminderModel.cpp:20</div></div>
+<div class="ttc" id="aclasscalendar_1_1event_reminder_html_af533ec46a96abfffbf8960e18f79b398"><div class="ttname"><a href="classcalendar_1_1event_reminder.html#af533ec46a96abfffbf8960e18f79b398">calendar::eventReminder::exportData</a></div><div class="ttdeci">virtual std::string exportData() const noexcept</div><div class="ttdoc">Eksportuje dane do zapisu.</div><div class="ttdef"><b>Definition:</b> eventReminderModel.cpp:37</div></div>
+<div class="ttc" id="aevent_model_8h_html"><div class="ttname"><a href="event_model_8h.html">eventModel.h</a></div></div>
+<div class="ttc" id="anamespacecalendar_html"><div class="ttname"><a href="namespacecalendar.html">calendar</a></div><div class="ttdef"><b>Definition:</b> calendarView.h:21</div></div>
+<div class="ttc" id="anamespacecalendar_html_a8c77826be937e7a48bf92b36b5247280"><div class="ttname"><a href="namespacecalendar.html#a8c77826be937e7a48bf92b36b5247280">calendar::repeatCycle</a></div><div class="ttdeci">repeatCycle</div><div class="ttdef"><b>Definition:</b> eventModel.h:17</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

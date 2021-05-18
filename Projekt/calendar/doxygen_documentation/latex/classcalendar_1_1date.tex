@@ -1,0 +1,455 @@
+\hypertarget{classcalendar_1_1date}{}\doxysection{Dokumentacja klasy calendar\+::date}
+\label{classcalendar_1_1date}\index{calendar::date@{calendar::date}}
+
+
+klasa obsługująca datę.  
+
+
+
+
+{\ttfamily \#include $<$date.\+h$>$}
+
+\doxysubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcalendar_1_1date_a44b8a58bc9a6225c77adbab6e5f447a6}{date}} ()
+\begin{DoxyCompactList}\small\item\em konstruktor bezargumentowy, przypisuje obiektowi aktualną datę. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classcalendar_1_1date_a83b068b54aa507ad579b67c718877096}{date}} (const unsigned short \&\mbox{\hyperlink{classcalendar_1_1day}{day}}, const \mbox{\hyperlink{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405}{month\+Model}} \&month, const unsigned long int \&year)
+\begin{DoxyCompactList}\small\item\em konstruktor trójargumentowy, przypisuje obiektowi podaną datę. \end{DoxyCompactList}\item 
+const unsigned short \mbox{\hyperlink{classcalendar_1_1date_afc729e949594b20f9121b22af9c9187c}{get\+Day}} () const
+\begin{DoxyCompactList}\small\item\em pobiera dzień miesiąca. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcalendar_1_1date_a81df76e55a71fecd2bbda2ce73875c88}{set\+Day}} (const unsigned short \&new\+Day)
+\begin{DoxyCompactList}\small\item\em ustawia dzień miesiąca. \end{DoxyCompactList}\item 
+const \mbox{\hyperlink{namespacecalendar_a91b885726e698cdbd51de788828fb69a}{week\+Day\+Model}} \mbox{\hyperlink{classcalendar_1_1date_a2b10514c38cddcd72e48b188416d79cb}{get\+Week\+Day}} () const
+\begin{DoxyCompactList}\small\item\em pobiera dzień tygodnia. \end{DoxyCompactList}\item 
+const \mbox{\hyperlink{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405}{month\+Model}} \mbox{\hyperlink{classcalendar_1_1date_afe34409f4e6ebc09d8d3eeac14b281e6}{get\+Month}} () const
+\begin{DoxyCompactList}\small\item\em pobiera miesiąc. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcalendar_1_1date_abac73d078400e088db5ea4b9b045eadd}{set\+Month}} (const \mbox{\hyperlink{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405}{month\+Model}} \&new\+Month)
+\begin{DoxyCompactList}\small\item\em ustawia miesiąc. \end{DoxyCompactList}\item 
+const unsigned long int \mbox{\hyperlink{classcalendar_1_1date_a9c104a57ea4d555a1cd0eea72d9d684e}{get\+Year}} () const
+\begin{DoxyCompactList}\small\item\em pobiera rok. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcalendar_1_1date_a7e64a6e5d7ccb49369147a16baaa3991}{set\+Year}} (const unsigned long int \&new\+Year)
+\begin{DoxyCompactList}\small\item\em ustawia rok. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcalendar_1_1date_ae2b16c8e24e29583a66201d4c7d47a40}{set\+Current\+Date}} ()
+\begin{DoxyCompactList}\small\item\em ustawia bieżącą datę. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcalendar_1_1date_af2e0c6620160e5e3e4f29c64e2e55ed5}{increment\+Month}} ()
+\begin{DoxyCompactList}\small\item\em Inkrementuje miesiąc. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcalendar_1_1date_a5e680bcd8e87eec56f0b33a871c199a2}{decrement\+Month}} ()
+\begin{DoxyCompactList}\small\item\em Dekrementuje miesiąc. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcalendar_1_1date_a95b9cb820f16febe2902b45aab6eaa95}{increment\+Week}} ()
+\begin{DoxyCompactList}\small\item\em Inkrementuje tydzień. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcalendar_1_1date_aeda88b88ec32333a9166dcf42dfbbe9d}{decrement\+Week}} ()
+\begin{DoxyCompactList}\small\item\em Dekrementuje tydzień. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcalendar_1_1date_adadb2b26d011beb3b033cfa1c1df454f}{set\+Week\+Num}} (const int \&new\+Week\+Num)
+\begin{DoxyCompactList}\small\item\em Ustawia określony numer tygodnia. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classcalendar_1_1date_a682b14bf68b4ce86a4469eda7a9e8832}{get\+Week\+Num}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Pobiera numer tygodnia. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classcalendar_1_1date_a8497a605342f13aefa2529faeaf59788}{operator==}} (const \mbox{\hyperlink{classcalendar_1_1date}{date}} \&right)
+\begin{DoxyCompactList}\small\item\em Operator równości. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classcalendar_1_1date_a5f7102d6101b7ec38dcaaca47ba7cc91}{operator!=}} (const \mbox{\hyperlink{classcalendar_1_1date}{date}} \&right)
+\begin{DoxyCompactList}\small\item\em Operator nierówności. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classcalendar_1_1date_a0d920138429c98a8e0d6dc97e36a4335}{stringify}} ()
+\begin{DoxyCompactList}\small\item\em Opisuje obiekt daty jako string. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classcalendar_1_1date_a50ae67338f7a3eb5e0a549c453707b78}{operator$>$}} (const \mbox{\hyperlink{classcalendar_1_1date}{date}} \&right)
+\item 
+bool \mbox{\hyperlink{classcalendar_1_1date_aef6963ac2c3ec00904aa265f3f31cd46}{operator$<$}} (const \mbox{\hyperlink{classcalendar_1_1date}{date}} \&right)
+\item 
+bool \mbox{\hyperlink{classcalendar_1_1date_ab1da2d94e1489303dc707b07f6f175c1}{operator$>$=}} (const \mbox{\hyperlink{classcalendar_1_1date}{date}} \&right)
+\item 
+bool \mbox{\hyperlink{classcalendar_1_1date_a7ec3e6ce6309b2393686067f3d1affb9}{operator$<$=}} (const \mbox{\hyperlink{classcalendar_1_1date}{date}} \&right)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Opis szczegółowy}
+klasa obsługująca datę. 
+
+\doxysubsection{Dokumentacja konstruktora i destruktora}
+\mbox{\Hypertarget{classcalendar_1_1date_a44b8a58bc9a6225c77adbab6e5f447a6}\label{classcalendar_1_1date_a44b8a58bc9a6225c77adbab6e5f447a6}} 
+\index{calendar::date@{calendar::date}!date@{date}}
+\index{date@{date}!calendar::date@{calendar::date}}
+\doxysubsubsection{\texorpdfstring{date()}{date()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily calendar\+::date\+::date (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+konstruktor bezargumentowy, przypisuje obiektowi aktualną datę. 
+
+Oto graf wywołań dla tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1date_a44b8a58bc9a6225c77adbab6e5f447a6_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classcalendar_1_1date_a83b068b54aa507ad579b67c718877096}\label{classcalendar_1_1date_a83b068b54aa507ad579b67c718877096}} 
+\index{calendar::date@{calendar::date}!date@{date}}
+\index{date@{date}!calendar::date@{calendar::date}}
+\doxysubsubsection{\texorpdfstring{date()}{date()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily calendar\+::date\+::date (\begin{DoxyParamCaption}\item[{const unsigned short \&}]{day,  }\item[{const \mbox{\hyperlink{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405}{month\+Model}} \&}]{month,  }\item[{const unsigned long int \&}]{year }\end{DoxyParamCaption})}
+
+
+
+konstruktor trójargumentowy, przypisuje obiektowi podaną datę. 
+
+
+
+\doxysubsection{Dokumentacja funkcji składowych}
+\mbox{\Hypertarget{classcalendar_1_1date_a5e680bcd8e87eec56f0b33a871c199a2}\label{classcalendar_1_1date_a5e680bcd8e87eec56f0b33a871c199a2}} 
+\index{calendar::date@{calendar::date}!decrementMonth@{decrementMonth}}
+\index{decrementMonth@{decrementMonth}!calendar::date@{calendar::date}}
+\doxysubsubsection{\texorpdfstring{decrementMonth()}{decrementMonth()}}
+{\footnotesize\ttfamily void calendar\+::date\+::decrement\+Month (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Dekrementuje miesiąc. 
+
+Oto graf wywoływań tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1date_a5e680bcd8e87eec56f0b33a871c199a2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classcalendar_1_1date_aeda88b88ec32333a9166dcf42dfbbe9d}\label{classcalendar_1_1date_aeda88b88ec32333a9166dcf42dfbbe9d}} 
+\index{calendar::date@{calendar::date}!decrementWeek@{decrementWeek}}
+\index{decrementWeek@{decrementWeek}!calendar::date@{calendar::date}}
+\doxysubsubsection{\texorpdfstring{decrementWeek()}{decrementWeek()}}
+{\footnotesize\ttfamily void calendar\+::date\+::decrement\+Week (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Dekrementuje tydzień. 
+
+Oto graf wywołań dla tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1date_aeda88b88ec32333a9166dcf42dfbbe9d_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classcalendar_1_1date_afc729e949594b20f9121b22af9c9187c}\label{classcalendar_1_1date_afc729e949594b20f9121b22af9c9187c}} 
+\index{calendar::date@{calendar::date}!getDay@{getDay}}
+\index{getDay@{getDay}!calendar::date@{calendar::date}}
+\doxysubsubsection{\texorpdfstring{getDay()}{getDay()}}
+{\footnotesize\ttfamily const unsigned short calendar\+::date\+::get\+Day (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+pobiera dzień miesiąca. 
+
+\begin{DoxyReturn}{Zwraca}
+dzień miesiąca 
+\end{DoxyReturn}
+Oto graf wywoływań tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1date_afc729e949594b20f9121b22af9c9187c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classcalendar_1_1date_afe34409f4e6ebc09d8d3eeac14b281e6}\label{classcalendar_1_1date_afe34409f4e6ebc09d8d3eeac14b281e6}} 
+\index{calendar::date@{calendar::date}!getMonth@{getMonth}}
+\index{getMonth@{getMonth}!calendar::date@{calendar::date}}
+\doxysubsubsection{\texorpdfstring{getMonth()}{getMonth()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405}{calendar\+::month\+Model}} calendar\+::date\+::get\+Month (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+pobiera miesiąc. 
+
+\begin{DoxyReturn}{Zwraca}
+miesiąc 
+\end{DoxyReturn}
+Oto graf wywoływań tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1date_afe34409f4e6ebc09d8d3eeac14b281e6_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classcalendar_1_1date_a2b10514c38cddcd72e48b188416d79cb}\label{classcalendar_1_1date_a2b10514c38cddcd72e48b188416d79cb}} 
+\index{calendar::date@{calendar::date}!getWeekDay@{getWeekDay}}
+\index{getWeekDay@{getWeekDay}!calendar::date@{calendar::date}}
+\doxysubsubsection{\texorpdfstring{getWeekDay()}{getWeekDay()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{namespacecalendar_a91b885726e698cdbd51de788828fb69a}{calendar\+::week\+Day\+Model}} calendar\+::date\+::get\+Week\+Day (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+pobiera dzień tygodnia. 
+
+\begin{DoxyReturn}{Zwraca}
+dzień tygodnia 
+\end{DoxyReturn}
+Oto graf wywoływań tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1date_a2b10514c38cddcd72e48b188416d79cb_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classcalendar_1_1date_a682b14bf68b4ce86a4469eda7a9e8832}\label{classcalendar_1_1date_a682b14bf68b4ce86a4469eda7a9e8832}} 
+\index{calendar::date@{calendar::date}!getWeekNum@{getWeekNum}}
+\index{getWeekNum@{getWeekNum}!calendar::date@{calendar::date}}
+\doxysubsubsection{\texorpdfstring{getWeekNum()}{getWeekNum()}}
+{\footnotesize\ttfamily int calendar\+::date\+::get\+Week\+Num (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+
+
+Pobiera numer tygodnia. 
+
+\begin{DoxyReturn}{Zwraca}
+int numer tygodnia 
+\end{DoxyReturn}
+Oto graf wywoływań tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1date_a682b14bf68b4ce86a4469eda7a9e8832_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classcalendar_1_1date_a9c104a57ea4d555a1cd0eea72d9d684e}\label{classcalendar_1_1date_a9c104a57ea4d555a1cd0eea72d9d684e}} 
+\index{calendar::date@{calendar::date}!getYear@{getYear}}
+\index{getYear@{getYear}!calendar::date@{calendar::date}}
+\doxysubsubsection{\texorpdfstring{getYear()}{getYear()}}
+{\footnotesize\ttfamily const unsigned long int calendar\+::date\+::get\+Year (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+pobiera rok. 
+
+\begin{DoxyReturn}{Zwraca}
+rok 
+\end{DoxyReturn}
+Oto graf wywoływań tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1date_a9c104a57ea4d555a1cd0eea72d9d684e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classcalendar_1_1date_af2e0c6620160e5e3e4f29c64e2e55ed5}\label{classcalendar_1_1date_af2e0c6620160e5e3e4f29c64e2e55ed5}} 
+\index{calendar::date@{calendar::date}!incrementMonth@{incrementMonth}}
+\index{incrementMonth@{incrementMonth}!calendar::date@{calendar::date}}
+\doxysubsubsection{\texorpdfstring{incrementMonth()}{incrementMonth()}}
+{\footnotesize\ttfamily void calendar\+::date\+::increment\+Month (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Inkrementuje miesiąc. 
+
+\mbox{\Hypertarget{classcalendar_1_1date_a95b9cb820f16febe2902b45aab6eaa95}\label{classcalendar_1_1date_a95b9cb820f16febe2902b45aab6eaa95}} 
+\index{calendar::date@{calendar::date}!incrementWeek@{incrementWeek}}
+\index{incrementWeek@{incrementWeek}!calendar::date@{calendar::date}}
+\doxysubsubsection{\texorpdfstring{incrementWeek()}{incrementWeek()}}
+{\footnotesize\ttfamily void calendar\+::date\+::increment\+Week (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Inkrementuje tydzień. 
+
+\mbox{\Hypertarget{classcalendar_1_1date_a5f7102d6101b7ec38dcaaca47ba7cc91}\label{classcalendar_1_1date_a5f7102d6101b7ec38dcaaca47ba7cc91}} 
+\index{calendar::date@{calendar::date}!operator"!=@{operator"!=}}
+\index{operator"!=@{operator"!=}!calendar::date@{calendar::date}}
+\doxysubsubsection{\texorpdfstring{operator"!=()}{operator!=()}}
+{\footnotesize\ttfamily bool calendar\+::date\+::operator!= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classcalendar_1_1date}{date}} \&}]{right }\end{DoxyParamCaption})}
+
+
+
+Operator nierówności. 
+
+\mbox{\Hypertarget{classcalendar_1_1date_aef6963ac2c3ec00904aa265f3f31cd46}\label{classcalendar_1_1date_aef6963ac2c3ec00904aa265f3f31cd46}} 
+\index{calendar::date@{calendar::date}!operator$<$@{operator$<$}}
+\index{operator$<$@{operator$<$}!calendar::date@{calendar::date}}
+\doxysubsubsection{\texorpdfstring{operator$<$()}{operator<()}}
+{\footnotesize\ttfamily bool calendar\+::date\+::operator$<$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classcalendar_1_1date}{date}} \&}]{right }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classcalendar_1_1date_a7ec3e6ce6309b2393686067f3d1affb9}\label{classcalendar_1_1date_a7ec3e6ce6309b2393686067f3d1affb9}} 
+\index{calendar::date@{calendar::date}!operator$<$=@{operator$<$=}}
+\index{operator$<$=@{operator$<$=}!calendar::date@{calendar::date}}
+\doxysubsubsection{\texorpdfstring{operator$<$=()}{operator<=()}}
+{\footnotesize\ttfamily bool calendar\+::date\+::operator$<$= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classcalendar_1_1date}{date}} \&}]{right }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classcalendar_1_1date_a8497a605342f13aefa2529faeaf59788}\label{classcalendar_1_1date_a8497a605342f13aefa2529faeaf59788}} 
+\index{calendar::date@{calendar::date}!operator==@{operator==}}
+\index{operator==@{operator==}!calendar::date@{calendar::date}}
+\doxysubsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily bool calendar\+::date\+::operator== (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classcalendar_1_1date}{date}} \&}]{right }\end{DoxyParamCaption})}
+
+
+
+Operator równości. 
+
+Oto graf wywołań dla tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1date_a8497a605342f13aefa2529faeaf59788_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classcalendar_1_1date_a50ae67338f7a3eb5e0a549c453707b78}\label{classcalendar_1_1date_a50ae67338f7a3eb5e0a549c453707b78}} 
+\index{calendar::date@{calendar::date}!operator$>$@{operator$>$}}
+\index{operator$>$@{operator$>$}!calendar::date@{calendar::date}}
+\doxysubsubsection{\texorpdfstring{operator$>$()}{operator>()}}
+{\footnotesize\ttfamily bool calendar\+::date\+::operator$>$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classcalendar_1_1date}{date}} \&}]{right }\end{DoxyParamCaption})}
+
+Oto graf wywołań dla tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1date_a50ae67338f7a3eb5e0a549c453707b78_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classcalendar_1_1date_ab1da2d94e1489303dc707b07f6f175c1}\label{classcalendar_1_1date_ab1da2d94e1489303dc707b07f6f175c1}} 
+\index{calendar::date@{calendar::date}!operator$>$=@{operator$>$=}}
+\index{operator$>$=@{operator$>$=}!calendar::date@{calendar::date}}
+\doxysubsubsection{\texorpdfstring{operator$>$=()}{operator>=()}}
+{\footnotesize\ttfamily bool calendar\+::date\+::operator$>$= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classcalendar_1_1date}{date}} \&}]{right }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classcalendar_1_1date_ae2b16c8e24e29583a66201d4c7d47a40}\label{classcalendar_1_1date_ae2b16c8e24e29583a66201d4c7d47a40}} 
+\index{calendar::date@{calendar::date}!setCurrentDate@{setCurrentDate}}
+\index{setCurrentDate@{setCurrentDate}!calendar::date@{calendar::date}}
+\doxysubsubsection{\texorpdfstring{setCurrentDate()}{setCurrentDate()}}
+{\footnotesize\ttfamily void calendar\+::date\+::set\+Current\+Date (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+ustawia bieżącą datę. 
+
+Oto graf wywoływań tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1date_ae2b16c8e24e29583a66201d4c7d47a40_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classcalendar_1_1date_a81df76e55a71fecd2bbda2ce73875c88}\label{classcalendar_1_1date_a81df76e55a71fecd2bbda2ce73875c88}} 
+\index{calendar::date@{calendar::date}!setDay@{setDay}}
+\index{setDay@{setDay}!calendar::date@{calendar::date}}
+\doxysubsubsection{\texorpdfstring{setDay()}{setDay()}}
+{\footnotesize\ttfamily void calendar\+::date\+::set\+Day (\begin{DoxyParamCaption}\item[{const unsigned short \&}]{new\+Day }\end{DoxyParamCaption})}
+
+
+
+ustawia dzień miesiąca. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em new\+Day} & nowy dzień miesiąca \\
+\hline
+\end{DoxyParams}
+Oto graf wywoływań tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1date_a81df76e55a71fecd2bbda2ce73875c88_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classcalendar_1_1date_abac73d078400e088db5ea4b9b045eadd}\label{classcalendar_1_1date_abac73d078400e088db5ea4b9b045eadd}} 
+\index{calendar::date@{calendar::date}!setMonth@{setMonth}}
+\index{setMonth@{setMonth}!calendar::date@{calendar::date}}
+\doxysubsubsection{\texorpdfstring{setMonth()}{setMonth()}}
+{\footnotesize\ttfamily void calendar\+::date\+::set\+Month (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405}{month\+Model}} \&}]{new\+Month }\end{DoxyParamCaption})}
+
+
+
+ustawia miesiąc. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em new\+Month} & nowy miesiąc do ustawienia \\
+\hline
+\end{DoxyParams}
+Oto graf wywoływań tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1date_abac73d078400e088db5ea4b9b045eadd_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classcalendar_1_1date_adadb2b26d011beb3b033cfa1c1df454f}\label{classcalendar_1_1date_adadb2b26d011beb3b033cfa1c1df454f}} 
+\index{calendar::date@{calendar::date}!setWeekNum@{setWeekNum}}
+\index{setWeekNum@{setWeekNum}!calendar::date@{calendar::date}}
+\doxysubsubsection{\texorpdfstring{setWeekNum()}{setWeekNum()}}
+{\footnotesize\ttfamily void calendar\+::date\+::set\+Week\+Num (\begin{DoxyParamCaption}\item[{const int \&}]{new\+Week\+Num }\end{DoxyParamCaption})}
+
+
+
+Ustawia określony numer tygodnia. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em new\+Week\+Num} & numer tygodnia do ustawienia \\
+\hline
+\end{DoxyParams}
+Oto graf wywoływań tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1date_adadb2b26d011beb3b033cfa1c1df454f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classcalendar_1_1date_a7e64a6e5d7ccb49369147a16baaa3991}\label{classcalendar_1_1date_a7e64a6e5d7ccb49369147a16baaa3991}} 
+\index{calendar::date@{calendar::date}!setYear@{setYear}}
+\index{setYear@{setYear}!calendar::date@{calendar::date}}
+\doxysubsubsection{\texorpdfstring{setYear()}{setYear()}}
+{\footnotesize\ttfamily void calendar\+::date\+::set\+Year (\begin{DoxyParamCaption}\item[{const unsigned long int \&}]{new\+Year }\end{DoxyParamCaption})}
+
+
+
+ustawia rok. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em new\+Year} & nowy rok \\
+\hline
+\end{DoxyParams}
+Oto graf wywoływań tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1date_a7e64a6e5d7ccb49369147a16baaa3991_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classcalendar_1_1date_a0d920138429c98a8e0d6dc97e36a4335}\label{classcalendar_1_1date_a0d920138429c98a8e0d6dc97e36a4335}} 
+\index{calendar::date@{calendar::date}!stringify@{stringify}}
+\index{stringify@{stringify}!calendar::date@{calendar::date}}
+\doxysubsubsection{\texorpdfstring{stringify()}{stringify()}}
+{\footnotesize\ttfamily std\+::string calendar\+::date\+::stringify (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Opisuje obiekt daty jako string. 
+
+\begin{DoxyReturn}{Zwraca}
+std\+::string opis obiektu 
+\end{DoxyReturn}
+Oto graf wywoływań tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1date_a0d920138429c98a8e0d6dc97e36a4335_icgraph}
+\end{center}
+\end{figure}
+
+
+Dokumentacja dla tej klasy została wygenerowana z plików\+:\begin{DoxyCompactItemize}
+\item 
+includes/\mbox{\hyperlink{date_8h}{date.\+h}}\item 
+res/\mbox{\hyperlink{date_8cpp}{date.\+cpp}}\end{DoxyCompactItemize}

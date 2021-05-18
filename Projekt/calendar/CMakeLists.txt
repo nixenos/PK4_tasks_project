@@ -39,6 +39,7 @@ set(PROJECT_SOURCES
         res/eventBirthdayModel.cpp
         res/date.cpp
         res/calendarView.cpp
+        res/weeklyCalendarView.cpp
         res/dayModel.cpp
         res/todoView.cpp
         res/eventModel.cpp

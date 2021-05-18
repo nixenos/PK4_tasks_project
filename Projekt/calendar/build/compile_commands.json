@@ -41,6 +41,11 @@
 },
 {
   "directory": "/home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I. -I../ -Icalendar_autogen/include -isystem /usr/include/qt -isystem /usr/include/qt/QtWidgets -isystem /usr/include/qt/QtGui -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ -O2 -g -DNDEBUG -fPIC -std=gnu++11 -o CMakeFiles/calendar.dir/res/weeklyCalendarView.cpp.o -c /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/res/weeklyCalendarView.cpp",
+  "file": "/home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/res/weeklyCalendarView.cpp"
+},
+{
+  "directory": "/home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/build",
   "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I. -I../ -Icalendar_autogen/include -isystem /usr/include/qt -isystem /usr/include/qt/QtWidgets -isystem /usr/include/qt/QtGui -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ -O2 -g -DNDEBUG -fPIC -std=gnu++11 -o CMakeFiles/calendar.dir/res/dayModel.cpp.o -c /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/res/dayModel.cpp",
   "file": "/home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/res/dayModel.cpp"
 },

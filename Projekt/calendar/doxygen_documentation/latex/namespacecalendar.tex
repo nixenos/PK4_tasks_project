@@ -1,0 +1,236 @@
+\hypertarget{namespacecalendar}{}\doxysection{Dokumentacja przestrzeni nazw calendar}
+\label{namespacecalendar}\index{calendar@{calendar}}
+\doxysubsection*{Komponenty}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classcalendar_1_1calendar_view}{calendar\+View}}
+\begin{DoxyCompactList}\small\item\em klasa opisująca model widoku miesięcznego. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classcalendar_1_1data_interface}{data\+Interface}}
+\begin{DoxyCompactList}\small\item\em Klasa interfejs do zapisu danych do pliku. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classcalendar_1_1date}{date}}
+\begin{DoxyCompactList}\small\item\em klasa obsługująca datę. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classcalendar_1_1day}{day}}
+\item 
+class \mbox{\hyperlink{classcalendar_1_1event_birthday}{event\+Birthday}}
+\item 
+class \mbox{\hyperlink{classcalendar_1_1event_holiday}{event\+Holiday}}
+\item 
+class \mbox{\hyperlink{classcalendar_1_1event}{event}}
+\item 
+class \mbox{\hyperlink{classcalendar_1_1event_reminder}{event\+Reminder}}
+\item 
+class \mbox{\hyperlink{classcalendar_1_1todo_element}{todo\+Element}}
+\begin{DoxyCompactList}\small\item\em klasa przechowująca elementy listy zadań do zrobienia \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classcalendar_1_1todo_view}{todo\+View}}
+\begin{DoxyCompactList}\small\item\em Klasa opisująca widok elementów todo. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classcalendar_1_1weekly_calendar_view}{weekly\+Calendar\+View}}
+\begin{DoxyCompactList}\small\item\em Klasa operująca widokiem tygodniowym. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Definicje typów}
+\begin{DoxyCompactItemize}
+\item 
+typedef enum \mbox{\hyperlink{namespacecalendar_a91b885726e698cdbd51de788828fb69a}{calendar\+::week\+Day\+Model}} \mbox{\hyperlink{namespacecalendar_a5bd6cc7dcfcd564af986ac0341497aa6}{week\+Day\+Model}}
+\begin{DoxyCompactList}\small\item\em typ wyliczeniowy obsługujący dzień tygodnia. \end{DoxyCompactList}\item 
+typedef enum \mbox{\hyperlink{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405}{calendar\+::month\+Model}} \mbox{\hyperlink{namespacecalendar_a7c84b833707a126bfcac2342f188271b}{month\+Model}}
+\begin{DoxyCompactList}\small\item\em typ wyliczeniowy obługujący miesiące. \end{DoxyCompactList}\item 
+typedef enum \mbox{\hyperlink{namespacecalendar_a8c77826be937e7a48bf92b36b5247280}{calendar\+::repeat\+Cycle}} \mbox{\hyperlink{namespacecalendar_a5525835e6f333ba9e8a766232b92ae84}{repeat\+Cycle}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Wyliczenia}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{namespacecalendar_a91b885726e698cdbd51de788828fb69a}{week\+Day\+Model}} \{ \newline
+\mbox{\hyperlink{namespacecalendar_a91b885726e698cdbd51de788828fb69aa02ba7adc4db53307c600e0c31c288b62}{Mon}} = 0
+, \mbox{\hyperlink{namespacecalendar_a91b885726e698cdbd51de788828fb69aa7921a50a946b93ba2ca16373cf3e867d}{Tue}} = 1
+, \mbox{\hyperlink{namespacecalendar_a91b885726e698cdbd51de788828fb69aaf721141586411a05cef5a0b8fa40059e}{Wed}} = 2
+, \mbox{\hyperlink{namespacecalendar_a91b885726e698cdbd51de788828fb69aa9a0eb66695226a2e471b92a72a84eae7}{Thu}} = 3
+, \newline
+\mbox{\hyperlink{namespacecalendar_a91b885726e698cdbd51de788828fb69aa0accb36a994905e6805948c91ce973d3}{Fri}} = 4
+, \mbox{\hyperlink{namespacecalendar_a91b885726e698cdbd51de788828fb69aadc10d50a8ad18b5887bf2b3f178a3770}{Sat}} = 5
+, \mbox{\hyperlink{namespacecalendar_a91b885726e698cdbd51de788828fb69aad524368bad45460ea3bd896206e7b064}{Sun}} = 6
+ \}
+\begin{DoxyCompactList}\small\item\em typ wyliczeniowy obsługujący dzień tygodnia. \end{DoxyCompactList}\item 
+enum \mbox{\hyperlink{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405}{month\+Model}} \{ \newline
+\mbox{\hyperlink{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405a732bd3d15793ac3e87f4129c6bcd5e0d}{Jan}} = 0
+, \mbox{\hyperlink{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405a41f1b35d5c8e239ede8e79507b302f99}{Feb}} = 1
+, \mbox{\hyperlink{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405a1d6c5b27babedcf880d95cf1d14cddc6}{Mar}} = 2
+, \mbox{\hyperlink{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405ac0a835b0b0a38e6aa0450337c4315f6f}{Apr}} = 3
+, \newline
+\mbox{\hyperlink{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405a05609a60edbe20c2dd4e55d4e6b441e2}{May}} = 4
+, \mbox{\hyperlink{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405ac76c09a0825d8c795745a0b0dcdba93f}{Jun}} = 5
+, \mbox{\hyperlink{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405ab1e13a43e78fdde1ab19c4456f3409f1}{Jul}} = 6
+, \mbox{\hyperlink{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405a31ec78d401e7210d1f1dacb8f6a79427}{Aug}} = 7
+, \newline
+\mbox{\hyperlink{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405abdc30e674f990d9895049e4ac61cc322}{Sep}} = 8
+, \mbox{\hyperlink{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405a421d4e83667ccf15cbee2677662bb138}{Oct}} = 9
+, \mbox{\hyperlink{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405a6dfe7318b7780a6924128ff8b7264ca2}{Nov}} = 10
+, \mbox{\hyperlink{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405a8c20f26576af8c4637524fe52eccc6fd}{Dec}} = 11
+ \}
+\begin{DoxyCompactList}\small\item\em typ wyliczeniowy obługujący miesiące. \end{DoxyCompactList}\item 
+enum \mbox{\hyperlink{namespacecalendar_a8c77826be937e7a48bf92b36b5247280}{repeat\+Cycle}} \{ \newline
+\mbox{\hyperlink{namespacecalendar_a8c77826be937e7a48bf92b36b5247280a22217856cc46e0e263a2b5033281a5b1}{Daily}}
+, \mbox{\hyperlink{namespacecalendar_a8c77826be937e7a48bf92b36b5247280aa472a9fde415fc116f9dbdae1bb38a79}{Weekly}}
+, \mbox{\hyperlink{namespacecalendar_a8c77826be937e7a48bf92b36b5247280a6adf436ceb73a19c6ca8b61e68e9f224}{Monthly}}
+, \mbox{\hyperlink{namespacecalendar_a8c77826be937e7a48bf92b36b5247280adae1a3381e1b71e4d119de51a5ca101a}{Annually}}
+, \newline
+\mbox{\hyperlink{namespacecalendar_a8c77826be937e7a48bf92b36b5247280a10634802e4498720b1a92ab4fbe00b75}{None}}
+ \}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Dokumentacja definicji typów}
+\mbox{\Hypertarget{namespacecalendar_a7c84b833707a126bfcac2342f188271b}\label{namespacecalendar_a7c84b833707a126bfcac2342f188271b}} 
+\index{calendar@{calendar}!monthModel@{monthModel}}
+\index{monthModel@{monthModel}!calendar@{calendar}}
+\doxysubsubsection{\texorpdfstring{monthModel}{monthModel}}
+{\footnotesize\ttfamily typedef enum \mbox{\hyperlink{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405}{calendar\+::month\+Model}} \mbox{\hyperlink{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405}{calendar\+::month\+Model}}}
+
+
+
+typ wyliczeniowy obługujący miesiące. 
+
+\mbox{\Hypertarget{namespacecalendar_a5525835e6f333ba9e8a766232b92ae84}\label{namespacecalendar_a5525835e6f333ba9e8a766232b92ae84}} 
+\index{calendar@{calendar}!repeatCycle@{repeatCycle}}
+\index{repeatCycle@{repeatCycle}!calendar@{calendar}}
+\doxysubsubsection{\texorpdfstring{repeatCycle}{repeatCycle}}
+{\footnotesize\ttfamily typedef enum \mbox{\hyperlink{namespacecalendar_a8c77826be937e7a48bf92b36b5247280}{calendar\+::repeat\+Cycle}} \mbox{\hyperlink{namespacecalendar_a8c77826be937e7a48bf92b36b5247280}{calendar\+::repeat\+Cycle}}}
+
+\mbox{\Hypertarget{namespacecalendar_a5bd6cc7dcfcd564af986ac0341497aa6}\label{namespacecalendar_a5bd6cc7dcfcd564af986ac0341497aa6}} 
+\index{calendar@{calendar}!weekDayModel@{weekDayModel}}
+\index{weekDayModel@{weekDayModel}!calendar@{calendar}}
+\doxysubsubsection{\texorpdfstring{weekDayModel}{weekDayModel}}
+{\footnotesize\ttfamily typedef enum \mbox{\hyperlink{namespacecalendar_a91b885726e698cdbd51de788828fb69a}{calendar\+::week\+Day\+Model}} \mbox{\hyperlink{namespacecalendar_a91b885726e698cdbd51de788828fb69a}{calendar\+::week\+Day\+Model}}}
+
+
+
+typ wyliczeniowy obsługujący dzień tygodnia. 
+
+
+
+\doxysubsection{Dokumentacja typów wyliczanych}
+\mbox{\Hypertarget{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405}\label{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405}} 
+\index{calendar@{calendar}!monthModel@{monthModel}}
+\index{monthModel@{monthModel}!calendar@{calendar}}
+\doxysubsubsection{\texorpdfstring{monthModel}{monthModel}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405}{calendar\+::month\+Model}}}
+
+
+
+typ wyliczeniowy obługujący miesiące. 
+
+\begin{DoxyEnumFields}{Wartości wyliczeń}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Jan@{Jan}!calendar@{calendar}}\index{calendar@{calendar}!Jan@{Jan}}}\mbox{\Hypertarget{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405a732bd3d15793ac3e87f4129c6bcd5e0d}\label{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405a732bd3d15793ac3e87f4129c6bcd5e0d}} 
+Jan&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Feb@{Feb}!calendar@{calendar}}\index{calendar@{calendar}!Feb@{Feb}}}\mbox{\Hypertarget{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405a41f1b35d5c8e239ede8e79507b302f99}\label{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405a41f1b35d5c8e239ede8e79507b302f99}} 
+Feb&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Mar@{Mar}!calendar@{calendar}}\index{calendar@{calendar}!Mar@{Mar}}}\mbox{\Hypertarget{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405a1d6c5b27babedcf880d95cf1d14cddc6}\label{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405a1d6c5b27babedcf880d95cf1d14cddc6}} 
+Mar&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Apr@{Apr}!calendar@{calendar}}\index{calendar@{calendar}!Apr@{Apr}}}\mbox{\Hypertarget{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405ac0a835b0b0a38e6aa0450337c4315f6f}\label{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405ac0a835b0b0a38e6aa0450337c4315f6f}} 
+Apr&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{May@{May}!calendar@{calendar}}\index{calendar@{calendar}!May@{May}}}\mbox{\Hypertarget{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405a05609a60edbe20c2dd4e55d4e6b441e2}\label{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405a05609a60edbe20c2dd4e55d4e6b441e2}} 
+May&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Jun@{Jun}!calendar@{calendar}}\index{calendar@{calendar}!Jun@{Jun}}}\mbox{\Hypertarget{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405ac76c09a0825d8c795745a0b0dcdba93f}\label{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405ac76c09a0825d8c795745a0b0dcdba93f}} 
+Jun&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Jul@{Jul}!calendar@{calendar}}\index{calendar@{calendar}!Jul@{Jul}}}\mbox{\Hypertarget{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405ab1e13a43e78fdde1ab19c4456f3409f1}\label{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405ab1e13a43e78fdde1ab19c4456f3409f1}} 
+Jul&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Aug@{Aug}!calendar@{calendar}}\index{calendar@{calendar}!Aug@{Aug}}}\mbox{\Hypertarget{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405a31ec78d401e7210d1f1dacb8f6a79427}\label{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405a31ec78d401e7210d1f1dacb8f6a79427}} 
+Aug&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Sep@{Sep}!calendar@{calendar}}\index{calendar@{calendar}!Sep@{Sep}}}\mbox{\Hypertarget{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405abdc30e674f990d9895049e4ac61cc322}\label{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405abdc30e674f990d9895049e4ac61cc322}} 
+Sep&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Oct@{Oct}!calendar@{calendar}}\index{calendar@{calendar}!Oct@{Oct}}}\mbox{\Hypertarget{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405a421d4e83667ccf15cbee2677662bb138}\label{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405a421d4e83667ccf15cbee2677662bb138}} 
+Oct&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Nov@{Nov}!calendar@{calendar}}\index{calendar@{calendar}!Nov@{Nov}}}\mbox{\Hypertarget{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405a6dfe7318b7780a6924128ff8b7264ca2}\label{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405a6dfe7318b7780a6924128ff8b7264ca2}} 
+Nov&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Dec@{Dec}!calendar@{calendar}}\index{calendar@{calendar}!Dec@{Dec}}}\mbox{\Hypertarget{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405a8c20f26576af8c4637524fe52eccc6fd}\label{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405a8c20f26576af8c4637524fe52eccc6fd}} 
+Dec&\\
+\hline
+
+\end{DoxyEnumFields}
+\mbox{\Hypertarget{namespacecalendar_a8c77826be937e7a48bf92b36b5247280}\label{namespacecalendar_a8c77826be937e7a48bf92b36b5247280}} 
+\index{calendar@{calendar}!repeatCycle@{repeatCycle}}
+\index{repeatCycle@{repeatCycle}!calendar@{calendar}}
+\doxysubsubsection{\texorpdfstring{repeatCycle}{repeatCycle}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{namespacecalendar_a8c77826be937e7a48bf92b36b5247280}{calendar\+::repeat\+Cycle}}}
+
+\begin{DoxyEnumFields}{Wartości wyliczeń}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Daily@{Daily}!calendar@{calendar}}\index{calendar@{calendar}!Daily@{Daily}}}\mbox{\Hypertarget{namespacecalendar_a8c77826be937e7a48bf92b36b5247280a22217856cc46e0e263a2b5033281a5b1}\label{namespacecalendar_a8c77826be937e7a48bf92b36b5247280a22217856cc46e0e263a2b5033281a5b1}} 
+Daily&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Weekly@{Weekly}!calendar@{calendar}}\index{calendar@{calendar}!Weekly@{Weekly}}}\mbox{\Hypertarget{namespacecalendar_a8c77826be937e7a48bf92b36b5247280aa472a9fde415fc116f9dbdae1bb38a79}\label{namespacecalendar_a8c77826be937e7a48bf92b36b5247280aa472a9fde415fc116f9dbdae1bb38a79}} 
+Weekly&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Monthly@{Monthly}!calendar@{calendar}}\index{calendar@{calendar}!Monthly@{Monthly}}}\mbox{\Hypertarget{namespacecalendar_a8c77826be937e7a48bf92b36b5247280a6adf436ceb73a19c6ca8b61e68e9f224}\label{namespacecalendar_a8c77826be937e7a48bf92b36b5247280a6adf436ceb73a19c6ca8b61e68e9f224}} 
+Monthly&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Annually@{Annually}!calendar@{calendar}}\index{calendar@{calendar}!Annually@{Annually}}}\mbox{\Hypertarget{namespacecalendar_a8c77826be937e7a48bf92b36b5247280adae1a3381e1b71e4d119de51a5ca101a}\label{namespacecalendar_a8c77826be937e7a48bf92b36b5247280adae1a3381e1b71e4d119de51a5ca101a}} 
+Annually&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{None@{None}!calendar@{calendar}}\index{calendar@{calendar}!None@{None}}}\mbox{\Hypertarget{namespacecalendar_a8c77826be937e7a48bf92b36b5247280a10634802e4498720b1a92ab4fbe00b75}\label{namespacecalendar_a8c77826be937e7a48bf92b36b5247280a10634802e4498720b1a92ab4fbe00b75}} 
+None&\\
+\hline
+
+\end{DoxyEnumFields}
+\mbox{\Hypertarget{namespacecalendar_a91b885726e698cdbd51de788828fb69a}\label{namespacecalendar_a91b885726e698cdbd51de788828fb69a}} 
+\index{calendar@{calendar}!weekDayModel@{weekDayModel}}
+\index{weekDayModel@{weekDayModel}!calendar@{calendar}}
+\doxysubsubsection{\texorpdfstring{weekDayModel}{weekDayModel}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{namespacecalendar_a91b885726e698cdbd51de788828fb69a}{calendar\+::week\+Day\+Model}}}
+
+
+
+typ wyliczeniowy obsługujący dzień tygodnia. 
+
+\begin{DoxyEnumFields}{Wartości wyliczeń}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Mon@{Mon}!calendar@{calendar}}\index{calendar@{calendar}!Mon@{Mon}}}\mbox{\Hypertarget{namespacecalendar_a91b885726e698cdbd51de788828fb69aa02ba7adc4db53307c600e0c31c288b62}\label{namespacecalendar_a91b885726e698cdbd51de788828fb69aa02ba7adc4db53307c600e0c31c288b62}} 
+Mon&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Tue@{Tue}!calendar@{calendar}}\index{calendar@{calendar}!Tue@{Tue}}}\mbox{\Hypertarget{namespacecalendar_a91b885726e698cdbd51de788828fb69aa7921a50a946b93ba2ca16373cf3e867d}\label{namespacecalendar_a91b885726e698cdbd51de788828fb69aa7921a50a946b93ba2ca16373cf3e867d}} 
+Tue&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Wed@{Wed}!calendar@{calendar}}\index{calendar@{calendar}!Wed@{Wed}}}\mbox{\Hypertarget{namespacecalendar_a91b885726e698cdbd51de788828fb69aaf721141586411a05cef5a0b8fa40059e}\label{namespacecalendar_a91b885726e698cdbd51de788828fb69aaf721141586411a05cef5a0b8fa40059e}} 
+Wed&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Thu@{Thu}!calendar@{calendar}}\index{calendar@{calendar}!Thu@{Thu}}}\mbox{\Hypertarget{namespacecalendar_a91b885726e698cdbd51de788828fb69aa9a0eb66695226a2e471b92a72a84eae7}\label{namespacecalendar_a91b885726e698cdbd51de788828fb69aa9a0eb66695226a2e471b92a72a84eae7}} 
+Thu&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Fri@{Fri}!calendar@{calendar}}\index{calendar@{calendar}!Fri@{Fri}}}\mbox{\Hypertarget{namespacecalendar_a91b885726e698cdbd51de788828fb69aa0accb36a994905e6805948c91ce973d3}\label{namespacecalendar_a91b885726e698cdbd51de788828fb69aa0accb36a994905e6805948c91ce973d3}} 
+Fri&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Sat@{Sat}!calendar@{calendar}}\index{calendar@{calendar}!Sat@{Sat}}}\mbox{\Hypertarget{namespacecalendar_a91b885726e698cdbd51de788828fb69aadc10d50a8ad18b5887bf2b3f178a3770}\label{namespacecalendar_a91b885726e698cdbd51de788828fb69aadc10d50a8ad18b5887bf2b3f178a3770}} 
+Sat&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Sun@{Sun}!calendar@{calendar}}\index{calendar@{calendar}!Sun@{Sun}}}\mbox{\Hypertarget{namespacecalendar_a91b885726e698cdbd51de788828fb69aad524368bad45460ea3bd896206e7b064}\label{namespacecalendar_a91b885726e698cdbd51de788828fb69aad524368bad45460ea3bd896206e7b064}} 
+Sun&\\
+\hline
+
+\end{DoxyEnumFields}

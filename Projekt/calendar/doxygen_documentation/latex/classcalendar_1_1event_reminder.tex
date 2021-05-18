@@ -1,0 +1,220 @@
+\hypertarget{classcalendar_1_1event_reminder}{}\doxysection{Dokumentacja klasy calendar\+::event\+Reminder}
+\label{classcalendar_1_1event_reminder}\index{calendar::eventReminder@{calendar::eventReminder}}
+
+
+{\ttfamily \#include $<$event\+Reminder\+Model.\+h$>$}
+
+
+
+Diagram dziedziczenia dla calendar\+::event\+Reminder
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=220pt]{classcalendar_1_1event_reminder__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Diagram współpracy dla calendar\+::event\+Reminder\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=220pt]{classcalendar_1_1event_reminder__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcalendar_1_1event_reminder_a2b4bb6164f972a34b0ad303ef2e612a0}{event\+Reminder}} ()
+\begin{DoxyCompactList}\small\item\em konstruktor bezargumentowy, tworzy pusty obiekt o wszystkich polach NULL \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classcalendar_1_1event_reminder_a3a55edb2c93f01584a85e18b22e81104}{event\+Reminder}} (const \mbox{\hyperlink{classcalendar_1_1date}{date}} \&new\+Date, const std\+::string \&new\+Name, const \mbox{\hyperlink{namespacecalendar_a8c77826be937e7a48bf92b36b5247280}{repeat\+Cycle}} \&new\+Repeat, const std\+::string \&new\+Ev\+Location, const std\+::string \&new\+Ev\+Type)
+\begin{DoxyCompactList}\small\item\em konstruktor wieloargumentowy, tworzy obiekt o wszystkich właściwościach \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classcalendar_1_1event_reminder_ad0ff99be4dc13deb6fa89a1e61434ffa}{get\+Ev\+Location}} () const noexcept
+\begin{DoxyCompactList}\small\item\em pobiera lokalizację wydarzenia \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcalendar_1_1event_reminder_a790c2a234a772c11aaba8f6c4fbfa015}{set\+Ev\+Location}} (const std\+::string \&new\+Ev\+Location)
+\begin{DoxyCompactList}\small\item\em ustawia nową lokalizację wydarzenia \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classcalendar_1_1event_reminder_abc95eef5c7cd68208265734f3c2d9d1f}{get\+Ev\+Type}} () const noexcept
+\begin{DoxyCompactList}\small\item\em pobiera typ wydarzenia \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcalendar_1_1event_reminder_ae79b7045c7fcf5461739a7ceee3d2e56}{set\+Ev\+Type}} (const std\+::string \&new\+Ev\+Type)
+\begin{DoxyCompactList}\small\item\em ustawia nowy typ wydarzenia \end{DoxyCompactList}\item 
+virtual std\+::string \mbox{\hyperlink{classcalendar_1_1event_reminder_a85bf9d1a85ffcfb7ea8f88fa06928561}{stringify\+Event}} () const noexcept
+\begin{DoxyCompactList}\small\item\em deklaracja metody wirtualnej z klasy event \end{DoxyCompactList}\item 
+virtual std\+::string \mbox{\hyperlink{classcalendar_1_1event_reminder_af533ec46a96abfffbf8960e18f79b398}{export\+Data}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Eksportuje dane do zapisu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Dokumentacja konstruktora i destruktora}
+\mbox{\Hypertarget{classcalendar_1_1event_reminder_a2b4bb6164f972a34b0ad303ef2e612a0}\label{classcalendar_1_1event_reminder_a2b4bb6164f972a34b0ad303ef2e612a0}} 
+\index{calendar::eventReminder@{calendar::eventReminder}!eventReminder@{eventReminder}}
+\index{eventReminder@{eventReminder}!calendar::eventReminder@{calendar::eventReminder}}
+\doxysubsubsection{\texorpdfstring{eventReminder()}{eventReminder()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily calendar\+::event\+Reminder\+::event\+Reminder (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+konstruktor bezargumentowy, tworzy pusty obiekt o wszystkich polach NULL 
+
+\mbox{\Hypertarget{classcalendar_1_1event_reminder_a3a55edb2c93f01584a85e18b22e81104}\label{classcalendar_1_1event_reminder_a3a55edb2c93f01584a85e18b22e81104}} 
+\index{calendar::eventReminder@{calendar::eventReminder}!eventReminder@{eventReminder}}
+\index{eventReminder@{eventReminder}!calendar::eventReminder@{calendar::eventReminder}}
+\doxysubsubsection{\texorpdfstring{eventReminder()}{eventReminder()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily calendar\+::event\+Reminder\+::event\+Reminder (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classcalendar_1_1date}{date}} \&}]{new\+Date,  }\item[{const std\+::string \&}]{new\+Name,  }\item[{const \mbox{\hyperlink{namespacecalendar_a8c77826be937e7a48bf92b36b5247280}{repeat\+Cycle}} \&}]{new\+Repeat,  }\item[{const std\+::string \&}]{new\+Ev\+Location,  }\item[{const std\+::string \&}]{new\+Ev\+Type }\end{DoxyParamCaption})}
+
+
+
+konstruktor wieloargumentowy, tworzy obiekt o wszystkich właściwościach 
+
+Oto graf wywołań dla tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1event_reminder_a3a55edb2c93f01584a85e18b22e81104_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Dokumentacja funkcji składowych}
+\mbox{\Hypertarget{classcalendar_1_1event_reminder_af533ec46a96abfffbf8960e18f79b398}\label{classcalendar_1_1event_reminder_af533ec46a96abfffbf8960e18f79b398}} 
+\index{calendar::eventReminder@{calendar::eventReminder}!exportData@{exportData}}
+\index{exportData@{exportData}!calendar::eventReminder@{calendar::eventReminder}}
+\doxysubsubsection{\texorpdfstring{exportData()}{exportData()}}
+{\footnotesize\ttfamily std\+::string calendar\+::event\+Reminder\+::export\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}, {\ttfamily [noexcept]}}
+
+
+
+Eksportuje dane do zapisu. 
+
+\begin{DoxyReturn}{Zwraca}
+std\+::string wyeksportowane dane 
+\end{DoxyReturn}
+
+
+Reimplementowana z \mbox{\hyperlink{classcalendar_1_1event_a0e92d003929c80547406fd7987a13d5b}{calendar\+::event}}.
+
+\mbox{\Hypertarget{classcalendar_1_1event_reminder_ad0ff99be4dc13deb6fa89a1e61434ffa}\label{classcalendar_1_1event_reminder_ad0ff99be4dc13deb6fa89a1e61434ffa}} 
+\index{calendar::eventReminder@{calendar::eventReminder}!getEvLocation@{getEvLocation}}
+\index{getEvLocation@{getEvLocation}!calendar::eventReminder@{calendar::eventReminder}}
+\doxysubsubsection{\texorpdfstring{getEvLocation()}{getEvLocation()}}
+{\footnotesize\ttfamily std\+::string calendar\+::event\+Reminder\+::get\+Ev\+Location (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+
+
+pobiera lokalizację wydarzenia 
+
+\begin{DoxyReturn}{Zwraca}
+lokalizacja wydarzenia 
+\end{DoxyReturn}
+Oto graf wywoływań tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1event_reminder_ad0ff99be4dc13deb6fa89a1e61434ffa_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classcalendar_1_1event_reminder_abc95eef5c7cd68208265734f3c2d9d1f}\label{classcalendar_1_1event_reminder_abc95eef5c7cd68208265734f3c2d9d1f}} 
+\index{calendar::eventReminder@{calendar::eventReminder}!getEvType@{getEvType}}
+\index{getEvType@{getEvType}!calendar::eventReminder@{calendar::eventReminder}}
+\doxysubsubsection{\texorpdfstring{getEvType()}{getEvType()}}
+{\footnotesize\ttfamily std\+::string calendar\+::event\+Reminder\+::get\+Ev\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+
+
+pobiera typ wydarzenia 
+
+\begin{DoxyReturn}{Zwraca}
+typ wydarzenia 
+\end{DoxyReturn}
+Oto graf wywoływań tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1event_reminder_abc95eef5c7cd68208265734f3c2d9d1f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classcalendar_1_1event_reminder_a790c2a234a772c11aaba8f6c4fbfa015}\label{classcalendar_1_1event_reminder_a790c2a234a772c11aaba8f6c4fbfa015}} 
+\index{calendar::eventReminder@{calendar::eventReminder}!setEvLocation@{setEvLocation}}
+\index{setEvLocation@{setEvLocation}!calendar::eventReminder@{calendar::eventReminder}}
+\doxysubsubsection{\texorpdfstring{setEvLocation()}{setEvLocation()}}
+{\footnotesize\ttfamily void calendar\+::event\+Reminder\+::set\+Ev\+Location (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{new\+Ev\+Location }\end{DoxyParamCaption})}
+
+
+
+ustawia nową lokalizację wydarzenia 
+
+
+\begin{DoxyParams}{Parametry}
+{\em new\+Ev\+Location} & nowa lokalizacja \\
+\hline
+\end{DoxyParams}
+Oto graf wywoływań tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1event_reminder_a790c2a234a772c11aaba8f6c4fbfa015_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classcalendar_1_1event_reminder_ae79b7045c7fcf5461739a7ceee3d2e56}\label{classcalendar_1_1event_reminder_ae79b7045c7fcf5461739a7ceee3d2e56}} 
+\index{calendar::eventReminder@{calendar::eventReminder}!setEvType@{setEvType}}
+\index{setEvType@{setEvType}!calendar::eventReminder@{calendar::eventReminder}}
+\doxysubsubsection{\texorpdfstring{setEvType()}{setEvType()}}
+{\footnotesize\ttfamily void calendar\+::event\+Reminder\+::set\+Ev\+Type (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{new\+Ev\+Type }\end{DoxyParamCaption})}
+
+
+
+ustawia nowy typ wydarzenia 
+
+
+\begin{DoxyParams}{Parametry}
+{\em new\+Ev\+Type} & nowy typ wydarzenia \\
+\hline
+\end{DoxyParams}
+Oto graf wywoływań tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1event_reminder_ae79b7045c7fcf5461739a7ceee3d2e56_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classcalendar_1_1event_reminder_a85bf9d1a85ffcfb7ea8f88fa06928561}\label{classcalendar_1_1event_reminder_a85bf9d1a85ffcfb7ea8f88fa06928561}} 
+\index{calendar::eventReminder@{calendar::eventReminder}!stringifyEvent@{stringifyEvent}}
+\index{stringifyEvent@{stringifyEvent}!calendar::eventReminder@{calendar::eventReminder}}
+\doxysubsubsection{\texorpdfstring{stringifyEvent()}{stringifyEvent()}}
+{\footnotesize\ttfamily std\+::string calendar\+::event\+Reminder\+::stringify\+Event (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}, {\ttfamily [noexcept]}}
+
+
+
+deklaracja metody wirtualnej z klasy event 
+
+
+
+Reimplementowana z \mbox{\hyperlink{classcalendar_1_1event_a99bb00302eb18633adf75dd202fe0c03}{calendar\+::event}}.
+
+Oto graf wywołań dla tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1event_reminder_a85bf9d1a85ffcfb7ea8f88fa06928561_cgraph}
+\end{center}
+\end{figure}
+Oto graf wywoływań tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcalendar_1_1event_reminder_a85bf9d1a85ffcfb7ea8f88fa06928561_icgraph}
+\end{center}
+\end{figure}
+
+
+Dokumentacja dla tej klasy została wygenerowana z plików\+:\begin{DoxyCompactItemize}
+\item 
+includes/\mbox{\hyperlink{event_reminder_model_8h}{event\+Reminder\+Model.\+h}}\item 
+res/\mbox{\hyperlink{event_reminder_model_8cpp}{event\+Reminder\+Model.\+cpp}}\end{DoxyCompactItemize}

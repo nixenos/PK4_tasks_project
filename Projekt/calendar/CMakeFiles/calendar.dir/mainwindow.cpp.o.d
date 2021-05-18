@@ -294,12 +294,12 @@ CMakeFiles/calendar.dir/mainwindow.cpp.o: \
  /usr/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/c++io.h \
  /usr/include/c++/10.2.0/bits/fstream.tcc /usr/include/c++/10.2.0/sstream \
  /usr/include/c++/10.2.0/bits/sstream.tcc \
- /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/includes/inputDialog.h \
- /usr/include/qt/QtWidgets/QDialog /usr/include/qt/QtWidgets/qdialog.h \
  /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/includes/todoView.h \
  /usr/include/qt/QtWidgets/QListView \
  /usr/include/qt/QtWidgets/qlistview.h \
  /usr/include/qt/QtGui/QStandardItem \
+ /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/includes/weeklyCalendarView.h \
+ /usr/include/qt/QtWidgets/QDialog /usr/include/qt/QtWidgets/qdialog.h \
  /usr/include/qt/QtWidgets/QDialogButtonBox \
  /usr/include/qt/QtWidgets/qdialogbuttonbox.h \
  /usr/include/qt/QtWidgets/QFormLayout \

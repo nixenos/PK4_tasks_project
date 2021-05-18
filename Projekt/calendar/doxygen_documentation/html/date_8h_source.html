@@ -1,0 +1,218 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Kalendarz: Plik źródłowy includes/date.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Kalendarz
+   &#160;<span id="projectnumber">0.1</span>
+   </div>
+   <div id="projectbrief">Kalendarz w Qt5</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_09e761304027c904456130627fd4dcf5.html">includes</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">date.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="date_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;map&gt;</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &lt;time.h&gt;</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacecalendar.html">calendar</a> {</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="date_8h.html#acc02da495aafbd100d107ef9e362241a">   19</a></span>&#160;<span class="preprocessor">#define MAX_YEAR_CAP 5000</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="namespacecalendar.html#a91b885726e698cdbd51de788828fb69a">   25</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">enum</span> <a class="code" href="namespacecalendar.html#a91b885726e698cdbd51de788828fb69a">weekDayModel</a> {</div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="namespacecalendar.html#a91b885726e698cdbd51de788828fb69aa02ba7adc4db53307c600e0c31c288b62">   26</a></span>&#160;    <a class="code" href="namespacecalendar.html#a91b885726e698cdbd51de788828fb69aa02ba7adc4db53307c600e0c31c288b62">Mon</a> = 0,</div>
+<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="namespacecalendar.html#a91b885726e698cdbd51de788828fb69aa7921a50a946b93ba2ca16373cf3e867d">   27</a></span>&#160;    <a class="code" href="namespacecalendar.html#a91b885726e698cdbd51de788828fb69aa7921a50a946b93ba2ca16373cf3e867d">Tue</a> = 1,</div>
+<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="namespacecalendar.html#a91b885726e698cdbd51de788828fb69aaf721141586411a05cef5a0b8fa40059e">   28</a></span>&#160;    <a class="code" href="namespacecalendar.html#a91b885726e698cdbd51de788828fb69aaf721141586411a05cef5a0b8fa40059e">Wed</a> = 2,</div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="namespacecalendar.html#a91b885726e698cdbd51de788828fb69aa9a0eb66695226a2e471b92a72a84eae7">   29</a></span>&#160;    <a class="code" href="namespacecalendar.html#a91b885726e698cdbd51de788828fb69aa9a0eb66695226a2e471b92a72a84eae7">Thu</a> = 3,</div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="namespacecalendar.html#a91b885726e698cdbd51de788828fb69aa0accb36a994905e6805948c91ce973d3">   30</a></span>&#160;    <a class="code" href="namespacecalendar.html#a91b885726e698cdbd51de788828fb69aa0accb36a994905e6805948c91ce973d3">Fri</a> = 4,</div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="namespacecalendar.html#a91b885726e698cdbd51de788828fb69aadc10d50a8ad18b5887bf2b3f178a3770">   31</a></span>&#160;    <a class="code" href="namespacecalendar.html#a91b885726e698cdbd51de788828fb69aadc10d50a8ad18b5887bf2b3f178a3770">Sat</a> = 5,</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <a class="code" href="namespacecalendar.html#a91b885726e698cdbd51de788828fb69aad524368bad45460ea3bd896206e7b064">Sun</a> = 6</div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="namespacecalendar.html#a91b885726e698cdbd51de788828fb69aad524368bad45460ea3bd896206e7b064">   33</a></span>&#160;} <a class="code" href="namespacecalendar.html#a91b885726e698cdbd51de788828fb69a">weekDayModel</a>;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
+<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="namespacecalendar.html#abc40418b6caa0c78eb28c7a0bc934405">   38</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">enum</span> <a class="code" href="namespacecalendar.html#abc40418b6caa0c78eb28c7a0bc934405">monthModel</a> {</div>
+<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="namespacecalendar.html#abc40418b6caa0c78eb28c7a0bc934405a732bd3d15793ac3e87f4129c6bcd5e0d">   39</a></span>&#160;    <a class="code" href="namespacecalendar.html#abc40418b6caa0c78eb28c7a0bc934405a732bd3d15793ac3e87f4129c6bcd5e0d">Jan</a> = 0,</div>
+<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="namespacecalendar.html#abc40418b6caa0c78eb28c7a0bc934405a41f1b35d5c8e239ede8e79507b302f99">   40</a></span>&#160;    <a class="code" href="namespacecalendar.html#abc40418b6caa0c78eb28c7a0bc934405a41f1b35d5c8e239ede8e79507b302f99">Feb</a> = 1,</div>
+<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="namespacecalendar.html#abc40418b6caa0c78eb28c7a0bc934405a1d6c5b27babedcf880d95cf1d14cddc6">   41</a></span>&#160;    <a class="code" href="namespacecalendar.html#abc40418b6caa0c78eb28c7a0bc934405a1d6c5b27babedcf880d95cf1d14cddc6">Mar</a> = 2,</div>
+<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="namespacecalendar.html#abc40418b6caa0c78eb28c7a0bc934405ac0a835b0b0a38e6aa0450337c4315f6f">   42</a></span>&#160;    <a class="code" href="namespacecalendar.html#abc40418b6caa0c78eb28c7a0bc934405ac0a835b0b0a38e6aa0450337c4315f6f">Apr</a> = 3,</div>
+<div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="namespacecalendar.html#abc40418b6caa0c78eb28c7a0bc934405a05609a60edbe20c2dd4e55d4e6b441e2">   43</a></span>&#160;    <a class="code" href="namespacecalendar.html#abc40418b6caa0c78eb28c7a0bc934405a05609a60edbe20c2dd4e55d4e6b441e2">May</a> = 4,</div>
+<div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="namespacecalendar.html#abc40418b6caa0c78eb28c7a0bc934405ac76c09a0825d8c795745a0b0dcdba93f">   44</a></span>&#160;    <a class="code" href="namespacecalendar.html#abc40418b6caa0c78eb28c7a0bc934405ac76c09a0825d8c795745a0b0dcdba93f">Jun</a> = 5,</div>
+<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="namespacecalendar.html#abc40418b6caa0c78eb28c7a0bc934405ab1e13a43e78fdde1ab19c4456f3409f1">   45</a></span>&#160;    <a class="code" href="namespacecalendar.html#abc40418b6caa0c78eb28c7a0bc934405ab1e13a43e78fdde1ab19c4456f3409f1">Jul</a> = 6,</div>
+<div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="namespacecalendar.html#abc40418b6caa0c78eb28c7a0bc934405a31ec78d401e7210d1f1dacb8f6a79427">   46</a></span>&#160;    <a class="code" href="namespacecalendar.html#abc40418b6caa0c78eb28c7a0bc934405a31ec78d401e7210d1f1dacb8f6a79427">Aug</a> = 7,</div>
+<div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="namespacecalendar.html#abc40418b6caa0c78eb28c7a0bc934405abdc30e674f990d9895049e4ac61cc322">   47</a></span>&#160;    <a class="code" href="namespacecalendar.html#abc40418b6caa0c78eb28c7a0bc934405abdc30e674f990d9895049e4ac61cc322">Sep</a> = 8,</div>
+<div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="namespacecalendar.html#abc40418b6caa0c78eb28c7a0bc934405a421d4e83667ccf15cbee2677662bb138">   48</a></span>&#160;    <a class="code" href="namespacecalendar.html#abc40418b6caa0c78eb28c7a0bc934405a421d4e83667ccf15cbee2677662bb138">Oct</a> = 9,</div>
+<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="namespacecalendar.html#abc40418b6caa0c78eb28c7a0bc934405a6dfe7318b7780a6924128ff8b7264ca2">   49</a></span>&#160;    <a class="code" href="namespacecalendar.html#abc40418b6caa0c78eb28c7a0bc934405a6dfe7318b7780a6924128ff8b7264ca2">Nov</a> = 10,</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <a class="code" href="namespacecalendar.html#abc40418b6caa0c78eb28c7a0bc934405a8c20f26576af8c4637524fe52eccc6fd">Dec</a> = 11</div>
+<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="namespacecalendar.html#abc40418b6caa0c78eb28c7a0bc934405a8c20f26576af8c4637524fe52eccc6fd">   51</a></span>&#160;} <a class="code" href="namespacecalendar.html#abc40418b6caa0c78eb28c7a0bc934405">monthModel</a>;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
+<div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="classcalendar_1_1date.html">   56</a></span>&#160;<span class="keyword">class </span><a class="code" href="classcalendar_1_1date.html">date</a> {</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> <a class="code" href="classcalendar_1_1day.html">day</a>;     </div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <a class="code" href="namespacecalendar.html#a91b885726e698cdbd51de788828fb69a">weekDayModel</a> weekDay;   </div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <a class="code" href="namespacecalendar.html#abc40418b6caa0c78eb28c7a0bc934405">monthModel</a> month;       </div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <span class="keywordtype">int</span> year; </div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <span class="keywordtype">int</span> weekNumber;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <a class="code" href="namespacecalendar.html#a91b885726e698cdbd51de788828fb69a">weekDayModel</a> calculateWeekDay(<span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> &amp;qDay,</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                                  <span class="keyword">const</span> <a class="code" href="namespacecalendar.html#abc40418b6caa0c78eb28c7a0bc934405">monthModel</a> &amp;qMonth,</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                                  <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <span class="keywordtype">int</span> &amp;qYear) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160; </div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;  <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <a class="code" href="classcalendar_1_1date.html#a44b8a58bc9a6225c77adbab6e5f447a6">date</a>();</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
+<div class="line"><a name="l00087"></a><span class="lineno"><a class="line" href="classcalendar_1_1date.html#a83b068b54aa507ad579b67c718877096">   87</a></span>&#160;    <a class="code" href="classcalendar_1_1date.html#a83b068b54aa507ad579b67c718877096">date</a>(<span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> &amp;<a class="code" href="classcalendar_1_1day.html">day</a>, <span class="keyword">const</span> <a class="code" href="namespacecalendar.html#abc40418b6caa0c78eb28c7a0bc934405">monthModel</a> &amp;month,</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;         <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <span class="keywordtype">int</span> &amp;year);</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160; </div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> <a class="code" href="classcalendar_1_1date.html#afc729e949594b20f9121b22af9c9187c">getDay</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160; </div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classcalendar_1_1date.html#a81df76e55a71fecd2bbda2ce73875c88">setDay</a>(<span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> &amp;newDay);</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160; </div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    <span class="keyword">const</span> <a class="code" href="namespacecalendar.html#a91b885726e698cdbd51de788828fb69a">weekDayModel</a> <a class="code" href="classcalendar_1_1date.html#a2b10514c38cddcd72e48b188416d79cb">getWeekDay</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160; </div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <span class="keyword">const</span> <a class="code" href="namespacecalendar.html#abc40418b6caa0c78eb28c7a0bc934405">monthModel</a> <a class="code" href="classcalendar_1_1date.html#afe34409f4e6ebc09d8d3eeac14b281e6">getMonth</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160; </div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classcalendar_1_1date.html#abac73d078400e088db5ea4b9b045eadd">setMonth</a>(<span class="keyword">const</span> <a class="code" href="namespacecalendar.html#abc40418b6caa0c78eb28c7a0bc934405">monthModel</a> &amp;newMonth);</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160; </div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <span class="keywordtype">int</span> <a class="code" href="classcalendar_1_1date.html#a9c104a57ea4d555a1cd0eea72d9d684e">getYear</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160; </div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classcalendar_1_1date.html#a7e64a6e5d7ccb49369147a16baaa3991">setYear</a>(<span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <span class="keywordtype">int</span> &amp;newYear);</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160; </div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classcalendar_1_1date.html#ae2b16c8e24e29583a66201d4c7d47a40">setCurrentDate</a>();</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160; </div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classcalendar_1_1date.html#af2e0c6620160e5e3e4f29c64e2e55ed5">incrementMonth</a>();</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160; </div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classcalendar_1_1date.html#a5e680bcd8e87eec56f0b33a871c199a2">decrementMonth</a>();</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160; </div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classcalendar_1_1date.html#a95b9cb820f16febe2902b45aab6eaa95">incrementWeek</a>();</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160; </div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classcalendar_1_1date.html#aeda88b88ec32333a9166dcf42dfbbe9d">decrementWeek</a>();</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160; </div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classcalendar_1_1date.html#adadb2b26d011beb3b033cfa1c1df454f">setWeekNum</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> &amp;newWeekNum);</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160; </div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classcalendar_1_1date.html#a682b14bf68b4ce86a4469eda7a9e8832">getWeekNum</a>() const noexcept;</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160; </div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    <span class="keywordtype">bool</span> operator==(const <a class="code" href="classcalendar_1_1date.html">date</a> &amp;right);</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160; </div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    <span class="keywordtype">bool</span> operator!=(const <a class="code" href="classcalendar_1_1date.html">date</a> &amp;right);</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160; </div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;    std::<span class="keywordtype">string</span> <a class="code" href="classcalendar_1_1date.html#a0d920138429c98a8e0d6dc97e36a4335">stringify</a>();</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160; </div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    <span class="keywordtype">bool</span> operator&gt;(const <a class="code" href="classcalendar_1_1date.html">date</a> &amp;right);</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160; </div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    <span class="keywordtype">bool</span> operator&lt;(const <a class="code" href="classcalendar_1_1date.html">date</a> &amp;right);</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160; </div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    <span class="keywordtype">bool</span> operator&gt;=(const <a class="code" href="classcalendar_1_1date.html">date</a> &amp;right);</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160; </div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    <span class="keywordtype">bool</span> operator&lt;=(const <a class="code" href="classcalendar_1_1date.html">date</a> &amp;right);</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;};</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;} <span class="comment">// namespace calendar</span></div>
+<div class="ttc" id="aclasscalendar_1_1date_html"><div class="ttname"><a href="classcalendar_1_1date.html">calendar::date</a></div><div class="ttdoc">klasa obsługująca datę.</div><div class="ttdef"><b>Definition:</b> date.h:56</div></div>
+<div class="ttc" id="aclasscalendar_1_1date_html_a0d920138429c98a8e0d6dc97e36a4335"><div class="ttname"><a href="classcalendar_1_1date.html#a0d920138429c98a8e0d6dc97e36a4335">calendar::date::stringify</a></div><div class="ttdeci">std::string stringify()</div><div class="ttdoc">Opisuje obiekt daty jako string.</div><div class="ttdef"><b>Definition:</b> date.cpp:221</div></div>
+<div class="ttc" id="aclasscalendar_1_1date_html_a2b10514c38cddcd72e48b188416d79cb"><div class="ttname"><a href="classcalendar_1_1date.html#a2b10514c38cddcd72e48b188416d79cb">calendar::date::getWeekDay</a></div><div class="ttdeci">const weekDayModel getWeekDay() const</div><div class="ttdoc">pobiera dzień tygodnia.</div><div class="ttdef"><b>Definition:</b> date.cpp:140</div></div>
+<div class="ttc" id="aclasscalendar_1_1date_html_a44b8a58bc9a6225c77adbab6e5f447a6"><div class="ttname"><a href="classcalendar_1_1date.html#a44b8a58bc9a6225c77adbab6e5f447a6">calendar::date::date</a></div><div class="ttdeci">date()</div><div class="ttdoc">konstruktor bezargumentowy, przypisuje obiektowi aktualną datę.</div><div class="ttdef"><b>Definition:</b> date.cpp:4</div></div>
+<div class="ttc" id="aclasscalendar_1_1date_html_a5e680bcd8e87eec56f0b33a871c199a2"><div class="ttname"><a href="classcalendar_1_1date.html#a5e680bcd8e87eec56f0b33a871c199a2">calendar::date::decrementMonth</a></div><div class="ttdeci">void decrementMonth()</div><div class="ttdoc">Dekrementuje miesiąc.</div><div class="ttdef"><b>Definition:</b> date.cpp:159</div></div>
+<div class="ttc" id="aclasscalendar_1_1date_html_a682b14bf68b4ce86a4469eda7a9e8832"><div class="ttname"><a href="classcalendar_1_1date.html#a682b14bf68b4ce86a4469eda7a9e8832">calendar::date::getWeekNum</a></div><div class="ttdeci">int getWeekNum() const noexcept</div><div class="ttdoc">Pobiera numer tygodnia.</div><div class="ttdef"><b>Definition:</b> date.cpp:232</div></div>
+<div class="ttc" id="aclasscalendar_1_1date_html_a7e64a6e5d7ccb49369147a16baaa3991"><div class="ttname"><a href="classcalendar_1_1date.html#a7e64a6e5d7ccb49369147a16baaa3991">calendar::date::setYear</a></div><div class="ttdeci">void setYear(const unsigned long int &amp;newYear)</div><div class="ttdoc">ustawia rok.</div><div class="ttdef"><b>Definition:</b> date.cpp:128</div></div>
+<div class="ttc" id="aclasscalendar_1_1date_html_a81df76e55a71fecd2bbda2ce73875c88"><div class="ttname"><a href="classcalendar_1_1date.html#a81df76e55a71fecd2bbda2ce73875c88">calendar::date::setDay</a></div><div class="ttdeci">void setDay(const unsigned short &amp;newDay)</div><div class="ttdoc">ustawia dzień miesiąca.</div><div class="ttdef"><b>Definition:</b> date.cpp:65</div></div>
+<div class="ttc" id="aclasscalendar_1_1date_html_a83b068b54aa507ad579b67c718877096"><div class="ttname"><a href="classcalendar_1_1date.html#a83b068b54aa507ad579b67c718877096">calendar::date::date</a></div><div class="ttdeci">date(const unsigned short &amp;day, const monthModel &amp;month, const unsigned long int &amp;year)</div><div class="ttdoc">konstruktor trójargumentowy, przypisuje obiektowi podaną datę.</div></div>
+<div class="ttc" id="aclasscalendar_1_1date_html_a95b9cb820f16febe2902b45aab6eaa95"><div class="ttname"><a href="classcalendar_1_1date.html#a95b9cb820f16febe2902b45aab6eaa95">calendar::date::incrementWeek</a></div><div class="ttdeci">void incrementWeek()</div><div class="ttdoc">Inkrementuje tydzień.</div><div class="ttdef"><b>Definition:</b> date.cpp:234</div></div>
+<div class="ttc" id="aclasscalendar_1_1date_html_a9c104a57ea4d555a1cd0eea72d9d684e"><div class="ttname"><a href="classcalendar_1_1date.html#a9c104a57ea4d555a1cd0eea72d9d684e">calendar::date::getYear</a></div><div class="ttdeci">const unsigned long int getYear() const</div><div class="ttdoc">pobiera rok.</div><div class="ttdef"><b>Definition:</b> date.cpp:144</div></div>
+<div class="ttc" id="aclasscalendar_1_1date_html_abac73d078400e088db5ea4b9b045eadd"><div class="ttname"><a href="classcalendar_1_1date.html#abac73d078400e088db5ea4b9b045eadd">calendar::date::setMonth</a></div><div class="ttdeci">void setMonth(const monthModel &amp;newMonth)</div><div class="ttdoc">ustawia miesiąc.</div><div class="ttdef"><b>Definition:</b> date.cpp:120</div></div>
+<div class="ttc" id="aclasscalendar_1_1date_html_adadb2b26d011beb3b033cfa1c1df454f"><div class="ttname"><a href="classcalendar_1_1date.html#adadb2b26d011beb3b033cfa1c1df454f">calendar::date::setWeekNum</a></div><div class="ttdeci">void setWeekNum(const int &amp;newWeekNum)</div><div class="ttdoc">Ustawia określony numer tygodnia.</div><div class="ttdef"><b>Definition:</b> date.cpp:228</div></div>
+<div class="ttc" id="aclasscalendar_1_1date_html_ae2b16c8e24e29583a66201d4c7d47a40"><div class="ttname"><a href="classcalendar_1_1date.html#ae2b16c8e24e29583a66201d4c7d47a40">calendar::date::setCurrentDate</a></div><div class="ttdeci">void setCurrentDate()</div><div class="ttdoc">ustawia bieżącą datę.</div><div class="ttdef"><b>Definition:</b> date.cpp:35</div></div>
+<div class="ttc" id="aclasscalendar_1_1date_html_aeda88b88ec32333a9166dcf42dfbbe9d"><div class="ttname"><a href="classcalendar_1_1date.html#aeda88b88ec32333a9166dcf42dfbbe9d">calendar::date::decrementWeek</a></div><div class="ttdeci">void decrementWeek()</div><div class="ttdoc">Dekrementuje tydzień.</div><div class="ttdef"><b>Definition:</b> date.cpp:274</div></div>
+<div class="ttc" id="aclasscalendar_1_1date_html_af2e0c6620160e5e3e4f29c64e2e55ed5"><div class="ttname"><a href="classcalendar_1_1date.html#af2e0c6620160e5e3e4f29c64e2e55ed5">calendar::date::incrementMonth</a></div><div class="ttdeci">void incrementMonth()</div><div class="ttdoc">Inkrementuje miesiąc.</div><div class="ttdef"><b>Definition:</b> date.cpp:148</div></div>
+<div class="ttc" id="aclasscalendar_1_1date_html_afc729e949594b20f9121b22af9c9187c"><div class="ttname"><a href="classcalendar_1_1date.html#afc729e949594b20f9121b22af9c9187c">calendar::date::getDay</a></div><div class="ttdeci">const unsigned short getDay() const</div><div class="ttdoc">pobiera dzień miesiąca.</div><div class="ttdef"><b>Definition:</b> date.cpp:146</div></div>
+<div class="ttc" id="aclasscalendar_1_1date_html_afe34409f4e6ebc09d8d3eeac14b281e6"><div class="ttname"><a href="classcalendar_1_1date.html#afe34409f4e6ebc09d8d3eeac14b281e6">calendar::date::getMonth</a></div><div class="ttdeci">const monthModel getMonth() const</div><div class="ttdoc">pobiera miesiąc.</div><div class="ttdef"><b>Definition:</b> date.cpp:136</div></div>
+<div class="ttc" id="aclasscalendar_1_1day_html"><div class="ttname"><a href="classcalendar_1_1day.html">calendar::day</a></div><div class="ttdef"><b>Definition:</b> dayModel.h:19</div></div>
+<div class="ttc" id="anamespacecalendar_html"><div class="ttname"><a href="namespacecalendar.html">calendar</a></div><div class="ttdef"><b>Definition:</b> calendarView.h:21</div></div>
+<div class="ttc" id="anamespacecalendar_html_a91b885726e698cdbd51de788828fb69a"><div class="ttname"><a href="namespacecalendar.html#a91b885726e698cdbd51de788828fb69a">calendar::weekDayModel</a></div><div class="ttdeci">weekDayModel</div><div class="ttdoc">typ wyliczeniowy obsługujący dzień tygodnia.</div><div class="ttdef"><b>Definition:</b> date.h:25</div></div>
+<div class="ttc" id="anamespacecalendar_html_a91b885726e698cdbd51de788828fb69aa02ba7adc4db53307c600e0c31c288b62"><div class="ttname"><a href="namespacecalendar.html#a91b885726e698cdbd51de788828fb69aa02ba7adc4db53307c600e0c31c288b62">calendar::Mon</a></div><div class="ttdeci">@ Mon</div><div class="ttdef"><b>Definition:</b> date.h:26</div></div>
+<div class="ttc" id="anamespacecalendar_html_a91b885726e698cdbd51de788828fb69aa0accb36a994905e6805948c91ce973d3"><div class="ttname"><a href="namespacecalendar.html#a91b885726e698cdbd51de788828fb69aa0accb36a994905e6805948c91ce973d3">calendar::Fri</a></div><div class="ttdeci">@ Fri</div><div class="ttdef"><b>Definition:</b> date.h:30</div></div>
+<div class="ttc" id="anamespacecalendar_html_a91b885726e698cdbd51de788828fb69aa7921a50a946b93ba2ca16373cf3e867d"><div class="ttname"><a href="namespacecalendar.html#a91b885726e698cdbd51de788828fb69aa7921a50a946b93ba2ca16373cf3e867d">calendar::Tue</a></div><div class="ttdeci">@ Tue</div><div class="ttdef"><b>Definition:</b> date.h:27</div></div>
+<div class="ttc" id="anamespacecalendar_html_a91b885726e698cdbd51de788828fb69aa9a0eb66695226a2e471b92a72a84eae7"><div class="ttname"><a href="namespacecalendar.html#a91b885726e698cdbd51de788828fb69aa9a0eb66695226a2e471b92a72a84eae7">calendar::Thu</a></div><div class="ttdeci">@ Thu</div><div class="ttdef"><b>Definition:</b> date.h:29</div></div>
+<div class="ttc" id="anamespacecalendar_html_a91b885726e698cdbd51de788828fb69aad524368bad45460ea3bd896206e7b064"><div class="ttname"><a href="namespacecalendar.html#a91b885726e698cdbd51de788828fb69aad524368bad45460ea3bd896206e7b064">calendar::Sun</a></div><div class="ttdeci">@ Sun</div><div class="ttdef"><b>Definition:</b> date.h:32</div></div>
+<div class="ttc" id="anamespacecalendar_html_a91b885726e698cdbd51de788828fb69aadc10d50a8ad18b5887bf2b3f178a3770"><div class="ttname"><a href="namespacecalendar.html#a91b885726e698cdbd51de788828fb69aadc10d50a8ad18b5887bf2b3f178a3770">calendar::Sat</a></div><div class="ttdeci">@ Sat</div><div class="ttdef"><b>Definition:</b> date.h:31</div></div>
+<div class="ttc" id="anamespacecalendar_html_a91b885726e698cdbd51de788828fb69aaf721141586411a05cef5a0b8fa40059e"><div class="ttname"><a href="namespacecalendar.html#a91b885726e698cdbd51de788828fb69aaf721141586411a05cef5a0b8fa40059e">calendar::Wed</a></div><div class="ttdeci">@ Wed</div><div class="ttdef"><b>Definition:</b> date.h:28</div></div>
+<div class="ttc" id="anamespacecalendar_html_abc40418b6caa0c78eb28c7a0bc934405"><div class="ttname"><a href="namespacecalendar.html#abc40418b6caa0c78eb28c7a0bc934405">calendar::monthModel</a></div><div class="ttdeci">monthModel</div><div class="ttdoc">typ wyliczeniowy obługujący miesiące.</div><div class="ttdef"><b>Definition:</b> date.h:38</div></div>
+<div class="ttc" id="anamespacecalendar_html_abc40418b6caa0c78eb28c7a0bc934405a05609a60edbe20c2dd4e55d4e6b441e2"><div class="ttname"><a href="namespacecalendar.html#abc40418b6caa0c78eb28c7a0bc934405a05609a60edbe20c2dd4e55d4e6b441e2">calendar::May</a></div><div class="ttdeci">@ May</div><div class="ttdef"><b>Definition:</b> date.h:43</div></div>
+<div class="ttc" id="anamespacecalendar_html_abc40418b6caa0c78eb28c7a0bc934405a1d6c5b27babedcf880d95cf1d14cddc6"><div class="ttname"><a href="namespacecalendar.html#abc40418b6caa0c78eb28c7a0bc934405a1d6c5b27babedcf880d95cf1d14cddc6">calendar::Mar</a></div><div class="ttdeci">@ Mar</div><div class="ttdef"><b>Definition:</b> date.h:41</div></div>
+<div class="ttc" id="anamespacecalendar_html_abc40418b6caa0c78eb28c7a0bc934405a31ec78d401e7210d1f1dacb8f6a79427"><div class="ttname"><a href="namespacecalendar.html#abc40418b6caa0c78eb28c7a0bc934405a31ec78d401e7210d1f1dacb8f6a79427">calendar::Aug</a></div><div class="ttdeci">@ Aug</div><div class="ttdef"><b>Definition:</b> date.h:46</div></div>
+<div class="ttc" id="anamespacecalendar_html_abc40418b6caa0c78eb28c7a0bc934405a41f1b35d5c8e239ede8e79507b302f99"><div class="ttname"><a href="namespacecalendar.html#abc40418b6caa0c78eb28c7a0bc934405a41f1b35d5c8e239ede8e79507b302f99">calendar::Feb</a></div><div class="ttdeci">@ Feb</div><div class="ttdef"><b>Definition:</b> date.h:40</div></div>
+<div class="ttc" id="anamespacecalendar_html_abc40418b6caa0c78eb28c7a0bc934405a421d4e83667ccf15cbee2677662bb138"><div class="ttname"><a href="namespacecalendar.html#abc40418b6caa0c78eb28c7a0bc934405a421d4e83667ccf15cbee2677662bb138">calendar::Oct</a></div><div class="ttdeci">@ Oct</div><div class="ttdef"><b>Definition:</b> date.h:48</div></div>
+<div class="ttc" id="anamespacecalendar_html_abc40418b6caa0c78eb28c7a0bc934405a6dfe7318b7780a6924128ff8b7264ca2"><div class="ttname"><a href="namespacecalendar.html#abc40418b6caa0c78eb28c7a0bc934405a6dfe7318b7780a6924128ff8b7264ca2">calendar::Nov</a></div><div class="ttdeci">@ Nov</div><div class="ttdef"><b>Definition:</b> date.h:49</div></div>
+<div class="ttc" id="anamespacecalendar_html_abc40418b6caa0c78eb28c7a0bc934405a732bd3d15793ac3e87f4129c6bcd5e0d"><div class="ttname"><a href="namespacecalendar.html#abc40418b6caa0c78eb28c7a0bc934405a732bd3d15793ac3e87f4129c6bcd5e0d">calendar::Jan</a></div><div class="ttdeci">@ Jan</div><div class="ttdef"><b>Definition:</b> date.h:39</div></div>
+<div class="ttc" id="anamespacecalendar_html_abc40418b6caa0c78eb28c7a0bc934405a8c20f26576af8c4637524fe52eccc6fd"><div class="ttname"><a href="namespacecalendar.html#abc40418b6caa0c78eb28c7a0bc934405a8c20f26576af8c4637524fe52eccc6fd">calendar::Dec</a></div><div class="ttdeci">@ Dec</div><div class="ttdef"><b>Definition:</b> date.h:50</div></div>
+<div class="ttc" id="anamespacecalendar_html_abc40418b6caa0c78eb28c7a0bc934405ab1e13a43e78fdde1ab19c4456f3409f1"><div class="ttname"><a href="namespacecalendar.html#abc40418b6caa0c78eb28c7a0bc934405ab1e13a43e78fdde1ab19c4456f3409f1">calendar::Jul</a></div><div class="ttdeci">@ Jul</div><div class="ttdef"><b>Definition:</b> date.h:45</div></div>
+<div class="ttc" id="anamespacecalendar_html_abc40418b6caa0c78eb28c7a0bc934405abdc30e674f990d9895049e4ac61cc322"><div class="ttname"><a href="namespacecalendar.html#abc40418b6caa0c78eb28c7a0bc934405abdc30e674f990d9895049e4ac61cc322">calendar::Sep</a></div><div class="ttdeci">@ Sep</div><div class="ttdef"><b>Definition:</b> date.h:47</div></div>
+<div class="ttc" id="anamespacecalendar_html_abc40418b6caa0c78eb28c7a0bc934405ac0a835b0b0a38e6aa0450337c4315f6f"><div class="ttname"><a href="namespacecalendar.html#abc40418b6caa0c78eb28c7a0bc934405ac0a835b0b0a38e6aa0450337c4315f6f">calendar::Apr</a></div><div class="ttdeci">@ Apr</div><div class="ttdef"><b>Definition:</b> date.h:42</div></div>
+<div class="ttc" id="anamespacecalendar_html_abc40418b6caa0c78eb28c7a0bc934405ac76c09a0825d8c795745a0b0dcdba93f"><div class="ttname"><a href="namespacecalendar.html#abc40418b6caa0c78eb28c7a0bc934405ac76c09a0825d8c795745a0b0dcdba93f">calendar::Jun</a></div><div class="ttdeci">@ Jun</div><div class="ttdef"><b>Definition:</b> date.h:44</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

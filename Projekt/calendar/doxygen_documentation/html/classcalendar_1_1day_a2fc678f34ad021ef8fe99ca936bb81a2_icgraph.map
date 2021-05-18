@@ -1,0 +1,4 @@
+<map id="calendar::day::setDate" name="calendar::day::setDate">
+<area shape="rect" id="node1" title="Ustawia datę dnia." alt="" coords="195,5,363,32"/>
+<area shape="rect" id="node2" href="$classcalendar_1_1day.html#acadf6aaab929d3c1f32163a222ff63cd" title="Konstruktor tworzący pusty obiekt o dacie 1.1.2012." alt="" coords="5,5,147,32"/>
+</map>

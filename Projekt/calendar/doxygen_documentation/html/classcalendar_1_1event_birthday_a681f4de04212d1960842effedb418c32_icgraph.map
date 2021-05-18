@@ -1,0 +1,4 @@
+<map id="calendar::eventBirthday::setBirthDate" name="calendar::eventBirthday::setBirthDate">
+<area shape="rect" id="node1" title="ustawia nowy dzień urodzin osoby" alt="" coords="232,5,411,47"/>
+<area shape="rect" id="node2" href="$classcalendar_1_1event_birthday.html#a935269c95a648dc2c718b44cfacb70ff" title="konstruktor tworzący pełny obiekt klasy eventBirthday" alt="" coords="5,5,184,47"/>
+</map>

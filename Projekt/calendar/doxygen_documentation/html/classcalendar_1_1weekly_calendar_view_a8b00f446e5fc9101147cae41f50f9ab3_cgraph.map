@@ -1,0 +1,5 @@
+<map id="calendar::weeklyCalendarView::getCurrentWeekNumber" name="calendar::weeklyCalendarView::getCurrentWeekNumber">
+<area shape="rect" id="node1" title="Pobiera aktualny numer tygodnia." alt="" coords="5,23,225,65"/>
+<area shape="rect" id="node2" href="$classcalendar_1_1date.html#afc729e949594b20f9121b22af9c9187c" title="pobiera dzień miesiąca." alt="" coords="291,5,462,32"/>
+<area shape="rect" id="node3" href="$classcalendar_1_1date.html#a2b10514c38cddcd72e48b188416d79cb" title="pobiera dzień tygodnia." alt="" coords="273,56,480,83"/>
+</map>

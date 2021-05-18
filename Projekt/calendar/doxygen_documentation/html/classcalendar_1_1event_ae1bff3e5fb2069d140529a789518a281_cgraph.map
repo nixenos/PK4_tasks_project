@@ -1,0 +1,7 @@
+<map id="calendar::event::event" name="calendar::event::event">
+<area shape="rect" id="node1" title="konstruktor bezargumentowy, tworzy obiekt z datą 1.01.2012, nazwą NULL i bez powtarzania" alt="" coords="5,81,173,108"/>
+<area shape="rect" id="node2" href="$classcalendar_1_1event.html#abdd62f802c8f39492a8c8e7591e9cd41" title="ustawia datę wydarzenia" alt="" coords="243,5,441,32"/>
+<area shape="rect" id="node3" href="$classcalendar_1_1event.html#a3745ccce1c91e2e410df95ac8c66e6cb" title="ustawia opis wydarzenia" alt="" coords="221,56,463,83"/>
+<area shape="rect" id="node4" href="$classcalendar_1_1event.html#a6f34bc21bfc3ee76fa924b045f836241" title="ustawia nazwę wydarzenia" alt="" coords="239,107,445,133"/>
+<area shape="rect" id="node5" href="$classcalendar_1_1event.html#ad28f196e28f3c6715835e895a941636b" title="ustawia nowy cykl powtarzania" alt="" coords="235,157,449,184"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="calendar::weeklyCalendarView::displayReminderEvent" name="calendar::weeklyCalendarView::displayReminderEvent">
+<area shape="rect" id="node1" title="Zwraca element Qt, który ma zostać wyświetlony." alt="" coords="260,39,469,80"/>
+<area shape="rect" id="node2" href="$classcalendar_1_1weekly_calendar_view.html#aa8d257161f51be45757eea0fc9bcb8dc" title="Oblicza obecny tydzień oraz ustawia wartości w widoku." alt="" coords="5,5,212,47"/>
+<area shape="rect" id="node3" href="$classcalendar_1_1weekly_calendar_view.html#af45221d98829ebee8ef6c05ad14e128b" title="Pobiera wydarzenia dla danego dnia." alt="" coords="13,71,204,112"/>
+</map>

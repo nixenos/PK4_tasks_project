@@ -8,9 +8,9 @@
   /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/includes/eventHolidayModel.h \
   /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/includes/eventModel.h \
   /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/includes/eventReminderModel.h \
-  /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/includes/inputDialog.h \
   /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/includes/todoElement.h \
   /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/includes/todoView.h \
+  /home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/includes/weeklyCalendarView.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \

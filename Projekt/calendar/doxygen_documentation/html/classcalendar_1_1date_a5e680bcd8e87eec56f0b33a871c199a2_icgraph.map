@@ -1,0 +1,4 @@
+<map id="calendar::date::decrementMonth" name="calendar::date::decrementMonth">
+<area shape="rect" id="node1" title="Dekrementuje miesiąc." alt="" coords="284,5,477,47"/>
+<area shape="rect" id="node2" href="$classcalendar_1_1date.html#aeda88b88ec32333a9166dcf42dfbbe9d" title="Dekrementuje tydzień." alt="" coords="5,13,236,39"/>
+</map>

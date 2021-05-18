@@ -1,0 +1,6 @@
+<map id="calendar::event::getEvName" name="calendar::event::getEvName">
+<area shape="rect" id="node1" title="pobiera nazwę wydarzenia" alt="" coords="473,46,680,73"/>
+<area shape="rect" id="node2" href="$classcalendar_1_1event_holiday.html#a2be4f57a608d2bae73aa5178bb8eb4cc" title="Eksportuje dane do zapisu." alt="" coords="252,39,425,80"/>
+<area shape="rect" id="node3" href="$classcalendar_1_1calendar_view.html#ac4bad199c4a24d3b789cf507ebe83408" title="Dodaje wydarzenie z okna dialogowego." alt="" coords="17,5,192,47"/>
+<area shape="rect" id="node4" href="$classcalendar_1_1weekly_calendar_view.html#a2c265a8fc7fda0cee2844b1a2e7c2a36" title="Dodaje wydarzenie z okna dialogowego." alt="" coords="5,71,204,112"/>
+</map>

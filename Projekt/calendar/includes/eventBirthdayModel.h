@@ -63,6 +63,11 @@ class eventBirthday : public event {
      */
     virtual std::string stringifyEvent() const noexcept;
 
+    /**
+     * @brief Eksportuje dane do zapisu
+     *
+     * @return std::string wyeksportowane dane
+     */
     virtual std::string exportData() const noexcept;
 };
 } // namespace calendar

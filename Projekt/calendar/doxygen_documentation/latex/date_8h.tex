@@ -1,0 +1,99 @@
+\hypertarget{date_8h}{}\doxysection{Dokumentacja pliku includes/date.h}
+\label{date_8h}\index{includes/date.h@{includes/date.h}}
+{\ttfamily \#include $<$map$>$}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$time.\+h$>$}\newline
+Wykres zależności załączania dla date.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=314pt]{date_8h__incl}
+\end{center}
+\end{figure}
+Ten wykres pokazuje, które pliki bezpośrednio lub pośrednio załączają ten plik\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{date_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Komponenty}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classcalendar_1_1date}{calendar\+::date}}
+\begin{DoxyCompactList}\small\item\em klasa obsługująca datę. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Przestrzenie nazw}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespacecalendar}{calendar}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Definicje}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{date_8h_acc02da495aafbd100d107ef9e362241a}{MAX\+\_\+\+YEAR\+\_\+\+CAP}}~5000
+\end{DoxyCompactItemize}
+\doxysubsection*{Definicje typów}
+\begin{DoxyCompactItemize}
+\item 
+typedef enum \mbox{\hyperlink{namespacecalendar_a91b885726e698cdbd51de788828fb69a}{calendar\+::week\+Day\+Model}} \mbox{\hyperlink{namespacecalendar_a5bd6cc7dcfcd564af986ac0341497aa6}{calendar\+::week\+Day\+Model}}
+\begin{DoxyCompactList}\small\item\em typ wyliczeniowy obsługujący dzień tygodnia. \end{DoxyCompactList}\item 
+typedef enum \mbox{\hyperlink{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405}{calendar\+::month\+Model}} \mbox{\hyperlink{namespacecalendar_a7c84b833707a126bfcac2342f188271b}{calendar\+::month\+Model}}
+\begin{DoxyCompactList}\small\item\em typ wyliczeniowy obługujący miesiące. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Wyliczenia}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{namespacecalendar_a91b885726e698cdbd51de788828fb69a}{calendar\+::week\+Day\+Model}} \{ \newline
+\mbox{\hyperlink{namespacecalendar_a91b885726e698cdbd51de788828fb69aa02ba7adc4db53307c600e0c31c288b62}{calendar\+::\+Mon}} = 0
+, \mbox{\hyperlink{namespacecalendar_a91b885726e698cdbd51de788828fb69aa7921a50a946b93ba2ca16373cf3e867d}{calendar\+::\+Tue}} = 1
+, \mbox{\hyperlink{namespacecalendar_a91b885726e698cdbd51de788828fb69aaf721141586411a05cef5a0b8fa40059e}{calendar\+::\+Wed}} = 2
+, \mbox{\hyperlink{namespacecalendar_a91b885726e698cdbd51de788828fb69aa9a0eb66695226a2e471b92a72a84eae7}{calendar\+::\+Thu}} = 3
+, \newline
+\mbox{\hyperlink{namespacecalendar_a91b885726e698cdbd51de788828fb69aa0accb36a994905e6805948c91ce973d3}{calendar\+::\+Fri}} = 4
+, \mbox{\hyperlink{namespacecalendar_a91b885726e698cdbd51de788828fb69aadc10d50a8ad18b5887bf2b3f178a3770}{calendar\+::\+Sat}} = 5
+, \mbox{\hyperlink{namespacecalendar_a91b885726e698cdbd51de788828fb69aad524368bad45460ea3bd896206e7b064}{calendar\+::\+Sun}} = 6
+ \}
+\begin{DoxyCompactList}\small\item\em typ wyliczeniowy obsługujący dzień tygodnia. \end{DoxyCompactList}\item 
+enum \mbox{\hyperlink{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405}{calendar\+::month\+Model}} \{ \newline
+\mbox{\hyperlink{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405a732bd3d15793ac3e87f4129c6bcd5e0d}{calendar\+::\+Jan}} = 0
+, \mbox{\hyperlink{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405a41f1b35d5c8e239ede8e79507b302f99}{calendar\+::\+Feb}} = 1
+, \mbox{\hyperlink{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405a1d6c5b27babedcf880d95cf1d14cddc6}{calendar\+::\+Mar}} = 2
+, \mbox{\hyperlink{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405ac0a835b0b0a38e6aa0450337c4315f6f}{calendar\+::\+Apr}} = 3
+, \newline
+\mbox{\hyperlink{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405a05609a60edbe20c2dd4e55d4e6b441e2}{calendar\+::\+May}} = 4
+, \mbox{\hyperlink{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405ac76c09a0825d8c795745a0b0dcdba93f}{calendar\+::\+Jun}} = 5
+, \mbox{\hyperlink{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405ab1e13a43e78fdde1ab19c4456f3409f1}{calendar\+::\+Jul}} = 6
+, \mbox{\hyperlink{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405a31ec78d401e7210d1f1dacb8f6a79427}{calendar\+::\+Aug}} = 7
+, \newline
+\mbox{\hyperlink{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405abdc30e674f990d9895049e4ac61cc322}{calendar\+::\+Sep}} = 8
+, \mbox{\hyperlink{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405a421d4e83667ccf15cbee2677662bb138}{calendar\+::\+Oct}} = 9
+, \mbox{\hyperlink{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405a6dfe7318b7780a6924128ff8b7264ca2}{calendar\+::\+Nov}} = 10
+, \mbox{\hyperlink{namespacecalendar_abc40418b6caa0c78eb28c7a0bc934405a8c20f26576af8c4637524fe52eccc6fd}{calendar\+::\+Dec}} = 11
+ \}
+\begin{DoxyCompactList}\small\item\em typ wyliczeniowy obługujący miesiące. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Opis szczegółowy}
+\begin{DoxyAuthor}{Autor}
+Wojciech Janota 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Wersja}
+0.\+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Data}
+2021-\/05-\/18
+\end{DoxyDate}
+\begin{DoxyCopyright}{Copyright}
+Copyright (c) 2021 
+\end{DoxyCopyright}
+
+
+\doxysubsection{Dokumentacja definicji}
+\mbox{\Hypertarget{date_8h_acc02da495aafbd100d107ef9e362241a}\label{date_8h_acc02da495aafbd100d107ef9e362241a}} 
+\index{date.h@{date.h}!MAX\_YEAR\_CAP@{MAX\_YEAR\_CAP}}
+\index{MAX\_YEAR\_CAP@{MAX\_YEAR\_CAP}!date.h@{date.h}}
+\doxysubsubsection{\texorpdfstring{MAX\_YEAR\_CAP}{MAX\_YEAR\_CAP}}
+{\footnotesize\ttfamily \#define MAX\+\_\+\+YEAR\+\_\+\+CAP~5000}
+

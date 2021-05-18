@@ -23,9 +23,9 @@ calendarView::calendarView() {
 }
 
 void calendarView::setTodayDate() {
-    date *newDate = new date;
-    newDate->setCurrentDate();
-    this->today = *newDate;
+    date newDate;
+    newDate.setCurrentDate();
+    this->today = newDate;
 }
 
 date calendarView::getTodayDate() const noexcept { return this->today; }
@@ -35,16 +35,6 @@ void calendarView::calculateCurrentMonth(
     const int &year, QStandardItemModel *monthEventsInterface) {
     days.clear();
     int weekCounter = 0;
-    /*for (int i = 0; i < 31; i++) {
-        QString tempString("");
-        QStandardItem *tempItem = new QStandardItem(tempString);
-        tempItem->setTextAlignment(Qt::AlignCenter);
-        tempItem->setEditable(0);
-        if (i % 7 == 0 && i != 0) {
-            weekCounter++;
-        }
-        dayElementInterface->setItem(weekCounter, i % 7, tempItem);
-    }*/
     for (int i = 1; i <= 31; i++) {
         date tempDate(i, month, year);
         if (tempDate.getDay()) {
@@ -65,13 +55,26 @@ void calendarView::calculateCurrentMonth(
                            event->getEvDate().getMonth() ==
                                tempDate.getMonth() &&
                            event->getEvRepeat() == Annually) {
+                    if (event->exportData().find("eventBirthday") !=
+                        std::string::npos) {
+                        eventBirthday *tempBirthdayEvent =
+                            dynamic_cast<eventBirthday *>(event);
+                        if (tempBirthdayEvent->getBirthDate().getYear() >
+                            tempDate.getYear()) {
+                            continue;
+                        }
+                        event->setEvDescription(
+                            std::to_string(
+                                tempDate.getYear() -
+                                tempBirthdayEvent->getBirthDate().getYear()) +
+                            " urodziny " +
+                            tempBirthdayEvent->getPersonalData().first + " " +
+                            tempBirthdayEvent->getPersonalData().second);
+                    }
                     tempDay.addEvent(event);
                 } else if (event->getEvRepeat() == Daily) {
                     tempDay.addEvent(event);
                 }
-
-                // else if (std::string(typeid(event).name())
-                //               .find("eventHoliday") != std::string::npos) {
                 if (event->exportData().find("eventHoliday") !=
                     std::string::npos) {
                     std::cout << "DEBUGEVENTHOLIDAY:\n";
@@ -82,22 +85,16 @@ void calendarView::calculateCurrentMonth(
                               << "DATE DAY: " << tempDate.stringify()
                               << std::endl;
                     if (tempDate > tempHolidayEvent->getEvBegin() &&
-                        tempHolidayEvent->getEvEnd() >= tempDate) {
+                        tempHolidayEvent->getEvEnd() >= tempDate &&
+                        tempDate.getYear() >=
+                            tempHolidayEvent->getEvBegin().getYear() &&
+                        tempDate.getYear() <=
+                            tempHolidayEvent->getEvEnd().getYear()) {
                         std::cout << "DEBUG ADDED HOLIDAY\n";
                         tempDay.addEvent(event);
                     }
                 }
             }
-            // date tempEvDate(24, May, 2021);
-            // // eventBirthday tempEvent(tempDate, "Urodziny test", Annually,
-            // //"Tester", "Testowy", tempBirthDate);
-            // if (tempDate.getDay() == tempEvDate.getDay() &&
-            //     tempDate.getMonth() == tempEvDate.getMonth() &&
-            //     tempDate.getYear() == tempEvDate.getYear()) {
-            //     /*eventReminder *tempEvent = new eventReminder(
-            //         tempDate, "NAME", None, "LOCATION", "TYPE");
-            //     tempDay.addEvent(tempEvent);*/
-            // }
             this->days.push_back(tempDay);
         }
     }
@@ -205,7 +202,7 @@ void calendarView::setEvents(std::vector<event *> newEvents) {
 void calendarView::deleteEvent(std::string exportedEventData) {
     int indexToRemove = -1;
     for (int i = 0; i < events.size(); i++) {
-        if (events[i]->exportData() == exportedEventData) {
+        if (events[i]->stringifyEvent() == exportedEventData) {
             indexToRemove = i;
         }
     }

@@ -11,7 +11,6 @@ calendar::eventBirthday::eventBirthday(const calendar::date &newDate,
     : event(newDate, newName, "NULL", Annually) {
     setBirthDate(newBirthDate);
     setPersonalData(std::make_pair(newFirstName, newLastName));
-    int age = newDate.getYear() - newBirthDate.getYear();
     this->setEvDescription(/*std::to_string(age) + */ "Urodziny " +
                            getPersonalData().first + " " +
                            getPersonalData().second);

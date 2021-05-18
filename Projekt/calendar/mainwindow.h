@@ -5,9 +5,9 @@
 #include "includes/dataInterface.h"
 #include "includes/date.h"
 #include "includes/eventModel.h"
-#include "includes/inputDialog.h"
 #include "includes/todoElement.h"
 #include "includes/todoView.h"
+#include "includes/weeklyCalendarView.h"
 #include <QDialog>
 #include <QDialogButtonBox>
 #include <QFormLayout>
@@ -81,10 +81,18 @@ class MainWindow : public QMainWindow {
 
     QStandardItemModel *monthlyEventsInterface;
 
+    QStandardItemModel *weeklyEventsInterface;
+
     std::vector<calendar::event *> eventList;
 
     calendar::dataInterface<calendar::event *> eventDataInterface;
 
     calendar::dataInterface<calendar::todoElement> todoElementDataInterface;
+
+    bool monthlyView;
+
+    int currentWeek;
+
+    calendar::weeklyCalendarView newWeeklyCalendarView;
 };
 #endif // MAINWINDOW_H

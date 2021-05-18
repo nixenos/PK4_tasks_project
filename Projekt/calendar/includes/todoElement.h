@@ -1,3 +1,13 @@
+/**
+ * @file todoElement.h
+ * @author Wojciech Janota
+ * @brief
+ * @version 0.1
+ * @date 2021-05-18
+ *
+ * @copyright Copyright (c) 2021
+ *
+ */
 #pragma once
 
 #include <iostream>
@@ -70,6 +80,11 @@ class todoElement {
      */
     void decrementPosition();
 
+    /**
+     * @brief Eksportuje dane do zapisu
+     *
+     * @return std::string wyeksportowane dane
+     */
     std::string exportData() const noexcept;
 };
 } // namespace calendar

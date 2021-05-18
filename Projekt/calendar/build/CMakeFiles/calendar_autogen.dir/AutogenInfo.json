@@ -209,6 +209,11 @@
 			"/home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/res/todoView.cpp",
 			"MU",
 			null
+		],
+		[
+			"/home/nixen/Projects/Uczelnia/PK4/Projekt/calendar/res/weeklyCalendarView.cpp",
+			"MU",
+			null
 		]
 	],
 	"UIC_OPTIONS" : [],

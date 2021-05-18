@@ -1,0 +1,163 @@
+\hypertarget{classcalendar_1_1todo_element}{}\doxysection{Dokumentacja klasy calendar\+::todo\+Element}
+\label{classcalendar_1_1todo_element}\index{calendar::todoElement@{calendar::todoElement}}
+
+
+klasa przechowująca elementy listy zadań do zrobienia  
+
+
+
+
+{\ttfamily \#include $<$todo\+Element.\+h$>$}
+
+\doxysubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcalendar_1_1todo_element_a413e40d19f0ce51a9b7682baf7efed3e}{todo\+Element}} ()
+\begin{DoxyCompactList}\small\item\em Konstruktor bezargumentowy, tworzy obiekt ignorowany przez widok (position=0, data\+Record=\char`\"{}\+NULL\char`\"{}) \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classcalendar_1_1todo_element_a14f445e21895366446e08d80e5bf3298}{todo\+Element}} (const unsigned long int \&position, const std\+::string \&data\+Record)
+\begin{DoxyCompactList}\small\item\em Właściwy konstruktor dwuargumentowy. \end{DoxyCompactList}\item 
+const unsigned long int \& \mbox{\hyperlink{classcalendar_1_1todo_element_a717d714bb8d78c6902d7cd4735452f25}{get\+Position}} () const
+\begin{DoxyCompactList}\small\item\em Pobiera wartość pola position (pozycję elementu na liście) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcalendar_1_1todo_element_a7c6eefb514be9f4577b4f0d157b1610d}{set\+Position}} (const unsigned long int \&new\+Position)
+\begin{DoxyCompactList}\small\item\em Ustawia wartość pola position (pozycję elementu na liście) \end{DoxyCompactList}\item 
+const std\+::string \& \mbox{\hyperlink{classcalendar_1_1todo_element_a8ef40ef28458e4f48db2bcb25f75be46}{get\+Data\+Record}} () const
+\begin{DoxyCompactList}\small\item\em Pobiera wartość pola data\+Record. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcalendar_1_1todo_element_adef71b1b186be2e093b1258e67990cef}{set\+Data\+Record}} (const std\+::string \&new\+Data\+Record)
+\begin{DoxyCompactList}\small\item\em Ustawia wartość pola data\+Record. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcalendar_1_1todo_element_a15f55c36e0a3558d2eec36b5072f1754}{increment\+Position}} ()
+\begin{DoxyCompactList}\small\item\em Inkrementuje pozycję elementu. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcalendar_1_1todo_element_a427ec51c5b20ecd054596b84c7d5497e}{decrement\+Position}} ()
+\begin{DoxyCompactList}\small\item\em Dekrementuje pozycję elementu. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classcalendar_1_1todo_element_a24f4b2015dfa436058209f0bc6689193}{export\+Data}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Eksportuje dane do zapisu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Opis szczegółowy}
+klasa przechowująca elementy listy zadań do zrobienia 
+
+\doxysubsection{Dokumentacja konstruktora i destruktora}
+\mbox{\Hypertarget{classcalendar_1_1todo_element_a413e40d19f0ce51a9b7682baf7efed3e}\label{classcalendar_1_1todo_element_a413e40d19f0ce51a9b7682baf7efed3e}} 
+\index{calendar::todoElement@{calendar::todoElement}!todoElement@{todoElement}}
+\index{todoElement@{todoElement}!calendar::todoElement@{calendar::todoElement}}
+\doxysubsubsection{\texorpdfstring{todoElement()}{todoElement()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily calendar\+::todo\+Element\+::todo\+Element (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Konstruktor bezargumentowy, tworzy obiekt ignorowany przez widok (position=0, data\+Record=\char`\"{}\+NULL\char`\"{}) 
+
+\mbox{\Hypertarget{classcalendar_1_1todo_element_a14f445e21895366446e08d80e5bf3298}\label{classcalendar_1_1todo_element_a14f445e21895366446e08d80e5bf3298}} 
+\index{calendar::todoElement@{calendar::todoElement}!todoElement@{todoElement}}
+\index{todoElement@{todoElement}!calendar::todoElement@{calendar::todoElement}}
+\doxysubsubsection{\texorpdfstring{todoElement()}{todoElement()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily calendar\+::todo\+Element\+::todo\+Element (\begin{DoxyParamCaption}\item[{const unsigned long int \&}]{position,  }\item[{const std\+::string \&}]{data\+Record }\end{DoxyParamCaption})}
+
+
+
+Właściwy konstruktor dwuargumentowy. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em position} & pozycja elementu na liście \\
+\hline
+{\em data\+Record} & rekord dodawany do listy \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Dokumentacja funkcji składowych}
+\mbox{\Hypertarget{classcalendar_1_1todo_element_a427ec51c5b20ecd054596b84c7d5497e}\label{classcalendar_1_1todo_element_a427ec51c5b20ecd054596b84c7d5497e}} 
+\index{calendar::todoElement@{calendar::todoElement}!decrementPosition@{decrementPosition}}
+\index{decrementPosition@{decrementPosition}!calendar::todoElement@{calendar::todoElement}}
+\doxysubsubsection{\texorpdfstring{decrementPosition()}{decrementPosition()}}
+{\footnotesize\ttfamily void calendar\+::todo\+Element\+::decrement\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Dekrementuje pozycję elementu. 
+
+\mbox{\Hypertarget{classcalendar_1_1todo_element_a24f4b2015dfa436058209f0bc6689193}\label{classcalendar_1_1todo_element_a24f4b2015dfa436058209f0bc6689193}} 
+\index{calendar::todoElement@{calendar::todoElement}!exportData@{exportData}}
+\index{exportData@{exportData}!calendar::todoElement@{calendar::todoElement}}
+\doxysubsubsection{\texorpdfstring{exportData()}{exportData()}}
+{\footnotesize\ttfamily std\+::string calendar\+::todo\+Element\+::export\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+
+
+Eksportuje dane do zapisu. 
+
+\begin{DoxyReturn}{Zwraca}
+std\+::string wyeksportowane dane 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcalendar_1_1todo_element_a8ef40ef28458e4f48db2bcb25f75be46}\label{classcalendar_1_1todo_element_a8ef40ef28458e4f48db2bcb25f75be46}} 
+\index{calendar::todoElement@{calendar::todoElement}!getDataRecord@{getDataRecord}}
+\index{getDataRecord@{getDataRecord}!calendar::todoElement@{calendar::todoElement}}
+\doxysubsubsection{\texorpdfstring{getDataRecord()}{getDataRecord()}}
+{\footnotesize\ttfamily const std\+::string \& calendar\+::todo\+Element\+::get\+Data\+Record (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Pobiera wartość pola data\+Record. 
+
+\begin{DoxyReturn}{Zwraca}
+const std\+::string\& rekord danego elementu listy 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcalendar_1_1todo_element_a717d714bb8d78c6902d7cd4735452f25}\label{classcalendar_1_1todo_element_a717d714bb8d78c6902d7cd4735452f25}} 
+\index{calendar::todoElement@{calendar::todoElement}!getPosition@{getPosition}}
+\index{getPosition@{getPosition}!calendar::todoElement@{calendar::todoElement}}
+\doxysubsubsection{\texorpdfstring{getPosition()}{getPosition()}}
+{\footnotesize\ttfamily const unsigned long \& calendar\+::todo\+Element\+::get\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Pobiera wartość pola position (pozycję elementu na liście) 
+
+\begin{DoxyReturn}{Zwraca}
+const unsigned long int\& pozycja elementu na liście 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcalendar_1_1todo_element_a15f55c36e0a3558d2eec36b5072f1754}\label{classcalendar_1_1todo_element_a15f55c36e0a3558d2eec36b5072f1754}} 
+\index{calendar::todoElement@{calendar::todoElement}!incrementPosition@{incrementPosition}}
+\index{incrementPosition@{incrementPosition}!calendar::todoElement@{calendar::todoElement}}
+\doxysubsubsection{\texorpdfstring{incrementPosition()}{incrementPosition()}}
+{\footnotesize\ttfamily void calendar\+::todo\+Element\+::increment\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Inkrementuje pozycję elementu. 
+
+\mbox{\Hypertarget{classcalendar_1_1todo_element_adef71b1b186be2e093b1258e67990cef}\label{classcalendar_1_1todo_element_adef71b1b186be2e093b1258e67990cef}} 
+\index{calendar::todoElement@{calendar::todoElement}!setDataRecord@{setDataRecord}}
+\index{setDataRecord@{setDataRecord}!calendar::todoElement@{calendar::todoElement}}
+\doxysubsubsection{\texorpdfstring{setDataRecord()}{setDataRecord()}}
+{\footnotesize\ttfamily void calendar\+::todo\+Element\+::set\+Data\+Record (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{new\+Data\+Record }\end{DoxyParamCaption})}
+
+
+
+Ustawia wartość pola data\+Record. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em new\+Data\+Record} & nowa wartość rekordu danych elementu listy \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcalendar_1_1todo_element_a7c6eefb514be9f4577b4f0d157b1610d}\label{classcalendar_1_1todo_element_a7c6eefb514be9f4577b4f0d157b1610d}} 
+\index{calendar::todoElement@{calendar::todoElement}!setPosition@{setPosition}}
+\index{setPosition@{setPosition}!calendar::todoElement@{calendar::todoElement}}
+\doxysubsubsection{\texorpdfstring{setPosition()}{setPosition()}}
+{\footnotesize\ttfamily void calendar\+::todo\+Element\+::set\+Position (\begin{DoxyParamCaption}\item[{const unsigned long int \&}]{new\+Position }\end{DoxyParamCaption})}
+
+
+
+Ustawia wartość pola position (pozycję elementu na liście) 
+
+
+\begin{DoxyParams}{Parametry}
+{\em new\+Position} & nowa pozycja elementu na liście \\
+\hline
+\end{DoxyParams}
+
+
+Dokumentacja dla tej klasy została wygenerowana z plików\+:\begin{DoxyCompactItemize}
+\item 
+includes/\mbox{\hyperlink{todo_element_8h}{todo\+Element.\+h}}\item 
+res/\mbox{\hyperlink{todo_element_8cpp}{todo\+Element.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,14 @@
+<map id="calendar::date::getDay" name="calendar::date::getDay">
+<area shape="rect" id="node1" title="pobiera dzień miesiąca." alt="" coords="539,319,709,346"/>
+<area shape="rect" id="node2" href="$classcalendar_1_1calendar_view.html#ac4bad199c4a24d3b789cf507ebe83408" title="Dodaje wydarzenie z okna dialogowego." alt="" coords="288,5,463,47"/>
+<area shape="rect" id="node3" href="$classcalendar_1_1weekly_calendar_view.html#a2c265a8fc7fda0cee2844b1a2e7c2a36" title="Dodaje wydarzenie z okna dialogowego." alt="" coords="276,71,475,112"/>
+<area shape="rect" id="node4" href="$classcalendar_1_1calendar_view.html#ad5f26a90a68dfac815f0df05ac5bedd7" title="Ustawia i oblicza dni w obecnym miesiącu." alt="" coords="286,188,465,229"/>
+<area shape="rect" id="node5" href="$class_main_window.html#a996c5a2b6f77944776856f08ec30858d" title=" " alt="" coords="9,195,208,222"/>
+<area shape="rect" id="node6" href="$classcalendar_1_1weekly_calendar_view.html#aa8d257161f51be45757eea0fc9bcb8dc" title="Oblicza obecny tydzień oraz ustawia wartości w widoku." alt="" coords="5,308,212,349"/>
+<area shape="rect" id="node7" href="$classcalendar_1_1date.html#aeda88b88ec32333a9166dcf42dfbbe9d" title="Dekrementuje tydzień." alt="" coords="260,319,491,346"/>
+<area shape="rect" id="node8" href="$classcalendar_1_1weekly_calendar_view.html#a8b00f446e5fc9101147cae41f50f9ab3" title="Pobiera aktualny numer tygodnia." alt="" coords="265,253,485,295"/>
+<area shape="rect" id="node9" href="$classcalendar_1_1calendar_view.html#a90fb0871265c6a77c271b4a46654c4b1" title="Pobiera wydarzenia dla danego dnia." alt="" coords="288,421,463,463"/>
+<area shape="rect" id="node10" href="$classcalendar_1_1weekly_calendar_view.html#af45221d98829ebee8ef6c05ad14e128b" title="Pobiera wydarzenia dla danego dnia." alt="" coords="280,487,471,528"/>
+<area shape="rect" id="node11" href="$classcalendar_1_1date.html#a8497a605342f13aefa2529faeaf59788" title="Operator równości." alt="" coords="275,553,475,579"/>
+<area shape="rect" id="node12" href="$classcalendar_1_1date.html#a50ae67338f7a3eb5e0a549c453707b78" title=" " alt="" coords="281,603,470,630"/>
+</map>

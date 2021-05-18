@@ -1,0 +1,7 @@
+<map id="calendar::date::getWeekDay" name="calendar::date::getWeekDay">
+<area shape="rect" id="node1" title="pobiera dzień tygodnia." alt="" coords="528,78,735,105"/>
+<area shape="rect" id="node2" href="$classcalendar_1_1calendar_view.html#ad5f26a90a68dfac815f0df05ac5bedd7" title="Ustawia i oblicza dni w obecnym miesiącu." alt="" coords="281,5,459,47"/>
+<area shape="rect" id="node4" href="$classcalendar_1_1weekly_calendar_view.html#aa8d257161f51be45757eea0fc9bcb8dc" title="Oblicza obecny tydzień oraz ustawia wartości w widoku." alt="" coords="5,100,212,141"/>
+<area shape="rect" id="node5" href="$classcalendar_1_1weekly_calendar_view.html#a8b00f446e5fc9101147cae41f50f9ab3" title="Pobiera aktualny numer tygodnia." alt="" coords="260,71,480,112"/>
+<area shape="rect" id="node3" href="$class_main_window.html#a996c5a2b6f77944776856f08ec30858d" title=" " alt="" coords="9,31,208,58"/>
+</map>

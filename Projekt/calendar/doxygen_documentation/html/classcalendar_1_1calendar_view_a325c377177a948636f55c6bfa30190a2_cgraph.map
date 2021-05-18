@@ -1,0 +1,4 @@
+<map id="calendar::calendarView::displayReminderEvent" name="calendar::calendarView::displayReminderEvent">
+<area shape="rect" id="node1" title="Zwraca opis wydarzenia." alt="" coords="5,5,183,47"/>
+<area shape="rect" id="node2" href="$classcalendar_1_1event.html#a99bb00302eb18633adf75dd202fe0c03" title="pobiera odpowiednie dane dla każdego z elementów i przetwarza je w std::string wyświetlany w GUI apli..." alt="" coords="231,5,416,47"/>
+</map>

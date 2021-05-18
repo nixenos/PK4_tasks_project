@@ -1,0 +1,12 @@
+<map id="calendar::calendarView::addEventFromDialog" name="calendar::calendarView::addEventFromDialog">
+<area shape="rect" id="node1" title="Dodaje wydarzenie z okna dialogowego." alt="" coords="5,203,180,244"/>
+<area shape="rect" id="node2" href="$classcalendar_1_1event_holiday.html#a2be4f57a608d2bae73aa5178bb8eb4cc" title="Eksportuje dane do zapisu." alt="" coords="228,173,401,215"/>
+<area shape="rect" id="node10" href="$classcalendar_1_1date.html#afc729e949594b20f9121b22af9c9187c" title="pobiera dzień miesiąca." alt="" coords="229,239,400,266"/>
+<area shape="rect" id="node3" href="$classcalendar_1_1event_holiday.html#a6b59309f80501abbe52b6bd747098c58" title="pobiera początek trwania wydarzenia" alt="" coords="484,5,657,47"/>
+<area shape="rect" id="node4" href="$classcalendar_1_1event.html#a99993846677f024fe708e3389b6d24b5" title="pobiera datę wydarzenia" alt="" coords="471,71,670,98"/>
+<area shape="rect" id="node5" href="$classcalendar_1_1event.html#a0c99b577f913bd8fb022cb1a1b7b0b1a" title=" " alt="" coords="449,122,692,149"/>
+<area shape="rect" id="node6" href="$classcalendar_1_1event_holiday.html#aa4636b79dacf29064f514aabbabbf7ed" title="pobiera koniec trwania wydarzenia" alt="" coords="484,173,657,215"/>
+<area shape="rect" id="node7" href="$classcalendar_1_1event.html#aa476023424cf60cfbc621b4747632edc" title="pobiera nazwę wydarzenia" alt="" coords="467,239,674,266"/>
+<area shape="rect" id="node8" href="$classcalendar_1_1event.html#ac895d6e2070e4fb1009847694af91ef5" title="pobiera cykl powtarzania" alt="" coords="463,290,678,317"/>
+<area shape="rect" id="node9" href="$classcalendar_1_1date.html#a0d920138429c98a8e0d6dc97e36a4335" title="Opisuje obiekt daty jako string." alt="" coords="482,341,659,367"/>
+</map>

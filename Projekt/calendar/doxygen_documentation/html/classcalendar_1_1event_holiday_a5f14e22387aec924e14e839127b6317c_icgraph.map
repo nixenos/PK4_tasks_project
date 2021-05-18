@@ -1,0 +1,4 @@
+<map id="calendar::eventHoliday::setEvEnd" name="calendar::eventHoliday::setEvEnd">
+<area shape="rect" id="node1" title="ustawia koniec trwania wydarzenia" alt="" coords="227,5,400,47"/>
+<area shape="rect" id="node2" href="$classcalendar_1_1event_holiday.html#a8ac3650fe7e1892634a9d2f2ec9ba8fb" title="konstrukot wieloargumentowy, tworzący pełny obiekt klasy eventHoliday" alt="" coords="5,5,179,47"/>
+</map>

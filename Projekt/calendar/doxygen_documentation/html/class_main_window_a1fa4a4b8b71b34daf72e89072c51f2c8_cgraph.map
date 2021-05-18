@@ -1,0 +1,7 @@
+<map id="MainWindow::closeWindow" name="MainWindow::closeWindow">
+<area shape="rect" id="node1" title=" " alt="" coords="5,78,205,105"/>
+<area shape="rect" id="node2" href="$class_main_window.html#a1f7fb5dc37a50e808a6590092a2b73bd" title=" " alt="" coords="253,78,441,105"/>
+<area shape="rect" id="node3" href="$classcalendar_1_1data_interface.html#a1fca4b4c987caf86c1d363bdcc49720f" title="Zapisuje dane do plików." alt="" coords="489,5,663,47"/>
+<area shape="rect" id="node4" href="$classcalendar_1_1todo_view.html#a1ce2552586d81f38a56c22940d04716c" title="Pobiera elementy todo." alt="" coords="503,71,649,112"/>
+<area shape="rect" id="node5" href="$classcalendar_1_1data_interface.html#a37a0ee050e9840e14614d0c6274b052c" title="Pobiera dane do interfejsu." alt="" coords="489,136,663,177"/>
+</map>

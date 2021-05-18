@@ -1,0 +1,1598 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\babel@toc {polish}{}
+\contentsline {chapter}{\numberline {1}Indeks przestrzeni nazw}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Lista przestrzeni nazw}{1}{section.1.1}%
+\contentsline {chapter}{\numberline {2}Indeks hierarchiczny}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Hierarchia klas}{3}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Indeks klas}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Lista klas}{5}{section.3.1}%
+\contentsline {chapter}{\numberline {4}Indeks plików}{7}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Lista plików}{7}{section.4.1}%
+\contentsline {chapter}{\numberline {5}Dokumentacja przestrzeni nazw}{9}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Dokumentacja przestrzeni nazw calendar}{9}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Dokumentacja definicji typów}{10}{subsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.1.1}monthModel}{10}{subsubsection.5.1.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.1.2}repeatCycle}{10}{subsubsection.5.1.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.1.3}weekDayModel}{10}{subsubsection.5.1.1.3}%
+\contentsline {subsection}{\numberline {5.1.2}Dokumentacja typów wyliczanych}{10}{subsection.5.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.2.1}monthModel}{10}{subsubsection.5.1.2.1}%
+\contentsline {subsubsection}{\numberline {5.1.2.2}repeatCycle}{11}{subsubsection.5.1.2.2}%
+\contentsline {subsubsection}{\numberline {5.1.2.3}weekDayModel}{11}{subsubsection.5.1.2.3}%
+\contentsline {section}{\numberline {5.2}Dokumentacja przestrzeni nazw Ui}{12}{section.5.2}%
+\contentsline {chapter}{\numberline {6}Dokumentacja klas}{13}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Dokumentacja klasy calendar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::calendar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}View}{13}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Opis szczegółowy}{14}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Dokumentacja konstruktora i destruktora}{14}{subsection.6.1.2}%
+\contentsline {subsubsection}{\numberline {6.1.2.1}calendarView()}{14}{subsubsection.6.1.2.1}%
+\contentsline {subsection}{\numberline {6.1.3}Dokumentacja funkcji składowych}{14}{subsection.6.1.3}%
+\contentsline {subsubsection}{\numberline {6.1.3.1}addEventFromDialog()}{14}{subsubsection.6.1.3.1}%
+\contentsline {subsubsection}{\numberline {6.1.3.2}calculateCurrentMonth()}{15}{subsubsection.6.1.3.2}%
+\contentsline {subsubsection}{\numberline {6.1.3.3}deleteEvent()}{17}{subsubsection.6.1.3.3}%
+\contentsline {subsubsection}{\numberline {6.1.3.4}displayReminderEvent()}{17}{subsubsection.6.1.3.4}%
+\contentsline {subsubsection}{\numberline {6.1.3.5}getEvents()}{18}{subsubsection.6.1.3.5}%
+\contentsline {subsubsection}{\numberline {6.1.3.6}getEventsForDay()}{18}{subsubsection.6.1.3.6}%
+\contentsline {subsubsection}{\numberline {6.1.3.7}getMonthName()}{19}{subsubsection.6.1.3.7}%
+\contentsline {subsubsection}{\numberline {6.1.3.8}getTodayDate()}{19}{subsubsection.6.1.3.8}%
+\contentsline {subsubsection}{\numberline {6.1.3.9}setEvents()}{20}{subsubsection.6.1.3.9}%
+\contentsline {subsubsection}{\numberline {6.1.3.10}setTodayDate()}{20}{subsubsection.6.1.3.10}%
+\contentsline {section}{\numberline {6.2}Dokumentacja szablonu klasy calendar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::data\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Interface$<$ T $>$}{21}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Opis szczegółowy}{21}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Dokumentacja konstruktora i destruktora}{22}{subsection.6.2.2}%
+\contentsline {subsubsection}{\numberline {6.2.2.1}dataInterface()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{22}{subsubsection.6.2.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.2.2}dataInterface()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{22}{subsubsection.6.2.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}Dokumentacja funkcji składowych}{22}{subsection.6.2.3}%
+\contentsline {subsubsection}{\numberline {6.2.3.1}exportDataToSaveFile()\hspace {0.1cm}{\footnotesize \ttfamily [1/3]}}{22}{subsubsection.6.2.3.1}%
+\contentsline {subsubsection}{\numberline {6.2.3.2}exportDataToSaveFile()\hspace {0.1cm}{\footnotesize \ttfamily [2/3]}}{23}{subsubsection.6.2.3.2}%
+\contentsline {subsubsection}{\numberline {6.2.3.3}exportDataToSaveFile()\hspace {0.1cm}{\footnotesize \ttfamily [3/3]}}{23}{subsubsection.6.2.3.3}%
+\contentsline {subsubsection}{\numberline {6.2.3.4}importDataFromSaveFile()\hspace {0.1cm}{\footnotesize \ttfamily [1/3]}}{23}{subsubsection.6.2.3.4}%
+\contentsline {subsubsection}{\numberline {6.2.3.5}importDataFromSaveFile()\hspace {0.1cm}{\footnotesize \ttfamily [2/3]}}{23}{subsubsection.6.2.3.5}%
+\contentsline {subsubsection}{\numberline {6.2.3.6}importDataFromSaveFile()\hspace {0.1cm}{\footnotesize \ttfamily [3/3]}}{24}{subsubsection.6.2.3.6}%
+\contentsline {subsubsection}{\numberline {6.2.3.7}loadDataFromInterface()}{24}{subsubsection.6.2.3.7}%
+\contentsline {subsubsection}{\numberline {6.2.3.8}loadDataToInterface()}{24}{subsubsection.6.2.3.8}%
+\contentsline {section}{\numberline {6.3}Dokumentacja klasy calendar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::date}{25}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Opis szczegółowy}{26}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Dokumentacja konstruktora i destruktora}{26}{subsection.6.3.2}%
+\contentsline {subsubsection}{\numberline {6.3.2.1}date()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{26}{subsubsection.6.3.2.1}%
+\contentsline {subsubsection}{\numberline {6.3.2.2}date()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{26}{subsubsection.6.3.2.2}%
+\contentsline {subsection}{\numberline {6.3.3}Dokumentacja funkcji składowych}{26}{subsection.6.3.3}%
+\contentsline {subsubsection}{\numberline {6.3.3.1}decrementMonth()}{27}{subsubsection.6.3.3.1}%
+\contentsline {subsubsection}{\numberline {6.3.3.2}decrementWeek()}{27}{subsubsection.6.3.3.2}%
+\contentsline {subsubsection}{\numberline {6.3.3.3}getDay()}{28}{subsubsection.6.3.3.3}%
+\contentsline {subsubsection}{\numberline {6.3.3.4}getMonth()}{28}{subsubsection.6.3.3.4}%
+\contentsline {subsubsection}{\numberline {6.3.3.5}getWeekDay()}{29}{subsubsection.6.3.3.5}%
+\contentsline {subsubsection}{\numberline {6.3.3.6}getWeekNum()}{30}{subsubsection.6.3.3.6}%
+\contentsline {subsubsection}{\numberline {6.3.3.7}getYear()}{30}{subsubsection.6.3.3.7}%
+\contentsline {subsubsection}{\numberline {6.3.3.8}incrementMonth()}{31}{subsubsection.6.3.3.8}%
+\contentsline {subsubsection}{\numberline {6.3.3.9}incrementWeek()}{31}{subsubsection.6.3.3.9}%
+\contentsline {subsubsection}{\numberline {6.3.3.10}operator"!=()}{31}{subsubsection.6.3.3.10}%
+\contentsline {subsubsection}{\numberline {6.3.3.11}operator$<$()}{31}{subsubsection.6.3.3.11}%
+\contentsline {subsubsection}{\numberline {6.3.3.12}operator$<$=()}{31}{subsubsection.6.3.3.12}%
+\contentsline {subsubsection}{\numberline {6.3.3.13}operator==()}{32}{subsubsection.6.3.3.13}%
+\contentsline {subsubsection}{\numberline {6.3.3.14}operator$>$()}{32}{subsubsection.6.3.3.14}%
+\contentsline {subsubsection}{\numberline {6.3.3.15}operator$>$=()}{32}{subsubsection.6.3.3.15}%
+\contentsline {subsubsection}{\numberline {6.3.3.16}setCurrentDate()}{33}{subsubsection.6.3.3.16}%
+\contentsline {subsubsection}{\numberline {6.3.3.17}setDay()}{33}{subsubsection.6.3.3.17}%
+\contentsline {subsubsection}{\numberline {6.3.3.18}setMonth()}{34}{subsubsection.6.3.3.18}%
+\contentsline {subsubsection}{\numberline {6.3.3.19}setWeekNum()}{34}{subsubsection.6.3.3.19}%
+\contentsline {subsubsection}{\numberline {6.3.3.20}setYear()}{35}{subsubsection.6.3.3.20}%
+\contentsline {subsubsection}{\numberline {6.3.3.21}stringify()}{35}{subsubsection.6.3.3.21}%
+\contentsline {section}{\numberline {6.4}Dokumentacja klasy calendar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::day}{36}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Dokumentacja konstruktora i destruktora}{36}{subsection.6.4.1}%
+\contentsline {subsubsection}{\numberline {6.4.1.1}day()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{36}{subsubsection.6.4.1.1}%
+\contentsline {subsubsection}{\numberline {6.4.1.2}day()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{36}{subsubsection.6.4.1.2}%
+\contentsline {subsection}{\numberline {6.4.2}Dokumentacja funkcji składowych}{37}{subsection.6.4.2}%
+\contentsline {subsubsection}{\numberline {6.4.2.1}addEvent()}{37}{subsubsection.6.4.2.1}%
+\contentsline {subsubsection}{\numberline {6.4.2.2}deleteEvent()}{37}{subsubsection.6.4.2.2}%
+\contentsline {subsubsection}{\numberline {6.4.2.3}getDate()}{38}{subsubsection.6.4.2.3}%
+\contentsline {subsubsection}{\numberline {6.4.2.4}getEvents()}{38}{subsubsection.6.4.2.4}%
+\contentsline {subsubsection}{\numberline {6.4.2.5}setDate()}{39}{subsubsection.6.4.2.5}%
+\contentsline {section}{\numberline {6.5}Dokumentacja klasy calendar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::event}{40}{section.6.5}%
+\contentsline {subsection}{\numberline {6.5.1}Dokumentacja konstruktora i destruktora}{40}{subsection.6.5.1}%
+\contentsline {subsubsection}{\numberline {6.5.1.1}event()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{41}{subsubsection.6.5.1.1}%
+\contentsline {subsubsection}{\numberline {6.5.1.2}event()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{41}{subsubsection.6.5.1.2}%
+\contentsline {subsection}{\numberline {6.5.2}Dokumentacja funkcji składowych}{41}{subsection.6.5.2}%
+\contentsline {subsubsection}{\numberline {6.5.2.1}exportData()}{41}{subsubsection.6.5.2.1}%
+\contentsline {subsubsection}{\numberline {6.5.2.2}getEvDate()}{42}{subsubsection.6.5.2.2}%
+\contentsline {subsubsection}{\numberline {6.5.2.3}getEvDescription()}{43}{subsubsection.6.5.2.3}%
+\contentsline {subsubsection}{\numberline {6.5.2.4}getEvName()}{43}{subsubsection.6.5.2.4}%
+\contentsline {subsubsection}{\numberline {6.5.2.5}getEvRepeat()}{44}{subsubsection.6.5.2.5}%
+\contentsline {subsubsection}{\numberline {6.5.2.6}setEvDate()}{44}{subsubsection.6.5.2.6}%
+\contentsline {subsubsection}{\numberline {6.5.2.7}setEvDescription()}{45}{subsubsection.6.5.2.7}%
+\contentsline {subsubsection}{\numberline {6.5.2.8}setEvName()}{45}{subsubsection.6.5.2.8}%
+\contentsline {subsubsection}{\numberline {6.5.2.9}setEvRepeat()}{46}{subsubsection.6.5.2.9}%
+\contentsline {subsubsection}{\numberline {6.5.2.10}stringifyEvent()}{47}{subsubsection.6.5.2.10}%
+\contentsline {section}{\numberline {6.6}Dokumentacja klasy calendar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::event\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Birthday}{47}{section.6.6}%
+\contentsline {subsection}{\numberline {6.6.1}Dokumentacja konstruktora i destruktora}{48}{subsection.6.6.1}%
+\contentsline {subsubsection}{\numberline {6.6.1.1}eventBirthday()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{48}{subsubsection.6.6.1.1}%
+\contentsline {subsubsection}{\numberline {6.6.1.2}eventBirthday()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{49}{subsubsection.6.6.1.2}%
+\contentsline {subsection}{\numberline {6.6.2}Dokumentacja funkcji składowych}{49}{subsection.6.6.2}%
+\contentsline {subsubsection}{\numberline {6.6.2.1}exportData()}{49}{subsubsection.6.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.6.2.2}getBirthDate()}{50}{subsubsection.6.6.2.2}%
+\contentsline {subsubsection}{\numberline {6.6.2.3}getPersonalData()}{50}{subsubsection.6.6.2.3}%
+\contentsline {subsubsection}{\numberline {6.6.2.4}setBirthDate()}{50}{subsubsection.6.6.2.4}%
+\contentsline {subsubsection}{\numberline {6.6.2.5}setEvRepeat()}{51}{subsubsection.6.6.2.5}%
+\contentsline {subsubsection}{\numberline {6.6.2.6}setPersonalData()}{51}{subsubsection.6.6.2.6}%
+\contentsline {subsubsection}{\numberline {6.6.2.7}stringifyEvent()}{52}{subsubsection.6.6.2.7}%
+\contentsline {section}{\numberline {6.7}Dokumentacja klasy calendar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::event\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Holiday}{53}{section.6.7}%
+\contentsline {subsection}{\numberline {6.7.1}Dokumentacja konstruktora i destruktora}{54}{subsection.6.7.1}%
+\contentsline {subsubsection}{\numberline {6.7.1.1}eventHoliday()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{54}{subsubsection.6.7.1.1}%
+\contentsline {subsubsection}{\numberline {6.7.1.2}eventHoliday()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{54}{subsubsection.6.7.1.2}%
+\contentsline {subsection}{\numberline {6.7.2}Dokumentacja funkcji składowych}{54}{subsection.6.7.2}%
+\contentsline {subsubsection}{\numberline {6.7.2.1}exportData()}{55}{subsubsection.6.7.2.1}%
+\contentsline {subsubsection}{\numberline {6.7.2.2}getEvBegin()}{56}{subsubsection.6.7.2.2}%
+\contentsline {subsubsection}{\numberline {6.7.2.3}getEvEnd()}{56}{subsubsection.6.7.2.3}%
+\contentsline {subsubsection}{\numberline {6.7.2.4}setEvBegin()}{57}{subsubsection.6.7.2.4}%
+\contentsline {subsubsection}{\numberline {6.7.2.5}setEvEnd()}{58}{subsubsection.6.7.2.5}%
+\contentsline {subsubsection}{\numberline {6.7.2.6}stringifyEvent()}{58}{subsubsection.6.7.2.6}%
+\contentsline {section}{\numberline {6.8}Dokumentacja klasy calendar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::event\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Reminder}{59}{section.6.8}%
+\contentsline {subsection}{\numberline {6.8.1}Dokumentacja konstruktora i destruktora}{60}{subsection.6.8.1}%
+\contentsline {subsubsection}{\numberline {6.8.1.1}eventReminder()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{60}{subsubsection.6.8.1.1}%
+\contentsline {subsubsection}{\numberline {6.8.1.2}eventReminder()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{61}{subsubsection.6.8.1.2}%
+\contentsline {subsection}{\numberline {6.8.2}Dokumentacja funkcji składowych}{61}{subsection.6.8.2}%
+\contentsline {subsubsection}{\numberline {6.8.2.1}exportData()}{61}{subsubsection.6.8.2.1}%
+\contentsline {subsubsection}{\numberline {6.8.2.2}getEvLocation()}{62}{subsubsection.6.8.2.2}%
+\contentsline {subsubsection}{\numberline {6.8.2.3}getEvType()}{62}{subsubsection.6.8.2.3}%
+\contentsline {subsubsection}{\numberline {6.8.2.4}setEvLocation()}{62}{subsubsection.6.8.2.4}%
+\contentsline {subsubsection}{\numberline {6.8.2.5}setEvType()}{63}{subsubsection.6.8.2.5}%
+\contentsline {subsubsection}{\numberline {6.8.2.6}stringifyEvent()}{63}{subsubsection.6.8.2.6}%
+\contentsline {section}{\numberline {6.9}Dokumentacja klasy Main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Window}{64}{section.6.9}%
+\contentsline {subsection}{\numberline {6.9.1}Dokumentacja konstruktora i destruktora}{65}{subsection.6.9.1}%
+\contentsline {subsubsection}{\numberline {6.9.1.1}MainWindow()}{65}{subsubsection.6.9.1.1}%
+\contentsline {subsubsection}{\numberline {6.9.1.2}$\sim $MainWindow()}{66}{subsubsection.6.9.1.2}%
+\contentsline {subsection}{\numberline {6.9.2}Dokumentacja funkcji składowych}{67}{subsection.6.9.2}%
+\contentsline {subsubsection}{\numberline {6.9.2.1}closeWindow()}{67}{subsubsection.6.9.2.1}%
+\contentsline {subsubsection}{\numberline {6.9.2.2}saveToFiles()}{67}{subsubsection.6.9.2.2}%
+\contentsline {section}{\numberline {6.10}Dokumentacja klasy Ui\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Window}{68}{section.6.10}%
+\contentsline {section}{\numberline {6.11}Dokumentacja struktury qt\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}meta\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}stringdata\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Window\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}t}{69}{section.6.11}%
+\contentsline {subsection}{\numberline {6.11.1}Dokumentacja atrybutów składowych}{69}{subsection.6.11.1}%
+\contentsline {subsubsection}{\numberline {6.11.1.1}data}{69}{subsubsection.6.11.1.1}%
+\contentsline {subsubsection}{\numberline {6.11.1.2}stringdata0}{69}{subsubsection.6.11.1.2}%
+\contentsline {section}{\numberline {6.12}Dokumentacja klasy calendar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::todo\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Element}{69}{section.6.12}%
+\contentsline {subsection}{\numberline {6.12.1}Opis szczegółowy}{70}{subsection.6.12.1}%
+\contentsline {subsection}{\numberline {6.12.2}Dokumentacja konstruktora i destruktora}{70}{subsection.6.12.2}%
+\contentsline {subsubsection}{\numberline {6.12.2.1}todoElement()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{70}{subsubsection.6.12.2.1}%
+\contentsline {subsubsection}{\numberline {6.12.2.2}todoElement()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{70}{subsubsection.6.12.2.2}%
+\contentsline {subsection}{\numberline {6.12.3}Dokumentacja funkcji składowych}{71}{subsection.6.12.3}%
+\contentsline {subsubsection}{\numberline {6.12.3.1}decrementPosition()}{71}{subsubsection.6.12.3.1}%
+\contentsline {subsubsection}{\numberline {6.12.3.2}exportData()}{71}{subsubsection.6.12.3.2}%
+\contentsline {subsubsection}{\numberline {6.12.3.3}getDataRecord()}{71}{subsubsection.6.12.3.3}%
+\contentsline {subsubsection}{\numberline {6.12.3.4}getPosition()}{72}{subsubsection.6.12.3.4}%
+\contentsline {subsubsection}{\numberline {6.12.3.5}incrementPosition()}{72}{subsubsection.6.12.3.5}%
+\contentsline {subsubsection}{\numberline {6.12.3.6}setDataRecord()}{72}{subsubsection.6.12.3.6}%
+\contentsline {subsubsection}{\numberline {6.12.3.7}setPosition()}{72}{subsubsection.6.12.3.7}%
+\contentsline {section}{\numberline {6.13}Dokumentacja klasy calendar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::todo\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}View}{73}{section.6.13}%
+\contentsline {subsection}{\numberline {6.13.1}Opis szczegółowy}{73}{subsection.6.13.1}%
+\contentsline {subsection}{\numberline {6.13.2}Dokumentacja funkcji składowych}{73}{subsection.6.13.2}%
+\contentsline {subsubsection}{\numberline {6.13.2.1}addItem()}{73}{subsubsection.6.13.2.1}%
+\contentsline {subsubsection}{\numberline {6.13.2.2}deleteItem()}{73}{subsubsection.6.13.2.2}%
+\contentsline {subsubsection}{\numberline {6.13.2.3}getItems()}{74}{subsubsection.6.13.2.3}%
+\contentsline {subsubsection}{\numberline {6.13.2.4}setItems()}{74}{subsubsection.6.13.2.4}%
+\contentsline {section}{\numberline {6.14}Dokumentacja klasy Ui\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Window}{75}{section.6.14}%
+\contentsline {subsection}{\numberline {6.14.1}Dokumentacja funkcji składowych}{76}{subsection.6.14.1}%
+\contentsline {subsubsection}{\numberline {6.14.1.1}retranslateUi()}{76}{subsubsection.6.14.1.1}%
+\contentsline {subsubsection}{\numberline {6.14.1.2}setupUi()}{77}{subsubsection.6.14.1.2}%
+\contentsline {subsection}{\numberline {6.14.2}Dokumentacja atrybutów składowych}{77}{subsection.6.14.2}%
+\contentsline {subsubsection}{\numberline {6.14.2.1}addTodoItemButton}{77}{subsubsection.6.14.2.1}%
+\contentsline {subsubsection}{\numberline {6.14.2.2}centralwidget}{77}{subsubsection.6.14.2.2}%
+\contentsline {subsubsection}{\numberline {6.14.2.3}changeCalendarViewMonthly}{77}{subsubsection.6.14.2.3}%
+\contentsline {subsubsection}{\numberline {6.14.2.4}changeCalendarViewWeekly}{78}{subsubsection.6.14.2.4}%
+\contentsline {subsubsection}{\numberline {6.14.2.5}closeAction}{78}{subsubsection.6.14.2.5}%
+\contentsline {subsubsection}{\numberline {6.14.2.6}eventsListView}{78}{subsubsection.6.14.2.6}%
+\contentsline {subsubsection}{\numberline {6.14.2.7}horizontalLayout}{78}{subsubsection.6.14.2.7}%
+\contentsline {subsubsection}{\numberline {6.14.2.8}horizontalLayout\_2}{78}{subsubsection.6.14.2.8}%
+\contentsline {subsubsection}{\numberline {6.14.2.9}horizontalLayout\_3}{78}{subsubsection.6.14.2.9}%
+\contentsline {subsubsection}{\numberline {6.14.2.10}layoutWidget}{78}{subsubsection.6.14.2.10}%
+\contentsline {subsubsection}{\numberline {6.14.2.11}layoutWidget1}{78}{subsubsection.6.14.2.11}%
+\contentsline {subsubsection}{\numberline {6.14.2.12}layoutWidget2}{79}{subsubsection.6.14.2.12}%
+\contentsline {subsubsection}{\numberline {6.14.2.13}listView}{79}{subsubsection.6.14.2.13}%
+\contentsline {subsubsection}{\numberline {6.14.2.14}menubar}{79}{subsubsection.6.14.2.14}%
+\contentsline {subsubsection}{\numberline {6.14.2.15}menutest}{79}{subsubsection.6.14.2.15}%
+\contentsline {subsubsection}{\numberline {6.14.2.16}monthLabel}{79}{subsubsection.6.14.2.16}%
+\contentsline {subsubsection}{\numberline {6.14.2.17}monthTableView}{79}{subsubsection.6.14.2.17}%
+\contentsline {subsubsection}{\numberline {6.14.2.18}nextMonth}{79}{subsubsection.6.14.2.18}%
+\contentsline {subsubsection}{\numberline {6.14.2.19}prevMonth}{79}{subsubsection.6.14.2.19}%
+\contentsline {subsubsection}{\numberline {6.14.2.20}saveAction}{80}{subsubsection.6.14.2.20}%
+\contentsline {subsubsection}{\numberline {6.14.2.21}statusbar}{80}{subsubsection.6.14.2.21}%
+\contentsline {subsubsection}{\numberline {6.14.2.22}todoItemTextInput}{80}{subsubsection.6.14.2.22}%
+\contentsline {subsubsection}{\numberline {6.14.2.23}todoLabel}{80}{subsubsection.6.14.2.23}%
+\contentsline {subsubsection}{\numberline {6.14.2.24}verticalLayout}{80}{subsubsection.6.14.2.24}%
+\contentsline {subsubsection}{\numberline {6.14.2.25}verticalLayout\_2}{80}{subsubsection.6.14.2.25}%
+\contentsline {subsubsection}{\numberline {6.14.2.26}verticalLayout\_3}{80}{subsubsection.6.14.2.26}%
+\contentsline {subsubsection}{\numberline {6.14.2.27}yearLabel}{81}{subsubsection.6.14.2.27}%
+\contentsline {section}{\numberline {6.15}Dokumentacja klasy calendar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::weekly\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Calendar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}View}{81}{section.6.15}%
+\contentsline {subsection}{\numberline {6.15.1}Opis szczegółowy}{81}{subsection.6.15.1}%
+\contentsline {subsection}{\numberline {6.15.2}Dokumentacja konstruktora i destruktora}{82}{subsection.6.15.2}%
+\contentsline {subsubsection}{\numberline {6.15.2.1}weeklyCalendarView()}{82}{subsubsection.6.15.2.1}%
+\contentsline {subsection}{\numberline {6.15.3}Dokumentacja funkcji składowych}{82}{subsection.6.15.3}%
+\contentsline {subsubsection}{\numberline {6.15.3.1}addEventFromDialog()}{82}{subsubsection.6.15.3.1}%
+\contentsline {subsubsection}{\numberline {6.15.3.2}calculateCurrentWeek()}{83}{subsubsection.6.15.3.2}%
+\contentsline {subsubsection}{\numberline {6.15.3.3}deleteEvent()}{84}{subsubsection.6.15.3.3}%
+\contentsline {subsubsection}{\numberline {6.15.3.4}displayReminderEvent()}{85}{subsubsection.6.15.3.4}%
+\contentsline {subsubsection}{\numberline {6.15.3.5}getCurrentWeekNumber()}{85}{subsubsection.6.15.3.5}%
+\contentsline {subsubsection}{\numberline {6.15.3.6}getEvents()}{86}{subsubsection.6.15.3.6}%
+\contentsline {subsubsection}{\numberline {6.15.3.7}getEventsForDay()}{86}{subsubsection.6.15.3.7}%
+\contentsline {subsubsection}{\numberline {6.15.3.8}getMonthName()}{87}{subsubsection.6.15.3.8}%
+\contentsline {subsubsection}{\numberline {6.15.3.9}getTodayDate()}{87}{subsubsection.6.15.3.9}%
+\contentsline {subsubsection}{\numberline {6.15.3.10}setEvents()}{88}{subsubsection.6.15.3.10}%
+\contentsline {subsubsection}{\numberline {6.15.3.11}setTodayDate()}{88}{subsubsection.6.15.3.11}%
+\contentsline {chapter}{\numberline {7}Dokumentacja plików}{89}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Dokumentacja pliku build/calendar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}autogen/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}EWIEGA46\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}WW/moc\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}mainwindow.cpp.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}d}{89}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Dokumentacja pliku calendar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}autogen/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}EWIEGA46\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}WW/moc\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}mainwindow.cpp.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}d}{89}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Dokumentacja pliku cmake-\/build-\/debug/calendar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}autogen/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}EWIEGA46\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}WW/moc\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}mainwindow.cpp.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}d}{89}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Dokumentacja pliku build/calendar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}autogen/moc\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}predefs.h}{89}{section.7.4}%
+\contentsline {subsection}{\numberline {7.4.1}Dokumentacja definicji}{97}{subsection.7.4.1}%
+\contentsline {subsubsection}{\numberline {7.4.1.1}\_\_amd64}{97}{subsubsection.7.4.1.1}%
+\contentsline {subsubsection}{\numberline {7.4.1.2}\_\_amd64\_\_}{97}{subsubsection.7.4.1.2}%
+\contentsline {subsubsection}{\numberline {7.4.1.3}\_\_ATOMIC\_ACQ\_REL}{97}{subsubsection.7.4.1.3}%
+\contentsline {subsubsection}{\numberline {7.4.1.4}\_\_ATOMIC\_ACQUIRE}{97}{subsubsection.7.4.1.4}%
+\contentsline {subsubsection}{\numberline {7.4.1.5}\_\_ATOMIC\_CONSUME}{97}{subsubsection.7.4.1.5}%
+\contentsline {subsubsection}{\numberline {7.4.1.6}\_\_ATOMIC\_HLE\_ACQUIRE}{97}{subsubsection.7.4.1.6}%
+\contentsline {subsubsection}{\numberline {7.4.1.7}\_\_ATOMIC\_HLE\_RELEASE}{97}{subsubsection.7.4.1.7}%
+\contentsline {subsubsection}{\numberline {7.4.1.8}\_\_ATOMIC\_RELAXED}{98}{subsubsection.7.4.1.8}%
+\contentsline {subsubsection}{\numberline {7.4.1.9}\_\_ATOMIC\_RELEASE}{98}{subsubsection.7.4.1.9}%
+\contentsline {subsubsection}{\numberline {7.4.1.10}\_\_ATOMIC\_SEQ\_CST}{98}{subsubsection.7.4.1.10}%
+\contentsline {subsubsection}{\numberline {7.4.1.11}\_\_BIGGEST\_ALIGNMENT\_\_}{98}{subsubsection.7.4.1.11}%
+\contentsline {subsubsection}{\numberline {7.4.1.12}\_\_BYTE\_ORDER\_\_}{98}{subsubsection.7.4.1.12}%
+\contentsline {subsubsection}{\numberline {7.4.1.13}\_\_CHAR16\_TYPE\_\_}{98}{subsubsection.7.4.1.13}%
+\contentsline {subsubsection}{\numberline {7.4.1.14}\_\_CHAR32\_TYPE\_\_}{98}{subsubsection.7.4.1.14}%
+\contentsline {subsubsection}{\numberline {7.4.1.15}\_\_CHAR\_BIT\_\_}{98}{subsubsection.7.4.1.15}%
+\contentsline {subsubsection}{\numberline {7.4.1.16}\_\_code\_model\_small\_\_}{99}{subsubsection.7.4.1.16}%
+\contentsline {subsubsection}{\numberline {7.4.1.17}\_\_cplusplus}{99}{subsubsection.7.4.1.17}%
+\contentsline {subsubsection}{\numberline {7.4.1.18}\_\_cpp\_aggregate\_nsdmi}{99}{subsubsection.7.4.1.18}%
+\contentsline {subsubsection}{\numberline {7.4.1.19}\_\_cpp\_alias\_templates}{99}{subsubsection.7.4.1.19}%
+\contentsline {subsubsection}{\numberline {7.4.1.20}\_\_cpp\_attributes}{99}{subsubsection.7.4.1.20}%
+\contentsline {subsubsection}{\numberline {7.4.1.21}\_\_cpp\_binary\_literals}{99}{subsubsection.7.4.1.21}%
+\contentsline {subsubsection}{\numberline {7.4.1.22}\_\_cpp\_constexpr}{99}{subsubsection.7.4.1.22}%
+\contentsline {subsubsection}{\numberline {7.4.1.23}\_\_cpp\_decltype}{99}{subsubsection.7.4.1.23}%
+\contentsline {subsubsection}{\numberline {7.4.1.24}\_\_cpp\_decltype\_auto}{100}{subsubsection.7.4.1.24}%
+\contentsline {subsubsection}{\numberline {7.4.1.25}\_\_cpp\_delegating\_constructors}{100}{subsubsection.7.4.1.25}%
+\contentsline {subsubsection}{\numberline {7.4.1.26}\_\_cpp\_digit\_separators}{100}{subsubsection.7.4.1.26}%
+\contentsline {subsubsection}{\numberline {7.4.1.27}\_\_cpp\_exceptions}{100}{subsubsection.7.4.1.27}%
+\contentsline {subsubsection}{\numberline {7.4.1.28}\_\_cpp\_generic\_lambdas}{100}{subsubsection.7.4.1.28}%
+\contentsline {subsubsection}{\numberline {7.4.1.29}\_\_cpp\_hex\_float}{100}{subsubsection.7.4.1.29}%
+\contentsline {subsubsection}{\numberline {7.4.1.30}\_\_cpp\_inheriting\_constructors}{100}{subsubsection.7.4.1.30}%
+\contentsline {subsubsection}{\numberline {7.4.1.31}\_\_cpp\_init\_captures}{100}{subsubsection.7.4.1.31}%
+\contentsline {subsubsection}{\numberline {7.4.1.32}\_\_cpp\_initializer\_lists}{101}{subsubsection.7.4.1.32}%
+\contentsline {subsubsection}{\numberline {7.4.1.33}\_\_cpp\_lambdas}{101}{subsubsection.7.4.1.33}%
+\contentsline {subsubsection}{\numberline {7.4.1.34}\_\_cpp\_nsdmi}{101}{subsubsection.7.4.1.34}%
+\contentsline {subsubsection}{\numberline {7.4.1.35}\_\_cpp\_range\_based\_for}{101}{subsubsection.7.4.1.35}%
+\contentsline {subsubsection}{\numberline {7.4.1.36}\_\_cpp\_raw\_strings}{101}{subsubsection.7.4.1.36}%
+\contentsline {subsubsection}{\numberline {7.4.1.37}\_\_cpp\_ref\_qualifiers}{101}{subsubsection.7.4.1.37}%
+\contentsline {subsubsection}{\numberline {7.4.1.38}\_\_cpp\_return\_type\_deduction}{101}{subsubsection.7.4.1.38}%
+\contentsline {subsubsection}{\numberline {7.4.1.39}\_\_cpp\_rtti}{101}{subsubsection.7.4.1.39}%
+\contentsline {subsubsection}{\numberline {7.4.1.40}\_\_cpp\_runtime\_arrays}{102}{subsubsection.7.4.1.40}%
+\contentsline {subsubsection}{\numberline {7.4.1.41}\_\_cpp\_rvalue\_reference}{102}{subsubsection.7.4.1.41}%
+\contentsline {subsubsection}{\numberline {7.4.1.42}\_\_cpp\_rvalue\_references}{102}{subsubsection.7.4.1.42}%
+\contentsline {subsubsection}{\numberline {7.4.1.43}\_\_cpp\_sized\_deallocation}{102}{subsubsection.7.4.1.43}%
+\contentsline {subsubsection}{\numberline {7.4.1.44}\_\_cpp\_static\_assert}{102}{subsubsection.7.4.1.44}%
+\contentsline {subsubsection}{\numberline {7.4.1.45}\_\_cpp\_threadsafe\_static\_init}{102}{subsubsection.7.4.1.45}%
+\contentsline {subsubsection}{\numberline {7.4.1.46}\_\_cpp\_unicode\_characters}{102}{subsubsection.7.4.1.46}%
+\contentsline {subsubsection}{\numberline {7.4.1.47}\_\_cpp\_unicode\_literals}{102}{subsubsection.7.4.1.47}%
+\contentsline {subsubsection}{\numberline {7.4.1.48}\_\_cpp\_user\_defined\_literals}{103}{subsubsection.7.4.1.48}%
+\contentsline {subsubsection}{\numberline {7.4.1.49}\_\_cpp\_variable\_templates}{103}{subsubsection.7.4.1.49}%
+\contentsline {subsubsection}{\numberline {7.4.1.50}\_\_cpp\_variadic\_templates}{103}{subsubsection.7.4.1.50}%
+\contentsline {subsubsection}{\numberline {7.4.1.51}\_\_DBL\_DECIMAL\_DIG\_\_}{103}{subsubsection.7.4.1.51}%
+\contentsline {subsubsection}{\numberline {7.4.1.52}\_\_DBL\_DENORM\_MIN\_\_}{103}{subsubsection.7.4.1.52}%
+\contentsline {subsubsection}{\numberline {7.4.1.53}\_\_DBL\_DIG\_\_}{103}{subsubsection.7.4.1.53}%
+\contentsline {subsubsection}{\numberline {7.4.1.54}\_\_DBL\_EPSILON\_\_}{103}{subsubsection.7.4.1.54}%
+\contentsline {subsubsection}{\numberline {7.4.1.55}\_\_DBL\_HAS\_DENORM\_\_}{103}{subsubsection.7.4.1.55}%
+\contentsline {subsubsection}{\numberline {7.4.1.56}\_\_DBL\_HAS\_INFINITY\_\_}{104}{subsubsection.7.4.1.56}%
+\contentsline {subsubsection}{\numberline {7.4.1.57}\_\_DBL\_HAS\_QUIET\_NAN\_\_}{104}{subsubsection.7.4.1.57}%
+\contentsline {subsubsection}{\numberline {7.4.1.58}\_\_DBL\_MANT\_DIG\_\_}{104}{subsubsection.7.4.1.58}%
+\contentsline {subsubsection}{\numberline {7.4.1.59}\_\_DBL\_MAX\_10\_EXP\_\_}{104}{subsubsection.7.4.1.59}%
+\contentsline {subsubsection}{\numberline {7.4.1.60}\_\_DBL\_MAX\_\_}{104}{subsubsection.7.4.1.60}%
+\contentsline {subsubsection}{\numberline {7.4.1.61}\_\_DBL\_MAX\_EXP\_\_}{104}{subsubsection.7.4.1.61}%
+\contentsline {subsubsection}{\numberline {7.4.1.62}\_\_DBL\_MIN\_10\_EXP\_\_}{104}{subsubsection.7.4.1.62}%
+\contentsline {subsubsection}{\numberline {7.4.1.63}\_\_DBL\_MIN\_\_}{104}{subsubsection.7.4.1.63}%
+\contentsline {subsubsection}{\numberline {7.4.1.64}\_\_DBL\_MIN\_EXP\_\_}{105}{subsubsection.7.4.1.64}%
+\contentsline {subsubsection}{\numberline {7.4.1.65}\_\_DBL\_NORM\_MAX\_\_}{105}{subsubsection.7.4.1.65}%
+\contentsline {subsubsection}{\numberline {7.4.1.66}\_\_DEC128\_EPSILON\_\_}{105}{subsubsection.7.4.1.66}%
+\contentsline {subsubsection}{\numberline {7.4.1.67}\_\_DEC128\_MANT\_DIG\_\_}{105}{subsubsection.7.4.1.67}%
+\contentsline {subsubsection}{\numberline {7.4.1.68}\_\_DEC128\_MAX\_\_}{105}{subsubsection.7.4.1.68}%
+\contentsline {subsubsection}{\numberline {7.4.1.69}\_\_DEC128\_MAX\_EXP\_\_}{105}{subsubsection.7.4.1.69}%
+\contentsline {subsubsection}{\numberline {7.4.1.70}\_\_DEC128\_MIN\_\_}{105}{subsubsection.7.4.1.70}%
+\contentsline {subsubsection}{\numberline {7.4.1.71}\_\_DEC128\_MIN\_EXP\_\_}{105}{subsubsection.7.4.1.71}%
+\contentsline {subsubsection}{\numberline {7.4.1.72}\_\_DEC128\_SUBNORMAL\_MIN\_\_}{106}{subsubsection.7.4.1.72}%
+\contentsline {subsubsection}{\numberline {7.4.1.73}\_\_DEC32\_EPSILON\_\_}{106}{subsubsection.7.4.1.73}%
+\contentsline {subsubsection}{\numberline {7.4.1.74}\_\_DEC32\_MANT\_DIG\_\_}{106}{subsubsection.7.4.1.74}%
+\contentsline {subsubsection}{\numberline {7.4.1.75}\_\_DEC32\_MAX\_\_}{106}{subsubsection.7.4.1.75}%
+\contentsline {subsubsection}{\numberline {7.4.1.76}\_\_DEC32\_MAX\_EXP\_\_}{106}{subsubsection.7.4.1.76}%
+\contentsline {subsubsection}{\numberline {7.4.1.77}\_\_DEC32\_MIN\_\_}{106}{subsubsection.7.4.1.77}%
+\contentsline {subsubsection}{\numberline {7.4.1.78}\_\_DEC32\_MIN\_EXP\_\_}{106}{subsubsection.7.4.1.78}%
+\contentsline {subsubsection}{\numberline {7.4.1.79}\_\_DEC32\_SUBNORMAL\_MIN\_\_}{106}{subsubsection.7.4.1.79}%
+\contentsline {subsubsection}{\numberline {7.4.1.80}\_\_DEC64\_EPSILON\_\_}{107}{subsubsection.7.4.1.80}%
+\contentsline {subsubsection}{\numberline {7.4.1.81}\_\_DEC64\_MANT\_DIG\_\_}{107}{subsubsection.7.4.1.81}%
+\contentsline {subsubsection}{\numberline {7.4.1.82}\_\_DEC64\_MAX\_\_}{107}{subsubsection.7.4.1.82}%
+\contentsline {subsubsection}{\numberline {7.4.1.83}\_\_DEC64\_MAX\_EXP\_\_}{107}{subsubsection.7.4.1.83}%
+\contentsline {subsubsection}{\numberline {7.4.1.84}\_\_DEC64\_MIN\_\_}{107}{subsubsection.7.4.1.84}%
+\contentsline {subsubsection}{\numberline {7.4.1.85}\_\_DEC64\_MIN\_EXP\_\_}{107}{subsubsection.7.4.1.85}%
+\contentsline {subsubsection}{\numberline {7.4.1.86}\_\_DEC64\_SUBNORMAL\_MIN\_\_}{107}{subsubsection.7.4.1.86}%
+\contentsline {subsubsection}{\numberline {7.4.1.87}\_\_DEC\_EVAL\_METHOD\_\_}{107}{subsubsection.7.4.1.87}%
+\contentsline {subsubsection}{\numberline {7.4.1.88}\_\_DECIMAL\_BID\_FORMAT\_\_}{108}{subsubsection.7.4.1.88}%
+\contentsline {subsubsection}{\numberline {7.4.1.89}\_\_DECIMAL\_DIG\_\_}{108}{subsubsection.7.4.1.89}%
+\contentsline {subsubsection}{\numberline {7.4.1.90}\_\_DEPRECATED}{108}{subsubsection.7.4.1.90}%
+\contentsline {subsubsection}{\numberline {7.4.1.91}\_\_ELF\_\_}{108}{subsubsection.7.4.1.91}%
+\contentsline {subsubsection}{\numberline {7.4.1.92}\_\_EXCEPTIONS}{108}{subsubsection.7.4.1.92}%
+\contentsline {subsubsection}{\numberline {7.4.1.93}\_\_FINITE\_MATH\_ONLY\_\_}{108}{subsubsection.7.4.1.93}%
+\contentsline {subsubsection}{\numberline {7.4.1.94}\_\_FLOAT\_WORD\_ORDER\_\_}{108}{subsubsection.7.4.1.94}%
+\contentsline {subsubsection}{\numberline {7.4.1.95}\_\_FLT128\_DECIMAL\_DIG\_\_}{108}{subsubsection.7.4.1.95}%
+\contentsline {subsubsection}{\numberline {7.4.1.96}\_\_FLT128\_DENORM\_MIN\_\_}{109}{subsubsection.7.4.1.96}%
+\contentsline {subsubsection}{\numberline {7.4.1.97}\_\_FLT128\_DIG\_\_}{109}{subsubsection.7.4.1.97}%
+\contentsline {subsubsection}{\numberline {7.4.1.98}\_\_FLT128\_EPSILON\_\_}{109}{subsubsection.7.4.1.98}%
+\contentsline {subsubsection}{\numberline {7.4.1.99}\_\_FLT128\_HAS\_DENORM\_\_}{109}{subsubsection.7.4.1.99}%
+\contentsline {subsubsection}{\numberline {7.4.1.100}\_\_FLT128\_HAS\_INFINITY\_\_}{109}{subsubsection.7.4.1.100}%
+\contentsline {subsubsection}{\numberline {7.4.1.101}\_\_FLT128\_HAS\_QUIET\_NAN\_\_}{109}{subsubsection.7.4.1.101}%
+\contentsline {subsubsection}{\numberline {7.4.1.102}\_\_FLT128\_MANT\_DIG\_\_}{109}{subsubsection.7.4.1.102}%
+\contentsline {subsubsection}{\numberline {7.4.1.103}\_\_FLT128\_MAX\_10\_EXP\_\_}{109}{subsubsection.7.4.1.103}%
+\contentsline {subsubsection}{\numberline {7.4.1.104}\_\_FLT128\_MAX\_\_}{110}{subsubsection.7.4.1.104}%
+\contentsline {subsubsection}{\numberline {7.4.1.105}\_\_FLT128\_MAX\_EXP\_\_}{110}{subsubsection.7.4.1.105}%
+\contentsline {subsubsection}{\numberline {7.4.1.106}\_\_FLT128\_MIN\_10\_EXP\_\_}{110}{subsubsection.7.4.1.106}%
+\contentsline {subsubsection}{\numberline {7.4.1.107}\_\_FLT128\_MIN\_\_}{110}{subsubsection.7.4.1.107}%
+\contentsline {subsubsection}{\numberline {7.4.1.108}\_\_FLT128\_MIN\_EXP\_\_}{110}{subsubsection.7.4.1.108}%
+\contentsline {subsubsection}{\numberline {7.4.1.109}\_\_FLT128\_NORM\_MAX\_\_}{110}{subsubsection.7.4.1.109}%
+\contentsline {subsubsection}{\numberline {7.4.1.110}\_\_FLT32\_DECIMAL\_DIG\_\_}{110}{subsubsection.7.4.1.110}%
+\contentsline {subsubsection}{\numberline {7.4.1.111}\_\_FLT32\_DENORM\_MIN\_\_}{110}{subsubsection.7.4.1.111}%
+\contentsline {subsubsection}{\numberline {7.4.1.112}\_\_FLT32\_DIG\_\_}{111}{subsubsection.7.4.1.112}%
+\contentsline {subsubsection}{\numberline {7.4.1.113}\_\_FLT32\_EPSILON\_\_}{111}{subsubsection.7.4.1.113}%
+\contentsline {subsubsection}{\numberline {7.4.1.114}\_\_FLT32\_HAS\_DENORM\_\_}{111}{subsubsection.7.4.1.114}%
+\contentsline {subsubsection}{\numberline {7.4.1.115}\_\_FLT32\_HAS\_INFINITY\_\_}{111}{subsubsection.7.4.1.115}%
+\contentsline {subsubsection}{\numberline {7.4.1.116}\_\_FLT32\_HAS\_QUIET\_NAN\_\_}{111}{subsubsection.7.4.1.116}%
+\contentsline {subsubsection}{\numberline {7.4.1.117}\_\_FLT32\_MANT\_DIG\_\_}{111}{subsubsection.7.4.1.117}%
+\contentsline {subsubsection}{\numberline {7.4.1.118}\_\_FLT32\_MAX\_10\_EXP\_\_}{111}{subsubsection.7.4.1.118}%
+\contentsline {subsubsection}{\numberline {7.4.1.119}\_\_FLT32\_MAX\_\_}{111}{subsubsection.7.4.1.119}%
+\contentsline {subsubsection}{\numberline {7.4.1.120}\_\_FLT32\_MAX\_EXP\_\_}{112}{subsubsection.7.4.1.120}%
+\contentsline {subsubsection}{\numberline {7.4.1.121}\_\_FLT32\_MIN\_10\_EXP\_\_}{112}{subsubsection.7.4.1.121}%
+\contentsline {subsubsection}{\numberline {7.4.1.122}\_\_FLT32\_MIN\_\_}{112}{subsubsection.7.4.1.122}%
+\contentsline {subsubsection}{\numberline {7.4.1.123}\_\_FLT32\_MIN\_EXP\_\_}{112}{subsubsection.7.4.1.123}%
+\contentsline {subsubsection}{\numberline {7.4.1.124}\_\_FLT32\_NORM\_MAX\_\_}{112}{subsubsection.7.4.1.124}%
+\contentsline {subsubsection}{\numberline {7.4.1.125}\_\_FLT32X\_DECIMAL\_DIG\_\_}{112}{subsubsection.7.4.1.125}%
+\contentsline {subsubsection}{\numberline {7.4.1.126}\_\_FLT32X\_DENORM\_MIN\_\_}{112}{subsubsection.7.4.1.126}%
+\contentsline {subsubsection}{\numberline {7.4.1.127}\_\_FLT32X\_DIG\_\_}{112}{subsubsection.7.4.1.127}%
+\contentsline {subsubsection}{\numberline {7.4.1.128}\_\_FLT32X\_EPSILON\_\_}{113}{subsubsection.7.4.1.128}%
+\contentsline {subsubsection}{\numberline {7.4.1.129}\_\_FLT32X\_HAS\_DENORM\_\_}{113}{subsubsection.7.4.1.129}%
+\contentsline {subsubsection}{\numberline {7.4.1.130}\_\_FLT32X\_HAS\_INFINITY\_\_}{113}{subsubsection.7.4.1.130}%
+\contentsline {subsubsection}{\numberline {7.4.1.131}\_\_FLT32X\_HAS\_QUIET\_NAN\_\_}{113}{subsubsection.7.4.1.131}%
+\contentsline {subsubsection}{\numberline {7.4.1.132}\_\_FLT32X\_MANT\_DIG\_\_}{113}{subsubsection.7.4.1.132}%
+\contentsline {subsubsection}{\numberline {7.4.1.133}\_\_FLT32X\_MAX\_10\_EXP\_\_}{113}{subsubsection.7.4.1.133}%
+\contentsline {subsubsection}{\numberline {7.4.1.134}\_\_FLT32X\_MAX\_\_}{113}{subsubsection.7.4.1.134}%
+\contentsline {subsubsection}{\numberline {7.4.1.135}\_\_FLT32X\_MAX\_EXP\_\_}{113}{subsubsection.7.4.1.135}%
+\contentsline {subsubsection}{\numberline {7.4.1.136}\_\_FLT32X\_MIN\_10\_EXP\_\_}{114}{subsubsection.7.4.1.136}%
+\contentsline {subsubsection}{\numberline {7.4.1.137}\_\_FLT32X\_MIN\_\_}{114}{subsubsection.7.4.1.137}%
+\contentsline {subsubsection}{\numberline {7.4.1.138}\_\_FLT32X\_MIN\_EXP\_\_}{114}{subsubsection.7.4.1.138}%
+\contentsline {subsubsection}{\numberline {7.4.1.139}\_\_FLT32X\_NORM\_MAX\_\_}{114}{subsubsection.7.4.1.139}%
+\contentsline {subsubsection}{\numberline {7.4.1.140}\_\_FLT64\_DECIMAL\_DIG\_\_}{114}{subsubsection.7.4.1.140}%
+\contentsline {subsubsection}{\numberline {7.4.1.141}\_\_FLT64\_DENORM\_MIN\_\_}{114}{subsubsection.7.4.1.141}%
+\contentsline {subsubsection}{\numberline {7.4.1.142}\_\_FLT64\_DIG\_\_}{114}{subsubsection.7.4.1.142}%
+\contentsline {subsubsection}{\numberline {7.4.1.143}\_\_FLT64\_EPSILON\_\_}{114}{subsubsection.7.4.1.143}%
+\contentsline {subsubsection}{\numberline {7.4.1.144}\_\_FLT64\_HAS\_DENORM\_\_}{115}{subsubsection.7.4.1.144}%
+\contentsline {subsubsection}{\numberline {7.4.1.145}\_\_FLT64\_HAS\_INFINITY\_\_}{115}{subsubsection.7.4.1.145}%
+\contentsline {subsubsection}{\numberline {7.4.1.146}\_\_FLT64\_HAS\_QUIET\_NAN\_\_}{115}{subsubsection.7.4.1.146}%
+\contentsline {subsubsection}{\numberline {7.4.1.147}\_\_FLT64\_MANT\_DIG\_\_}{115}{subsubsection.7.4.1.147}%
+\contentsline {subsubsection}{\numberline {7.4.1.148}\_\_FLT64\_MAX\_10\_EXP\_\_}{115}{subsubsection.7.4.1.148}%
+\contentsline {subsubsection}{\numberline {7.4.1.149}\_\_FLT64\_MAX\_\_}{115}{subsubsection.7.4.1.149}%
+\contentsline {subsubsection}{\numberline {7.4.1.150}\_\_FLT64\_MAX\_EXP\_\_}{115}{subsubsection.7.4.1.150}%
+\contentsline {subsubsection}{\numberline {7.4.1.151}\_\_FLT64\_MIN\_10\_EXP\_\_}{115}{subsubsection.7.4.1.151}%
+\contentsline {subsubsection}{\numberline {7.4.1.152}\_\_FLT64\_MIN\_\_}{116}{subsubsection.7.4.1.152}%
+\contentsline {subsubsection}{\numberline {7.4.1.153}\_\_FLT64\_MIN\_EXP\_\_}{116}{subsubsection.7.4.1.153}%
+\contentsline {subsubsection}{\numberline {7.4.1.154}\_\_FLT64\_NORM\_MAX\_\_}{116}{subsubsection.7.4.1.154}%
+\contentsline {subsubsection}{\numberline {7.4.1.155}\_\_FLT64X\_DECIMAL\_DIG\_\_}{116}{subsubsection.7.4.1.155}%
+\contentsline {subsubsection}{\numberline {7.4.1.156}\_\_FLT64X\_DENORM\_MIN\_\_}{116}{subsubsection.7.4.1.156}%
+\contentsline {subsubsection}{\numberline {7.4.1.157}\_\_FLT64X\_DIG\_\_}{116}{subsubsection.7.4.1.157}%
+\contentsline {subsubsection}{\numberline {7.4.1.158}\_\_FLT64X\_EPSILON\_\_}{116}{subsubsection.7.4.1.158}%
+\contentsline {subsubsection}{\numberline {7.4.1.159}\_\_FLT64X\_HAS\_DENORM\_\_}{116}{subsubsection.7.4.1.159}%
+\contentsline {subsubsection}{\numberline {7.4.1.160}\_\_FLT64X\_HAS\_INFINITY\_\_}{117}{subsubsection.7.4.1.160}%
+\contentsline {subsubsection}{\numberline {7.4.1.161}\_\_FLT64X\_HAS\_QUIET\_NAN\_\_}{117}{subsubsection.7.4.1.161}%
+\contentsline {subsubsection}{\numberline {7.4.1.162}\_\_FLT64X\_MANT\_DIG\_\_}{117}{subsubsection.7.4.1.162}%
+\contentsline {subsubsection}{\numberline {7.4.1.163}\_\_FLT64X\_MAX\_10\_EXP\_\_}{117}{subsubsection.7.4.1.163}%
+\contentsline {subsubsection}{\numberline {7.4.1.164}\_\_FLT64X\_MAX\_\_}{117}{subsubsection.7.4.1.164}%
+\contentsline {subsubsection}{\numberline {7.4.1.165}\_\_FLT64X\_MAX\_EXP\_\_}{117}{subsubsection.7.4.1.165}%
+\contentsline {subsubsection}{\numberline {7.4.1.166}\_\_FLT64X\_MIN\_10\_EXP\_\_}{117}{subsubsection.7.4.1.166}%
+\contentsline {subsubsection}{\numberline {7.4.1.167}\_\_FLT64X\_MIN\_\_}{117}{subsubsection.7.4.1.167}%
+\contentsline {subsubsection}{\numberline {7.4.1.168}\_\_FLT64X\_MIN\_EXP\_\_}{118}{subsubsection.7.4.1.168}%
+\contentsline {subsubsection}{\numberline {7.4.1.169}\_\_FLT64X\_NORM\_MAX\_\_}{118}{subsubsection.7.4.1.169}%
+\contentsline {subsubsection}{\numberline {7.4.1.170}\_\_FLT\_DECIMAL\_DIG\_\_}{118}{subsubsection.7.4.1.170}%
+\contentsline {subsubsection}{\numberline {7.4.1.171}\_\_FLT\_DENORM\_MIN\_\_}{118}{subsubsection.7.4.1.171}%
+\contentsline {subsubsection}{\numberline {7.4.1.172}\_\_FLT\_DIG\_\_}{118}{subsubsection.7.4.1.172}%
+\contentsline {subsubsection}{\numberline {7.4.1.173}\_\_FLT\_EPSILON\_\_}{118}{subsubsection.7.4.1.173}%
+\contentsline {subsubsection}{\numberline {7.4.1.174}\_\_FLT\_EVAL\_METHOD\_\_}{118}{subsubsection.7.4.1.174}%
+\contentsline {subsubsection}{\numberline {7.4.1.175}\_\_FLT\_EVAL\_METHOD\_TS\_18661\_3\_\_}{118}{subsubsection.7.4.1.175}%
+\contentsline {subsubsection}{\numberline {7.4.1.176}\_\_FLT\_HAS\_DENORM\_\_}{119}{subsubsection.7.4.1.176}%
+\contentsline {subsubsection}{\numberline {7.4.1.177}\_\_FLT\_HAS\_INFINITY\_\_}{119}{subsubsection.7.4.1.177}%
+\contentsline {subsubsection}{\numberline {7.4.1.178}\_\_FLT\_HAS\_QUIET\_NAN\_\_}{119}{subsubsection.7.4.1.178}%
+\contentsline {subsubsection}{\numberline {7.4.1.179}\_\_FLT\_MANT\_DIG\_\_}{119}{subsubsection.7.4.1.179}%
+\contentsline {subsubsection}{\numberline {7.4.1.180}\_\_FLT\_MAX\_10\_EXP\_\_}{119}{subsubsection.7.4.1.180}%
+\contentsline {subsubsection}{\numberline {7.4.1.181}\_\_FLT\_MAX\_\_}{119}{subsubsection.7.4.1.181}%
+\contentsline {subsubsection}{\numberline {7.4.1.182}\_\_FLT\_MAX\_EXP\_\_}{119}{subsubsection.7.4.1.182}%
+\contentsline {subsubsection}{\numberline {7.4.1.183}\_\_FLT\_MIN\_10\_EXP\_\_}{119}{subsubsection.7.4.1.183}%
+\contentsline {subsubsection}{\numberline {7.4.1.184}\_\_FLT\_MIN\_\_}{120}{subsubsection.7.4.1.184}%
+\contentsline {subsubsection}{\numberline {7.4.1.185}\_\_FLT\_MIN\_EXP\_\_}{120}{subsubsection.7.4.1.185}%
+\contentsline {subsubsection}{\numberline {7.4.1.186}\_\_FLT\_NORM\_MAX\_\_}{120}{subsubsection.7.4.1.186}%
+\contentsline {subsubsection}{\numberline {7.4.1.187}\_\_FLT\_RADIX\_\_}{120}{subsubsection.7.4.1.187}%
+\contentsline {subsubsection}{\numberline {7.4.1.188}\_\_FXSR\_\_}{120}{subsubsection.7.4.1.188}%
+\contentsline {subsubsection}{\numberline {7.4.1.189}\_\_GCC\_ASM\_FLAG\_OUTPUTS\_\_}{120}{subsubsection.7.4.1.189}%
+\contentsline {subsubsection}{\numberline {7.4.1.190}\_\_GCC\_ATOMIC\_BOOL\_LOCK\_FREE}{120}{subsubsection.7.4.1.190}%
+\contentsline {subsubsection}{\numberline {7.4.1.191}\_\_GCC\_ATOMIC\_CHAR16\_T\_LOCK\_FREE}{120}{subsubsection.7.4.1.191}%
+\contentsline {subsubsection}{\numberline {7.4.1.192}\_\_GCC\_ATOMIC\_CHAR32\_T\_LOCK\_FREE}{121}{subsubsection.7.4.1.192}%
+\contentsline {subsubsection}{\numberline {7.4.1.193}\_\_GCC\_ATOMIC\_CHAR\_LOCK\_FREE}{121}{subsubsection.7.4.1.193}%
+\contentsline {subsubsection}{\numberline {7.4.1.194}\_\_GCC\_ATOMIC\_INT\_LOCK\_FREE}{121}{subsubsection.7.4.1.194}%
+\contentsline {subsubsection}{\numberline {7.4.1.195}\_\_GCC\_ATOMIC\_LLONG\_LOCK\_FREE}{121}{subsubsection.7.4.1.195}%
+\contentsline {subsubsection}{\numberline {7.4.1.196}\_\_GCC\_ATOMIC\_LONG\_LOCK\_FREE}{121}{subsubsection.7.4.1.196}%
+\contentsline {subsubsection}{\numberline {7.4.1.197}\_\_GCC\_ATOMIC\_POINTER\_LOCK\_FREE}{121}{subsubsection.7.4.1.197}%
+\contentsline {subsubsection}{\numberline {7.4.1.198}\_\_GCC\_ATOMIC\_SHORT\_LOCK\_FREE}{121}{subsubsection.7.4.1.198}%
+\contentsline {subsubsection}{\numberline {7.4.1.199}\_\_GCC\_ATOMIC\_TEST\_AND\_SET\_TRUEVAL}{121}{subsubsection.7.4.1.199}%
+\contentsline {subsubsection}{\numberline {7.4.1.200}\_\_GCC\_ATOMIC\_WCHAR\_T\_LOCK\_FREE}{122}{subsubsection.7.4.1.200}%
+\contentsline {subsubsection}{\numberline {7.4.1.201}\_\_GCC\_HAVE\_DWARF2\_CFI\_ASM}{122}{subsubsection.7.4.1.201}%
+\contentsline {subsubsection}{\numberline {7.4.1.202}\_\_GCC\_HAVE\_SYNC\_COMPARE\_AND\_SWAP\_1}{122}{subsubsection.7.4.1.202}%
+\contentsline {subsubsection}{\numberline {7.4.1.203}\_\_GCC\_HAVE\_SYNC\_COMPARE\_AND\_SWAP\_2}{122}{subsubsection.7.4.1.203}%
+\contentsline {subsubsection}{\numberline {7.4.1.204}\_\_GCC\_HAVE\_SYNC\_COMPARE\_AND\_SWAP\_4}{122}{subsubsection.7.4.1.204}%
+\contentsline {subsubsection}{\numberline {7.4.1.205}\_\_GCC\_HAVE\_SYNC\_COMPARE\_AND\_SWAP\_8}{122}{subsubsection.7.4.1.205}%
+\contentsline {subsubsection}{\numberline {7.4.1.206}\_\_GCC\_IEC\_559}{122}{subsubsection.7.4.1.206}%
+\contentsline {subsubsection}{\numberline {7.4.1.207}\_\_GCC\_IEC\_559\_COMPLEX}{122}{subsubsection.7.4.1.207}%
+\contentsline {subsubsection}{\numberline {7.4.1.208}\_\_GLIBCXX\_BITSIZE\_INT\_N\_0}{123}{subsubsection.7.4.1.208}%
+\contentsline {subsubsection}{\numberline {7.4.1.209}\_\_GLIBCXX\_TYPE\_INT\_N\_0}{123}{subsubsection.7.4.1.209}%
+\contentsline {subsubsection}{\numberline {7.4.1.210}\_\_gnu\_linux\_\_}{123}{subsubsection.7.4.1.210}%
+\contentsline {subsubsection}{\numberline {7.4.1.211}\_\_GNUC\_\_}{123}{subsubsection.7.4.1.211}%
+\contentsline {subsubsection}{\numberline {7.4.1.212}\_\_GNUC\_MINOR\_\_}{123}{subsubsection.7.4.1.212}%
+\contentsline {subsubsection}{\numberline {7.4.1.213}\_\_GNUC\_PATCHLEVEL\_\_}{123}{subsubsection.7.4.1.213}%
+\contentsline {subsubsection}{\numberline {7.4.1.214}\_\_GNUC\_STDC\_INLINE\_\_}{123}{subsubsection.7.4.1.214}%
+\contentsline {subsubsection}{\numberline {7.4.1.215}\_\_GNUG\_\_}{123}{subsubsection.7.4.1.215}%
+\contentsline {subsubsection}{\numberline {7.4.1.216}\_\_GXX\_ABI\_VERSION}{124}{subsubsection.7.4.1.216}%
+\contentsline {subsubsection}{\numberline {7.4.1.217}\_\_GXX\_EXPERIMENTAL\_CXX0X\_\_}{124}{subsubsection.7.4.1.217}%
+\contentsline {subsubsection}{\numberline {7.4.1.218}\_\_GXX\_RTTI}{124}{subsubsection.7.4.1.218}%
+\contentsline {subsubsection}{\numberline {7.4.1.219}\_\_GXX\_WEAK\_\_}{124}{subsubsection.7.4.1.219}%
+\contentsline {subsubsection}{\numberline {7.4.1.220}\_\_HAVE\_SPECULATION\_SAFE\_VALUE}{124}{subsubsection.7.4.1.220}%
+\contentsline {subsubsection}{\numberline {7.4.1.221}\_\_INT16\_C}{124}{subsubsection.7.4.1.221}%
+\contentsline {subsubsection}{\numberline {7.4.1.222}\_\_INT16\_MAX\_\_}{124}{subsubsection.7.4.1.222}%
+\contentsline {subsubsection}{\numberline {7.4.1.223}\_\_INT16\_TYPE\_\_}{125}{subsubsection.7.4.1.223}%
+\contentsline {subsubsection}{\numberline {7.4.1.224}\_\_INT32\_C}{125}{subsubsection.7.4.1.224}%
+\contentsline {subsubsection}{\numberline {7.4.1.225}\_\_INT32\_MAX\_\_}{125}{subsubsection.7.4.1.225}%
+\contentsline {subsubsection}{\numberline {7.4.1.226}\_\_INT32\_TYPE\_\_}{125}{subsubsection.7.4.1.226}%
+\contentsline {subsubsection}{\numberline {7.4.1.227}\_\_INT64\_C}{125}{subsubsection.7.4.1.227}%
+\contentsline {subsubsection}{\numberline {7.4.1.228}\_\_INT64\_MAX\_\_}{125}{subsubsection.7.4.1.228}%
+\contentsline {subsubsection}{\numberline {7.4.1.229}\_\_INT64\_TYPE\_\_}{125}{subsubsection.7.4.1.229}%
+\contentsline {subsubsection}{\numberline {7.4.1.230}\_\_INT8\_C}{126}{subsubsection.7.4.1.230}%
+\contentsline {subsubsection}{\numberline {7.4.1.231}\_\_INT8\_MAX\_\_}{126}{subsubsection.7.4.1.231}%
+\contentsline {subsubsection}{\numberline {7.4.1.232}\_\_INT8\_TYPE\_\_}{126}{subsubsection.7.4.1.232}%
+\contentsline {subsubsection}{\numberline {7.4.1.233}\_\_INT\_FAST16\_MAX\_\_}{126}{subsubsection.7.4.1.233}%
+\contentsline {subsubsection}{\numberline {7.4.1.234}\_\_INT\_FAST16\_TYPE\_\_}{126}{subsubsection.7.4.1.234}%
+\contentsline {subsubsection}{\numberline {7.4.1.235}\_\_INT\_FAST16\_WIDTH\_\_}{126}{subsubsection.7.4.1.235}%
+\contentsline {subsubsection}{\numberline {7.4.1.236}\_\_INT\_FAST32\_MAX\_\_}{126}{subsubsection.7.4.1.236}%
+\contentsline {subsubsection}{\numberline {7.4.1.237}\_\_INT\_FAST32\_TYPE\_\_}{127}{subsubsection.7.4.1.237}%
+\contentsline {subsubsection}{\numberline {7.4.1.238}\_\_INT\_FAST32\_WIDTH\_\_}{127}{subsubsection.7.4.1.238}%
+\contentsline {subsubsection}{\numberline {7.4.1.239}\_\_INT\_FAST64\_MAX\_\_}{127}{subsubsection.7.4.1.239}%
+\contentsline {subsubsection}{\numberline {7.4.1.240}\_\_INT\_FAST64\_TYPE\_\_}{127}{subsubsection.7.4.1.240}%
+\contentsline {subsubsection}{\numberline {7.4.1.241}\_\_INT\_FAST64\_WIDTH\_\_}{127}{subsubsection.7.4.1.241}%
+\contentsline {subsubsection}{\numberline {7.4.1.242}\_\_INT\_FAST8\_MAX\_\_}{127}{subsubsection.7.4.1.242}%
+\contentsline {subsubsection}{\numberline {7.4.1.243}\_\_INT\_FAST8\_TYPE\_\_}{127}{subsubsection.7.4.1.243}%
+\contentsline {subsubsection}{\numberline {7.4.1.244}\_\_INT\_FAST8\_WIDTH\_\_}{127}{subsubsection.7.4.1.244}%
+\contentsline {subsubsection}{\numberline {7.4.1.245}\_\_INT\_LEAST16\_MAX\_\_}{128}{subsubsection.7.4.1.245}%
+\contentsline {subsubsection}{\numberline {7.4.1.246}\_\_INT\_LEAST16\_TYPE\_\_}{128}{subsubsection.7.4.1.246}%
+\contentsline {subsubsection}{\numberline {7.4.1.247}\_\_INT\_LEAST16\_WIDTH\_\_}{128}{subsubsection.7.4.1.247}%
+\contentsline {subsubsection}{\numberline {7.4.1.248}\_\_INT\_LEAST32\_MAX\_\_}{128}{subsubsection.7.4.1.248}%
+\contentsline {subsubsection}{\numberline {7.4.1.249}\_\_INT\_LEAST32\_TYPE\_\_}{128}{subsubsection.7.4.1.249}%
+\contentsline {subsubsection}{\numberline {7.4.1.250}\_\_INT\_LEAST32\_WIDTH\_\_}{128}{subsubsection.7.4.1.250}%
+\contentsline {subsubsection}{\numberline {7.4.1.251}\_\_INT\_LEAST64\_MAX\_\_}{128}{subsubsection.7.4.1.251}%
+\contentsline {subsubsection}{\numberline {7.4.1.252}\_\_INT\_LEAST64\_TYPE\_\_}{128}{subsubsection.7.4.1.252}%
+\contentsline {subsubsection}{\numberline {7.4.1.253}\_\_INT\_LEAST64\_WIDTH\_\_}{129}{subsubsection.7.4.1.253}%
+\contentsline {subsubsection}{\numberline {7.4.1.254}\_\_INT\_LEAST8\_MAX\_\_}{129}{subsubsection.7.4.1.254}%
+\contentsline {subsubsection}{\numberline {7.4.1.255}\_\_INT\_LEAST8\_TYPE\_\_}{129}{subsubsection.7.4.1.255}%
+\contentsline {subsubsection}{\numberline {7.4.1.256}\_\_INT\_LEAST8\_WIDTH\_\_}{129}{subsubsection.7.4.1.256}%
+\contentsline {subsubsection}{\numberline {7.4.1.257}\_\_INT\_MAX\_\_}{129}{subsubsection.7.4.1.257}%
+\contentsline {subsubsection}{\numberline {7.4.1.258}\_\_INT\_WIDTH\_\_}{129}{subsubsection.7.4.1.258}%
+\contentsline {subsubsection}{\numberline {7.4.1.259}\_\_INTMAX\_C}{129}{subsubsection.7.4.1.259}%
+\contentsline {subsubsection}{\numberline {7.4.1.260}\_\_INTMAX\_MAX\_\_}{130}{subsubsection.7.4.1.260}%
+\contentsline {subsubsection}{\numberline {7.4.1.261}\_\_INTMAX\_TYPE\_\_}{130}{subsubsection.7.4.1.261}%
+\contentsline {subsubsection}{\numberline {7.4.1.262}\_\_INTMAX\_WIDTH\_\_}{130}{subsubsection.7.4.1.262}%
+\contentsline {subsubsection}{\numberline {7.4.1.263}\_\_INTPTR\_MAX\_\_}{130}{subsubsection.7.4.1.263}%
+\contentsline {subsubsection}{\numberline {7.4.1.264}\_\_INTPTR\_TYPE\_\_}{130}{subsubsection.7.4.1.264}%
+\contentsline {subsubsection}{\numberline {7.4.1.265}\_\_INTPTR\_WIDTH\_\_}{130}{subsubsection.7.4.1.265}%
+\contentsline {subsubsection}{\numberline {7.4.1.266}\_\_k8}{130}{subsubsection.7.4.1.266}%
+\contentsline {subsubsection}{\numberline {7.4.1.267}\_\_k8\_\_}{130}{subsubsection.7.4.1.267}%
+\contentsline {subsubsection}{\numberline {7.4.1.268}\_\_LDBL\_DECIMAL\_DIG\_\_}{131}{subsubsection.7.4.1.268}%
+\contentsline {subsubsection}{\numberline {7.4.1.269}\_\_LDBL\_DENORM\_MIN\_\_}{131}{subsubsection.7.4.1.269}%
+\contentsline {subsubsection}{\numberline {7.4.1.270}\_\_LDBL\_DIG\_\_}{131}{subsubsection.7.4.1.270}%
+\contentsline {subsubsection}{\numberline {7.4.1.271}\_\_LDBL\_EPSILON\_\_}{131}{subsubsection.7.4.1.271}%
+\contentsline {subsubsection}{\numberline {7.4.1.272}\_\_LDBL\_HAS\_DENORM\_\_}{131}{subsubsection.7.4.1.272}%
+\contentsline {subsubsection}{\numberline {7.4.1.273}\_\_LDBL\_HAS\_INFINITY\_\_}{131}{subsubsection.7.4.1.273}%
+\contentsline {subsubsection}{\numberline {7.4.1.274}\_\_LDBL\_HAS\_QUIET\_NAN\_\_}{131}{subsubsection.7.4.1.274}%
+\contentsline {subsubsection}{\numberline {7.4.1.275}\_\_LDBL\_MANT\_DIG\_\_}{131}{subsubsection.7.4.1.275}%
+\contentsline {subsubsection}{\numberline {7.4.1.276}\_\_LDBL\_MAX\_10\_EXP\_\_}{132}{subsubsection.7.4.1.276}%
+\contentsline {subsubsection}{\numberline {7.4.1.277}\_\_LDBL\_MAX\_\_}{132}{subsubsection.7.4.1.277}%
+\contentsline {subsubsection}{\numberline {7.4.1.278}\_\_LDBL\_MAX\_EXP\_\_}{132}{subsubsection.7.4.1.278}%
+\contentsline {subsubsection}{\numberline {7.4.1.279}\_\_LDBL\_MIN\_10\_EXP\_\_}{132}{subsubsection.7.4.1.279}%
+\contentsline {subsubsection}{\numberline {7.4.1.280}\_\_LDBL\_MIN\_\_}{132}{subsubsection.7.4.1.280}%
+\contentsline {subsubsection}{\numberline {7.4.1.281}\_\_LDBL\_MIN\_EXP\_\_}{132}{subsubsection.7.4.1.281}%
+\contentsline {subsubsection}{\numberline {7.4.1.282}\_\_LDBL\_NORM\_MAX\_\_}{132}{subsubsection.7.4.1.282}%
+\contentsline {subsubsection}{\numberline {7.4.1.283}\_\_linux}{132}{subsubsection.7.4.1.283}%
+\contentsline {subsubsection}{\numberline {7.4.1.284}\_\_linux\_\_}{133}{subsubsection.7.4.1.284}%
+\contentsline {subsubsection}{\numberline {7.4.1.285}\_\_LONG\_LONG\_MAX\_\_}{133}{subsubsection.7.4.1.285}%
+\contentsline {subsubsection}{\numberline {7.4.1.286}\_\_LONG\_LONG\_WIDTH\_\_}{133}{subsubsection.7.4.1.286}%
+\contentsline {subsubsection}{\numberline {7.4.1.287}\_\_LONG\_MAX\_\_}{133}{subsubsection.7.4.1.287}%
+\contentsline {subsubsection}{\numberline {7.4.1.288}\_\_LONG\_WIDTH\_\_}{133}{subsubsection.7.4.1.288}%
+\contentsline {subsubsection}{\numberline {7.4.1.289}\_\_LP64\_\_}{133}{subsubsection.7.4.1.289}%
+\contentsline {subsubsection}{\numberline {7.4.1.290}\_\_MMX\_\_}{133}{subsubsection.7.4.1.290}%
+\contentsline {subsubsection}{\numberline {7.4.1.291}\_\_MMX\_WITH\_SSE\_\_}{133}{subsubsection.7.4.1.291}%
+\contentsline {subsubsection}{\numberline {7.4.1.292}\_\_NO\_INLINE\_\_}{134}{subsubsection.7.4.1.292}%
+\contentsline {subsubsection}{\numberline {7.4.1.293}\_\_ORDER\_BIG\_ENDIAN\_\_}{134}{subsubsection.7.4.1.293}%
+\contentsline {subsubsection}{\numberline {7.4.1.294}\_\_ORDER\_LITTLE\_ENDIAN\_\_}{134}{subsubsection.7.4.1.294}%
+\contentsline {subsubsection}{\numberline {7.4.1.295}\_\_ORDER\_PDP\_ENDIAN\_\_}{134}{subsubsection.7.4.1.295}%
+\contentsline {subsubsection}{\numberline {7.4.1.296}\_\_pic\_\_}{134}{subsubsection.7.4.1.296}%
+\contentsline {subsubsection}{\numberline {7.4.1.297}\_\_PIC\_\_}{134}{subsubsection.7.4.1.297}%
+\contentsline {subsubsection}{\numberline {7.4.1.298}\_\_pie\_\_}{134}{subsubsection.7.4.1.298}%
+\contentsline {subsubsection}{\numberline {7.4.1.299}\_\_PIE\_\_}{134}{subsubsection.7.4.1.299}%
+\contentsline {subsubsection}{\numberline {7.4.1.300}\_\_PRAGMA\_REDEFINE\_EXTNAME}{135}{subsubsection.7.4.1.300}%
+\contentsline {subsubsection}{\numberline {7.4.1.301}\_\_PTRDIFF\_MAX\_\_}{135}{subsubsection.7.4.1.301}%
+\contentsline {subsubsection}{\numberline {7.4.1.302}\_\_PTRDIFF\_TYPE\_\_}{135}{subsubsection.7.4.1.302}%
+\contentsline {subsubsection}{\numberline {7.4.1.303}\_\_PTRDIFF\_WIDTH\_\_}{135}{subsubsection.7.4.1.303}%
+\contentsline {subsubsection}{\numberline {7.4.1.304}\_\_REGISTER\_PREFIX\_\_}{135}{subsubsection.7.4.1.304}%
+\contentsline {subsubsection}{\numberline {7.4.1.305}\_\_SCHAR\_MAX\_\_}{135}{subsubsection.7.4.1.305}%
+\contentsline {subsubsection}{\numberline {7.4.1.306}\_\_SCHAR\_WIDTH\_\_}{135}{subsubsection.7.4.1.306}%
+\contentsline {subsubsection}{\numberline {7.4.1.307}\_\_SEG\_FS}{135}{subsubsection.7.4.1.307}%
+\contentsline {subsubsection}{\numberline {7.4.1.308}\_\_SEG\_GS}{136}{subsubsection.7.4.1.308}%
+\contentsline {subsubsection}{\numberline {7.4.1.309}\_\_SHRT\_MAX\_\_}{136}{subsubsection.7.4.1.309}%
+\contentsline {subsubsection}{\numberline {7.4.1.310}\_\_SHRT\_WIDTH\_\_}{136}{subsubsection.7.4.1.310}%
+\contentsline {subsubsection}{\numberline {7.4.1.311}\_\_SIG\_ATOMIC\_MAX\_\_}{136}{subsubsection.7.4.1.311}%
+\contentsline {subsubsection}{\numberline {7.4.1.312}\_\_SIG\_ATOMIC\_MIN\_\_}{136}{subsubsection.7.4.1.312}%
+\contentsline {subsubsection}{\numberline {7.4.1.313}\_\_SIG\_ATOMIC\_TYPE\_\_}{136}{subsubsection.7.4.1.313}%
+\contentsline {subsubsection}{\numberline {7.4.1.314}\_\_SIG\_ATOMIC\_WIDTH\_\_}{136}{subsubsection.7.4.1.314}%
+\contentsline {subsubsection}{\numberline {7.4.1.315}\_\_SIZE\_MAX\_\_}{136}{subsubsection.7.4.1.315}%
+\contentsline {subsubsection}{\numberline {7.4.1.316}\_\_SIZE\_TYPE\_\_}{137}{subsubsection.7.4.1.316}%
+\contentsline {subsubsection}{\numberline {7.4.1.317}\_\_SIZE\_WIDTH\_\_}{137}{subsubsection.7.4.1.317}%
+\contentsline {subsubsection}{\numberline {7.4.1.318}\_\_SIZEOF\_DOUBLE\_\_}{137}{subsubsection.7.4.1.318}%
+\contentsline {subsubsection}{\numberline {7.4.1.319}\_\_SIZEOF\_FLOAT128\_\_}{137}{subsubsection.7.4.1.319}%
+\contentsline {subsubsection}{\numberline {7.4.1.320}\_\_SIZEOF\_FLOAT80\_\_}{137}{subsubsection.7.4.1.320}%
+\contentsline {subsubsection}{\numberline {7.4.1.321}\_\_SIZEOF\_FLOAT\_\_}{137}{subsubsection.7.4.1.321}%
+\contentsline {subsubsection}{\numberline {7.4.1.322}\_\_SIZEOF\_INT128\_\_}{137}{subsubsection.7.4.1.322}%
+\contentsline {subsubsection}{\numberline {7.4.1.323}\_\_SIZEOF\_INT\_\_}{137}{subsubsection.7.4.1.323}%
+\contentsline {subsubsection}{\numberline {7.4.1.324}\_\_SIZEOF\_LONG\_\_}{138}{subsubsection.7.4.1.324}%
+\contentsline {subsubsection}{\numberline {7.4.1.325}\_\_SIZEOF\_LONG\_DOUBLE\_\_}{138}{subsubsection.7.4.1.325}%
+\contentsline {subsubsection}{\numberline {7.4.1.326}\_\_SIZEOF\_LONG\_LONG\_\_}{138}{subsubsection.7.4.1.326}%
+\contentsline {subsubsection}{\numberline {7.4.1.327}\_\_SIZEOF\_POINTER\_\_}{138}{subsubsection.7.4.1.327}%
+\contentsline {subsubsection}{\numberline {7.4.1.328}\_\_SIZEOF\_PTRDIFF\_T\_\_}{138}{subsubsection.7.4.1.328}%
+\contentsline {subsubsection}{\numberline {7.4.1.329}\_\_SIZEOF\_SHORT\_\_}{138}{subsubsection.7.4.1.329}%
+\contentsline {subsubsection}{\numberline {7.4.1.330}\_\_SIZEOF\_SIZE\_T\_\_}{138}{subsubsection.7.4.1.330}%
+\contentsline {subsubsection}{\numberline {7.4.1.331}\_\_SIZEOF\_WCHAR\_T\_\_}{138}{subsubsection.7.4.1.331}%
+\contentsline {subsubsection}{\numberline {7.4.1.332}\_\_SIZEOF\_WINT\_T\_\_}{139}{subsubsection.7.4.1.332}%
+\contentsline {subsubsection}{\numberline {7.4.1.333}\_\_SSE2\_\_}{139}{subsubsection.7.4.1.333}%
+\contentsline {subsubsection}{\numberline {7.4.1.334}\_\_SSE2\_MATH\_\_}{139}{subsubsection.7.4.1.334}%
+\contentsline {subsubsection}{\numberline {7.4.1.335}\_\_SSE\_\_}{139}{subsubsection.7.4.1.335}%
+\contentsline {subsubsection}{\numberline {7.4.1.336}\_\_SSE\_MATH\_\_}{139}{subsubsection.7.4.1.336}%
+\contentsline {subsubsection}{\numberline {7.4.1.337}\_\_SSP\_STRONG\_\_}{139}{subsubsection.7.4.1.337}%
+\contentsline {subsubsection}{\numberline {7.4.1.338}\_\_STDC\_\_}{139}{subsubsection.7.4.1.338}%
+\contentsline {subsubsection}{\numberline {7.4.1.339}\_\_STDC\_HOSTED\_\_}{139}{subsubsection.7.4.1.339}%
+\contentsline {subsubsection}{\numberline {7.4.1.340}\_\_STDC\_IEC\_559\_\_}{140}{subsubsection.7.4.1.340}%
+\contentsline {subsubsection}{\numberline {7.4.1.341}\_\_STDC\_IEC\_559\_COMPLEX\_\_}{140}{subsubsection.7.4.1.341}%
+\contentsline {subsubsection}{\numberline {7.4.1.342}\_\_STDC\_ISO\_10646\_\_}{140}{subsubsection.7.4.1.342}%
+\contentsline {subsubsection}{\numberline {7.4.1.343}\_\_STDC\_UTF\_16\_\_}{140}{subsubsection.7.4.1.343}%
+\contentsline {subsubsection}{\numberline {7.4.1.344}\_\_STDC\_UTF\_32\_\_}{140}{subsubsection.7.4.1.344}%
+\contentsline {subsubsection}{\numberline {7.4.1.345}\_\_UINT16\_C}{140}{subsubsection.7.4.1.345}%
+\contentsline {subsubsection}{\numberline {7.4.1.346}\_\_UINT16\_MAX\_\_}{140}{subsubsection.7.4.1.346}%
+\contentsline {subsubsection}{\numberline {7.4.1.347}\_\_UINT16\_TYPE\_\_}{141}{subsubsection.7.4.1.347}%
+\contentsline {subsubsection}{\numberline {7.4.1.348}\_\_UINT32\_C}{141}{subsubsection.7.4.1.348}%
+\contentsline {subsubsection}{\numberline {7.4.1.349}\_\_UINT32\_MAX\_\_}{141}{subsubsection.7.4.1.349}%
+\contentsline {subsubsection}{\numberline {7.4.1.350}\_\_UINT32\_TYPE\_\_}{141}{subsubsection.7.4.1.350}%
+\contentsline {subsubsection}{\numberline {7.4.1.351}\_\_UINT64\_C}{141}{subsubsection.7.4.1.351}%
+\contentsline {subsubsection}{\numberline {7.4.1.352}\_\_UINT64\_MAX\_\_}{141}{subsubsection.7.4.1.352}%
+\contentsline {subsubsection}{\numberline {7.4.1.353}\_\_UINT64\_TYPE\_\_}{141}{subsubsection.7.4.1.353}%
+\contentsline {subsubsection}{\numberline {7.4.1.354}\_\_UINT8\_C}{142}{subsubsection.7.4.1.354}%
+\contentsline {subsubsection}{\numberline {7.4.1.355}\_\_UINT8\_MAX\_\_}{142}{subsubsection.7.4.1.355}%
+\contentsline {subsubsection}{\numberline {7.4.1.356}\_\_UINT8\_TYPE\_\_}{142}{subsubsection.7.4.1.356}%
+\contentsline {subsubsection}{\numberline {7.4.1.357}\_\_UINT\_FAST16\_MAX\_\_}{142}{subsubsection.7.4.1.357}%
+\contentsline {subsubsection}{\numberline {7.4.1.358}\_\_UINT\_FAST16\_TYPE\_\_}{142}{subsubsection.7.4.1.358}%
+\contentsline {subsubsection}{\numberline {7.4.1.359}\_\_UINT\_FAST32\_MAX\_\_}{142}{subsubsection.7.4.1.359}%
+\contentsline {subsubsection}{\numberline {7.4.1.360}\_\_UINT\_FAST32\_TYPE\_\_}{142}{subsubsection.7.4.1.360}%
+\contentsline {subsubsection}{\numberline {7.4.1.361}\_\_UINT\_FAST64\_MAX\_\_}{143}{subsubsection.7.4.1.361}%
+\contentsline {subsubsection}{\numberline {7.4.1.362}\_\_UINT\_FAST64\_TYPE\_\_}{143}{subsubsection.7.4.1.362}%
+\contentsline {subsubsection}{\numberline {7.4.1.363}\_\_UINT\_FAST8\_MAX\_\_}{143}{subsubsection.7.4.1.363}%
+\contentsline {subsubsection}{\numberline {7.4.1.364}\_\_UINT\_FAST8\_TYPE\_\_}{143}{subsubsection.7.4.1.364}%
+\contentsline {subsubsection}{\numberline {7.4.1.365}\_\_UINT\_LEAST16\_MAX\_\_}{143}{subsubsection.7.4.1.365}%
+\contentsline {subsubsection}{\numberline {7.4.1.366}\_\_UINT\_LEAST16\_TYPE\_\_}{143}{subsubsection.7.4.1.366}%
+\contentsline {subsubsection}{\numberline {7.4.1.367}\_\_UINT\_LEAST32\_MAX\_\_}{143}{subsubsection.7.4.1.367}%
+\contentsline {subsubsection}{\numberline {7.4.1.368}\_\_UINT\_LEAST32\_TYPE\_\_}{143}{subsubsection.7.4.1.368}%
+\contentsline {subsubsection}{\numberline {7.4.1.369}\_\_UINT\_LEAST64\_MAX\_\_}{144}{subsubsection.7.4.1.369}%
+\contentsline {subsubsection}{\numberline {7.4.1.370}\_\_UINT\_LEAST64\_TYPE\_\_}{144}{subsubsection.7.4.1.370}%
+\contentsline {subsubsection}{\numberline {7.4.1.371}\_\_UINT\_LEAST8\_MAX\_\_}{144}{subsubsection.7.4.1.371}%
+\contentsline {subsubsection}{\numberline {7.4.1.372}\_\_UINT\_LEAST8\_TYPE\_\_}{144}{subsubsection.7.4.1.372}%
+\contentsline {subsubsection}{\numberline {7.4.1.373}\_\_UINTMAX\_C}{144}{subsubsection.7.4.1.373}%
+\contentsline {subsubsection}{\numberline {7.4.1.374}\_\_UINTMAX\_MAX\_\_}{144}{subsubsection.7.4.1.374}%
+\contentsline {subsubsection}{\numberline {7.4.1.375}\_\_UINTMAX\_TYPE\_\_}{144}{subsubsection.7.4.1.375}%
+\contentsline {subsubsection}{\numberline {7.4.1.376}\_\_UINTPTR\_MAX\_\_}{145}{subsubsection.7.4.1.376}%
+\contentsline {subsubsection}{\numberline {7.4.1.377}\_\_UINTPTR\_TYPE\_\_}{145}{subsubsection.7.4.1.377}%
+\contentsline {subsubsection}{\numberline {7.4.1.378}\_\_unix}{145}{subsubsection.7.4.1.378}%
+\contentsline {subsubsection}{\numberline {7.4.1.379}\_\_unix\_\_}{145}{subsubsection.7.4.1.379}%
+\contentsline {subsubsection}{\numberline {7.4.1.380}\_\_USER\_LABEL\_PREFIX\_\_}{145}{subsubsection.7.4.1.380}%
+\contentsline {subsubsection}{\numberline {7.4.1.381}\_\_VERSION\_\_}{145}{subsubsection.7.4.1.381}%
+\contentsline {subsubsection}{\numberline {7.4.1.382}\_\_WCHAR\_MAX\_\_}{145}{subsubsection.7.4.1.382}%
+\contentsline {subsubsection}{\numberline {7.4.1.383}\_\_WCHAR\_MIN\_\_}{145}{subsubsection.7.4.1.383}%
+\contentsline {subsubsection}{\numberline {7.4.1.384}\_\_WCHAR\_TYPE\_\_}{146}{subsubsection.7.4.1.384}%
+\contentsline {subsubsection}{\numberline {7.4.1.385}\_\_WCHAR\_WIDTH\_\_}{146}{subsubsection.7.4.1.385}%
+\contentsline {subsubsection}{\numberline {7.4.1.386}\_\_WINT\_MAX\_\_}{146}{subsubsection.7.4.1.386}%
+\contentsline {subsubsection}{\numberline {7.4.1.387}\_\_WINT\_MIN\_\_}{146}{subsubsection.7.4.1.387}%
+\contentsline {subsubsection}{\numberline {7.4.1.388}\_\_WINT\_TYPE\_\_}{146}{subsubsection.7.4.1.388}%
+\contentsline {subsubsection}{\numberline {7.4.1.389}\_\_WINT\_WIDTH\_\_}{146}{subsubsection.7.4.1.389}%
+\contentsline {subsubsection}{\numberline {7.4.1.390}\_\_x86\_64}{146}{subsubsection.7.4.1.390}%
+\contentsline {subsubsection}{\numberline {7.4.1.391}\_\_x86\_64\_\_}{146}{subsubsection.7.4.1.391}%
+\contentsline {subsubsection}{\numberline {7.4.1.392}\_GNU\_SOURCE}{147}{subsubsection.7.4.1.392}%
+\contentsline {subsubsection}{\numberline {7.4.1.393}\_LP64}{147}{subsubsection.7.4.1.393}%
+\contentsline {subsubsection}{\numberline {7.4.1.394}\_STDC\_PREDEF\_H}{147}{subsubsection.7.4.1.394}%
+\contentsline {subsubsection}{\numberline {7.4.1.395}ABI\_ID}{147}{subsubsection.7.4.1.395}%
+\contentsline {subsubsection}{\numberline {7.4.1.396}linux}{147}{subsubsection.7.4.1.396}%
+\contentsline {subsubsection}{\numberline {7.4.1.397}QT\_CORE\_LIB}{147}{subsubsection.7.4.1.397}%
+\contentsline {subsubsection}{\numberline {7.4.1.398}QT\_GUI\_LIB}{147}{subsubsection.7.4.1.398}%
+\contentsline {subsubsection}{\numberline {7.4.1.399}QT\_WIDGETS\_LIB}{147}{subsubsection.7.4.1.399}%
+\contentsline {subsubsection}{\numberline {7.4.1.400}SIZEOF\_DPTR}{148}{subsubsection.7.4.1.400}%
+\contentsline {subsubsection}{\numberline {7.4.1.401}unix}{148}{subsubsection.7.4.1.401}%
+\contentsline {section}{\numberline {7.5}Dokumentacja pliku calendar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}autogen/moc\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}predefs.h}{148}{section.7.5}%
+\contentsline {subsection}{\numberline {7.5.1}Dokumentacja definicji}{155}{subsection.7.5.1}%
+\contentsline {subsubsection}{\numberline {7.5.1.1}\_\_amd64}{155}{subsubsection.7.5.1.1}%
+\contentsline {subsubsection}{\numberline {7.5.1.2}\_\_amd64\_\_}{155}{subsubsection.7.5.1.2}%
+\contentsline {subsubsection}{\numberline {7.5.1.3}\_\_ATOMIC\_ACQ\_REL}{156}{subsubsection.7.5.1.3}%
+\contentsline {subsubsection}{\numberline {7.5.1.4}\_\_ATOMIC\_ACQUIRE}{156}{subsubsection.7.5.1.4}%
+\contentsline {subsubsection}{\numberline {7.5.1.5}\_\_ATOMIC\_CONSUME}{156}{subsubsection.7.5.1.5}%
+\contentsline {subsubsection}{\numberline {7.5.1.6}\_\_ATOMIC\_HLE\_ACQUIRE}{156}{subsubsection.7.5.1.6}%
+\contentsline {subsubsection}{\numberline {7.5.1.7}\_\_ATOMIC\_HLE\_RELEASE}{156}{subsubsection.7.5.1.7}%
+\contentsline {subsubsection}{\numberline {7.5.1.8}\_\_ATOMIC\_RELAXED}{156}{subsubsection.7.5.1.8}%
+\contentsline {subsubsection}{\numberline {7.5.1.9}\_\_ATOMIC\_RELEASE}{156}{subsubsection.7.5.1.9}%
+\contentsline {subsubsection}{\numberline {7.5.1.10}\_\_ATOMIC\_SEQ\_CST}{156}{subsubsection.7.5.1.10}%
+\contentsline {subsubsection}{\numberline {7.5.1.11}\_\_BIGGEST\_ALIGNMENT\_\_}{157}{subsubsection.7.5.1.11}%
+\contentsline {subsubsection}{\numberline {7.5.1.12}\_\_BYTE\_ORDER\_\_}{157}{subsubsection.7.5.1.12}%
+\contentsline {subsubsection}{\numberline {7.5.1.13}\_\_CHAR16\_TYPE\_\_}{157}{subsubsection.7.5.1.13}%
+\contentsline {subsubsection}{\numberline {7.5.1.14}\_\_CHAR32\_TYPE\_\_}{157}{subsubsection.7.5.1.14}%
+\contentsline {subsubsection}{\numberline {7.5.1.15}\_\_CHAR\_BIT\_\_}{157}{subsubsection.7.5.1.15}%
+\contentsline {subsubsection}{\numberline {7.5.1.16}\_\_code\_model\_small\_\_}{157}{subsubsection.7.5.1.16}%
+\contentsline {subsubsection}{\numberline {7.5.1.17}\_\_cplusplus}{157}{subsubsection.7.5.1.17}%
+\contentsline {subsubsection}{\numberline {7.5.1.18}\_\_cpp\_aggregate\_nsdmi}{157}{subsubsection.7.5.1.18}%
+\contentsline {subsubsection}{\numberline {7.5.1.19}\_\_cpp\_alias\_templates}{158}{subsubsection.7.5.1.19}%
+\contentsline {subsubsection}{\numberline {7.5.1.20}\_\_cpp\_attributes}{158}{subsubsection.7.5.1.20}%
+\contentsline {subsubsection}{\numberline {7.5.1.21}\_\_cpp\_binary\_literals}{158}{subsubsection.7.5.1.21}%
+\contentsline {subsubsection}{\numberline {7.5.1.22}\_\_cpp\_constexpr}{158}{subsubsection.7.5.1.22}%
+\contentsline {subsubsection}{\numberline {7.5.1.23}\_\_cpp\_decltype}{158}{subsubsection.7.5.1.23}%
+\contentsline {subsubsection}{\numberline {7.5.1.24}\_\_cpp\_decltype\_auto}{158}{subsubsection.7.5.1.24}%
+\contentsline {subsubsection}{\numberline {7.5.1.25}\_\_cpp\_delegating\_constructors}{158}{subsubsection.7.5.1.25}%
+\contentsline {subsubsection}{\numberline {7.5.1.26}\_\_cpp\_digit\_separators}{158}{subsubsection.7.5.1.26}%
+\contentsline {subsubsection}{\numberline {7.5.1.27}\_\_cpp\_exceptions}{159}{subsubsection.7.5.1.27}%
+\contentsline {subsubsection}{\numberline {7.5.1.28}\_\_cpp\_generic\_lambdas}{159}{subsubsection.7.5.1.28}%
+\contentsline {subsubsection}{\numberline {7.5.1.29}\_\_cpp\_hex\_float}{159}{subsubsection.7.5.1.29}%
+\contentsline {subsubsection}{\numberline {7.5.1.30}\_\_cpp\_inheriting\_constructors}{159}{subsubsection.7.5.1.30}%
+\contentsline {subsubsection}{\numberline {7.5.1.31}\_\_cpp\_init\_captures}{159}{subsubsection.7.5.1.31}%
+\contentsline {subsubsection}{\numberline {7.5.1.32}\_\_cpp\_initializer\_lists}{159}{subsubsection.7.5.1.32}%
+\contentsline {subsubsection}{\numberline {7.5.1.33}\_\_cpp\_lambdas}{159}{subsubsection.7.5.1.33}%
+\contentsline {subsubsection}{\numberline {7.5.1.34}\_\_cpp\_nsdmi}{159}{subsubsection.7.5.1.34}%
+\contentsline {subsubsection}{\numberline {7.5.1.35}\_\_cpp\_range\_based\_for}{160}{subsubsection.7.5.1.35}%
+\contentsline {subsubsection}{\numberline {7.5.1.36}\_\_cpp\_raw\_strings}{160}{subsubsection.7.5.1.36}%
+\contentsline {subsubsection}{\numberline {7.5.1.37}\_\_cpp\_ref\_qualifiers}{160}{subsubsection.7.5.1.37}%
+\contentsline {subsubsection}{\numberline {7.5.1.38}\_\_cpp\_return\_type\_deduction}{160}{subsubsection.7.5.1.38}%
+\contentsline {subsubsection}{\numberline {7.5.1.39}\_\_cpp\_rtti}{160}{subsubsection.7.5.1.39}%
+\contentsline {subsubsection}{\numberline {7.5.1.40}\_\_cpp\_runtime\_arrays}{160}{subsubsection.7.5.1.40}%
+\contentsline {subsubsection}{\numberline {7.5.1.41}\_\_cpp\_rvalue\_reference}{160}{subsubsection.7.5.1.41}%
+\contentsline {subsubsection}{\numberline {7.5.1.42}\_\_cpp\_rvalue\_references}{160}{subsubsection.7.5.1.42}%
+\contentsline {subsubsection}{\numberline {7.5.1.43}\_\_cpp\_sized\_deallocation}{161}{subsubsection.7.5.1.43}%
+\contentsline {subsubsection}{\numberline {7.5.1.44}\_\_cpp\_static\_assert}{161}{subsubsection.7.5.1.44}%
+\contentsline {subsubsection}{\numberline {7.5.1.45}\_\_cpp\_threadsafe\_static\_init}{161}{subsubsection.7.5.1.45}%
+\contentsline {subsubsection}{\numberline {7.5.1.46}\_\_cpp\_unicode\_characters}{161}{subsubsection.7.5.1.46}%
+\contentsline {subsubsection}{\numberline {7.5.1.47}\_\_cpp\_unicode\_literals}{161}{subsubsection.7.5.1.47}%
+\contentsline {subsubsection}{\numberline {7.5.1.48}\_\_cpp\_user\_defined\_literals}{161}{subsubsection.7.5.1.48}%
+\contentsline {subsubsection}{\numberline {7.5.1.49}\_\_cpp\_variable\_templates}{161}{subsubsection.7.5.1.49}%
+\contentsline {subsubsection}{\numberline {7.5.1.50}\_\_cpp\_variadic\_templates}{161}{subsubsection.7.5.1.50}%
+\contentsline {subsubsection}{\numberline {7.5.1.51}\_\_DBL\_DECIMAL\_DIG\_\_}{162}{subsubsection.7.5.1.51}%
+\contentsline {subsubsection}{\numberline {7.5.1.52}\_\_DBL\_DENORM\_MIN\_\_}{162}{subsubsection.7.5.1.52}%
+\contentsline {subsubsection}{\numberline {7.5.1.53}\_\_DBL\_DIG\_\_}{162}{subsubsection.7.5.1.53}%
+\contentsline {subsubsection}{\numberline {7.5.1.54}\_\_DBL\_EPSILON\_\_}{162}{subsubsection.7.5.1.54}%
+\contentsline {subsubsection}{\numberline {7.5.1.55}\_\_DBL\_HAS\_DENORM\_\_}{162}{subsubsection.7.5.1.55}%
+\contentsline {subsubsection}{\numberline {7.5.1.56}\_\_DBL\_HAS\_INFINITY\_\_}{162}{subsubsection.7.5.1.56}%
+\contentsline {subsubsection}{\numberline {7.5.1.57}\_\_DBL\_HAS\_QUIET\_NAN\_\_}{162}{subsubsection.7.5.1.57}%
+\contentsline {subsubsection}{\numberline {7.5.1.58}\_\_DBL\_MANT\_DIG\_\_}{162}{subsubsection.7.5.1.58}%
+\contentsline {subsubsection}{\numberline {7.5.1.59}\_\_DBL\_MAX\_10\_EXP\_\_}{163}{subsubsection.7.5.1.59}%
+\contentsline {subsubsection}{\numberline {7.5.1.60}\_\_DBL\_MAX\_\_}{163}{subsubsection.7.5.1.60}%
+\contentsline {subsubsection}{\numberline {7.5.1.61}\_\_DBL\_MAX\_EXP\_\_}{163}{subsubsection.7.5.1.61}%
+\contentsline {subsubsection}{\numberline {7.5.1.62}\_\_DBL\_MIN\_10\_EXP\_\_}{163}{subsubsection.7.5.1.62}%
+\contentsline {subsubsection}{\numberline {7.5.1.63}\_\_DBL\_MIN\_\_}{163}{subsubsection.7.5.1.63}%
+\contentsline {subsubsection}{\numberline {7.5.1.64}\_\_DBL\_MIN\_EXP\_\_}{163}{subsubsection.7.5.1.64}%
+\contentsline {subsubsection}{\numberline {7.5.1.65}\_\_DBL\_NORM\_MAX\_\_}{163}{subsubsection.7.5.1.65}%
+\contentsline {subsubsection}{\numberline {7.5.1.66}\_\_DEC128\_EPSILON\_\_}{163}{subsubsection.7.5.1.66}%
+\contentsline {subsubsection}{\numberline {7.5.1.67}\_\_DEC128\_MANT\_DIG\_\_}{164}{subsubsection.7.5.1.67}%
+\contentsline {subsubsection}{\numberline {7.5.1.68}\_\_DEC128\_MAX\_\_}{164}{subsubsection.7.5.1.68}%
+\contentsline {subsubsection}{\numberline {7.5.1.69}\_\_DEC128\_MAX\_EXP\_\_}{164}{subsubsection.7.5.1.69}%
+\contentsline {subsubsection}{\numberline {7.5.1.70}\_\_DEC128\_MIN\_\_}{164}{subsubsection.7.5.1.70}%
+\contentsline {subsubsection}{\numberline {7.5.1.71}\_\_DEC128\_MIN\_EXP\_\_}{164}{subsubsection.7.5.1.71}%
+\contentsline {subsubsection}{\numberline {7.5.1.72}\_\_DEC128\_SUBNORMAL\_MIN\_\_}{164}{subsubsection.7.5.1.72}%
+\contentsline {subsubsection}{\numberline {7.5.1.73}\_\_DEC32\_EPSILON\_\_}{164}{subsubsection.7.5.1.73}%
+\contentsline {subsubsection}{\numberline {7.5.1.74}\_\_DEC32\_MANT\_DIG\_\_}{164}{subsubsection.7.5.1.74}%
+\contentsline {subsubsection}{\numberline {7.5.1.75}\_\_DEC32\_MAX\_\_}{165}{subsubsection.7.5.1.75}%
+\contentsline {subsubsection}{\numberline {7.5.1.76}\_\_DEC32\_MAX\_EXP\_\_}{165}{subsubsection.7.5.1.76}%
+\contentsline {subsubsection}{\numberline {7.5.1.77}\_\_DEC32\_MIN\_\_}{165}{subsubsection.7.5.1.77}%
+\contentsline {subsubsection}{\numberline {7.5.1.78}\_\_DEC32\_MIN\_EXP\_\_}{165}{subsubsection.7.5.1.78}%
+\contentsline {subsubsection}{\numberline {7.5.1.79}\_\_DEC32\_SUBNORMAL\_MIN\_\_}{165}{subsubsection.7.5.1.79}%
+\contentsline {subsubsection}{\numberline {7.5.1.80}\_\_DEC64\_EPSILON\_\_}{165}{subsubsection.7.5.1.80}%
+\contentsline {subsubsection}{\numberline {7.5.1.81}\_\_DEC64\_MANT\_DIG\_\_}{165}{subsubsection.7.5.1.81}%
+\contentsline {subsubsection}{\numberline {7.5.1.82}\_\_DEC64\_MAX\_\_}{165}{subsubsection.7.5.1.82}%
+\contentsline {subsubsection}{\numberline {7.5.1.83}\_\_DEC64\_MAX\_EXP\_\_}{166}{subsubsection.7.5.1.83}%
+\contentsline {subsubsection}{\numberline {7.5.1.84}\_\_DEC64\_MIN\_\_}{166}{subsubsection.7.5.1.84}%
+\contentsline {subsubsection}{\numberline {7.5.1.85}\_\_DEC64\_MIN\_EXP\_\_}{166}{subsubsection.7.5.1.85}%
+\contentsline {subsubsection}{\numberline {7.5.1.86}\_\_DEC64\_SUBNORMAL\_MIN\_\_}{166}{subsubsection.7.5.1.86}%
+\contentsline {subsubsection}{\numberline {7.5.1.87}\_\_DEC\_EVAL\_METHOD\_\_}{166}{subsubsection.7.5.1.87}%
+\contentsline {subsubsection}{\numberline {7.5.1.88}\_\_DECIMAL\_BID\_FORMAT\_\_}{166}{subsubsection.7.5.1.88}%
+\contentsline {subsubsection}{\numberline {7.5.1.89}\_\_DECIMAL\_DIG\_\_}{166}{subsubsection.7.5.1.89}%
+\contentsline {subsubsection}{\numberline {7.5.1.90}\_\_DEPRECATED}{166}{subsubsection.7.5.1.90}%
+\contentsline {subsubsection}{\numberline {7.5.1.91}\_\_ELF\_\_}{167}{subsubsection.7.5.1.91}%
+\contentsline {subsubsection}{\numberline {7.5.1.92}\_\_EXCEPTIONS}{167}{subsubsection.7.5.1.92}%
+\contentsline {subsubsection}{\numberline {7.5.1.93}\_\_FINITE\_MATH\_ONLY\_\_}{167}{subsubsection.7.5.1.93}%
+\contentsline {subsubsection}{\numberline {7.5.1.94}\_\_FLOAT\_WORD\_ORDER\_\_}{167}{subsubsection.7.5.1.94}%
+\contentsline {subsubsection}{\numberline {7.5.1.95}\_\_FLT128\_DECIMAL\_DIG\_\_}{167}{subsubsection.7.5.1.95}%
+\contentsline {subsubsection}{\numberline {7.5.1.96}\_\_FLT128\_DENORM\_MIN\_\_}{167}{subsubsection.7.5.1.96}%
+\contentsline {subsubsection}{\numberline {7.5.1.97}\_\_FLT128\_DIG\_\_}{167}{subsubsection.7.5.1.97}%
+\contentsline {subsubsection}{\numberline {7.5.1.98}\_\_FLT128\_EPSILON\_\_}{167}{subsubsection.7.5.1.98}%
+\contentsline {subsubsection}{\numberline {7.5.1.99}\_\_FLT128\_HAS\_DENORM\_\_}{168}{subsubsection.7.5.1.99}%
+\contentsline {subsubsection}{\numberline {7.5.1.100}\_\_FLT128\_HAS\_INFINITY\_\_}{168}{subsubsection.7.5.1.100}%
+\contentsline {subsubsection}{\numberline {7.5.1.101}\_\_FLT128\_HAS\_QUIET\_NAN\_\_}{168}{subsubsection.7.5.1.101}%
+\contentsline {subsubsection}{\numberline {7.5.1.102}\_\_FLT128\_MANT\_DIG\_\_}{168}{subsubsection.7.5.1.102}%
+\contentsline {subsubsection}{\numberline {7.5.1.103}\_\_FLT128\_MAX\_10\_EXP\_\_}{168}{subsubsection.7.5.1.103}%
+\contentsline {subsubsection}{\numberline {7.5.1.104}\_\_FLT128\_MAX\_\_}{168}{subsubsection.7.5.1.104}%
+\contentsline {subsubsection}{\numberline {7.5.1.105}\_\_FLT128\_MAX\_EXP\_\_}{168}{subsubsection.7.5.1.105}%
+\contentsline {subsubsection}{\numberline {7.5.1.106}\_\_FLT128\_MIN\_10\_EXP\_\_}{168}{subsubsection.7.5.1.106}%
+\contentsline {subsubsection}{\numberline {7.5.1.107}\_\_FLT128\_MIN\_\_}{169}{subsubsection.7.5.1.107}%
+\contentsline {subsubsection}{\numberline {7.5.1.108}\_\_FLT128\_MIN\_EXP\_\_}{169}{subsubsection.7.5.1.108}%
+\contentsline {subsubsection}{\numberline {7.5.1.109}\_\_FLT128\_NORM\_MAX\_\_}{169}{subsubsection.7.5.1.109}%
+\contentsline {subsubsection}{\numberline {7.5.1.110}\_\_FLT32\_DECIMAL\_DIG\_\_}{169}{subsubsection.7.5.1.110}%
+\contentsline {subsubsection}{\numberline {7.5.1.111}\_\_FLT32\_DENORM\_MIN\_\_}{169}{subsubsection.7.5.1.111}%
+\contentsline {subsubsection}{\numberline {7.5.1.112}\_\_FLT32\_DIG\_\_}{169}{subsubsection.7.5.1.112}%
+\contentsline {subsubsection}{\numberline {7.5.1.113}\_\_FLT32\_EPSILON\_\_}{169}{subsubsection.7.5.1.113}%
+\contentsline {subsubsection}{\numberline {7.5.1.114}\_\_FLT32\_HAS\_DENORM\_\_}{169}{subsubsection.7.5.1.114}%
+\contentsline {subsubsection}{\numberline {7.5.1.115}\_\_FLT32\_HAS\_INFINITY\_\_}{170}{subsubsection.7.5.1.115}%
+\contentsline {subsubsection}{\numberline {7.5.1.116}\_\_FLT32\_HAS\_QUIET\_NAN\_\_}{170}{subsubsection.7.5.1.116}%
+\contentsline {subsubsection}{\numberline {7.5.1.117}\_\_FLT32\_MANT\_DIG\_\_}{170}{subsubsection.7.5.1.117}%
+\contentsline {subsubsection}{\numberline {7.5.1.118}\_\_FLT32\_MAX\_10\_EXP\_\_}{170}{subsubsection.7.5.1.118}%
+\contentsline {subsubsection}{\numberline {7.5.1.119}\_\_FLT32\_MAX\_\_}{170}{subsubsection.7.5.1.119}%
+\contentsline {subsubsection}{\numberline {7.5.1.120}\_\_FLT32\_MAX\_EXP\_\_}{170}{subsubsection.7.5.1.120}%
+\contentsline {subsubsection}{\numberline {7.5.1.121}\_\_FLT32\_MIN\_10\_EXP\_\_}{170}{subsubsection.7.5.1.121}%
+\contentsline {subsubsection}{\numberline {7.5.1.122}\_\_FLT32\_MIN\_\_}{170}{subsubsection.7.5.1.122}%
+\contentsline {subsubsection}{\numberline {7.5.1.123}\_\_FLT32\_MIN\_EXP\_\_}{171}{subsubsection.7.5.1.123}%
+\contentsline {subsubsection}{\numberline {7.5.1.124}\_\_FLT32\_NORM\_MAX\_\_}{171}{subsubsection.7.5.1.124}%
+\contentsline {subsubsection}{\numberline {7.5.1.125}\_\_FLT32X\_DECIMAL\_DIG\_\_}{171}{subsubsection.7.5.1.125}%
+\contentsline {subsubsection}{\numberline {7.5.1.126}\_\_FLT32X\_DENORM\_MIN\_\_}{171}{subsubsection.7.5.1.126}%
+\contentsline {subsubsection}{\numberline {7.5.1.127}\_\_FLT32X\_DIG\_\_}{171}{subsubsection.7.5.1.127}%
+\contentsline {subsubsection}{\numberline {7.5.1.128}\_\_FLT32X\_EPSILON\_\_}{171}{subsubsection.7.5.1.128}%
+\contentsline {subsubsection}{\numberline {7.5.1.129}\_\_FLT32X\_HAS\_DENORM\_\_}{171}{subsubsection.7.5.1.129}%
+\contentsline {subsubsection}{\numberline {7.5.1.130}\_\_FLT32X\_HAS\_INFINITY\_\_}{171}{subsubsection.7.5.1.130}%
+\contentsline {subsubsection}{\numberline {7.5.1.131}\_\_FLT32X\_HAS\_QUIET\_NAN\_\_}{172}{subsubsection.7.5.1.131}%
+\contentsline {subsubsection}{\numberline {7.5.1.132}\_\_FLT32X\_MANT\_DIG\_\_}{172}{subsubsection.7.5.1.132}%
+\contentsline {subsubsection}{\numberline {7.5.1.133}\_\_FLT32X\_MAX\_10\_EXP\_\_}{172}{subsubsection.7.5.1.133}%
+\contentsline {subsubsection}{\numberline {7.5.1.134}\_\_FLT32X\_MAX\_\_}{172}{subsubsection.7.5.1.134}%
+\contentsline {subsubsection}{\numberline {7.5.1.135}\_\_FLT32X\_MAX\_EXP\_\_}{172}{subsubsection.7.5.1.135}%
+\contentsline {subsubsection}{\numberline {7.5.1.136}\_\_FLT32X\_MIN\_10\_EXP\_\_}{172}{subsubsection.7.5.1.136}%
+\contentsline {subsubsection}{\numberline {7.5.1.137}\_\_FLT32X\_MIN\_\_}{172}{subsubsection.7.5.1.137}%
+\contentsline {subsubsection}{\numberline {7.5.1.138}\_\_FLT32X\_MIN\_EXP\_\_}{172}{subsubsection.7.5.1.138}%
+\contentsline {subsubsection}{\numberline {7.5.1.139}\_\_FLT32X\_NORM\_MAX\_\_}{173}{subsubsection.7.5.1.139}%
+\contentsline {subsubsection}{\numberline {7.5.1.140}\_\_FLT64\_DECIMAL\_DIG\_\_}{173}{subsubsection.7.5.1.140}%
+\contentsline {subsubsection}{\numberline {7.5.1.141}\_\_FLT64\_DENORM\_MIN\_\_}{173}{subsubsection.7.5.1.141}%
+\contentsline {subsubsection}{\numberline {7.5.1.142}\_\_FLT64\_DIG\_\_}{173}{subsubsection.7.5.1.142}%
+\contentsline {subsubsection}{\numberline {7.5.1.143}\_\_FLT64\_EPSILON\_\_}{173}{subsubsection.7.5.1.143}%
+\contentsline {subsubsection}{\numberline {7.5.1.144}\_\_FLT64\_HAS\_DENORM\_\_}{173}{subsubsection.7.5.1.144}%
+\contentsline {subsubsection}{\numberline {7.5.1.145}\_\_FLT64\_HAS\_INFINITY\_\_}{173}{subsubsection.7.5.1.145}%
+\contentsline {subsubsection}{\numberline {7.5.1.146}\_\_FLT64\_HAS\_QUIET\_NAN\_\_}{173}{subsubsection.7.5.1.146}%
+\contentsline {subsubsection}{\numberline {7.5.1.147}\_\_FLT64\_MANT\_DIG\_\_}{174}{subsubsection.7.5.1.147}%
+\contentsline {subsubsection}{\numberline {7.5.1.148}\_\_FLT64\_MAX\_10\_EXP\_\_}{174}{subsubsection.7.5.1.148}%
+\contentsline {subsubsection}{\numberline {7.5.1.149}\_\_FLT64\_MAX\_\_}{174}{subsubsection.7.5.1.149}%
+\contentsline {subsubsection}{\numberline {7.5.1.150}\_\_FLT64\_MAX\_EXP\_\_}{174}{subsubsection.7.5.1.150}%
+\contentsline {subsubsection}{\numberline {7.5.1.151}\_\_FLT64\_MIN\_10\_EXP\_\_}{174}{subsubsection.7.5.1.151}%
+\contentsline {subsubsection}{\numberline {7.5.1.152}\_\_FLT64\_MIN\_\_}{174}{subsubsection.7.5.1.152}%
+\contentsline {subsubsection}{\numberline {7.5.1.153}\_\_FLT64\_MIN\_EXP\_\_}{174}{subsubsection.7.5.1.153}%
+\contentsline {subsubsection}{\numberline {7.5.1.154}\_\_FLT64\_NORM\_MAX\_\_}{174}{subsubsection.7.5.1.154}%
+\contentsline {subsubsection}{\numberline {7.5.1.155}\_\_FLT64X\_DECIMAL\_DIG\_\_}{175}{subsubsection.7.5.1.155}%
+\contentsline {subsubsection}{\numberline {7.5.1.156}\_\_FLT64X\_DENORM\_MIN\_\_}{175}{subsubsection.7.5.1.156}%
+\contentsline {subsubsection}{\numberline {7.5.1.157}\_\_FLT64X\_DIG\_\_}{175}{subsubsection.7.5.1.157}%
+\contentsline {subsubsection}{\numberline {7.5.1.158}\_\_FLT64X\_EPSILON\_\_}{175}{subsubsection.7.5.1.158}%
+\contentsline {subsubsection}{\numberline {7.5.1.159}\_\_FLT64X\_HAS\_DENORM\_\_}{175}{subsubsection.7.5.1.159}%
+\contentsline {subsubsection}{\numberline {7.5.1.160}\_\_FLT64X\_HAS\_INFINITY\_\_}{175}{subsubsection.7.5.1.160}%
+\contentsline {subsubsection}{\numberline {7.5.1.161}\_\_FLT64X\_HAS\_QUIET\_NAN\_\_}{175}{subsubsection.7.5.1.161}%
+\contentsline {subsubsection}{\numberline {7.5.1.162}\_\_FLT64X\_MANT\_DIG\_\_}{175}{subsubsection.7.5.1.162}%
+\contentsline {subsubsection}{\numberline {7.5.1.163}\_\_FLT64X\_MAX\_10\_EXP\_\_}{176}{subsubsection.7.5.1.163}%
+\contentsline {subsubsection}{\numberline {7.5.1.164}\_\_FLT64X\_MAX\_\_}{176}{subsubsection.7.5.1.164}%
+\contentsline {subsubsection}{\numberline {7.5.1.165}\_\_FLT64X\_MAX\_EXP\_\_}{176}{subsubsection.7.5.1.165}%
+\contentsline {subsubsection}{\numberline {7.5.1.166}\_\_FLT64X\_MIN\_10\_EXP\_\_}{176}{subsubsection.7.5.1.166}%
+\contentsline {subsubsection}{\numberline {7.5.1.167}\_\_FLT64X\_MIN\_\_}{176}{subsubsection.7.5.1.167}%
+\contentsline {subsubsection}{\numberline {7.5.1.168}\_\_FLT64X\_MIN\_EXP\_\_}{176}{subsubsection.7.5.1.168}%
+\contentsline {subsubsection}{\numberline {7.5.1.169}\_\_FLT64X\_NORM\_MAX\_\_}{176}{subsubsection.7.5.1.169}%
+\contentsline {subsubsection}{\numberline {7.5.1.170}\_\_FLT\_DECIMAL\_DIG\_\_}{176}{subsubsection.7.5.1.170}%
+\contentsline {subsubsection}{\numberline {7.5.1.171}\_\_FLT\_DENORM\_MIN\_\_}{177}{subsubsection.7.5.1.171}%
+\contentsline {subsubsection}{\numberline {7.5.1.172}\_\_FLT\_DIG\_\_}{177}{subsubsection.7.5.1.172}%
+\contentsline {subsubsection}{\numberline {7.5.1.173}\_\_FLT\_EPSILON\_\_}{177}{subsubsection.7.5.1.173}%
+\contentsline {subsubsection}{\numberline {7.5.1.174}\_\_FLT\_EVAL\_METHOD\_\_}{177}{subsubsection.7.5.1.174}%
+\contentsline {subsubsection}{\numberline {7.5.1.175}\_\_FLT\_EVAL\_METHOD\_TS\_18661\_3\_\_}{177}{subsubsection.7.5.1.175}%
+\contentsline {subsubsection}{\numberline {7.5.1.176}\_\_FLT\_HAS\_DENORM\_\_}{177}{subsubsection.7.5.1.176}%
+\contentsline {subsubsection}{\numberline {7.5.1.177}\_\_FLT\_HAS\_INFINITY\_\_}{177}{subsubsection.7.5.1.177}%
+\contentsline {subsubsection}{\numberline {7.5.1.178}\_\_FLT\_HAS\_QUIET\_NAN\_\_}{177}{subsubsection.7.5.1.178}%
+\contentsline {subsubsection}{\numberline {7.5.1.179}\_\_FLT\_MANT\_DIG\_\_}{178}{subsubsection.7.5.1.179}%
+\contentsline {subsubsection}{\numberline {7.5.1.180}\_\_FLT\_MAX\_10\_EXP\_\_}{178}{subsubsection.7.5.1.180}%
+\contentsline {subsubsection}{\numberline {7.5.1.181}\_\_FLT\_MAX\_\_}{178}{subsubsection.7.5.1.181}%
+\contentsline {subsubsection}{\numberline {7.5.1.182}\_\_FLT\_MAX\_EXP\_\_}{178}{subsubsection.7.5.1.182}%
+\contentsline {subsubsection}{\numberline {7.5.1.183}\_\_FLT\_MIN\_10\_EXP\_\_}{178}{subsubsection.7.5.1.183}%
+\contentsline {subsubsection}{\numberline {7.5.1.184}\_\_FLT\_MIN\_\_}{178}{subsubsection.7.5.1.184}%
+\contentsline {subsubsection}{\numberline {7.5.1.185}\_\_FLT\_MIN\_EXP\_\_}{178}{subsubsection.7.5.1.185}%
+\contentsline {subsubsection}{\numberline {7.5.1.186}\_\_FLT\_NORM\_MAX\_\_}{178}{subsubsection.7.5.1.186}%
+\contentsline {subsubsection}{\numberline {7.5.1.187}\_\_FLT\_RADIX\_\_}{179}{subsubsection.7.5.1.187}%
+\contentsline {subsubsection}{\numberline {7.5.1.188}\_\_FXSR\_\_}{179}{subsubsection.7.5.1.188}%
+\contentsline {subsubsection}{\numberline {7.5.1.189}\_\_GCC\_ASM\_FLAG\_OUTPUTS\_\_}{179}{subsubsection.7.5.1.189}%
+\contentsline {subsubsection}{\numberline {7.5.1.190}\_\_GCC\_ATOMIC\_BOOL\_LOCK\_FREE}{179}{subsubsection.7.5.1.190}%
+\contentsline {subsubsection}{\numberline {7.5.1.191}\_\_GCC\_ATOMIC\_CHAR16\_T\_LOCK\_FREE}{179}{subsubsection.7.5.1.191}%
+\contentsline {subsubsection}{\numberline {7.5.1.192}\_\_GCC\_ATOMIC\_CHAR32\_T\_LOCK\_FREE}{179}{subsubsection.7.5.1.192}%
+\contentsline {subsubsection}{\numberline {7.5.1.193}\_\_GCC\_ATOMIC\_CHAR\_LOCK\_FREE}{179}{subsubsection.7.5.1.193}%
+\contentsline {subsubsection}{\numberline {7.5.1.194}\_\_GCC\_ATOMIC\_INT\_LOCK\_FREE}{179}{subsubsection.7.5.1.194}%
+\contentsline {subsubsection}{\numberline {7.5.1.195}\_\_GCC\_ATOMIC\_LLONG\_LOCK\_FREE}{180}{subsubsection.7.5.1.195}%
+\contentsline {subsubsection}{\numberline {7.5.1.196}\_\_GCC\_ATOMIC\_LONG\_LOCK\_FREE}{180}{subsubsection.7.5.1.196}%
+\contentsline {subsubsection}{\numberline {7.5.1.197}\_\_GCC\_ATOMIC\_POINTER\_LOCK\_FREE}{180}{subsubsection.7.5.1.197}%
+\contentsline {subsubsection}{\numberline {7.5.1.198}\_\_GCC\_ATOMIC\_SHORT\_LOCK\_FREE}{180}{subsubsection.7.5.1.198}%
+\contentsline {subsubsection}{\numberline {7.5.1.199}\_\_GCC\_ATOMIC\_TEST\_AND\_SET\_TRUEVAL}{180}{subsubsection.7.5.1.199}%
+\contentsline {subsubsection}{\numberline {7.5.1.200}\_\_GCC\_ATOMIC\_WCHAR\_T\_LOCK\_FREE}{180}{subsubsection.7.5.1.200}%
+\contentsline {subsubsection}{\numberline {7.5.1.201}\_\_GCC\_HAVE\_DWARF2\_CFI\_ASM}{180}{subsubsection.7.5.1.201}%
+\contentsline {subsubsection}{\numberline {7.5.1.202}\_\_GCC\_HAVE\_SYNC\_COMPARE\_AND\_SWAP\_1}{180}{subsubsection.7.5.1.202}%
+\contentsline {subsubsection}{\numberline {7.5.1.203}\_\_GCC\_HAVE\_SYNC\_COMPARE\_AND\_SWAP\_2}{181}{subsubsection.7.5.1.203}%
+\contentsline {subsubsection}{\numberline {7.5.1.204}\_\_GCC\_HAVE\_SYNC\_COMPARE\_AND\_SWAP\_4}{181}{subsubsection.7.5.1.204}%
+\contentsline {subsubsection}{\numberline {7.5.1.205}\_\_GCC\_HAVE\_SYNC\_COMPARE\_AND\_SWAP\_8}{181}{subsubsection.7.5.1.205}%
+\contentsline {subsubsection}{\numberline {7.5.1.206}\_\_GCC\_IEC\_559}{181}{subsubsection.7.5.1.206}%
+\contentsline {subsubsection}{\numberline {7.5.1.207}\_\_GCC\_IEC\_559\_COMPLEX}{181}{subsubsection.7.5.1.207}%
+\contentsline {subsubsection}{\numberline {7.5.1.208}\_\_GLIBCXX\_BITSIZE\_INT\_N\_0}{181}{subsubsection.7.5.1.208}%
+\contentsline {subsubsection}{\numberline {7.5.1.209}\_\_GLIBCXX\_TYPE\_INT\_N\_0}{181}{subsubsection.7.5.1.209}%
+\contentsline {subsubsection}{\numberline {7.5.1.210}\_\_gnu\_linux\_\_}{181}{subsubsection.7.5.1.210}%
+\contentsline {subsubsection}{\numberline {7.5.1.211}\_\_GNUC\_\_}{182}{subsubsection.7.5.1.211}%
+\contentsline {subsubsection}{\numberline {7.5.1.212}\_\_GNUC\_MINOR\_\_}{182}{subsubsection.7.5.1.212}%
+\contentsline {subsubsection}{\numberline {7.5.1.213}\_\_GNUC\_PATCHLEVEL\_\_}{182}{subsubsection.7.5.1.213}%
+\contentsline {subsubsection}{\numberline {7.5.1.214}\_\_GNUC\_STDC\_INLINE\_\_}{182}{subsubsection.7.5.1.214}%
+\contentsline {subsubsection}{\numberline {7.5.1.215}\_\_GNUG\_\_}{182}{subsubsection.7.5.1.215}%
+\contentsline {subsubsection}{\numberline {7.5.1.216}\_\_GXX\_ABI\_VERSION}{182}{subsubsection.7.5.1.216}%
+\contentsline {subsubsection}{\numberline {7.5.1.217}\_\_GXX\_EXPERIMENTAL\_CXX0X\_\_}{182}{subsubsection.7.5.1.217}%
+\contentsline {subsubsection}{\numberline {7.5.1.218}\_\_GXX\_RTTI}{182}{subsubsection.7.5.1.218}%
+\contentsline {subsubsection}{\numberline {7.5.1.219}\_\_GXX\_WEAK\_\_}{183}{subsubsection.7.5.1.219}%
+\contentsline {subsubsection}{\numberline {7.5.1.220}\_\_HAVE\_SPECULATION\_SAFE\_VALUE}{183}{subsubsection.7.5.1.220}%
+\contentsline {subsubsection}{\numberline {7.5.1.221}\_\_INT16\_C}{183}{subsubsection.7.5.1.221}%
+\contentsline {subsubsection}{\numberline {7.5.1.222}\_\_INT16\_MAX\_\_}{183}{subsubsection.7.5.1.222}%
+\contentsline {subsubsection}{\numberline {7.5.1.223}\_\_INT16\_TYPE\_\_}{183}{subsubsection.7.5.1.223}%
+\contentsline {subsubsection}{\numberline {7.5.1.224}\_\_INT32\_C}{183}{subsubsection.7.5.1.224}%
+\contentsline {subsubsection}{\numberline {7.5.1.225}\_\_INT32\_MAX\_\_}{183}{subsubsection.7.5.1.225}%
+\contentsline {subsubsection}{\numberline {7.5.1.226}\_\_INT32\_TYPE\_\_}{184}{subsubsection.7.5.1.226}%
+\contentsline {subsubsection}{\numberline {7.5.1.227}\_\_INT64\_C}{184}{subsubsection.7.5.1.227}%
+\contentsline {subsubsection}{\numberline {7.5.1.228}\_\_INT64\_MAX\_\_}{184}{subsubsection.7.5.1.228}%
+\contentsline {subsubsection}{\numberline {7.5.1.229}\_\_INT64\_TYPE\_\_}{184}{subsubsection.7.5.1.229}%
+\contentsline {subsubsection}{\numberline {7.5.1.230}\_\_INT8\_C}{184}{subsubsection.7.5.1.230}%
+\contentsline {subsubsection}{\numberline {7.5.1.231}\_\_INT8\_MAX\_\_}{184}{subsubsection.7.5.1.231}%
+\contentsline {subsubsection}{\numberline {7.5.1.232}\_\_INT8\_TYPE\_\_}{184}{subsubsection.7.5.1.232}%
+\contentsline {subsubsection}{\numberline {7.5.1.233}\_\_INT\_FAST16\_MAX\_\_}{185}{subsubsection.7.5.1.233}%
+\contentsline {subsubsection}{\numberline {7.5.1.234}\_\_INT\_FAST16\_TYPE\_\_}{185}{subsubsection.7.5.1.234}%
+\contentsline {subsubsection}{\numberline {7.5.1.235}\_\_INT\_FAST16\_WIDTH\_\_}{185}{subsubsection.7.5.1.235}%
+\contentsline {subsubsection}{\numberline {7.5.1.236}\_\_INT\_FAST32\_MAX\_\_}{185}{subsubsection.7.5.1.236}%
+\contentsline {subsubsection}{\numberline {7.5.1.237}\_\_INT\_FAST32\_TYPE\_\_}{185}{subsubsection.7.5.1.237}%
+\contentsline {subsubsection}{\numberline {7.5.1.238}\_\_INT\_FAST32\_WIDTH\_\_}{185}{subsubsection.7.5.1.238}%
+\contentsline {subsubsection}{\numberline {7.5.1.239}\_\_INT\_FAST64\_MAX\_\_}{185}{subsubsection.7.5.1.239}%
+\contentsline {subsubsection}{\numberline {7.5.1.240}\_\_INT\_FAST64\_TYPE\_\_}{185}{subsubsection.7.5.1.240}%
+\contentsline {subsubsection}{\numberline {7.5.1.241}\_\_INT\_FAST64\_WIDTH\_\_}{186}{subsubsection.7.5.1.241}%
+\contentsline {subsubsection}{\numberline {7.5.1.242}\_\_INT\_FAST8\_MAX\_\_}{186}{subsubsection.7.5.1.242}%
+\contentsline {subsubsection}{\numberline {7.5.1.243}\_\_INT\_FAST8\_TYPE\_\_}{186}{subsubsection.7.5.1.243}%
+\contentsline {subsubsection}{\numberline {7.5.1.244}\_\_INT\_FAST8\_WIDTH\_\_}{186}{subsubsection.7.5.1.244}%
+\contentsline {subsubsection}{\numberline {7.5.1.245}\_\_INT\_LEAST16\_MAX\_\_}{186}{subsubsection.7.5.1.245}%
+\contentsline {subsubsection}{\numberline {7.5.1.246}\_\_INT\_LEAST16\_TYPE\_\_}{186}{subsubsection.7.5.1.246}%
+\contentsline {subsubsection}{\numberline {7.5.1.247}\_\_INT\_LEAST16\_WIDTH\_\_}{186}{subsubsection.7.5.1.247}%
+\contentsline {subsubsection}{\numberline {7.5.1.248}\_\_INT\_LEAST32\_MAX\_\_}{186}{subsubsection.7.5.1.248}%
+\contentsline {subsubsection}{\numberline {7.5.1.249}\_\_INT\_LEAST32\_TYPE\_\_}{187}{subsubsection.7.5.1.249}%
+\contentsline {subsubsection}{\numberline {7.5.1.250}\_\_INT\_LEAST32\_WIDTH\_\_}{187}{subsubsection.7.5.1.250}%
+\contentsline {subsubsection}{\numberline {7.5.1.251}\_\_INT\_LEAST64\_MAX\_\_}{187}{subsubsection.7.5.1.251}%
+\contentsline {subsubsection}{\numberline {7.5.1.252}\_\_INT\_LEAST64\_TYPE\_\_}{187}{subsubsection.7.5.1.252}%
+\contentsline {subsubsection}{\numberline {7.5.1.253}\_\_INT\_LEAST64\_WIDTH\_\_}{187}{subsubsection.7.5.1.253}%
+\contentsline {subsubsection}{\numberline {7.5.1.254}\_\_INT\_LEAST8\_MAX\_\_}{187}{subsubsection.7.5.1.254}%
+\contentsline {subsubsection}{\numberline {7.5.1.255}\_\_INT\_LEAST8\_TYPE\_\_}{187}{subsubsection.7.5.1.255}%
+\contentsline {subsubsection}{\numberline {7.5.1.256}\_\_INT\_LEAST8\_WIDTH\_\_}{187}{subsubsection.7.5.1.256}%
+\contentsline {subsubsection}{\numberline {7.5.1.257}\_\_INT\_MAX\_\_}{188}{subsubsection.7.5.1.257}%
+\contentsline {subsubsection}{\numberline {7.5.1.258}\_\_INT\_WIDTH\_\_}{188}{subsubsection.7.5.1.258}%
+\contentsline {subsubsection}{\numberline {7.5.1.259}\_\_INTMAX\_C}{188}{subsubsection.7.5.1.259}%
+\contentsline {subsubsection}{\numberline {7.5.1.260}\_\_INTMAX\_MAX\_\_}{188}{subsubsection.7.5.1.260}%
+\contentsline {subsubsection}{\numberline {7.5.1.261}\_\_INTMAX\_TYPE\_\_}{188}{subsubsection.7.5.1.261}%
+\contentsline {subsubsection}{\numberline {7.5.1.262}\_\_INTMAX\_WIDTH\_\_}{188}{subsubsection.7.5.1.262}%
+\contentsline {subsubsection}{\numberline {7.5.1.263}\_\_INTPTR\_MAX\_\_}{188}{subsubsection.7.5.1.263}%
+\contentsline {subsubsection}{\numberline {7.5.1.264}\_\_INTPTR\_TYPE\_\_}{189}{subsubsection.7.5.1.264}%
+\contentsline {subsubsection}{\numberline {7.5.1.265}\_\_INTPTR\_WIDTH\_\_}{189}{subsubsection.7.5.1.265}%
+\contentsline {subsubsection}{\numberline {7.5.1.266}\_\_k8}{189}{subsubsection.7.5.1.266}%
+\contentsline {subsubsection}{\numberline {7.5.1.267}\_\_k8\_\_}{189}{subsubsection.7.5.1.267}%
+\contentsline {subsubsection}{\numberline {7.5.1.268}\_\_LDBL\_DECIMAL\_DIG\_\_}{189}{subsubsection.7.5.1.268}%
+\contentsline {subsubsection}{\numberline {7.5.1.269}\_\_LDBL\_DENORM\_MIN\_\_}{189}{subsubsection.7.5.1.269}%
+\contentsline {subsubsection}{\numberline {7.5.1.270}\_\_LDBL\_DIG\_\_}{189}{subsubsection.7.5.1.270}%
+\contentsline {subsubsection}{\numberline {7.5.1.271}\_\_LDBL\_EPSILON\_\_}{189}{subsubsection.7.5.1.271}%
+\contentsline {subsubsection}{\numberline {7.5.1.272}\_\_LDBL\_HAS\_DENORM\_\_}{190}{subsubsection.7.5.1.272}%
+\contentsline {subsubsection}{\numberline {7.5.1.273}\_\_LDBL\_HAS\_INFINITY\_\_}{190}{subsubsection.7.5.1.273}%
+\contentsline {subsubsection}{\numberline {7.5.1.274}\_\_LDBL\_HAS\_QUIET\_NAN\_\_}{190}{subsubsection.7.5.1.274}%
+\contentsline {subsubsection}{\numberline {7.5.1.275}\_\_LDBL\_MANT\_DIG\_\_}{190}{subsubsection.7.5.1.275}%
+\contentsline {subsubsection}{\numberline {7.5.1.276}\_\_LDBL\_MAX\_10\_EXP\_\_}{190}{subsubsection.7.5.1.276}%
+\contentsline {subsubsection}{\numberline {7.5.1.277}\_\_LDBL\_MAX\_\_}{190}{subsubsection.7.5.1.277}%
+\contentsline {subsubsection}{\numberline {7.5.1.278}\_\_LDBL\_MAX\_EXP\_\_}{190}{subsubsection.7.5.1.278}%
+\contentsline {subsubsection}{\numberline {7.5.1.279}\_\_LDBL\_MIN\_10\_EXP\_\_}{190}{subsubsection.7.5.1.279}%
+\contentsline {subsubsection}{\numberline {7.5.1.280}\_\_LDBL\_MIN\_\_}{191}{subsubsection.7.5.1.280}%
+\contentsline {subsubsection}{\numberline {7.5.1.281}\_\_LDBL\_MIN\_EXP\_\_}{191}{subsubsection.7.5.1.281}%
+\contentsline {subsubsection}{\numberline {7.5.1.282}\_\_LDBL\_NORM\_MAX\_\_}{191}{subsubsection.7.5.1.282}%
+\contentsline {subsubsection}{\numberline {7.5.1.283}\_\_linux}{191}{subsubsection.7.5.1.283}%
+\contentsline {subsubsection}{\numberline {7.5.1.284}\_\_linux\_\_}{191}{subsubsection.7.5.1.284}%
+\contentsline {subsubsection}{\numberline {7.5.1.285}\_\_LONG\_LONG\_MAX\_\_}{191}{subsubsection.7.5.1.285}%
+\contentsline {subsubsection}{\numberline {7.5.1.286}\_\_LONG\_LONG\_WIDTH\_\_}{191}{subsubsection.7.5.1.286}%
+\contentsline {subsubsection}{\numberline {7.5.1.287}\_\_LONG\_MAX\_\_}{191}{subsubsection.7.5.1.287}%
+\contentsline {subsubsection}{\numberline {7.5.1.288}\_\_LONG\_WIDTH\_\_}{192}{subsubsection.7.5.1.288}%
+\contentsline {subsubsection}{\numberline {7.5.1.289}\_\_LP64\_\_}{192}{subsubsection.7.5.1.289}%
+\contentsline {subsubsection}{\numberline {7.5.1.290}\_\_MMX\_\_}{192}{subsubsection.7.5.1.290}%
+\contentsline {subsubsection}{\numberline {7.5.1.291}\_\_MMX\_WITH\_SSE\_\_}{192}{subsubsection.7.5.1.291}%
+\contentsline {subsubsection}{\numberline {7.5.1.292}\_\_NO\_INLINE\_\_}{192}{subsubsection.7.5.1.292}%
+\contentsline {subsubsection}{\numberline {7.5.1.293}\_\_ORDER\_BIG\_ENDIAN\_\_}{192}{subsubsection.7.5.1.293}%
+\contentsline {subsubsection}{\numberline {7.5.1.294}\_\_ORDER\_LITTLE\_ENDIAN\_\_}{192}{subsubsection.7.5.1.294}%
+\contentsline {subsubsection}{\numberline {7.5.1.295}\_\_ORDER\_PDP\_ENDIAN\_\_}{192}{subsubsection.7.5.1.295}%
+\contentsline {subsubsection}{\numberline {7.5.1.296}\_\_pic\_\_}{193}{subsubsection.7.5.1.296}%
+\contentsline {subsubsection}{\numberline {7.5.1.297}\_\_PIC\_\_}{193}{subsubsection.7.5.1.297}%
+\contentsline {subsubsection}{\numberline {7.5.1.298}\_\_pie\_\_}{193}{subsubsection.7.5.1.298}%
+\contentsline {subsubsection}{\numberline {7.5.1.299}\_\_PIE\_\_}{193}{subsubsection.7.5.1.299}%
+\contentsline {subsubsection}{\numberline {7.5.1.300}\_\_PRAGMA\_REDEFINE\_EXTNAME}{193}{subsubsection.7.5.1.300}%
+\contentsline {subsubsection}{\numberline {7.5.1.301}\_\_PTRDIFF\_MAX\_\_}{193}{subsubsection.7.5.1.301}%
+\contentsline {subsubsection}{\numberline {7.5.1.302}\_\_PTRDIFF\_TYPE\_\_}{193}{subsubsection.7.5.1.302}%
+\contentsline {subsubsection}{\numberline {7.5.1.303}\_\_PTRDIFF\_WIDTH\_\_}{193}{subsubsection.7.5.1.303}%
+\contentsline {subsubsection}{\numberline {7.5.1.304}\_\_REGISTER\_PREFIX\_\_}{194}{subsubsection.7.5.1.304}%
+\contentsline {subsubsection}{\numberline {7.5.1.305}\_\_SCHAR\_MAX\_\_}{194}{subsubsection.7.5.1.305}%
+\contentsline {subsubsection}{\numberline {7.5.1.306}\_\_SCHAR\_WIDTH\_\_}{194}{subsubsection.7.5.1.306}%
+\contentsline {subsubsection}{\numberline {7.5.1.307}\_\_SEG\_FS}{194}{subsubsection.7.5.1.307}%
+\contentsline {subsubsection}{\numberline {7.5.1.308}\_\_SEG\_GS}{194}{subsubsection.7.5.1.308}%
+\contentsline {subsubsection}{\numberline {7.5.1.309}\_\_SHRT\_MAX\_\_}{194}{subsubsection.7.5.1.309}%
+\contentsline {subsubsection}{\numberline {7.5.1.310}\_\_SHRT\_WIDTH\_\_}{194}{subsubsection.7.5.1.310}%
+\contentsline {subsubsection}{\numberline {7.5.1.311}\_\_SIG\_ATOMIC\_MAX\_\_}{194}{subsubsection.7.5.1.311}%
+\contentsline {subsubsection}{\numberline {7.5.1.312}\_\_SIG\_ATOMIC\_MIN\_\_}{195}{subsubsection.7.5.1.312}%
+\contentsline {subsubsection}{\numberline {7.5.1.313}\_\_SIG\_ATOMIC\_TYPE\_\_}{195}{subsubsection.7.5.1.313}%
+\contentsline {subsubsection}{\numberline {7.5.1.314}\_\_SIG\_ATOMIC\_WIDTH\_\_}{195}{subsubsection.7.5.1.314}%
+\contentsline {subsubsection}{\numberline {7.5.1.315}\_\_SIZE\_MAX\_\_}{195}{subsubsection.7.5.1.315}%
+\contentsline {subsubsection}{\numberline {7.5.1.316}\_\_SIZE\_TYPE\_\_}{195}{subsubsection.7.5.1.316}%
+\contentsline {subsubsection}{\numberline {7.5.1.317}\_\_SIZE\_WIDTH\_\_}{195}{subsubsection.7.5.1.317}%
+\contentsline {subsubsection}{\numberline {7.5.1.318}\_\_SIZEOF\_DOUBLE\_\_}{195}{subsubsection.7.5.1.318}%
+\contentsline {subsubsection}{\numberline {7.5.1.319}\_\_SIZEOF\_FLOAT128\_\_}{195}{subsubsection.7.5.1.319}%
+\contentsline {subsubsection}{\numberline {7.5.1.320}\_\_SIZEOF\_FLOAT80\_\_}{196}{subsubsection.7.5.1.320}%
+\contentsline {subsubsection}{\numberline {7.5.1.321}\_\_SIZEOF\_FLOAT\_\_}{196}{subsubsection.7.5.1.321}%
+\contentsline {subsubsection}{\numberline {7.5.1.322}\_\_SIZEOF\_INT128\_\_}{196}{subsubsection.7.5.1.322}%
+\contentsline {subsubsection}{\numberline {7.5.1.323}\_\_SIZEOF\_INT\_\_}{196}{subsubsection.7.5.1.323}%
+\contentsline {subsubsection}{\numberline {7.5.1.324}\_\_SIZEOF\_LONG\_\_}{196}{subsubsection.7.5.1.324}%
+\contentsline {subsubsection}{\numberline {7.5.1.325}\_\_SIZEOF\_LONG\_DOUBLE\_\_}{196}{subsubsection.7.5.1.325}%
+\contentsline {subsubsection}{\numberline {7.5.1.326}\_\_SIZEOF\_LONG\_LONG\_\_}{196}{subsubsection.7.5.1.326}%
+\contentsline {subsubsection}{\numberline {7.5.1.327}\_\_SIZEOF\_POINTER\_\_}{196}{subsubsection.7.5.1.327}%
+\contentsline {subsubsection}{\numberline {7.5.1.328}\_\_SIZEOF\_PTRDIFF\_T\_\_}{197}{subsubsection.7.5.1.328}%
+\contentsline {subsubsection}{\numberline {7.5.1.329}\_\_SIZEOF\_SHORT\_\_}{197}{subsubsection.7.5.1.329}%
+\contentsline {subsubsection}{\numberline {7.5.1.330}\_\_SIZEOF\_SIZE\_T\_\_}{197}{subsubsection.7.5.1.330}%
+\contentsline {subsubsection}{\numberline {7.5.1.331}\_\_SIZEOF\_WCHAR\_T\_\_}{197}{subsubsection.7.5.1.331}%
+\contentsline {subsubsection}{\numberline {7.5.1.332}\_\_SIZEOF\_WINT\_T\_\_}{197}{subsubsection.7.5.1.332}%
+\contentsline {subsubsection}{\numberline {7.5.1.333}\_\_SSE2\_\_}{197}{subsubsection.7.5.1.333}%
+\contentsline {subsubsection}{\numberline {7.5.1.334}\_\_SSE2\_MATH\_\_}{197}{subsubsection.7.5.1.334}%
+\contentsline {subsubsection}{\numberline {7.5.1.335}\_\_SSE\_\_}{197}{subsubsection.7.5.1.335}%
+\contentsline {subsubsection}{\numberline {7.5.1.336}\_\_SSE\_MATH\_\_}{198}{subsubsection.7.5.1.336}%
+\contentsline {subsubsection}{\numberline {7.5.1.337}\_\_SSP\_STRONG\_\_}{198}{subsubsection.7.5.1.337}%
+\contentsline {subsubsection}{\numberline {7.5.1.338}\_\_STDC\_\_}{198}{subsubsection.7.5.1.338}%
+\contentsline {subsubsection}{\numberline {7.5.1.339}\_\_STDC\_HOSTED\_\_}{198}{subsubsection.7.5.1.339}%
+\contentsline {subsubsection}{\numberline {7.5.1.340}\_\_STDC\_IEC\_559\_\_}{198}{subsubsection.7.5.1.340}%
+\contentsline {subsubsection}{\numberline {7.5.1.341}\_\_STDC\_IEC\_559\_COMPLEX\_\_}{198}{subsubsection.7.5.1.341}%
+\contentsline {subsubsection}{\numberline {7.5.1.342}\_\_STDC\_ISO\_10646\_\_}{198}{subsubsection.7.5.1.342}%
+\contentsline {subsubsection}{\numberline {7.5.1.343}\_\_STDC\_UTF\_16\_\_}{198}{subsubsection.7.5.1.343}%
+\contentsline {subsubsection}{\numberline {7.5.1.344}\_\_STDC\_UTF\_32\_\_}{199}{subsubsection.7.5.1.344}%
+\contentsline {subsubsection}{\numberline {7.5.1.345}\_\_UINT16\_C}{199}{subsubsection.7.5.1.345}%
+\contentsline {subsubsection}{\numberline {7.5.1.346}\_\_UINT16\_MAX\_\_}{199}{subsubsection.7.5.1.346}%
+\contentsline {subsubsection}{\numberline {7.5.1.347}\_\_UINT16\_TYPE\_\_}{199}{subsubsection.7.5.1.347}%
+\contentsline {subsubsection}{\numberline {7.5.1.348}\_\_UINT32\_C}{199}{subsubsection.7.5.1.348}%
+\contentsline {subsubsection}{\numberline {7.5.1.349}\_\_UINT32\_MAX\_\_}{199}{subsubsection.7.5.1.349}%
+\contentsline {subsubsection}{\numberline {7.5.1.350}\_\_UINT32\_TYPE\_\_}{199}{subsubsection.7.5.1.350}%
+\contentsline {subsubsection}{\numberline {7.5.1.351}\_\_UINT64\_C}{200}{subsubsection.7.5.1.351}%
+\contentsline {subsubsection}{\numberline {7.5.1.352}\_\_UINT64\_MAX\_\_}{200}{subsubsection.7.5.1.352}%
+\contentsline {subsubsection}{\numberline {7.5.1.353}\_\_UINT64\_TYPE\_\_}{200}{subsubsection.7.5.1.353}%
+\contentsline {subsubsection}{\numberline {7.5.1.354}\_\_UINT8\_C}{200}{subsubsection.7.5.1.354}%
+\contentsline {subsubsection}{\numberline {7.5.1.355}\_\_UINT8\_MAX\_\_}{200}{subsubsection.7.5.1.355}%
+\contentsline {subsubsection}{\numberline {7.5.1.356}\_\_UINT8\_TYPE\_\_}{200}{subsubsection.7.5.1.356}%
+\contentsline {subsubsection}{\numberline {7.5.1.357}\_\_UINT\_FAST16\_MAX\_\_}{200}{subsubsection.7.5.1.357}%
+\contentsline {subsubsection}{\numberline {7.5.1.358}\_\_UINT\_FAST16\_TYPE\_\_}{201}{subsubsection.7.5.1.358}%
+\contentsline {subsubsection}{\numberline {7.5.1.359}\_\_UINT\_FAST32\_MAX\_\_}{201}{subsubsection.7.5.1.359}%
+\contentsline {subsubsection}{\numberline {7.5.1.360}\_\_UINT\_FAST32\_TYPE\_\_}{201}{subsubsection.7.5.1.360}%
+\contentsline {subsubsection}{\numberline {7.5.1.361}\_\_UINT\_FAST64\_MAX\_\_}{201}{subsubsection.7.5.1.361}%
+\contentsline {subsubsection}{\numberline {7.5.1.362}\_\_UINT\_FAST64\_TYPE\_\_}{201}{subsubsection.7.5.1.362}%
+\contentsline {subsubsection}{\numberline {7.5.1.363}\_\_UINT\_FAST8\_MAX\_\_}{201}{subsubsection.7.5.1.363}%
+\contentsline {subsubsection}{\numberline {7.5.1.364}\_\_UINT\_FAST8\_TYPE\_\_}{201}{subsubsection.7.5.1.364}%
+\contentsline {subsubsection}{\numberline {7.5.1.365}\_\_UINT\_LEAST16\_MAX\_\_}{201}{subsubsection.7.5.1.365}%
+\contentsline {subsubsection}{\numberline {7.5.1.366}\_\_UINT\_LEAST16\_TYPE\_\_}{202}{subsubsection.7.5.1.366}%
+\contentsline {subsubsection}{\numberline {7.5.1.367}\_\_UINT\_LEAST32\_MAX\_\_}{202}{subsubsection.7.5.1.367}%
+\contentsline {subsubsection}{\numberline {7.5.1.368}\_\_UINT\_LEAST32\_TYPE\_\_}{202}{subsubsection.7.5.1.368}%
+\contentsline {subsubsection}{\numberline {7.5.1.369}\_\_UINT\_LEAST64\_MAX\_\_}{202}{subsubsection.7.5.1.369}%
+\contentsline {subsubsection}{\numberline {7.5.1.370}\_\_UINT\_LEAST64\_TYPE\_\_}{202}{subsubsection.7.5.1.370}%
+\contentsline {subsubsection}{\numberline {7.5.1.371}\_\_UINT\_LEAST8\_MAX\_\_}{202}{subsubsection.7.5.1.371}%
+\contentsline {subsubsection}{\numberline {7.5.1.372}\_\_UINT\_LEAST8\_TYPE\_\_}{202}{subsubsection.7.5.1.372}%
+\contentsline {subsubsection}{\numberline {7.5.1.373}\_\_UINTMAX\_C}{202}{subsubsection.7.5.1.373}%
+\contentsline {subsubsection}{\numberline {7.5.1.374}\_\_UINTMAX\_MAX\_\_}{203}{subsubsection.7.5.1.374}%
+\contentsline {subsubsection}{\numberline {7.5.1.375}\_\_UINTMAX\_TYPE\_\_}{203}{subsubsection.7.5.1.375}%
+\contentsline {subsubsection}{\numberline {7.5.1.376}\_\_UINTPTR\_MAX\_\_}{203}{subsubsection.7.5.1.376}%
+\contentsline {subsubsection}{\numberline {7.5.1.377}\_\_UINTPTR\_TYPE\_\_}{203}{subsubsection.7.5.1.377}%
+\contentsline {subsubsection}{\numberline {7.5.1.378}\_\_unix}{203}{subsubsection.7.5.1.378}%
+\contentsline {subsubsection}{\numberline {7.5.1.379}\_\_unix\_\_}{203}{subsubsection.7.5.1.379}%
+\contentsline {subsubsection}{\numberline {7.5.1.380}\_\_USER\_LABEL\_PREFIX\_\_}{203}{subsubsection.7.5.1.380}%
+\contentsline {subsubsection}{\numberline {7.5.1.381}\_\_VERSION\_\_}{203}{subsubsection.7.5.1.381}%
+\contentsline {subsubsection}{\numberline {7.5.1.382}\_\_WCHAR\_MAX\_\_}{204}{subsubsection.7.5.1.382}%
+\contentsline {subsubsection}{\numberline {7.5.1.383}\_\_WCHAR\_MIN\_\_}{204}{subsubsection.7.5.1.383}%
+\contentsline {subsubsection}{\numberline {7.5.1.384}\_\_WCHAR\_TYPE\_\_}{204}{subsubsection.7.5.1.384}%
+\contentsline {subsubsection}{\numberline {7.5.1.385}\_\_WCHAR\_WIDTH\_\_}{204}{subsubsection.7.5.1.385}%
+\contentsline {subsubsection}{\numberline {7.5.1.386}\_\_WINT\_MAX\_\_}{204}{subsubsection.7.5.1.386}%
+\contentsline {subsubsection}{\numberline {7.5.1.387}\_\_WINT\_MIN\_\_}{204}{subsubsection.7.5.1.387}%
+\contentsline {subsubsection}{\numberline {7.5.1.388}\_\_WINT\_TYPE\_\_}{204}{subsubsection.7.5.1.388}%
+\contentsline {subsubsection}{\numberline {7.5.1.389}\_\_WINT\_WIDTH\_\_}{204}{subsubsection.7.5.1.389}%
+\contentsline {subsubsection}{\numberline {7.5.1.390}\_\_x86\_64}{205}{subsubsection.7.5.1.390}%
+\contentsline {subsubsection}{\numberline {7.5.1.391}\_\_x86\_64\_\_}{205}{subsubsection.7.5.1.391}%
+\contentsline {subsubsection}{\numberline {7.5.1.392}\_GNU\_SOURCE}{205}{subsubsection.7.5.1.392}%
+\contentsline {subsubsection}{\numberline {7.5.1.393}\_LP64}{205}{subsubsection.7.5.1.393}%
+\contentsline {subsubsection}{\numberline {7.5.1.394}\_STDC\_PREDEF\_H}{205}{subsubsection.7.5.1.394}%
+\contentsline {subsubsection}{\numberline {7.5.1.395}ABI\_ID}{205}{subsubsection.7.5.1.395}%
+\contentsline {subsubsection}{\numberline {7.5.1.396}linux}{205}{subsubsection.7.5.1.396}%
+\contentsline {subsubsection}{\numberline {7.5.1.397}QT\_CORE\_LIB}{205}{subsubsection.7.5.1.397}%
+\contentsline {subsubsection}{\numberline {7.5.1.398}QT\_GUI\_LIB}{206}{subsubsection.7.5.1.398}%
+\contentsline {subsubsection}{\numberline {7.5.1.399}QT\_NO\_DEBUG}{206}{subsubsection.7.5.1.399}%
+\contentsline {subsubsection}{\numberline {7.5.1.400}QT\_WIDGETS\_LIB}{206}{subsubsection.7.5.1.400}%
+\contentsline {subsubsection}{\numberline {7.5.1.401}SIZEOF\_DPTR}{206}{subsubsection.7.5.1.401}%
+\contentsline {subsubsection}{\numberline {7.5.1.402}unix}{206}{subsubsection.7.5.1.402}%
+\contentsline {section}{\numberline {7.6}Dokumentacja pliku cmake-\/build-\/debug/calendar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}autogen/moc\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}predefs.h}{206}{section.7.6}%
+\contentsline {subsection}{\numberline {7.6.1}Dokumentacja definicji}{214}{subsection.7.6.1}%
+\contentsline {subsubsection}{\numberline {7.6.1.1}\_\_amd64}{214}{subsubsection.7.6.1.1}%
+\contentsline {subsubsection}{\numberline {7.6.1.2}\_\_amd64\_\_}{214}{subsubsection.7.6.1.2}%
+\contentsline {subsubsection}{\numberline {7.6.1.3}\_\_ATOMIC\_ACQ\_REL}{214}{subsubsection.7.6.1.3}%
+\contentsline {subsubsection}{\numberline {7.6.1.4}\_\_ATOMIC\_ACQUIRE}{214}{subsubsection.7.6.1.4}%
+\contentsline {subsubsection}{\numberline {7.6.1.5}\_\_ATOMIC\_CONSUME}{214}{subsubsection.7.6.1.5}%
+\contentsline {subsubsection}{\numberline {7.6.1.6}\_\_ATOMIC\_HLE\_ACQUIRE}{214}{subsubsection.7.6.1.6}%
+\contentsline {subsubsection}{\numberline {7.6.1.7}\_\_ATOMIC\_HLE\_RELEASE}{214}{subsubsection.7.6.1.7}%
+\contentsline {subsubsection}{\numberline {7.6.1.8}\_\_ATOMIC\_RELAXED}{215}{subsubsection.7.6.1.8}%
+\contentsline {subsubsection}{\numberline {7.6.1.9}\_\_ATOMIC\_RELEASE}{215}{subsubsection.7.6.1.9}%
+\contentsline {subsubsection}{\numberline {7.6.1.10}\_\_ATOMIC\_SEQ\_CST}{215}{subsubsection.7.6.1.10}%
+\contentsline {subsubsection}{\numberline {7.6.1.11}\_\_BIGGEST\_ALIGNMENT\_\_}{215}{subsubsection.7.6.1.11}%
+\contentsline {subsubsection}{\numberline {7.6.1.12}\_\_BYTE\_ORDER\_\_}{215}{subsubsection.7.6.1.12}%
+\contentsline {subsubsection}{\numberline {7.6.1.13}\_\_CHAR16\_TYPE\_\_}{215}{subsubsection.7.6.1.13}%
+\contentsline {subsubsection}{\numberline {7.6.1.14}\_\_CHAR32\_TYPE\_\_}{215}{subsubsection.7.6.1.14}%
+\contentsline {subsubsection}{\numberline {7.6.1.15}\_\_CHAR\_BIT\_\_}{215}{subsubsection.7.6.1.15}%
+\contentsline {subsubsection}{\numberline {7.6.1.16}\_\_code\_model\_small\_\_}{216}{subsubsection.7.6.1.16}%
+\contentsline {subsubsection}{\numberline {7.6.1.17}\_\_cplusplus}{216}{subsubsection.7.6.1.17}%
+\contentsline {subsubsection}{\numberline {7.6.1.18}\_\_cpp\_aggregate\_nsdmi}{216}{subsubsection.7.6.1.18}%
+\contentsline {subsubsection}{\numberline {7.6.1.19}\_\_cpp\_alias\_templates}{216}{subsubsection.7.6.1.19}%
+\contentsline {subsubsection}{\numberline {7.6.1.20}\_\_cpp\_attributes}{216}{subsubsection.7.6.1.20}%
+\contentsline {subsubsection}{\numberline {7.6.1.21}\_\_cpp\_binary\_literals}{216}{subsubsection.7.6.1.21}%
+\contentsline {subsubsection}{\numberline {7.6.1.22}\_\_cpp\_constexpr}{216}{subsubsection.7.6.1.22}%
+\contentsline {subsubsection}{\numberline {7.6.1.23}\_\_cpp\_decltype}{216}{subsubsection.7.6.1.23}%
+\contentsline {subsubsection}{\numberline {7.6.1.24}\_\_cpp\_decltype\_auto}{217}{subsubsection.7.6.1.24}%
+\contentsline {subsubsection}{\numberline {7.6.1.25}\_\_cpp\_delegating\_constructors}{217}{subsubsection.7.6.1.25}%
+\contentsline {subsubsection}{\numberline {7.6.1.26}\_\_cpp\_digit\_separators}{217}{subsubsection.7.6.1.26}%
+\contentsline {subsubsection}{\numberline {7.6.1.27}\_\_cpp\_exceptions}{217}{subsubsection.7.6.1.27}%
+\contentsline {subsubsection}{\numberline {7.6.1.28}\_\_cpp\_generic\_lambdas}{217}{subsubsection.7.6.1.28}%
+\contentsline {subsubsection}{\numberline {7.6.1.29}\_\_cpp\_hex\_float}{217}{subsubsection.7.6.1.29}%
+\contentsline {subsubsection}{\numberline {7.6.1.30}\_\_cpp\_inheriting\_constructors}{217}{subsubsection.7.6.1.30}%
+\contentsline {subsubsection}{\numberline {7.6.1.31}\_\_cpp\_init\_captures}{217}{subsubsection.7.6.1.31}%
+\contentsline {subsubsection}{\numberline {7.6.1.32}\_\_cpp\_initializer\_lists}{218}{subsubsection.7.6.1.32}%
+\contentsline {subsubsection}{\numberline {7.6.1.33}\_\_cpp\_lambdas}{218}{subsubsection.7.6.1.33}%
+\contentsline {subsubsection}{\numberline {7.6.1.34}\_\_cpp\_nsdmi}{218}{subsubsection.7.6.1.34}%
+\contentsline {subsubsection}{\numberline {7.6.1.35}\_\_cpp\_range\_based\_for}{218}{subsubsection.7.6.1.35}%
+\contentsline {subsubsection}{\numberline {7.6.1.36}\_\_cpp\_raw\_strings}{218}{subsubsection.7.6.1.36}%
+\contentsline {subsubsection}{\numberline {7.6.1.37}\_\_cpp\_ref\_qualifiers}{218}{subsubsection.7.6.1.37}%
+\contentsline {subsubsection}{\numberline {7.6.1.38}\_\_cpp\_return\_type\_deduction}{218}{subsubsection.7.6.1.38}%
+\contentsline {subsubsection}{\numberline {7.6.1.39}\_\_cpp\_rtti}{218}{subsubsection.7.6.1.39}%
+\contentsline {subsubsection}{\numberline {7.6.1.40}\_\_cpp\_runtime\_arrays}{219}{subsubsection.7.6.1.40}%
+\contentsline {subsubsection}{\numberline {7.6.1.41}\_\_cpp\_rvalue\_reference}{219}{subsubsection.7.6.1.41}%
+\contentsline {subsubsection}{\numberline {7.6.1.42}\_\_cpp\_rvalue\_references}{219}{subsubsection.7.6.1.42}%
+\contentsline {subsubsection}{\numberline {7.6.1.43}\_\_cpp\_sized\_deallocation}{219}{subsubsection.7.6.1.43}%
+\contentsline {subsubsection}{\numberline {7.6.1.44}\_\_cpp\_static\_assert}{219}{subsubsection.7.6.1.44}%
+\contentsline {subsubsection}{\numberline {7.6.1.45}\_\_cpp\_threadsafe\_static\_init}{219}{subsubsection.7.6.1.45}%
+\contentsline {subsubsection}{\numberline {7.6.1.46}\_\_cpp\_unicode\_characters}{219}{subsubsection.7.6.1.46}%
+\contentsline {subsubsection}{\numberline {7.6.1.47}\_\_cpp\_unicode\_literals}{219}{subsubsection.7.6.1.47}%
+\contentsline {subsubsection}{\numberline {7.6.1.48}\_\_cpp\_user\_defined\_literals}{220}{subsubsection.7.6.1.48}%
+\contentsline {subsubsection}{\numberline {7.6.1.49}\_\_cpp\_variable\_templates}{220}{subsubsection.7.6.1.49}%
+\contentsline {subsubsection}{\numberline {7.6.1.50}\_\_cpp\_variadic\_templates}{220}{subsubsection.7.6.1.50}%
+\contentsline {subsubsection}{\numberline {7.6.1.51}\_\_DBL\_DECIMAL\_DIG\_\_}{220}{subsubsection.7.6.1.51}%
+\contentsline {subsubsection}{\numberline {7.6.1.52}\_\_DBL\_DENORM\_MIN\_\_}{220}{subsubsection.7.6.1.52}%
+\contentsline {subsubsection}{\numberline {7.6.1.53}\_\_DBL\_DIG\_\_}{220}{subsubsection.7.6.1.53}%
+\contentsline {subsubsection}{\numberline {7.6.1.54}\_\_DBL\_EPSILON\_\_}{220}{subsubsection.7.6.1.54}%
+\contentsline {subsubsection}{\numberline {7.6.1.55}\_\_DBL\_HAS\_DENORM\_\_}{220}{subsubsection.7.6.1.55}%
+\contentsline {subsubsection}{\numberline {7.6.1.56}\_\_DBL\_HAS\_INFINITY\_\_}{221}{subsubsection.7.6.1.56}%
+\contentsline {subsubsection}{\numberline {7.6.1.57}\_\_DBL\_HAS\_QUIET\_NAN\_\_}{221}{subsubsection.7.6.1.57}%
+\contentsline {subsubsection}{\numberline {7.6.1.58}\_\_DBL\_MANT\_DIG\_\_}{221}{subsubsection.7.6.1.58}%
+\contentsline {subsubsection}{\numberline {7.6.1.59}\_\_DBL\_MAX\_10\_EXP\_\_}{221}{subsubsection.7.6.1.59}%
+\contentsline {subsubsection}{\numberline {7.6.1.60}\_\_DBL\_MAX\_\_}{221}{subsubsection.7.6.1.60}%
+\contentsline {subsubsection}{\numberline {7.6.1.61}\_\_DBL\_MAX\_EXP\_\_}{221}{subsubsection.7.6.1.61}%
+\contentsline {subsubsection}{\numberline {7.6.1.62}\_\_DBL\_MIN\_10\_EXP\_\_}{221}{subsubsection.7.6.1.62}%
+\contentsline {subsubsection}{\numberline {7.6.1.63}\_\_DBL\_MIN\_\_}{221}{subsubsection.7.6.1.63}%
+\contentsline {subsubsection}{\numberline {7.6.1.64}\_\_DBL\_MIN\_EXP\_\_}{222}{subsubsection.7.6.1.64}%
+\contentsline {subsubsection}{\numberline {7.6.1.65}\_\_DBL\_NORM\_MAX\_\_}{222}{subsubsection.7.6.1.65}%
+\contentsline {subsubsection}{\numberline {7.6.1.66}\_\_DEC128\_EPSILON\_\_}{222}{subsubsection.7.6.1.66}%
+\contentsline {subsubsection}{\numberline {7.6.1.67}\_\_DEC128\_MANT\_DIG\_\_}{222}{subsubsection.7.6.1.67}%
+\contentsline {subsubsection}{\numberline {7.6.1.68}\_\_DEC128\_MAX\_\_}{222}{subsubsection.7.6.1.68}%
+\contentsline {subsubsection}{\numberline {7.6.1.69}\_\_DEC128\_MAX\_EXP\_\_}{222}{subsubsection.7.6.1.69}%
+\contentsline {subsubsection}{\numberline {7.6.1.70}\_\_DEC128\_MIN\_\_}{222}{subsubsection.7.6.1.70}%
+\contentsline {subsubsection}{\numberline {7.6.1.71}\_\_DEC128\_MIN\_EXP\_\_}{222}{subsubsection.7.6.1.71}%
+\contentsline {subsubsection}{\numberline {7.6.1.72}\_\_DEC128\_SUBNORMAL\_MIN\_\_}{223}{subsubsection.7.6.1.72}%
+\contentsline {subsubsection}{\numberline {7.6.1.73}\_\_DEC32\_EPSILON\_\_}{223}{subsubsection.7.6.1.73}%
+\contentsline {subsubsection}{\numberline {7.6.1.74}\_\_DEC32\_MANT\_DIG\_\_}{223}{subsubsection.7.6.1.74}%
+\contentsline {subsubsection}{\numberline {7.6.1.75}\_\_DEC32\_MAX\_\_}{223}{subsubsection.7.6.1.75}%
+\contentsline {subsubsection}{\numberline {7.6.1.76}\_\_DEC32\_MAX\_EXP\_\_}{223}{subsubsection.7.6.1.76}%
+\contentsline {subsubsection}{\numberline {7.6.1.77}\_\_DEC32\_MIN\_\_}{223}{subsubsection.7.6.1.77}%
+\contentsline {subsubsection}{\numberline {7.6.1.78}\_\_DEC32\_MIN\_EXP\_\_}{223}{subsubsection.7.6.1.78}%
+\contentsline {subsubsection}{\numberline {7.6.1.79}\_\_DEC32\_SUBNORMAL\_MIN\_\_}{223}{subsubsection.7.6.1.79}%
+\contentsline {subsubsection}{\numberline {7.6.1.80}\_\_DEC64\_EPSILON\_\_}{224}{subsubsection.7.6.1.80}%
+\contentsline {subsubsection}{\numberline {7.6.1.81}\_\_DEC64\_MANT\_DIG\_\_}{224}{subsubsection.7.6.1.81}%
+\contentsline {subsubsection}{\numberline {7.6.1.82}\_\_DEC64\_MAX\_\_}{224}{subsubsection.7.6.1.82}%
+\contentsline {subsubsection}{\numberline {7.6.1.83}\_\_DEC64\_MAX\_EXP\_\_}{224}{subsubsection.7.6.1.83}%
+\contentsline {subsubsection}{\numberline {7.6.1.84}\_\_DEC64\_MIN\_\_}{224}{subsubsection.7.6.1.84}%
+\contentsline {subsubsection}{\numberline {7.6.1.85}\_\_DEC64\_MIN\_EXP\_\_}{224}{subsubsection.7.6.1.85}%
+\contentsline {subsubsection}{\numberline {7.6.1.86}\_\_DEC64\_SUBNORMAL\_MIN\_\_}{224}{subsubsection.7.6.1.86}%
+\contentsline {subsubsection}{\numberline {7.6.1.87}\_\_DEC\_EVAL\_METHOD\_\_}{224}{subsubsection.7.6.1.87}%
+\contentsline {subsubsection}{\numberline {7.6.1.88}\_\_DECIMAL\_BID\_FORMAT\_\_}{225}{subsubsection.7.6.1.88}%
+\contentsline {subsubsection}{\numberline {7.6.1.89}\_\_DECIMAL\_DIG\_\_}{225}{subsubsection.7.6.1.89}%
+\contentsline {subsubsection}{\numberline {7.6.1.90}\_\_DEPRECATED}{225}{subsubsection.7.6.1.90}%
+\contentsline {subsubsection}{\numberline {7.6.1.91}\_\_ELF\_\_}{225}{subsubsection.7.6.1.91}%
+\contentsline {subsubsection}{\numberline {7.6.1.92}\_\_EXCEPTIONS}{225}{subsubsection.7.6.1.92}%
+\contentsline {subsubsection}{\numberline {7.6.1.93}\_\_FINITE\_MATH\_ONLY\_\_}{225}{subsubsection.7.6.1.93}%
+\contentsline {subsubsection}{\numberline {7.6.1.94}\_\_FLOAT\_WORD\_ORDER\_\_}{225}{subsubsection.7.6.1.94}%
+\contentsline {subsubsection}{\numberline {7.6.1.95}\_\_FLT128\_DECIMAL\_DIG\_\_}{225}{subsubsection.7.6.1.95}%
+\contentsline {subsubsection}{\numberline {7.6.1.96}\_\_FLT128\_DENORM\_MIN\_\_}{226}{subsubsection.7.6.1.96}%
+\contentsline {subsubsection}{\numberline {7.6.1.97}\_\_FLT128\_DIG\_\_}{226}{subsubsection.7.6.1.97}%
+\contentsline {subsubsection}{\numberline {7.6.1.98}\_\_FLT128\_EPSILON\_\_}{226}{subsubsection.7.6.1.98}%
+\contentsline {subsubsection}{\numberline {7.6.1.99}\_\_FLT128\_HAS\_DENORM\_\_}{226}{subsubsection.7.6.1.99}%
+\contentsline {subsubsection}{\numberline {7.6.1.100}\_\_FLT128\_HAS\_INFINITY\_\_}{226}{subsubsection.7.6.1.100}%
+\contentsline {subsubsection}{\numberline {7.6.1.101}\_\_FLT128\_HAS\_QUIET\_NAN\_\_}{226}{subsubsection.7.6.1.101}%
+\contentsline {subsubsection}{\numberline {7.6.1.102}\_\_FLT128\_MANT\_DIG\_\_}{226}{subsubsection.7.6.1.102}%
+\contentsline {subsubsection}{\numberline {7.6.1.103}\_\_FLT128\_MAX\_10\_EXP\_\_}{226}{subsubsection.7.6.1.103}%
+\contentsline {subsubsection}{\numberline {7.6.1.104}\_\_FLT128\_MAX\_\_}{227}{subsubsection.7.6.1.104}%
+\contentsline {subsubsection}{\numberline {7.6.1.105}\_\_FLT128\_MAX\_EXP\_\_}{227}{subsubsection.7.6.1.105}%
+\contentsline {subsubsection}{\numberline {7.6.1.106}\_\_FLT128\_MIN\_10\_EXP\_\_}{227}{subsubsection.7.6.1.106}%
+\contentsline {subsubsection}{\numberline {7.6.1.107}\_\_FLT128\_MIN\_\_}{227}{subsubsection.7.6.1.107}%
+\contentsline {subsubsection}{\numberline {7.6.1.108}\_\_FLT128\_MIN\_EXP\_\_}{227}{subsubsection.7.6.1.108}%
+\contentsline {subsubsection}{\numberline {7.6.1.109}\_\_FLT128\_NORM\_MAX\_\_}{227}{subsubsection.7.6.1.109}%
+\contentsline {subsubsection}{\numberline {7.6.1.110}\_\_FLT32\_DECIMAL\_DIG\_\_}{227}{subsubsection.7.6.1.110}%
+\contentsline {subsubsection}{\numberline {7.6.1.111}\_\_FLT32\_DENORM\_MIN\_\_}{227}{subsubsection.7.6.1.111}%
+\contentsline {subsubsection}{\numberline {7.6.1.112}\_\_FLT32\_DIG\_\_}{228}{subsubsection.7.6.1.112}%
+\contentsline {subsubsection}{\numberline {7.6.1.113}\_\_FLT32\_EPSILON\_\_}{228}{subsubsection.7.6.1.113}%
+\contentsline {subsubsection}{\numberline {7.6.1.114}\_\_FLT32\_HAS\_DENORM\_\_}{228}{subsubsection.7.6.1.114}%
+\contentsline {subsubsection}{\numberline {7.6.1.115}\_\_FLT32\_HAS\_INFINITY\_\_}{228}{subsubsection.7.6.1.115}%
+\contentsline {subsubsection}{\numberline {7.6.1.116}\_\_FLT32\_HAS\_QUIET\_NAN\_\_}{228}{subsubsection.7.6.1.116}%
+\contentsline {subsubsection}{\numberline {7.6.1.117}\_\_FLT32\_MANT\_DIG\_\_}{228}{subsubsection.7.6.1.117}%
+\contentsline {subsubsection}{\numberline {7.6.1.118}\_\_FLT32\_MAX\_10\_EXP\_\_}{228}{subsubsection.7.6.1.118}%
+\contentsline {subsubsection}{\numberline {7.6.1.119}\_\_FLT32\_MAX\_\_}{228}{subsubsection.7.6.1.119}%
+\contentsline {subsubsection}{\numberline {7.6.1.120}\_\_FLT32\_MAX\_EXP\_\_}{229}{subsubsection.7.6.1.120}%
+\contentsline {subsubsection}{\numberline {7.6.1.121}\_\_FLT32\_MIN\_10\_EXP\_\_}{229}{subsubsection.7.6.1.121}%
+\contentsline {subsubsection}{\numberline {7.6.1.122}\_\_FLT32\_MIN\_\_}{229}{subsubsection.7.6.1.122}%
+\contentsline {subsubsection}{\numberline {7.6.1.123}\_\_FLT32\_MIN\_EXP\_\_}{229}{subsubsection.7.6.1.123}%
+\contentsline {subsubsection}{\numberline {7.6.1.124}\_\_FLT32\_NORM\_MAX\_\_}{229}{subsubsection.7.6.1.124}%
+\contentsline {subsubsection}{\numberline {7.6.1.125}\_\_FLT32X\_DECIMAL\_DIG\_\_}{229}{subsubsection.7.6.1.125}%
+\contentsline {subsubsection}{\numberline {7.6.1.126}\_\_FLT32X\_DENORM\_MIN\_\_}{229}{subsubsection.7.6.1.126}%
+\contentsline {subsubsection}{\numberline {7.6.1.127}\_\_FLT32X\_DIG\_\_}{229}{subsubsection.7.6.1.127}%
+\contentsline {subsubsection}{\numberline {7.6.1.128}\_\_FLT32X\_EPSILON\_\_}{230}{subsubsection.7.6.1.128}%
+\contentsline {subsubsection}{\numberline {7.6.1.129}\_\_FLT32X\_HAS\_DENORM\_\_}{230}{subsubsection.7.6.1.129}%
+\contentsline {subsubsection}{\numberline {7.6.1.130}\_\_FLT32X\_HAS\_INFINITY\_\_}{230}{subsubsection.7.6.1.130}%
+\contentsline {subsubsection}{\numberline {7.6.1.131}\_\_FLT32X\_HAS\_QUIET\_NAN\_\_}{230}{subsubsection.7.6.1.131}%
+\contentsline {subsubsection}{\numberline {7.6.1.132}\_\_FLT32X\_MANT\_DIG\_\_}{230}{subsubsection.7.6.1.132}%
+\contentsline {subsubsection}{\numberline {7.6.1.133}\_\_FLT32X\_MAX\_10\_EXP\_\_}{230}{subsubsection.7.6.1.133}%
+\contentsline {subsubsection}{\numberline {7.6.1.134}\_\_FLT32X\_MAX\_\_}{230}{subsubsection.7.6.1.134}%
+\contentsline {subsubsection}{\numberline {7.6.1.135}\_\_FLT32X\_MAX\_EXP\_\_}{230}{subsubsection.7.6.1.135}%
+\contentsline {subsubsection}{\numberline {7.6.1.136}\_\_FLT32X\_MIN\_10\_EXP\_\_}{231}{subsubsection.7.6.1.136}%
+\contentsline {subsubsection}{\numberline {7.6.1.137}\_\_FLT32X\_MIN\_\_}{231}{subsubsection.7.6.1.137}%
+\contentsline {subsubsection}{\numberline {7.6.1.138}\_\_FLT32X\_MIN\_EXP\_\_}{231}{subsubsection.7.6.1.138}%
+\contentsline {subsubsection}{\numberline {7.6.1.139}\_\_FLT32X\_NORM\_MAX\_\_}{231}{subsubsection.7.6.1.139}%
+\contentsline {subsubsection}{\numberline {7.6.1.140}\_\_FLT64\_DECIMAL\_DIG\_\_}{231}{subsubsection.7.6.1.140}%
+\contentsline {subsubsection}{\numberline {7.6.1.141}\_\_FLT64\_DENORM\_MIN\_\_}{231}{subsubsection.7.6.1.141}%
+\contentsline {subsubsection}{\numberline {7.6.1.142}\_\_FLT64\_DIG\_\_}{231}{subsubsection.7.6.1.142}%
+\contentsline {subsubsection}{\numberline {7.6.1.143}\_\_FLT64\_EPSILON\_\_}{231}{subsubsection.7.6.1.143}%
+\contentsline {subsubsection}{\numberline {7.6.1.144}\_\_FLT64\_HAS\_DENORM\_\_}{232}{subsubsection.7.6.1.144}%
+\contentsline {subsubsection}{\numberline {7.6.1.145}\_\_FLT64\_HAS\_INFINITY\_\_}{232}{subsubsection.7.6.1.145}%
+\contentsline {subsubsection}{\numberline {7.6.1.146}\_\_FLT64\_HAS\_QUIET\_NAN\_\_}{232}{subsubsection.7.6.1.146}%
+\contentsline {subsubsection}{\numberline {7.6.1.147}\_\_FLT64\_MANT\_DIG\_\_}{232}{subsubsection.7.6.1.147}%
+\contentsline {subsubsection}{\numberline {7.6.1.148}\_\_FLT64\_MAX\_10\_EXP\_\_}{232}{subsubsection.7.6.1.148}%
+\contentsline {subsubsection}{\numberline {7.6.1.149}\_\_FLT64\_MAX\_\_}{232}{subsubsection.7.6.1.149}%
+\contentsline {subsubsection}{\numberline {7.6.1.150}\_\_FLT64\_MAX\_EXP\_\_}{232}{subsubsection.7.6.1.150}%
+\contentsline {subsubsection}{\numberline {7.6.1.151}\_\_FLT64\_MIN\_10\_EXP\_\_}{232}{subsubsection.7.6.1.151}%
+\contentsline {subsubsection}{\numberline {7.6.1.152}\_\_FLT64\_MIN\_\_}{233}{subsubsection.7.6.1.152}%
+\contentsline {subsubsection}{\numberline {7.6.1.153}\_\_FLT64\_MIN\_EXP\_\_}{233}{subsubsection.7.6.1.153}%
+\contentsline {subsubsection}{\numberline {7.6.1.154}\_\_FLT64\_NORM\_MAX\_\_}{233}{subsubsection.7.6.1.154}%
+\contentsline {subsubsection}{\numberline {7.6.1.155}\_\_FLT64X\_DECIMAL\_DIG\_\_}{233}{subsubsection.7.6.1.155}%
+\contentsline {subsubsection}{\numberline {7.6.1.156}\_\_FLT64X\_DENORM\_MIN\_\_}{233}{subsubsection.7.6.1.156}%
+\contentsline {subsubsection}{\numberline {7.6.1.157}\_\_FLT64X\_DIG\_\_}{233}{subsubsection.7.6.1.157}%
+\contentsline {subsubsection}{\numberline {7.6.1.158}\_\_FLT64X\_EPSILON\_\_}{233}{subsubsection.7.6.1.158}%
+\contentsline {subsubsection}{\numberline {7.6.1.159}\_\_FLT64X\_HAS\_DENORM\_\_}{233}{subsubsection.7.6.1.159}%
+\contentsline {subsubsection}{\numberline {7.6.1.160}\_\_FLT64X\_HAS\_INFINITY\_\_}{234}{subsubsection.7.6.1.160}%
+\contentsline {subsubsection}{\numberline {7.6.1.161}\_\_FLT64X\_HAS\_QUIET\_NAN\_\_}{234}{subsubsection.7.6.1.161}%
+\contentsline {subsubsection}{\numberline {7.6.1.162}\_\_FLT64X\_MANT\_DIG\_\_}{234}{subsubsection.7.6.1.162}%
+\contentsline {subsubsection}{\numberline {7.6.1.163}\_\_FLT64X\_MAX\_10\_EXP\_\_}{234}{subsubsection.7.6.1.163}%
+\contentsline {subsubsection}{\numberline {7.6.1.164}\_\_FLT64X\_MAX\_\_}{234}{subsubsection.7.6.1.164}%
+\contentsline {subsubsection}{\numberline {7.6.1.165}\_\_FLT64X\_MAX\_EXP\_\_}{234}{subsubsection.7.6.1.165}%
+\contentsline {subsubsection}{\numberline {7.6.1.166}\_\_FLT64X\_MIN\_10\_EXP\_\_}{234}{subsubsection.7.6.1.166}%
+\contentsline {subsubsection}{\numberline {7.6.1.167}\_\_FLT64X\_MIN\_\_}{234}{subsubsection.7.6.1.167}%
+\contentsline {subsubsection}{\numberline {7.6.1.168}\_\_FLT64X\_MIN\_EXP\_\_}{235}{subsubsection.7.6.1.168}%
+\contentsline {subsubsection}{\numberline {7.6.1.169}\_\_FLT64X\_NORM\_MAX\_\_}{235}{subsubsection.7.6.1.169}%
+\contentsline {subsubsection}{\numberline {7.6.1.170}\_\_FLT\_DECIMAL\_DIG\_\_}{235}{subsubsection.7.6.1.170}%
+\contentsline {subsubsection}{\numberline {7.6.1.171}\_\_FLT\_DENORM\_MIN\_\_}{235}{subsubsection.7.6.1.171}%
+\contentsline {subsubsection}{\numberline {7.6.1.172}\_\_FLT\_DIG\_\_}{235}{subsubsection.7.6.1.172}%
+\contentsline {subsubsection}{\numberline {7.6.1.173}\_\_FLT\_EPSILON\_\_}{235}{subsubsection.7.6.1.173}%
+\contentsline {subsubsection}{\numberline {7.6.1.174}\_\_FLT\_EVAL\_METHOD\_\_}{235}{subsubsection.7.6.1.174}%
+\contentsline {subsubsection}{\numberline {7.6.1.175}\_\_FLT\_EVAL\_METHOD\_TS\_18661\_3\_\_}{235}{subsubsection.7.6.1.175}%
+\contentsline {subsubsection}{\numberline {7.6.1.176}\_\_FLT\_HAS\_DENORM\_\_}{236}{subsubsection.7.6.1.176}%
+\contentsline {subsubsection}{\numberline {7.6.1.177}\_\_FLT\_HAS\_INFINITY\_\_}{236}{subsubsection.7.6.1.177}%
+\contentsline {subsubsection}{\numberline {7.6.1.178}\_\_FLT\_HAS\_QUIET\_NAN\_\_}{236}{subsubsection.7.6.1.178}%
+\contentsline {subsubsection}{\numberline {7.6.1.179}\_\_FLT\_MANT\_DIG\_\_}{236}{subsubsection.7.6.1.179}%
+\contentsline {subsubsection}{\numberline {7.6.1.180}\_\_FLT\_MAX\_10\_EXP\_\_}{236}{subsubsection.7.6.1.180}%
+\contentsline {subsubsection}{\numberline {7.6.1.181}\_\_FLT\_MAX\_\_}{236}{subsubsection.7.6.1.181}%
+\contentsline {subsubsection}{\numberline {7.6.1.182}\_\_FLT\_MAX\_EXP\_\_}{236}{subsubsection.7.6.1.182}%
+\contentsline {subsubsection}{\numberline {7.6.1.183}\_\_FLT\_MIN\_10\_EXP\_\_}{236}{subsubsection.7.6.1.183}%
+\contentsline {subsubsection}{\numberline {7.6.1.184}\_\_FLT\_MIN\_\_}{237}{subsubsection.7.6.1.184}%
+\contentsline {subsubsection}{\numberline {7.6.1.185}\_\_FLT\_MIN\_EXP\_\_}{237}{subsubsection.7.6.1.185}%
+\contentsline {subsubsection}{\numberline {7.6.1.186}\_\_FLT\_NORM\_MAX\_\_}{237}{subsubsection.7.6.1.186}%
+\contentsline {subsubsection}{\numberline {7.6.1.187}\_\_FLT\_RADIX\_\_}{237}{subsubsection.7.6.1.187}%
+\contentsline {subsubsection}{\numberline {7.6.1.188}\_\_FXSR\_\_}{237}{subsubsection.7.6.1.188}%
+\contentsline {subsubsection}{\numberline {7.6.1.189}\_\_GCC\_ASM\_FLAG\_OUTPUTS\_\_}{237}{subsubsection.7.6.1.189}%
+\contentsline {subsubsection}{\numberline {7.6.1.190}\_\_GCC\_ATOMIC\_BOOL\_LOCK\_FREE}{237}{subsubsection.7.6.1.190}%
+\contentsline {subsubsection}{\numberline {7.6.1.191}\_\_GCC\_ATOMIC\_CHAR16\_T\_LOCK\_FREE}{237}{subsubsection.7.6.1.191}%
+\contentsline {subsubsection}{\numberline {7.6.1.192}\_\_GCC\_ATOMIC\_CHAR32\_T\_LOCK\_FREE}{238}{subsubsection.7.6.1.192}%
+\contentsline {subsubsection}{\numberline {7.6.1.193}\_\_GCC\_ATOMIC\_CHAR\_LOCK\_FREE}{238}{subsubsection.7.6.1.193}%
+\contentsline {subsubsection}{\numberline {7.6.1.194}\_\_GCC\_ATOMIC\_INT\_LOCK\_FREE}{238}{subsubsection.7.6.1.194}%
+\contentsline {subsubsection}{\numberline {7.6.1.195}\_\_GCC\_ATOMIC\_LLONG\_LOCK\_FREE}{238}{subsubsection.7.6.1.195}%
+\contentsline {subsubsection}{\numberline {7.6.1.196}\_\_GCC\_ATOMIC\_LONG\_LOCK\_FREE}{238}{subsubsection.7.6.1.196}%
+\contentsline {subsubsection}{\numberline {7.6.1.197}\_\_GCC\_ATOMIC\_POINTER\_LOCK\_FREE}{238}{subsubsection.7.6.1.197}%
+\contentsline {subsubsection}{\numberline {7.6.1.198}\_\_GCC\_ATOMIC\_SHORT\_LOCK\_FREE}{238}{subsubsection.7.6.1.198}%
+\contentsline {subsubsection}{\numberline {7.6.1.199}\_\_GCC\_ATOMIC\_TEST\_AND\_SET\_TRUEVAL}{238}{subsubsection.7.6.1.199}%
+\contentsline {subsubsection}{\numberline {7.6.1.200}\_\_GCC\_ATOMIC\_WCHAR\_T\_LOCK\_FREE}{239}{subsubsection.7.6.1.200}%
+\contentsline {subsubsection}{\numberline {7.6.1.201}\_\_GCC\_HAVE\_DWARF2\_CFI\_ASM}{239}{subsubsection.7.6.1.201}%
+\contentsline {subsubsection}{\numberline {7.6.1.202}\_\_GCC\_HAVE\_SYNC\_COMPARE\_AND\_SWAP\_1}{239}{subsubsection.7.6.1.202}%
+\contentsline {subsubsection}{\numberline {7.6.1.203}\_\_GCC\_HAVE\_SYNC\_COMPARE\_AND\_SWAP\_2}{239}{subsubsection.7.6.1.203}%
+\contentsline {subsubsection}{\numberline {7.6.1.204}\_\_GCC\_HAVE\_SYNC\_COMPARE\_AND\_SWAP\_4}{239}{subsubsection.7.6.1.204}%
+\contentsline {subsubsection}{\numberline {7.6.1.205}\_\_GCC\_HAVE\_SYNC\_COMPARE\_AND\_SWAP\_8}{239}{subsubsection.7.6.1.205}%
+\contentsline {subsubsection}{\numberline {7.6.1.206}\_\_GCC\_IEC\_559}{239}{subsubsection.7.6.1.206}%
+\contentsline {subsubsection}{\numberline {7.6.1.207}\_\_GCC\_IEC\_559\_COMPLEX}{239}{subsubsection.7.6.1.207}%
+\contentsline {subsubsection}{\numberline {7.6.1.208}\_\_GLIBCXX\_BITSIZE\_INT\_N\_0}{240}{subsubsection.7.6.1.208}%
+\contentsline {subsubsection}{\numberline {7.6.1.209}\_\_GLIBCXX\_TYPE\_INT\_N\_0}{240}{subsubsection.7.6.1.209}%
+\contentsline {subsubsection}{\numberline {7.6.1.210}\_\_gnu\_linux\_\_}{240}{subsubsection.7.6.1.210}%
+\contentsline {subsubsection}{\numberline {7.6.1.211}\_\_GNUC\_\_}{240}{subsubsection.7.6.1.211}%
+\contentsline {subsubsection}{\numberline {7.6.1.212}\_\_GNUC\_MINOR\_\_}{240}{subsubsection.7.6.1.212}%
+\contentsline {subsubsection}{\numberline {7.6.1.213}\_\_GNUC\_PATCHLEVEL\_\_}{240}{subsubsection.7.6.1.213}%
+\contentsline {subsubsection}{\numberline {7.6.1.214}\_\_GNUC\_STDC\_INLINE\_\_}{240}{subsubsection.7.6.1.214}%
+\contentsline {subsubsection}{\numberline {7.6.1.215}\_\_GNUG\_\_}{240}{subsubsection.7.6.1.215}%
+\contentsline {subsubsection}{\numberline {7.6.1.216}\_\_GXX\_ABI\_VERSION}{241}{subsubsection.7.6.1.216}%
+\contentsline {subsubsection}{\numberline {7.6.1.217}\_\_GXX\_EXPERIMENTAL\_CXX0X\_\_}{241}{subsubsection.7.6.1.217}%
+\contentsline {subsubsection}{\numberline {7.6.1.218}\_\_GXX\_RTTI}{241}{subsubsection.7.6.1.218}%
+\contentsline {subsubsection}{\numberline {7.6.1.219}\_\_GXX\_WEAK\_\_}{241}{subsubsection.7.6.1.219}%
+\contentsline {subsubsection}{\numberline {7.6.1.220}\_\_HAVE\_SPECULATION\_SAFE\_VALUE}{241}{subsubsection.7.6.1.220}%
+\contentsline {subsubsection}{\numberline {7.6.1.221}\_\_INT16\_C}{241}{subsubsection.7.6.1.221}%
+\contentsline {subsubsection}{\numberline {7.6.1.222}\_\_INT16\_MAX\_\_}{241}{subsubsection.7.6.1.222}%
+\contentsline {subsubsection}{\numberline {7.6.1.223}\_\_INT16\_TYPE\_\_}{242}{subsubsection.7.6.1.223}%
+\contentsline {subsubsection}{\numberline {7.6.1.224}\_\_INT32\_C}{242}{subsubsection.7.6.1.224}%
+\contentsline {subsubsection}{\numberline {7.6.1.225}\_\_INT32\_MAX\_\_}{242}{subsubsection.7.6.1.225}%
+\contentsline {subsubsection}{\numberline {7.6.1.226}\_\_INT32\_TYPE\_\_}{242}{subsubsection.7.6.1.226}%
+\contentsline {subsubsection}{\numberline {7.6.1.227}\_\_INT64\_C}{242}{subsubsection.7.6.1.227}%
+\contentsline {subsubsection}{\numberline {7.6.1.228}\_\_INT64\_MAX\_\_}{242}{subsubsection.7.6.1.228}%
+\contentsline {subsubsection}{\numberline {7.6.1.229}\_\_INT64\_TYPE\_\_}{242}{subsubsection.7.6.1.229}%
+\contentsline {subsubsection}{\numberline {7.6.1.230}\_\_INT8\_C}{243}{subsubsection.7.6.1.230}%
+\contentsline {subsubsection}{\numberline {7.6.1.231}\_\_INT8\_MAX\_\_}{243}{subsubsection.7.6.1.231}%
+\contentsline {subsubsection}{\numberline {7.6.1.232}\_\_INT8\_TYPE\_\_}{243}{subsubsection.7.6.1.232}%
+\contentsline {subsubsection}{\numberline {7.6.1.233}\_\_INT\_FAST16\_MAX\_\_}{243}{subsubsection.7.6.1.233}%
+\contentsline {subsubsection}{\numberline {7.6.1.234}\_\_INT\_FAST16\_TYPE\_\_}{243}{subsubsection.7.6.1.234}%
+\contentsline {subsubsection}{\numberline {7.6.1.235}\_\_INT\_FAST16\_WIDTH\_\_}{243}{subsubsection.7.6.1.235}%
+\contentsline {subsubsection}{\numberline {7.6.1.236}\_\_INT\_FAST32\_MAX\_\_}{243}{subsubsection.7.6.1.236}%
+\contentsline {subsubsection}{\numberline {7.6.1.237}\_\_INT\_FAST32\_TYPE\_\_}{244}{subsubsection.7.6.1.237}%
+\contentsline {subsubsection}{\numberline {7.6.1.238}\_\_INT\_FAST32\_WIDTH\_\_}{244}{subsubsection.7.6.1.238}%
+\contentsline {subsubsection}{\numberline {7.6.1.239}\_\_INT\_FAST64\_MAX\_\_}{244}{subsubsection.7.6.1.239}%
+\contentsline {subsubsection}{\numberline {7.6.1.240}\_\_INT\_FAST64\_TYPE\_\_}{244}{subsubsection.7.6.1.240}%
+\contentsline {subsubsection}{\numberline {7.6.1.241}\_\_INT\_FAST64\_WIDTH\_\_}{244}{subsubsection.7.6.1.241}%
+\contentsline {subsubsection}{\numberline {7.6.1.242}\_\_INT\_FAST8\_MAX\_\_}{244}{subsubsection.7.6.1.242}%
+\contentsline {subsubsection}{\numberline {7.6.1.243}\_\_INT\_FAST8\_TYPE\_\_}{244}{subsubsection.7.6.1.243}%
+\contentsline {subsubsection}{\numberline {7.6.1.244}\_\_INT\_FAST8\_WIDTH\_\_}{244}{subsubsection.7.6.1.244}%
+\contentsline {subsubsection}{\numberline {7.6.1.245}\_\_INT\_LEAST16\_MAX\_\_}{245}{subsubsection.7.6.1.245}%
+\contentsline {subsubsection}{\numberline {7.6.1.246}\_\_INT\_LEAST16\_TYPE\_\_}{245}{subsubsection.7.6.1.246}%
+\contentsline {subsubsection}{\numberline {7.6.1.247}\_\_INT\_LEAST16\_WIDTH\_\_}{245}{subsubsection.7.6.1.247}%
+\contentsline {subsubsection}{\numberline {7.6.1.248}\_\_INT\_LEAST32\_MAX\_\_}{245}{subsubsection.7.6.1.248}%
+\contentsline {subsubsection}{\numberline {7.6.1.249}\_\_INT\_LEAST32\_TYPE\_\_}{245}{subsubsection.7.6.1.249}%
+\contentsline {subsubsection}{\numberline {7.6.1.250}\_\_INT\_LEAST32\_WIDTH\_\_}{245}{subsubsection.7.6.1.250}%
+\contentsline {subsubsection}{\numberline {7.6.1.251}\_\_INT\_LEAST64\_MAX\_\_}{245}{subsubsection.7.6.1.251}%
+\contentsline {subsubsection}{\numberline {7.6.1.252}\_\_INT\_LEAST64\_TYPE\_\_}{245}{subsubsection.7.6.1.252}%
+\contentsline {subsubsection}{\numberline {7.6.1.253}\_\_INT\_LEAST64\_WIDTH\_\_}{246}{subsubsection.7.6.1.253}%
+\contentsline {subsubsection}{\numberline {7.6.1.254}\_\_INT\_LEAST8\_MAX\_\_}{246}{subsubsection.7.6.1.254}%
+\contentsline {subsubsection}{\numberline {7.6.1.255}\_\_INT\_LEAST8\_TYPE\_\_}{246}{subsubsection.7.6.1.255}%
+\contentsline {subsubsection}{\numberline {7.6.1.256}\_\_INT\_LEAST8\_WIDTH\_\_}{246}{subsubsection.7.6.1.256}%
+\contentsline {subsubsection}{\numberline {7.6.1.257}\_\_INT\_MAX\_\_}{246}{subsubsection.7.6.1.257}%
+\contentsline {subsubsection}{\numberline {7.6.1.258}\_\_INT\_WIDTH\_\_}{246}{subsubsection.7.6.1.258}%
+\contentsline {subsubsection}{\numberline {7.6.1.259}\_\_INTMAX\_C}{246}{subsubsection.7.6.1.259}%
+\contentsline {subsubsection}{\numberline {7.6.1.260}\_\_INTMAX\_MAX\_\_}{247}{subsubsection.7.6.1.260}%
+\contentsline {subsubsection}{\numberline {7.6.1.261}\_\_INTMAX\_TYPE\_\_}{247}{subsubsection.7.6.1.261}%
+\contentsline {subsubsection}{\numberline {7.6.1.262}\_\_INTMAX\_WIDTH\_\_}{247}{subsubsection.7.6.1.262}%
+\contentsline {subsubsection}{\numberline {7.6.1.263}\_\_INTPTR\_MAX\_\_}{247}{subsubsection.7.6.1.263}%
+\contentsline {subsubsection}{\numberline {7.6.1.264}\_\_INTPTR\_TYPE\_\_}{247}{subsubsection.7.6.1.264}%
+\contentsline {subsubsection}{\numberline {7.6.1.265}\_\_INTPTR\_WIDTH\_\_}{247}{subsubsection.7.6.1.265}%
+\contentsline {subsubsection}{\numberline {7.6.1.266}\_\_k8}{247}{subsubsection.7.6.1.266}%
+\contentsline {subsubsection}{\numberline {7.6.1.267}\_\_k8\_\_}{247}{subsubsection.7.6.1.267}%
+\contentsline {subsubsection}{\numberline {7.6.1.268}\_\_LDBL\_DECIMAL\_DIG\_\_}{248}{subsubsection.7.6.1.268}%
+\contentsline {subsubsection}{\numberline {7.6.1.269}\_\_LDBL\_DENORM\_MIN\_\_}{248}{subsubsection.7.6.1.269}%
+\contentsline {subsubsection}{\numberline {7.6.1.270}\_\_LDBL\_DIG\_\_}{248}{subsubsection.7.6.1.270}%
+\contentsline {subsubsection}{\numberline {7.6.1.271}\_\_LDBL\_EPSILON\_\_}{248}{subsubsection.7.6.1.271}%
+\contentsline {subsubsection}{\numberline {7.6.1.272}\_\_LDBL\_HAS\_DENORM\_\_}{248}{subsubsection.7.6.1.272}%
+\contentsline {subsubsection}{\numberline {7.6.1.273}\_\_LDBL\_HAS\_INFINITY\_\_}{248}{subsubsection.7.6.1.273}%
+\contentsline {subsubsection}{\numberline {7.6.1.274}\_\_LDBL\_HAS\_QUIET\_NAN\_\_}{248}{subsubsection.7.6.1.274}%
+\contentsline {subsubsection}{\numberline {7.6.1.275}\_\_LDBL\_MANT\_DIG\_\_}{248}{subsubsection.7.6.1.275}%
+\contentsline {subsubsection}{\numberline {7.6.1.276}\_\_LDBL\_MAX\_10\_EXP\_\_}{249}{subsubsection.7.6.1.276}%
+\contentsline {subsubsection}{\numberline {7.6.1.277}\_\_LDBL\_MAX\_\_}{249}{subsubsection.7.6.1.277}%
+\contentsline {subsubsection}{\numberline {7.6.1.278}\_\_LDBL\_MAX\_EXP\_\_}{249}{subsubsection.7.6.1.278}%
+\contentsline {subsubsection}{\numberline {7.6.1.279}\_\_LDBL\_MIN\_10\_EXP\_\_}{249}{subsubsection.7.6.1.279}%
+\contentsline {subsubsection}{\numberline {7.6.1.280}\_\_LDBL\_MIN\_\_}{249}{subsubsection.7.6.1.280}%
+\contentsline {subsubsection}{\numberline {7.6.1.281}\_\_LDBL\_MIN\_EXP\_\_}{249}{subsubsection.7.6.1.281}%
+\contentsline {subsubsection}{\numberline {7.6.1.282}\_\_LDBL\_NORM\_MAX\_\_}{249}{subsubsection.7.6.1.282}%
+\contentsline {subsubsection}{\numberline {7.6.1.283}\_\_linux}{249}{subsubsection.7.6.1.283}%
+\contentsline {subsubsection}{\numberline {7.6.1.284}\_\_linux\_\_}{250}{subsubsection.7.6.1.284}%
+\contentsline {subsubsection}{\numberline {7.6.1.285}\_\_LONG\_LONG\_MAX\_\_}{250}{subsubsection.7.6.1.285}%
+\contentsline {subsubsection}{\numberline {7.6.1.286}\_\_LONG\_LONG\_WIDTH\_\_}{250}{subsubsection.7.6.1.286}%
+\contentsline {subsubsection}{\numberline {7.6.1.287}\_\_LONG\_MAX\_\_}{250}{subsubsection.7.6.1.287}%
+\contentsline {subsubsection}{\numberline {7.6.1.288}\_\_LONG\_WIDTH\_\_}{250}{subsubsection.7.6.1.288}%
+\contentsline {subsubsection}{\numberline {7.6.1.289}\_\_LP64\_\_}{250}{subsubsection.7.6.1.289}%
+\contentsline {subsubsection}{\numberline {7.6.1.290}\_\_MMX\_\_}{250}{subsubsection.7.6.1.290}%
+\contentsline {subsubsection}{\numberline {7.6.1.291}\_\_MMX\_WITH\_SSE\_\_}{250}{subsubsection.7.6.1.291}%
+\contentsline {subsubsection}{\numberline {7.6.1.292}\_\_NO\_INLINE\_\_}{251}{subsubsection.7.6.1.292}%
+\contentsline {subsubsection}{\numberline {7.6.1.293}\_\_ORDER\_BIG\_ENDIAN\_\_}{251}{subsubsection.7.6.1.293}%
+\contentsline {subsubsection}{\numberline {7.6.1.294}\_\_ORDER\_LITTLE\_ENDIAN\_\_}{251}{subsubsection.7.6.1.294}%
+\contentsline {subsubsection}{\numberline {7.6.1.295}\_\_ORDER\_PDP\_ENDIAN\_\_}{251}{subsubsection.7.6.1.295}%
+\contentsline {subsubsection}{\numberline {7.6.1.296}\_\_pic\_\_}{251}{subsubsection.7.6.1.296}%
+\contentsline {subsubsection}{\numberline {7.6.1.297}\_\_PIC\_\_}{251}{subsubsection.7.6.1.297}%
+\contentsline {subsubsection}{\numberline {7.6.1.298}\_\_pie\_\_}{251}{subsubsection.7.6.1.298}%
+\contentsline {subsubsection}{\numberline {7.6.1.299}\_\_PIE\_\_}{251}{subsubsection.7.6.1.299}%
+\contentsline {subsubsection}{\numberline {7.6.1.300}\_\_PRAGMA\_REDEFINE\_EXTNAME}{252}{subsubsection.7.6.1.300}%
+\contentsline {subsubsection}{\numberline {7.6.1.301}\_\_PTRDIFF\_MAX\_\_}{252}{subsubsection.7.6.1.301}%
+\contentsline {subsubsection}{\numberline {7.6.1.302}\_\_PTRDIFF\_TYPE\_\_}{252}{subsubsection.7.6.1.302}%
+\contentsline {subsubsection}{\numberline {7.6.1.303}\_\_PTRDIFF\_WIDTH\_\_}{252}{subsubsection.7.6.1.303}%
+\contentsline {subsubsection}{\numberline {7.6.1.304}\_\_REGISTER\_PREFIX\_\_}{252}{subsubsection.7.6.1.304}%
+\contentsline {subsubsection}{\numberline {7.6.1.305}\_\_SCHAR\_MAX\_\_}{252}{subsubsection.7.6.1.305}%
+\contentsline {subsubsection}{\numberline {7.6.1.306}\_\_SCHAR\_WIDTH\_\_}{252}{subsubsection.7.6.1.306}%
+\contentsline {subsubsection}{\numberline {7.6.1.307}\_\_SEG\_FS}{252}{subsubsection.7.6.1.307}%
+\contentsline {subsubsection}{\numberline {7.6.1.308}\_\_SEG\_GS}{253}{subsubsection.7.6.1.308}%
+\contentsline {subsubsection}{\numberline {7.6.1.309}\_\_SHRT\_MAX\_\_}{253}{subsubsection.7.6.1.309}%
+\contentsline {subsubsection}{\numberline {7.6.1.310}\_\_SHRT\_WIDTH\_\_}{253}{subsubsection.7.6.1.310}%
+\contentsline {subsubsection}{\numberline {7.6.1.311}\_\_SIG\_ATOMIC\_MAX\_\_}{253}{subsubsection.7.6.1.311}%
+\contentsline {subsubsection}{\numberline {7.6.1.312}\_\_SIG\_ATOMIC\_MIN\_\_}{253}{subsubsection.7.6.1.312}%
+\contentsline {subsubsection}{\numberline {7.6.1.313}\_\_SIG\_ATOMIC\_TYPE\_\_}{253}{subsubsection.7.6.1.313}%
+\contentsline {subsubsection}{\numberline {7.6.1.314}\_\_SIG\_ATOMIC\_WIDTH\_\_}{253}{subsubsection.7.6.1.314}%
+\contentsline {subsubsection}{\numberline {7.6.1.315}\_\_SIZE\_MAX\_\_}{253}{subsubsection.7.6.1.315}%
+\contentsline {subsubsection}{\numberline {7.6.1.316}\_\_SIZE\_TYPE\_\_}{254}{subsubsection.7.6.1.316}%
+\contentsline {subsubsection}{\numberline {7.6.1.317}\_\_SIZE\_WIDTH\_\_}{254}{subsubsection.7.6.1.317}%
+\contentsline {subsubsection}{\numberline {7.6.1.318}\_\_SIZEOF\_DOUBLE\_\_}{254}{subsubsection.7.6.1.318}%
+\contentsline {subsubsection}{\numberline {7.6.1.319}\_\_SIZEOF\_FLOAT128\_\_}{254}{subsubsection.7.6.1.319}%
+\contentsline {subsubsection}{\numberline {7.6.1.320}\_\_SIZEOF\_FLOAT80\_\_}{254}{subsubsection.7.6.1.320}%
+\contentsline {subsubsection}{\numberline {7.6.1.321}\_\_SIZEOF\_FLOAT\_\_}{254}{subsubsection.7.6.1.321}%
+\contentsline {subsubsection}{\numberline {7.6.1.322}\_\_SIZEOF\_INT128\_\_}{254}{subsubsection.7.6.1.322}%
+\contentsline {subsubsection}{\numberline {7.6.1.323}\_\_SIZEOF\_INT\_\_}{254}{subsubsection.7.6.1.323}%
+\contentsline {subsubsection}{\numberline {7.6.1.324}\_\_SIZEOF\_LONG\_\_}{255}{subsubsection.7.6.1.324}%
+\contentsline {subsubsection}{\numberline {7.6.1.325}\_\_SIZEOF\_LONG\_DOUBLE\_\_}{255}{subsubsection.7.6.1.325}%
+\contentsline {subsubsection}{\numberline {7.6.1.326}\_\_SIZEOF\_LONG\_LONG\_\_}{255}{subsubsection.7.6.1.326}%
+\contentsline {subsubsection}{\numberline {7.6.1.327}\_\_SIZEOF\_POINTER\_\_}{255}{subsubsection.7.6.1.327}%
+\contentsline {subsubsection}{\numberline {7.6.1.328}\_\_SIZEOF\_PTRDIFF\_T\_\_}{255}{subsubsection.7.6.1.328}%
+\contentsline {subsubsection}{\numberline {7.6.1.329}\_\_SIZEOF\_SHORT\_\_}{255}{subsubsection.7.6.1.329}%
+\contentsline {subsubsection}{\numberline {7.6.1.330}\_\_SIZEOF\_SIZE\_T\_\_}{255}{subsubsection.7.6.1.330}%
+\contentsline {subsubsection}{\numberline {7.6.1.331}\_\_SIZEOF\_WCHAR\_T\_\_}{255}{subsubsection.7.6.1.331}%
+\contentsline {subsubsection}{\numberline {7.6.1.332}\_\_SIZEOF\_WINT\_T\_\_}{256}{subsubsection.7.6.1.332}%
+\contentsline {subsubsection}{\numberline {7.6.1.333}\_\_SSE2\_\_}{256}{subsubsection.7.6.1.333}%
+\contentsline {subsubsection}{\numberline {7.6.1.334}\_\_SSE2\_MATH\_\_}{256}{subsubsection.7.6.1.334}%
+\contentsline {subsubsection}{\numberline {7.6.1.335}\_\_SSE\_\_}{256}{subsubsection.7.6.1.335}%
+\contentsline {subsubsection}{\numberline {7.6.1.336}\_\_SSE\_MATH\_\_}{256}{subsubsection.7.6.1.336}%
+\contentsline {subsubsection}{\numberline {7.6.1.337}\_\_SSP\_STRONG\_\_}{256}{subsubsection.7.6.1.337}%
+\contentsline {subsubsection}{\numberline {7.6.1.338}\_\_STDC\_\_}{256}{subsubsection.7.6.1.338}%
+\contentsline {subsubsection}{\numberline {7.6.1.339}\_\_STDC\_HOSTED\_\_}{256}{subsubsection.7.6.1.339}%
+\contentsline {subsubsection}{\numberline {7.6.1.340}\_\_STDC\_IEC\_559\_\_}{257}{subsubsection.7.6.1.340}%
+\contentsline {subsubsection}{\numberline {7.6.1.341}\_\_STDC\_IEC\_559\_COMPLEX\_\_}{257}{subsubsection.7.6.1.341}%
+\contentsline {subsubsection}{\numberline {7.6.1.342}\_\_STDC\_ISO\_10646\_\_}{257}{subsubsection.7.6.1.342}%
+\contentsline {subsubsection}{\numberline {7.6.1.343}\_\_STDC\_UTF\_16\_\_}{257}{subsubsection.7.6.1.343}%
+\contentsline {subsubsection}{\numberline {7.6.1.344}\_\_STDC\_UTF\_32\_\_}{257}{subsubsection.7.6.1.344}%
+\contentsline {subsubsection}{\numberline {7.6.1.345}\_\_UINT16\_C}{257}{subsubsection.7.6.1.345}%
+\contentsline {subsubsection}{\numberline {7.6.1.346}\_\_UINT16\_MAX\_\_}{257}{subsubsection.7.6.1.346}%
+\contentsline {subsubsection}{\numberline {7.6.1.347}\_\_UINT16\_TYPE\_\_}{258}{subsubsection.7.6.1.347}%
+\contentsline {subsubsection}{\numberline {7.6.1.348}\_\_UINT32\_C}{258}{subsubsection.7.6.1.348}%
+\contentsline {subsubsection}{\numberline {7.6.1.349}\_\_UINT32\_MAX\_\_}{258}{subsubsection.7.6.1.349}%
+\contentsline {subsubsection}{\numberline {7.6.1.350}\_\_UINT32\_TYPE\_\_}{258}{subsubsection.7.6.1.350}%
+\contentsline {subsubsection}{\numberline {7.6.1.351}\_\_UINT64\_C}{258}{subsubsection.7.6.1.351}%
+\contentsline {subsubsection}{\numberline {7.6.1.352}\_\_UINT64\_MAX\_\_}{258}{subsubsection.7.6.1.352}%
+\contentsline {subsubsection}{\numberline {7.6.1.353}\_\_UINT64\_TYPE\_\_}{258}{subsubsection.7.6.1.353}%
+\contentsline {subsubsection}{\numberline {7.6.1.354}\_\_UINT8\_C}{259}{subsubsection.7.6.1.354}%
+\contentsline {subsubsection}{\numberline {7.6.1.355}\_\_UINT8\_MAX\_\_}{259}{subsubsection.7.6.1.355}%
+\contentsline {subsubsection}{\numberline {7.6.1.356}\_\_UINT8\_TYPE\_\_}{259}{subsubsection.7.6.1.356}%
+\contentsline {subsubsection}{\numberline {7.6.1.357}\_\_UINT\_FAST16\_MAX\_\_}{259}{subsubsection.7.6.1.357}%
+\contentsline {subsubsection}{\numberline {7.6.1.358}\_\_UINT\_FAST16\_TYPE\_\_}{259}{subsubsection.7.6.1.358}%
+\contentsline {subsubsection}{\numberline {7.6.1.359}\_\_UINT\_FAST32\_MAX\_\_}{259}{subsubsection.7.6.1.359}%
+\contentsline {subsubsection}{\numberline {7.6.1.360}\_\_UINT\_FAST32\_TYPE\_\_}{259}{subsubsection.7.6.1.360}%
+\contentsline {subsubsection}{\numberline {7.6.1.361}\_\_UINT\_FAST64\_MAX\_\_}{260}{subsubsection.7.6.1.361}%
+\contentsline {subsubsection}{\numberline {7.6.1.362}\_\_UINT\_FAST64\_TYPE\_\_}{260}{subsubsection.7.6.1.362}%
+\contentsline {subsubsection}{\numberline {7.6.1.363}\_\_UINT\_FAST8\_MAX\_\_}{260}{subsubsection.7.6.1.363}%
+\contentsline {subsubsection}{\numberline {7.6.1.364}\_\_UINT\_FAST8\_TYPE\_\_}{260}{subsubsection.7.6.1.364}%
+\contentsline {subsubsection}{\numberline {7.6.1.365}\_\_UINT\_LEAST16\_MAX\_\_}{260}{subsubsection.7.6.1.365}%
+\contentsline {subsubsection}{\numberline {7.6.1.366}\_\_UINT\_LEAST16\_TYPE\_\_}{260}{subsubsection.7.6.1.366}%
+\contentsline {subsubsection}{\numberline {7.6.1.367}\_\_UINT\_LEAST32\_MAX\_\_}{260}{subsubsection.7.6.1.367}%
+\contentsline {subsubsection}{\numberline {7.6.1.368}\_\_UINT\_LEAST32\_TYPE\_\_}{260}{subsubsection.7.6.1.368}%
+\contentsline {subsubsection}{\numberline {7.6.1.369}\_\_UINT\_LEAST64\_MAX\_\_}{261}{subsubsection.7.6.1.369}%
+\contentsline {subsubsection}{\numberline {7.6.1.370}\_\_UINT\_LEAST64\_TYPE\_\_}{261}{subsubsection.7.6.1.370}%
+\contentsline {subsubsection}{\numberline {7.6.1.371}\_\_UINT\_LEAST8\_MAX\_\_}{261}{subsubsection.7.6.1.371}%
+\contentsline {subsubsection}{\numberline {7.6.1.372}\_\_UINT\_LEAST8\_TYPE\_\_}{261}{subsubsection.7.6.1.372}%
+\contentsline {subsubsection}{\numberline {7.6.1.373}\_\_UINTMAX\_C}{261}{subsubsection.7.6.1.373}%
+\contentsline {subsubsection}{\numberline {7.6.1.374}\_\_UINTMAX\_MAX\_\_}{261}{subsubsection.7.6.1.374}%
+\contentsline {subsubsection}{\numberline {7.6.1.375}\_\_UINTMAX\_TYPE\_\_}{261}{subsubsection.7.6.1.375}%
+\contentsline {subsubsection}{\numberline {7.6.1.376}\_\_UINTPTR\_MAX\_\_}{262}{subsubsection.7.6.1.376}%
+\contentsline {subsubsection}{\numberline {7.6.1.377}\_\_UINTPTR\_TYPE\_\_}{262}{subsubsection.7.6.1.377}%
+\contentsline {subsubsection}{\numberline {7.6.1.378}\_\_unix}{262}{subsubsection.7.6.1.378}%
+\contentsline {subsubsection}{\numberline {7.6.1.379}\_\_unix\_\_}{262}{subsubsection.7.6.1.379}%
+\contentsline {subsubsection}{\numberline {7.6.1.380}\_\_USER\_LABEL\_PREFIX\_\_}{262}{subsubsection.7.6.1.380}%
+\contentsline {subsubsection}{\numberline {7.6.1.381}\_\_VERSION\_\_}{262}{subsubsection.7.6.1.381}%
+\contentsline {subsubsection}{\numberline {7.6.1.382}\_\_WCHAR\_MAX\_\_}{262}{subsubsection.7.6.1.382}%
+\contentsline {subsubsection}{\numberline {7.6.1.383}\_\_WCHAR\_MIN\_\_}{262}{subsubsection.7.6.1.383}%
+\contentsline {subsubsection}{\numberline {7.6.1.384}\_\_WCHAR\_TYPE\_\_}{263}{subsubsection.7.6.1.384}%
+\contentsline {subsubsection}{\numberline {7.6.1.385}\_\_WCHAR\_WIDTH\_\_}{263}{subsubsection.7.6.1.385}%
+\contentsline {subsubsection}{\numberline {7.6.1.386}\_\_WINT\_MAX\_\_}{263}{subsubsection.7.6.1.386}%
+\contentsline {subsubsection}{\numberline {7.6.1.387}\_\_WINT\_MIN\_\_}{263}{subsubsection.7.6.1.387}%
+\contentsline {subsubsection}{\numberline {7.6.1.388}\_\_WINT\_TYPE\_\_}{263}{subsubsection.7.6.1.388}%
+\contentsline {subsubsection}{\numberline {7.6.1.389}\_\_WINT\_WIDTH\_\_}{263}{subsubsection.7.6.1.389}%
+\contentsline {subsubsection}{\numberline {7.6.1.390}\_\_x86\_64}{263}{subsubsection.7.6.1.390}%
+\contentsline {subsubsection}{\numberline {7.6.1.391}\_\_x86\_64\_\_}{263}{subsubsection.7.6.1.391}%
+\contentsline {subsubsection}{\numberline {7.6.1.392}\_GNU\_SOURCE}{264}{subsubsection.7.6.1.392}%
+\contentsline {subsubsection}{\numberline {7.6.1.393}\_LP64}{264}{subsubsection.7.6.1.393}%
+\contentsline {subsubsection}{\numberline {7.6.1.394}\_STDC\_PREDEF\_H}{264}{subsubsection.7.6.1.394}%
+\contentsline {subsubsection}{\numberline {7.6.1.395}ABI\_ID}{264}{subsubsection.7.6.1.395}%
+\contentsline {subsubsection}{\numberline {7.6.1.396}linux}{264}{subsubsection.7.6.1.396}%
+\contentsline {subsubsection}{\numberline {7.6.1.397}QT\_CORE\_LIB}{264}{subsubsection.7.6.1.397}%
+\contentsline {subsubsection}{\numberline {7.6.1.398}QT\_GUI\_LIB}{264}{subsubsection.7.6.1.398}%
+\contentsline {subsubsection}{\numberline {7.6.1.399}QT\_WIDGETS\_LIB}{264}{subsubsection.7.6.1.399}%
+\contentsline {subsubsection}{\numberline {7.6.1.400}SIZEOF\_DPTR}{265}{subsubsection.7.6.1.400}%
+\contentsline {subsubsection}{\numberline {7.6.1.401}unix}{265}{subsubsection.7.6.1.401}%
+\contentsline {section}{\numberline {7.7}Dokumentacja pliku build/calendar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}autogen/mocs\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}compilation.cpp}{265}{section.7.7}%
+\contentsline {section}{\numberline {7.8}Dokumentacja pliku calendar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}autogen/mocs\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}compilation.cpp}{265}{section.7.8}%
+\contentsline {section}{\numberline {7.9}Dokumentacja pliku cmake-\/build-\/debug/calendar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}autogen/mocs\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}compilation.cpp}{266}{section.7.9}%
+\contentsline {section}{\numberline {7.10}Dokumentacja pliku build/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CMake\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/3.20.0/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Compiler\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Id\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CXX/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CMake\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CXXCompiler\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Id.cpp}{266}{section.7.10}%
+\contentsline {subsection}{\numberline {7.10.1}Dokumentacja definicji}{266}{subsection.7.10.1}%
+\contentsline {subsubsection}{\numberline {7.10.1.1}ARCHITECTURE\_ID}{267}{subsubsection.7.10.1.1}%
+\contentsline {subsubsection}{\numberline {7.10.1.2}COMPILER\_ID}{267}{subsubsection.7.10.1.2}%
+\contentsline {subsubsection}{\numberline {7.10.1.3}CXX\_STD}{267}{subsubsection.7.10.1.3}%
+\contentsline {subsubsection}{\numberline {7.10.1.4}DEC}{267}{subsubsection.7.10.1.4}%
+\contentsline {subsubsection}{\numberline {7.10.1.5}HEX}{267}{subsubsection.7.10.1.5}%
+\contentsline {subsubsection}{\numberline {7.10.1.6}PLATFORM\_ID}{268}{subsubsection.7.10.1.6}%
+\contentsline {subsubsection}{\numberline {7.10.1.7}STRINGIFY}{268}{subsubsection.7.10.1.7}%
+\contentsline {subsubsection}{\numberline {7.10.1.8}STRINGIFY\_HELPER}{268}{subsubsection.7.10.1.8}%
+\contentsline {subsection}{\numberline {7.10.2}Dokumentacja funkcji}{268}{subsection.7.10.2}%
+\contentsline {subsubsection}{\numberline {7.10.2.1}main()}{268}{subsubsection.7.10.2.1}%
+\contentsline {subsection}{\numberline {7.10.3}Dokumentacja zmiennych}{268}{subsection.7.10.3}%
+\contentsline {subsubsection}{\numberline {7.10.3.1}info\_arch}{268}{subsubsection.7.10.3.1}%
+\contentsline {subsubsection}{\numberline {7.10.3.2}info\_compiler}{268}{subsubsection.7.10.3.2}%
+\contentsline {subsubsection}{\numberline {7.10.3.3}info\_language\_dialect\_default}{269}{subsubsection.7.10.3.3}%
+\contentsline {subsubsection}{\numberline {7.10.3.4}info\_platform}{269}{subsubsection.7.10.3.4}%
+\contentsline {section}{\numberline {7.11}Dokumentacja pliku build/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CMake\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/3.20.1/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Compiler\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Id\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CXX/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CMake\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CXXCompiler\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Id.cpp}{269}{section.7.11}%
+\contentsline {subsection}{\numberline {7.11.1}Dokumentacja definicji}{269}{subsection.7.11.1}%
+\contentsline {subsubsection}{\numberline {7.11.1.1}ARCHITECTURE\_ID}{270}{subsubsection.7.11.1.1}%
+\contentsline {subsubsection}{\numberline {7.11.1.2}COMPILER\_ID}{270}{subsubsection.7.11.1.2}%
+\contentsline {subsubsection}{\numberline {7.11.1.3}CXX\_STD}{270}{subsubsection.7.11.1.3}%
+\contentsline {subsubsection}{\numberline {7.11.1.4}DEC}{270}{subsubsection.7.11.1.4}%
+\contentsline {subsubsection}{\numberline {7.11.1.5}HEX}{270}{subsubsection.7.11.1.5}%
+\contentsline {subsubsection}{\numberline {7.11.1.6}PLATFORM\_ID}{271}{subsubsection.7.11.1.6}%
+\contentsline {subsubsection}{\numberline {7.11.1.7}STRINGIFY}{271}{subsubsection.7.11.1.7}%
+\contentsline {subsubsection}{\numberline {7.11.1.8}STRINGIFY\_HELPER}{271}{subsubsection.7.11.1.8}%
+\contentsline {subsection}{\numberline {7.11.2}Dokumentacja funkcji}{271}{subsection.7.11.2}%
+\contentsline {subsubsection}{\numberline {7.11.2.1}main()}{271}{subsubsection.7.11.2.1}%
+\contentsline {subsection}{\numberline {7.11.3}Dokumentacja zmiennych}{271}{subsection.7.11.3}%
+\contentsline {subsubsection}{\numberline {7.11.3.1}info\_arch}{271}{subsubsection.7.11.3.1}%
+\contentsline {subsubsection}{\numberline {7.11.3.2}info\_compiler}{271}{subsubsection.7.11.3.2}%
+\contentsline {subsubsection}{\numberline {7.11.3.3}info\_language\_dialect\_default}{272}{subsubsection.7.11.3.3}%
+\contentsline {subsubsection}{\numberline {7.11.3.4}info\_platform}{272}{subsubsection.7.11.3.4}%
+\contentsline {section}{\numberline {7.12}Dokumentacja pliku build/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CMake\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/3.20.2/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Compiler\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Id\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CXX/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CMake\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CXXCompiler\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Id.cpp}{272}{section.7.12}%
+\contentsline {subsection}{\numberline {7.12.1}Dokumentacja definicji}{272}{subsection.7.12.1}%
+\contentsline {subsubsection}{\numberline {7.12.1.1}ARCHITECTURE\_ID}{273}{subsubsection.7.12.1.1}%
+\contentsline {subsubsection}{\numberline {7.12.1.2}COMPILER\_ID}{273}{subsubsection.7.12.1.2}%
+\contentsline {subsubsection}{\numberline {7.12.1.3}CXX\_STD}{273}{subsubsection.7.12.1.3}%
+\contentsline {subsubsection}{\numberline {7.12.1.4}DEC}{273}{subsubsection.7.12.1.4}%
+\contentsline {subsubsection}{\numberline {7.12.1.5}HEX}{273}{subsubsection.7.12.1.5}%
+\contentsline {subsubsection}{\numberline {7.12.1.6}PLATFORM\_ID}{274}{subsubsection.7.12.1.6}%
+\contentsline {subsubsection}{\numberline {7.12.1.7}STRINGIFY}{274}{subsubsection.7.12.1.7}%
+\contentsline {subsubsection}{\numberline {7.12.1.8}STRINGIFY\_HELPER}{274}{subsubsection.7.12.1.8}%
+\contentsline {subsection}{\numberline {7.12.2}Dokumentacja funkcji}{274}{subsection.7.12.2}%
+\contentsline {subsubsection}{\numberline {7.12.2.1}main()}{274}{subsubsection.7.12.2.1}%
+\contentsline {subsection}{\numberline {7.12.3}Dokumentacja zmiennych}{274}{subsection.7.12.3}%
+\contentsline {subsubsection}{\numberline {7.12.3.1}info\_arch}{274}{subsubsection.7.12.3.1}%
+\contentsline {subsubsection}{\numberline {7.12.3.2}info\_compiler}{274}{subsubsection.7.12.3.2}%
+\contentsline {subsubsection}{\numberline {7.12.3.3}info\_language\_dialect\_default}{275}{subsubsection.7.12.3.3}%
+\contentsline {subsubsection}{\numberline {7.12.3.4}info\_platform}{275}{subsubsection.7.12.3.4}%
+\contentsline {section}{\numberline {7.13}Dokumentacja pliku cmake-\/build-\/debug/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CMake\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/3.20.0/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Compiler\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Id\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CXX/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CMake\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CXXCompiler\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Id.cpp}{275}{section.7.13}%
+\contentsline {subsection}{\numberline {7.13.1}Dokumentacja definicji}{275}{subsection.7.13.1}%
+\contentsline {subsubsection}{\numberline {7.13.1.1}ARCHITECTURE\_ID}{276}{subsubsection.7.13.1.1}%
+\contentsline {subsubsection}{\numberline {7.13.1.2}COMPILER\_ID}{276}{subsubsection.7.13.1.2}%
+\contentsline {subsubsection}{\numberline {7.13.1.3}CXX\_STD}{276}{subsubsection.7.13.1.3}%
+\contentsline {subsubsection}{\numberline {7.13.1.4}DEC}{276}{subsubsection.7.13.1.4}%
+\contentsline {subsubsection}{\numberline {7.13.1.5}HEX}{276}{subsubsection.7.13.1.5}%
+\contentsline {subsubsection}{\numberline {7.13.1.6}PLATFORM\_ID}{277}{subsubsection.7.13.1.6}%
+\contentsline {subsubsection}{\numberline {7.13.1.7}STRINGIFY}{277}{subsubsection.7.13.1.7}%
+\contentsline {subsubsection}{\numberline {7.13.1.8}STRINGIFY\_HELPER}{277}{subsubsection.7.13.1.8}%
+\contentsline {subsection}{\numberline {7.13.2}Dokumentacja funkcji}{277}{subsection.7.13.2}%
+\contentsline {subsubsection}{\numberline {7.13.2.1}main()}{277}{subsubsection.7.13.2.1}%
+\contentsline {subsection}{\numberline {7.13.3}Dokumentacja zmiennych}{277}{subsection.7.13.3}%
+\contentsline {subsubsection}{\numberline {7.13.3.1}info\_arch}{277}{subsubsection.7.13.3.1}%
+\contentsline {subsubsection}{\numberline {7.13.3.2}info\_compiler}{277}{subsubsection.7.13.3.2}%
+\contentsline {subsubsection}{\numberline {7.13.3.3}info\_language\_dialect\_default}{278}{subsubsection.7.13.3.3}%
+\contentsline {subsubsection}{\numberline {7.13.3.4}info\_platform}{278}{subsubsection.7.13.3.4}%
+\contentsline {section}{\numberline {7.14}Dokumentacja pliku CMake\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/3.20.1/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Compiler\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Id\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CXX/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CMake\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CXXCompiler\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Id.cpp}{278}{section.7.14}%
+\contentsline {subsection}{\numberline {7.14.1}Dokumentacja definicji}{278}{subsection.7.14.1}%
+\contentsline {subsubsection}{\numberline {7.14.1.1}ARCHITECTURE\_ID}{279}{subsubsection.7.14.1.1}%
+\contentsline {subsubsection}{\numberline {7.14.1.2}COMPILER\_ID}{279}{subsubsection.7.14.1.2}%
+\contentsline {subsubsection}{\numberline {7.14.1.3}CXX\_STD}{279}{subsubsection.7.14.1.3}%
+\contentsline {subsubsection}{\numberline {7.14.1.4}DEC}{279}{subsubsection.7.14.1.4}%
+\contentsline {subsubsection}{\numberline {7.14.1.5}HEX}{279}{subsubsection.7.14.1.5}%
+\contentsline {subsubsection}{\numberline {7.14.1.6}PLATFORM\_ID}{280}{subsubsection.7.14.1.6}%
+\contentsline {subsubsection}{\numberline {7.14.1.7}STRINGIFY}{280}{subsubsection.7.14.1.7}%
+\contentsline {subsubsection}{\numberline {7.14.1.8}STRINGIFY\_HELPER}{280}{subsubsection.7.14.1.8}%
+\contentsline {subsection}{\numberline {7.14.2}Dokumentacja funkcji}{280}{subsection.7.14.2}%
+\contentsline {subsubsection}{\numberline {7.14.2.1}main()}{280}{subsubsection.7.14.2.1}%
+\contentsline {subsection}{\numberline {7.14.3}Dokumentacja zmiennych}{280}{subsection.7.14.3}%
+\contentsline {subsubsection}{\numberline {7.14.3.1}info\_arch}{280}{subsubsection.7.14.3.1}%
+\contentsline {subsubsection}{\numberline {7.14.3.2}info\_compiler}{280}{subsubsection.7.14.3.2}%
+\contentsline {subsubsection}{\numberline {7.14.3.3}info\_language\_dialect\_default}{281}{subsubsection.7.14.3.3}%
+\contentsline {subsubsection}{\numberline {7.14.3.4}info\_platform}{281}{subsubsection.7.14.3.4}%
+\contentsline {section}{\numberline {7.15}Dokumentacja pliku CMake\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/3.20.2/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Compiler\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Id\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CXX/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CMake\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CXXCompiler\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Id.cpp}{281}{section.7.15}%
+\contentsline {subsection}{\numberline {7.15.1}Dokumentacja definicji}{281}{subsection.7.15.1}%
+\contentsline {subsubsection}{\numberline {7.15.1.1}ARCHITECTURE\_ID}{282}{subsubsection.7.15.1.1}%
+\contentsline {subsubsection}{\numberline {7.15.1.2}COMPILER\_ID}{282}{subsubsection.7.15.1.2}%
+\contentsline {subsubsection}{\numberline {7.15.1.3}CXX\_STD}{282}{subsubsection.7.15.1.3}%
+\contentsline {subsubsection}{\numberline {7.15.1.4}DEC}{282}{subsubsection.7.15.1.4}%
+\contentsline {subsubsection}{\numberline {7.15.1.5}HEX}{282}{subsubsection.7.15.1.5}%
+\contentsline {subsubsection}{\numberline {7.15.1.6}PLATFORM\_ID}{283}{subsubsection.7.15.1.6}%
+\contentsline {subsubsection}{\numberline {7.15.1.7}STRINGIFY}{283}{subsubsection.7.15.1.7}%
+\contentsline {subsubsection}{\numberline {7.15.1.8}STRINGIFY\_HELPER}{283}{subsubsection.7.15.1.8}%
+\contentsline {subsection}{\numberline {7.15.2}Dokumentacja funkcji}{283}{subsection.7.15.2}%
+\contentsline {subsubsection}{\numberline {7.15.2.1}main()}{283}{subsubsection.7.15.2.1}%
+\contentsline {subsection}{\numberline {7.15.3}Dokumentacja zmiennych}{283}{subsection.7.15.3}%
+\contentsline {subsubsection}{\numberline {7.15.3.1}info\_arch}{283}{subsubsection.7.15.3.1}%
+\contentsline {subsubsection}{\numberline {7.15.3.2}info\_compiler}{283}{subsubsection.7.15.3.2}%
+\contentsline {subsubsection}{\numberline {7.15.3.3}info\_language\_dialect\_default}{284}{subsubsection.7.15.3.3}%
+\contentsline {subsubsection}{\numberline {7.15.3.4}info\_platform}{284}{subsubsection.7.15.3.4}%
+\contentsline {section}{\numberline {7.16}Dokumentacja pliku build/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CMake\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/calendar.dir/calendar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}autogen/mocs\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}compilation.cpp.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}o.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}d}{284}{section.7.16}%
+\contentsline {section}{\numberline {7.17}Dokumentacja pliku CMake\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/calendar.dir/calendar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}autogen/mocs\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}compilation.cpp.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}o.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}d}{284}{section.7.17}%
+\contentsline {section}{\numberline {7.18}Dokumentacja pliku build/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CMake\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/calendar.dir/main.cpp.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}o.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}d}{284}{section.7.18}%
+\contentsline {section}{\numberline {7.19}Dokumentacja pliku CMake\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/calendar.dir/main.cpp.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}o.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}d}{284}{section.7.19}%
+\contentsline {section}{\numberline {7.20}Dokumentacja pliku build/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CMake\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/calendar.dir/mainwindow.cpp.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}o.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}d}{284}{section.7.20}%
+\contentsline {section}{\numberline {7.21}Dokumentacja pliku CMake\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/calendar.dir/mainwindow.cpp.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}o.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}d}{284}{section.7.21}%
+\contentsline {section}{\numberline {7.22}Dokumentacja pliku calendar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}autogen/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}EWIEGA46\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}WW/moc\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}mainwindow.cpp}{284}{section.7.22}%
+\contentsline {subsection}{\numberline {7.22.1}Dokumentacja definicji}{285}{subsection.7.22.1}%
+\contentsline {subsubsection}{\numberline {7.22.1.1}QT\_MOC\_LITERAL}{285}{subsubsection.7.22.1.1}%
+\contentsline {section}{\numberline {7.23}Dokumentacja pliku calendar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}autogen/include/ui\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}mainwindow.h}{285}{section.7.23}%
+\contentsline {section}{\numberline {7.24}Dokumentacja pliku CMake\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/calendar.dir/res/calendar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}View.cpp.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}o.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}d}{287}{section.7.24}%
+\contentsline {section}{\numberline {7.25}Dokumentacja pliku CMake\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/calendar.dir/res/data\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Interface.cpp.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}o.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}d}{287}{section.7.25}%
+\contentsline {section}{\numberline {7.26}Dokumentacja pliku CMake\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/calendar.dir/res/date.cpp.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}o.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}d}{287}{section.7.26}%
+\contentsline {section}{\numberline {7.27}Dokumentacja pliku CMake\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/calendar.dir/res/day\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Model.cpp.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}o.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}d}{287}{section.7.27}%
+\contentsline {section}{\numberline {7.28}Dokumentacja pliku CMake\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/calendar.dir/res/event\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Birthday\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Model.cpp.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}o.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}d}{287}{section.7.28}%
+\contentsline {section}{\numberline {7.29}Dokumentacja pliku CMake\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/calendar.dir/res/event\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Holiday\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Model.cpp.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}o.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}d}{287}{section.7.29}%
+\contentsline {section}{\numberline {7.30}Dokumentacja pliku CMake\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/calendar.dir/res/event\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Model.cpp.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}o.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}d}{287}{section.7.30}%
+\contentsline {section}{\numberline {7.31}Dokumentacja pliku CMake\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/calendar.dir/res/event\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Reminder\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Model.cpp.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}o.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}d}{287}{section.7.31}%
+\contentsline {section}{\numberline {7.32}Dokumentacja pliku CMake\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/calendar.dir/res/input\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Dialog.cpp.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}o.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}d}{287}{section.7.32}%
+\contentsline {section}{\numberline {7.33}Dokumentacja pliku CMake\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/calendar.dir/res/todo\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Element.cpp.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}o.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}d}{287}{section.7.33}%
+\contentsline {section}{\numberline {7.34}Dokumentacja pliku CMake\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/calendar.dir/res/todo\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}View.cpp.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}o.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}d}{287}{section.7.34}%
+\contentsline {section}{\numberline {7.35}Dokumentacja pliku CMake\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/calendar.dir/res/weekly\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Calendar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}View.cpp.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}o.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}d}{287}{section.7.35}%
+\contentsline {section}{\numberline {7.36}Dokumentacja pliku includes/calendar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}View.h}{287}{section.7.36}%
+\contentsline {subsection}{\numberline {7.36.1}Opis szczegółowy}{289}{subsection.7.36.1}%
+\contentsline {section}{\numberline {7.37}Dokumentacja pliku includes/data\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Interface.h}{289}{section.7.37}%
+\contentsline {subsection}{\numberline {7.37.1}Opis szczegółowy}{290}{subsection.7.37.1}%
+\contentsline {section}{\numberline {7.38}Dokumentacja pliku includes/date.h}{291}{section.7.38}%
+\contentsline {subsection}{\numberline {7.38.1}Opis szczegółowy}{292}{subsection.7.38.1}%
+\contentsline {subsection}{\numberline {7.38.2}Dokumentacja definicji}{292}{subsection.7.38.2}%
+\contentsline {subsubsection}{\numberline {7.38.2.1}MAX\_YEAR\_CAP}{292}{subsubsection.7.38.2.1}%
+\contentsline {section}{\numberline {7.39}Dokumentacja pliku includes/day\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Model.h}{293}{section.7.39}%
+\contentsline {subsection}{\numberline {7.39.1}Opis szczegółowy}{294}{subsection.7.39.1}%
+\contentsline {section}{\numberline {7.40}Dokumentacja pliku includes/event\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Birthday\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Model.h}{294}{section.7.40}%
+\contentsline {section}{\numberline {7.41}Dokumentacja pliku includes/event\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Holiday\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Model.h}{295}{section.7.41}%
+\contentsline {subsection}{\numberline {7.41.1}Opis szczegółowy}{296}{subsection.7.41.1}%
+\contentsline {section}{\numberline {7.42}Dokumentacja pliku includes/event\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Model.h}{297}{section.7.42}%
+\contentsline {subsection}{\numberline {7.42.1}Opis szczegółowy}{298}{subsection.7.42.1}%
+\contentsline {section}{\numberline {7.43}Dokumentacja pliku includes/event\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Reminder\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Model.h}{298}{section.7.43}%
+\contentsline {subsection}{\numberline {7.43.1}Opis szczegółowy}{299}{subsection.7.43.1}%
+\contentsline {section}{\numberline {7.44}Dokumentacja pliku includes/todo\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Element.h}{300}{section.7.44}%
+\contentsline {subsection}{\numberline {7.44.1}Opis szczegółowy}{301}{subsection.7.44.1}%
+\contentsline {section}{\numberline {7.45}Dokumentacja pliku includes/todo\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}View.h}{301}{section.7.45}%
+\contentsline {subsection}{\numberline {7.45.1}Opis szczegółowy}{302}{subsection.7.45.1}%
+\contentsline {section}{\numberline {7.46}Dokumentacja pliku includes/weekly\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Calendar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}View.h}{302}{section.7.46}%
+\contentsline {subsection}{\numberline {7.46.1}Opis szczegółowy}{303}{subsection.7.46.1}%
+\contentsline {section}{\numberline {7.47}Dokumentacja pliku main.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp}{304}{section.7.47}%
+\contentsline {subsection}{\numberline {7.47.1}Dokumentacja funkcji}{304}{subsection.7.47.1}%
+\contentsline {subsubsection}{\numberline {7.47.1.1}main()}{304}{subsubsection.7.47.1.1}%
+\contentsline {section}{\numberline {7.48}Dokumentacja pliku mainwindow.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp}{304}{section.7.48}%
+\contentsline {section}{\numberline {7.49}Dokumentacja pliku mainwindow.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{305}{section.7.49}%
+\contentsline {section}{\numberline {7.50}Dokumentacja pliku res/calendar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}View.cpp}{306}{section.7.50}%
+\contentsline {section}{\numberline {7.51}Dokumentacja pliku res/data\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Interface.cpp}{306}{section.7.51}%
+\contentsline {section}{\numberline {7.52}Dokumentacja pliku res/date.cpp}{307}{section.7.52}%
+\contentsline {section}{\numberline {7.53}Dokumentacja pliku res/day\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Model.cpp}{307}{section.7.53}%
+\contentsline {section}{\numberline {7.54}Dokumentacja pliku res/event\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Birthday\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Model.cpp}{308}{section.7.54}%
+\contentsline {section}{\numberline {7.55}Dokumentacja pliku res/event\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Holiday\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Model.cpp}{308}{section.7.55}%
+\contentsline {section}{\numberline {7.56}Dokumentacja pliku res/event\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Model.cpp}{309}{section.7.56}%
+\contentsline {section}{\numberline {7.57}Dokumentacja pliku res/event\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Reminder\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Model.cpp}{310}{section.7.57}%
+\contentsline {section}{\numberline {7.58}Dokumentacja pliku res/todo\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Element.cpp}{311}{section.7.58}%
+\contentsline {section}{\numberline {7.59}Dokumentacja pliku res/todo\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}View.cpp}{311}{section.7.59}%
+\contentsline {section}{\numberline {7.60}Dokumentacja pliku res/weekly\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Calendar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}View.cpp}{312}{section.7.60}%
+\contentsline {chapter}{Indeks}{313}{section*.233}%
