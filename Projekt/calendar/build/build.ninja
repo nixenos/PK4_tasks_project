@@ -222,7 +222,7 @@ build calendar_autogen/timestamp: CUSTOM_COMMAND /usr/bin/moc /usr/bin/uic || ca
 #############################################
 # Phony custom command for CMakeFiles/calendar_autogen_timestamp_deps
 
-build CMakeFiles/calendar_autogen_timestamp_deps: phony /usr/lib/libQt5Widgets.so.5.15.2 /usr/bin/uic /usr/bin/moc
+build CMakeFiles/calendar_autogen_timestamp_deps: phony /usr/lib/libQt5Widgets.so.5.15.2 /usr/bin/moc /usr/bin/uic
 
 
 #############################################

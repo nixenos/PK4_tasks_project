@@ -1,4 +1,5 @@
 #include "../includes/eventBirthdayModel.h"
+#include <typeinfo>
 
 calendar::eventBirthday::eventBirthday() {}
 
