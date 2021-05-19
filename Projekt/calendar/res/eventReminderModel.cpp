@@ -1,6 +1,6 @@
 #include "../includes/eventReminderModel.h"
 #include <iostream>
-
+#include <typeinfo>
 namespace calendar {
 eventReminder::eventReminder(const date &newDate, const std::string &newName,
                              const repeatCycle &newRepeat,
